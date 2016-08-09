@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<Traces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+     <Node name="RUNNING_COOKING_ex">
+       <input name="RUNNING_COOKING_ex.idMode_logic_RUNNING_1 | RUNNING_COOKING_ex.isInner" type="Int | Bool">idMode_logic_RUNNING_1 | isInner</input>
+       <output name="RUNNING_COOKING_ex.idMode_logic_RUNNING" type="Int">idMode_logic_RUNNING</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="RUNNING_SUSPENDED_ex">
+       <input name="RUNNING_SUSPENDED_ex.idMode_logic_RUNNING_1 | RUNNING_SUSPENDED_ex.isInner" type="Int | Bool">idMode_logic_RUNNING_1 | isInner</input>
+       <output name="RUNNING_SUSPENDED_ex.idMode_logic_RUNNING" type="Int">idMode_logic_RUNNING</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="RUNNING_COOKING_en">
+       <input name="RUNNING_COOKING_en.idMode_logic_RUNNING_1 | RUNNING_COOKING_en.mode_1 | RUNNING_COOKING_en.isInner" type="Int | Int | Bool">idMode_logic_RUNNING_1 | mode_1 | isInner</input>
+       <output name="RUNNING_COOKING_en.idMode_logic_RUNNING | RUNNING_COOKING_en.mode" type="Int | Int">idMode_logic_RUNNING | mode</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="RUNNING_SUSPENDED_en">
+       <input name="RUNNING_SUSPENDED_en.idMode_logic_RUNNING_1 | RUNNING_SUSPENDED_en.mode_1 | RUNNING_SUSPENDED_en.isInner" type="Int | Int | Bool">idMode_logic_RUNNING_1 | mode_1 | isInner</input>
+       <output name="RUNNING_SUSPENDED_en.idMode_logic_RUNNING | RUNNING_SUSPENDED_en.mode" type="Int | Int">idMode_logic_RUNNING | mode</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="RUNNING_COOKING__To__RUNNING_COOKING_2_Transition_Action">
+       <input name="RUNNING_COOKING__To__RUNNING_COOKING_2_Transition_Action.steps_remaining_1" type="Int">steps_remaining_1</input>
+       <output name="RUNNING_COOKING__To__RUNNING_COOKING_2_Transition_Action.steps_remaining" type="Int">steps_remaining</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_RUNNING_ex">
+       <input name="Mode_logic_RUNNING_ex.idMode_logic_RUNNING_1 | Mode_logic_RUNNING_ex.idMode_logic_Mode_logic_1 | Mode_logic_RUNNING_ex.isInner" type="Int | Int | Bool">idMode_logic_RUNNING_1 | idMode_logic_Mode_logic_1 | isInner</input>
+       <output name="Mode_logic_RUNNING_ex.idMode_logic_RUNNING | Mode_logic_RUNNING_ex.idMode_logic_Mode_logic" type="Int | Int">idMode_logic_RUNNING | idMode_logic_Mode_logic</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_SETUP_en">
+       <input name="Mode_logic_SETUP_en.idMode_logic_Mode_logic_1 | Mode_logic_SETUP_en.mode_1 | Mode_logic_SETUP_en.steps_to_cook | Mode_logic_SETUP_en.steps_remaining_1 | Mode_logic_SETUP_en.isInner" type="Int | Int | Int | Int | Bool">idMode_logic_Mode_logic_1 | mode_1 | steps_to_cook | steps_remaining_1 | isInner</input>
+       <output name="Mode_logic_SETUP_en.idMode_logic_Mode_logic | Mode_logic_SETUP_en.mode | Mode_logic_SETUP_en.steps_remaining" type="Int | Int | Int">idMode_logic_Mode_logic | mode | steps_remaining</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__POINTMode_logic_RUNNING_handler_until">
+       <input name="mode_logic_running__POINTMode_logic_RUNNING_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__POINTMode_logic_RUNNING_handler_until.mode_1 | mode_logic_running__POINTMode_logic_RUNNING_handler_until.steps_remaining_1 | mode_logic_running__POINTMode_logic_RUNNING_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__POINTMode_logic_RUNNING_handler_until.mode_logic_running__restart_in | mode_logic_running__POINTMode_logic_RUNNING_handler_until.mode_logic_running__state_in | mode_logic_running__POINTMode_logic_RUNNING_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__POINTMode_logic_RUNNING_handler_until.idMode_logic_RUNNING_out | mode_logic_running__POINTMode_logic_RUNNING_handler_until.mode_out | mode_logic_running__POINTMode_logic_RUNNING_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__POINTMode_logic_RUNNING_unless">
+       <input name="mode_logic_running__POINTMode_logic_RUNNING_unless.mode_logic_running__restart_in | mode_logic_running__POINTMode_logic_RUNNING_unless.mode_logic_running__state_in | mode_logic_running__POINTMode_logic_RUNNING_unless.idMode_logic_RUNNING_1 | mode_logic_running__POINTMode_logic_RUNNING_unless.door_closed | mode_logic_running__POINTMode_logic_RUNNING_unless.clear | mode_logic_running__POINTMode_logic_RUNNING_unless.steps_remaining_1 | mode_logic_running__POINTMode_logic_RUNNING_unless.start" type="Bool | mode_logic_running__type | Int | Bool | Bool | Int | Bool">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_RUNNING_1 | door_closed | clear | steps_remaining_1 | start</input>
+       <output name="mode_logic_running__POINTMode_logic_RUNNING_unless.mode_logic_running__restart_act | mode_logic_running__POINTMode_logic_RUNNING_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until">
+       <input name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.door_closed | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.mode_1 | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.steps_remaining_1 | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.idMode_logic_Mode_logic_1" type="Int | Bool | Int | Int | Int">idMode_logic_RUNNING_1 | door_closed | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.mode_logic_running__restart_in | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.mode_logic_running__state_in | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.idMode_logic_RUNNING_out | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.mode_out | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_unless">
+       <input name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_unless.mode_logic_running__restart_in | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_unless.mode_logic_running__restart_act | mode_logic_running__POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION132_1_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING_IDL_handler_until">
+       <input name="mode_logic_running__RUNNING_COOKING_IDL_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_COOKING_IDL_handler_until.mode_1 | mode_logic_running__RUNNING_COOKING_IDL_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_COOKING_IDL_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__RUNNING_COOKING_IDL_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING_IDL_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_COOKING_IDL_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_COOKING_IDL_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_COOKING_IDL_handler_until.mode_out | mode_logic_running__RUNNING_COOKING_IDL_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING_IDL_unless">
+       <input name="mode_logic_running__RUNNING_COOKING_IDL_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING_IDL_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_COOKING_IDL_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_COOKING_IDL_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until">
+       <input name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.mode_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.mode_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_unless">
+       <input name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_COOKING__TO__RUNNING_COOKING_2_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until">
+       <input name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.mode_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.mode_out | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_unless">
+       <input name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_COOKING__TO__RUNNING_SUSPENDED_1_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until">
+       <input name="mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.mode_1 | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.mode_out | mode_logic_running__RUNNING_SUSPENDED_IDL_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED_IDL_unless">
+       <input name="mode_logic_running__RUNNING_SUSPENDED_IDL_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED_IDL_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED_IDL_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_SUSPENDED_IDL_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until">
+       <input name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_1 | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_Mode_logic_1 | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_to_cook" type="Int | Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1 | steps_to_cook</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_out | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless">
+       <input name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until">
+       <input name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.idMode_logic_RUNNING_1 | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.mode_1 | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.steps_remaining_1 | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.idMode_logic_Mode_logic_1" type="Int | Int | Int | Int">idMode_logic_RUNNING_1 | mode_1 | steps_remaining_1 | idMode_logic_Mode_logic_1</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.mode_logic_running__state_in | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.idMode_logic_Mode_logic_out | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.idMode_logic_RUNNING_out | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.mode_out | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_handler_until.steps_remaining_out" type="Bool | mode_logic_running__type | Int | Int | Int | Int">mode_logic_running__restart_in | mode_logic_running__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_unless">
+       <input name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_unless.mode_logic_running__restart_in | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_unless.mode_logic_running__state_in" type="Bool | mode_logic_running__type">mode_logic_running__restart_in | mode_logic_running__state_in</input>
+       <output name="mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_unless.mode_logic_running__restart_act | mode_logic_running__RUNNING_SUSPENDED__TO__RUNNING_COOKING_2_unless.mode_logic_running__state_act" type="Bool | mode_logic_running__type">mode_logic_running__restart_act | mode_logic_running__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_RUNNING_node">
+       <input name="Mode_logic_RUNNING_node.idMode_logic_RUNNING_1 | Mode_logic_RUNNING_node.door_closed | Mode_logic_RUNNING_node.mode_1 | Mode_logic_RUNNING_node.clear | Mode_logic_RUNNING_node.steps_remaining_1 | Mode_logic_RUNNING_node.idMode_logic_Mode_logic_1 | Mode_logic_RUNNING_node.steps_to_cook | Mode_logic_RUNNING_node.start" type="Int | Bool | Int | Bool | Int | Int | Int | Bool">idMode_logic_RUNNING_1 | door_closed | mode_1 | clear | steps_remaining_1 | idMode_logic_Mode_logic_1 | steps_to_cook | start</input>
+       <output name="Mode_logic_RUNNING_node.idMode_logic_RUNNING | Mode_logic_RUNNING_node.mode | Mode_logic_RUNNING_node.steps_remaining | Mode_logic_RUNNING_node.idMode_logic_Mode_logic" type="Int | Int | Int | Int">idMode_logic_RUNNING | mode | steps_remaining | idMode_logic_Mode_logic</output>
+       <localInit name="Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Bool | mode_logic_running__type">(mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Bool | mode_logic_running__type">(pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     <Node name="Mode_logic_RUNNING_en">
+       <input name="Mode_logic_RUNNING_en.idMode_logic_RUNNING_1 | Mode_logic_RUNNING_en.idMode_logic_Mode_logic_1 | Mode_logic_RUNNING_en.door_closed | Mode_logic_RUNNING_en.mode_1 | Mode_logic_RUNNING_en.isInner" type="Int | Int | Bool | Int | Bool">idMode_logic_RUNNING_1 | idMode_logic_Mode_logic_1 | door_closed | mode_1 | isInner</input>
+       <output name="Mode_logic_RUNNING_en.idMode_logic_RUNNING | Mode_logic_RUNNING_en.idMode_logic_Mode_logic | Mode_logic_RUNNING_en.mode" type="Int | Int | Int">idMode_logic_RUNNING | idMode_logic_Mode_logic | mode</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_SETUP__To__Mode_logic_RUNNING_1_Condition_Action">
+       <input name="Mode_logic_SETUP__To__Mode_logic_RUNNING_1_Condition_Action.steps_to_cook | Mode_logic_SETUP__To__Mode_logic_RUNNING_1_Condition_Action.steps_remaining_1" type="Int | Int">steps_to_cook | steps_remaining_1</input>
+       <output name="Mode_logic_SETUP__To__Mode_logic_RUNNING_1_Condition_Action.steps_remaining" type="Int">steps_remaining</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_SETUP_ex">
+       <input name="Mode_logic_SETUP_ex.idMode_logic_Mode_logic_1 | Mode_logic_SETUP_ex.isInner" type="Int | Bool">idMode_logic_Mode_logic_1 | isInner</input>
+       <output name="Mode_logic_SETUP_ex.idMode_logic_Mode_logic" type="Int">idMode_logic_Mode_logic</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.mode_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.steps_remaining_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.steps_to_cook | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.start | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.door_closed | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.idMode_logic_RUNNING_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.clear" type="Int | Int | Int | Int | Bool | Bool | Int | Bool">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | steps_to_cook | start | door_closed | idMode_logic_RUNNING_1 | clear</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.mode_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Bool | mode_logic_running__type">(mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Bool | mode_logic_running__type">(pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_unless">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_unless.mode_logic_mode_logic__state_in" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_remaining_1 | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_to_cook | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_RUNNING_1" type="Int | Int | Int | Int | Int">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | steps_to_cook | idMode_logic_RUNNING_1</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.mode_out | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_mode_logic__state_in" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION145_1_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.mode_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.steps_remaining_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.idMode_logic_RUNNING_1" type="Int | Int | Int | Int">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | idMode_logic_RUNNING_1</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.mode_out | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_unless">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_unless.mode_logic_mode_logic__state_in" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__MODE_LOGIC_SETUP_IDL_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.mode_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.steps_remaining_1 | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.steps_to_cook | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.door_closed | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.idMode_logic_RUNNING_1" type="Int | Int | Int | Int | Bool | Int">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | steps_to_cook | door_closed | idMode_logic_RUNNING_1</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.mode_out | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_unless">
+       <input name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_unless.mode_logic_mode_logic__state_in" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in</input>
+       <output name="mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__MODE_LOGIC_SETUP__TO__MODE_LOGIC_RUNNING_1_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until">
+       <input name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.mode_1 | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.steps_remaining_1 | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.idMode_logic_RUNNING_1" type="Int | Int | Int | Int">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | idMode_logic_RUNNING_1</input>
+       <output name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.mode_out | mode_logic_mode_logic__POINTMode_logic_Mode_logic_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless">
+       <input name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.mode_logic_mode_logic__state_in | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.steps_remaining_1 | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.steps_to_cook | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.start" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Bool">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_1 | steps_remaining_1 | steps_to_cook | start</input>
+       <output name="mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__POINTMode_logic_Mode_logic_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until">
+       <input name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.idMode_logic_Mode_logic_1 | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.mode_1 | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.steps_remaining_1 | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.steps_to_cook | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.idMode_logic_RUNNING_1" type="Int | Int | Int | Int | Int">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | steps_to_cook | idMode_logic_RUNNING_1</input>
+       <output name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.mode_logic_mode_logic__state_in | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.idMode_logic_Mode_logic_out | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.idMode_logic_RUNNING_out | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.mode_out | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_handler_until.steps_remaining_out" type="Bool | mode_logic_mode_logic__type | Int | Int | Int | Int">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in | idMode_logic_Mode_logic_out | idMode_logic_RUNNING_out | mode_out | steps_remaining_out</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_unless">
+       <input name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_unless.mode_logic_mode_logic__restart_in | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_unless.mode_logic_mode_logic__state_in" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_in | mode_logic_mode_logic__state_in</input>
+       <output name="mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_unless.mode_logic_mode_logic__restart_act | mode_logic_mode_logic__POINT__TO__MODE_LOGIC_SETUP_1_unless.mode_logic_mode_logic__state_act" type="Bool | mode_logic_mode_logic__type">mode_logic_mode_logic__restart_act | mode_logic_mode_logic__state_act</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="Mode_logic_Mode_logic_node">
+       <input name="Mode_logic_Mode_logic_node.idMode_logic_Mode_logic_1 | Mode_logic_Mode_logic_node.mode_1 | Mode_logic_Mode_logic_node.steps_remaining_1 | Mode_logic_Mode_logic_node.steps_to_cook | Mode_logic_Mode_logic_node.start | Mode_logic_Mode_logic_node.door_closed | Mode_logic_Mode_logic_node.idMode_logic_RUNNING_1 | Mode_logic_Mode_logic_node.clear" type="Int | Int | Int | Int | Bool | Bool | Int | Bool">idMode_logic_Mode_logic_1 | mode_1 | steps_remaining_1 | steps_to_cook | start | door_closed | idMode_logic_RUNNING_1 | clear</input>
+       <output name="Mode_logic_Mode_logic_node.idMode_logic_Mode_logic | Mode_logic_Mode_logic_node.mode | Mode_logic_Mode_logic_node.steps_remaining | Mode_logic_Mode_logic_node.idMode_logic_RUNNING" type="Int | Int | Int | Int">idMode_logic_Mode_logic | mode | steps_remaining | idMode_logic_RUNNING</output>
+       <localInit name="Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_x | Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_x | Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">(mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_c | Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_c | Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">(pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     <Node name="MicrowaveV2_Mode_logic">
+       <input name="MicrowaveV2_Mode_logic.start | MicrowaveV2_Mode_logic.clear | MicrowaveV2_Mode_logic.steps_to_cook | MicrowaveV2_Mode_logic.door_closed" type="Bool | Bool | Int | Bool">start | clear | steps_to_cook | door_closed</input>
+       <output name="MicrowaveV2_Mode_logic.mode | MicrowaveV2_Mode_logic.steps_remaining" type="Int | Int">mode | steps_remaining</output>
+       <localInit name="MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_x | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_x | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_x | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_x | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_x | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_x | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">idMode_logic_RUNNING | idMode_logic_Mode_logic | steps_remaining | mode | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_c | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_c | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_c | MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_c | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_c | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_c | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">(pre idMode_logic_RUNNING) | (pre idMode_logic_Mode_logic) | (pre steps_remaining) | (pre mode) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     <Node name="MicrowaveV2">
+       <input name="MicrowaveV2.start_1_1 | MicrowaveV2.clear_1_1 | MicrowaveV2.steps_to_cook_1_1 | MicrowaveV2.door_closed_1_1" type="Bool | Bool | Int | Bool">start_1_1 | clear_1_1 | steps_to_cook_1_1 | door_closed_1_1</input>
+       <output name="MicrowaveV2.mode_1_1 | MicrowaveV2.steps_remaining_2_1" type="Int | Int">mode_1_1 | steps_remaining_2_1</output>
+       <localInit name="MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">idMode_logic_RUNNING | idMode_logic_Mode_logic | steps_remaining | mode | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">(pre idMode_logic_RUNNING) | (pre idMode_logic_Mode_logic) | (pre steps_remaining) | (pre mode) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     <Node name="MicrowaveV2_door_prop">
+       <input name="MicrowaveV2_door_prop.start_1_1 | MicrowaveV2_door_prop.clear_1_1 | MicrowaveV2_door_prop.steps_to_cook_1_1 | MicrowaveV2_door_prop.door_closed_1_1" type="Bool | Bool | Int | Bool">start_1_1 | clear_1_1 | steps_to_cook_1_1 | door_closed_1_1</input>
+       <output name="MicrowaveV2_door_prop.door_prop_1_1" type="Bool">door_prop_1_1</output>
+       <localInit name="MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_x | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_x" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">idMode_logic_RUNNING | idMode_logic_Mode_logic | steps_remaining | mode | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in) | (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)</localInit>
+       <localStep name="MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_2_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_3_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_4_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.__MicrowaveV2_Mode_logic_5_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_50_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.__Mode_logic_Mode_logic_node_51_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_66_c | MicrowaveV2_door_prop.ni_0.MicrowaveV2.ni_1.MicrowaveV2_Mode_logic.ni_2.Mode_logic_Mode_logic_node.ni_4.mode_logic_mode_logic__MODE_LOGIC_RUNNING_IDL_handler_until.ni_6.Mode_logic_RUNNING_node.__Mode_logic_RUNNING_node_67_c" type="Int | Int | Int | Int | Bool | mode_logic_mode_logic__type | Bool | mode_logic_running__type">(pre idMode_logic_RUNNING) | (pre idMode_logic_Mode_logic) | (pre steps_remaining) | (pre mode) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_mode_logic__next_restart_in,mode_logic_mode_logic__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in)) | (pre (mode_logic_running__next_restart_in,mode_logic_running__next_state_in))</localStep>
+       
+     </Node>
+     
+</Traces>
