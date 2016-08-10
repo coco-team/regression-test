@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+   <Results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+     <Property name="Microwave_prop1">
+      <Date>2016-08-10 02:43</Date>
+      <Lustre2Horn unit="sec">0.00</Lustre2Horn>
+      <Parse unit="sec">0.00</Parse>
+      <Query unit="sec">23.05</Query>
+      <Answer>SAFE</Answer>
+     </Property>
+   </Results>
+

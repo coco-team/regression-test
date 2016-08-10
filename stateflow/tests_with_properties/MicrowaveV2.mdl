@@ -43,7 +43,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.24"
+    ComputedModelVersion    "1.25"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -101,11 +101,11 @@ Model {
 	$ObjectID		6
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"SimulinkTopLevel"
-	LoadSaveID		"0"
+	ViewObjType		"SimulinkSubsys"
+	LoadSaveID		"36"
 	Extents			[965.0, 705.0]
-	ZoomFactor		[0.8]
-	Offset			[26.874999999999886, -36.5]
+	ZoomFactor		[1.0]
+	Offset			[0.0, 0.0]
       }
     }
   }
@@ -115,9 +115,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "hamza"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 27 14:02:51 2016"
-  RTWModifiedTimeStamp	  390953067
-  ModelVersionFormat	  "1.%<AutoIncrement:24>"
+  LastModifiedDate	  "Wed Aug 10 02:42:39 2016"
+  RTWModifiedTimeStamp	  392697709
+  ModelVersionFormat	  "1.%<AutoIncrement:25>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -976,8 +976,8 @@ Model {
   }
   System {
     Name		    "MicrowaveV2"
-    Location		    [65, 24, 1084, 922]
-    Open		    on
+    Location		    [55, 14, 1094, 960]
+    Open		    off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -1273,8 +1273,8 @@ Model {
       }
       System {
 	Name			"door_prop"
-	Location		[41, 10, 832, 908]
-	Open			off
+	Location		[65, 24, 1084, 922]
+	Open			on
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1316,7 +1316,7 @@ Model {
 	  BlockType		  Inport
 	  Name			  "door_closed"
 	  SID			  "43"
-	  Position		  [295, 352, 325, 368]
+	  Position		  [120, 352, 150, 368]
 	  ZOrder		  7
 	  Port			  "4"
 	  IconDisplay		  "Port number"
@@ -1418,7 +1418,7 @@ Model {
 	  ZOrder		  12
 	  SrcBlock		  "door_closed"
 	  SrcPort		  1
-	  Points		  [18, 0; 0, 35]
+	  Points		  [193, 0; 0, 35]
 	  DstBlock		  "Switch"
 	  DstPort		  1
 	}
