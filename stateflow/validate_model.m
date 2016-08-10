@@ -61,6 +61,7 @@ IMAX = 10; %IMAX for randi the max born for random number
 
 try
     fprintf('start translating model "%s" to lustre automaton\n',file_name);
+%     lus_file_path= '/home/hamza/Documents/cocoSim/test/Fcn/lustre_files/src_Fcn2/Fcn2.lus';
     lus_file_path=cocoSim(model_full_path);
     chart_name = file_name;
     configSet = copy(getActiveConfigSet(file_name));
@@ -186,14 +187,15 @@ else
                 outputs_array = importdata('outputs_values','\n');
                 valid = true;
                 error_index = 1;
+                eps = 0.01;
                 for i=0:nb_steps-1
                     for k=1:numberOfOutputs
                         yout_values = yout_signals(k).values;
                         output_value = regexp(outputs_array{numberOfOutputs*i+k},'\s*:\s*','split');
                         if ~isempty(output_value)
                             output_val = output_value{2};
-                            output_val = str2num(output_val(2:end-1));%str2double transform some numbers to NaN
-                            valid = valid && (yout_values(i+1)==output_val);
+                            output_val = str2num(output_val(2:end-1));
+                            valid = valid && (abs(yout_values(i+1)-output_val)<eps);
                             if  ~valid
                                 error_index = i+1;
                                 break

@@ -56,73 +56,6 @@ tel
 
 
 
--- Entry action for state :Arrays1_C
-node Arrays1_C_en(idArrays1_Arrays1_1:int;
-	x3_1:int;
-	isInner:bool)
-
-returns (idArrays1_Arrays1:int;
-	x3:int);
-
-
-var 	idArrays1_Arrays1_2:int;
-	x3_2:int;
-
-
-let
-
-
-
-	-- set state as active 
-	idArrays1_Arrays1_2 
-	= 1147;
-	
-
-	x3_2 
-	= if (not isInner) then  x3_1  + 1
-	 else x3_1;
-	
-
-	(idArrays1_Arrays1, x3) 
-	= (idArrays1_Arrays1_2, x3_2);
-	
-
-tel
-
-
-
-
-
--- Exit action for state :Arrays1_C
-node Arrays1_C_ex(idArrays1_Arrays1_1:int;
-	isInner:bool)
-
-returns (idArrays1_Arrays1:int);
-
-
-var 	idArrays1_Arrays1_2:int;
-
-
-let
-
-
-
-	-- set state as inactive 
-	idArrays1_Arrays1_2
-	 = if (not isInner) then 0 else idArrays1_Arrays1_1;
-
-
-	(idArrays1_Arrays1) 
-	= (idArrays1_Arrays1_2);
-	
-
-tel
-
-
-
-
-
-
 -- Entry action for state :Arrays1_B
 node Arrays1_B_en(idArrays1_Arrays1_1:int;
 	x2_1:int;
@@ -142,7 +75,7 @@ let
 
 	-- set state as active 
 	idArrays1_Arrays1_2 
-	= 1146;
+	= 1428;
 	
 
 	x2_2 
@@ -180,7 +113,7 @@ let
 
 
 	(idArrays1_Arrays1) 
-	= (idArrays1_Arrays1_2);
+	= (idArrays1_Arrays1_1);
 	
 
 tel
@@ -209,7 +142,7 @@ let
 
 	-- set state as active 
 	idArrays1_Arrays1_2 
-	= 1145;
+	= 1427;
 	
 
 	x1_2 
@@ -247,7 +180,74 @@ let
 
 
 	(idArrays1_Arrays1) 
-	= (idArrays1_Arrays1_2);
+	= (idArrays1_Arrays1_1);
+	
+
+tel
+
+
+
+
+
+
+-- Entry action for state :Arrays1_C
+node Arrays1_C_en(idArrays1_Arrays1_1:int;
+	x3_1:int;
+	isInner:bool)
+
+returns (idArrays1_Arrays1:int;
+	x3:int);
+
+
+var 	idArrays1_Arrays1_2:int;
+	x3_2:int;
+
+
+let
+
+
+
+	-- set state as active 
+	idArrays1_Arrays1_2 
+	= 1429;
+	
+
+	x3_2 
+	= if (not isInner) then  x3_1  + 1
+	 else x3_1;
+	
+
+	(idArrays1_Arrays1, x3) 
+	= (idArrays1_Arrays1_2, x3_2);
+	
+
+tel
+
+
+
+
+
+-- Exit action for state :Arrays1_C
+node Arrays1_C_ex(idArrays1_Arrays1_1:int;
+	isInner:bool)
+
+returns (idArrays1_Arrays1:int);
+
+
+var 	idArrays1_Arrays1_2:int;
+
+
+let
+
+
+
+	-- set state as inactive 
+	idArrays1_Arrays1_2
+	 = if (not isInner) then 0 else idArrays1_Arrays1_1;
+
+
+	(idArrays1_Arrays1) 
+	= (idArrays1_Arrays1_1);
 	
 
 tel
@@ -277,23 +277,23 @@ let
 
 
 
-	unless (idArrays1_Arrays1_1=1145) and E restart ARRAYS1_A__TO__ARRAYS1_B_1
+	unless (idArrays1_Arrays1_1=1427) and E restart ARRAYS1_A__TO__ARRAYS1_B_1
 
 
 
-	unless (idArrays1_Arrays1_1=1146) and F restart ARRAYS1_B__TO__ARRAYS1_C_1
+	unless (idArrays1_Arrays1_1=1428) and F restart ARRAYS1_B__TO__ARRAYS1_C_1
 
 
 
-	unless (idArrays1_Arrays1_1=1147) and E restart ARRAYS1_C__TO__ARRAYS1_A_1
+	unless (idArrays1_Arrays1_1=1429) and E restart ARRAYS1_C__TO__ARRAYS1_A_1
 
 
 
-	unless (idArrays1_Arrays1_1=1145) restart ARRAYS1_A_IDL
+	unless (idArrays1_Arrays1_1=1427) restart ARRAYS1_A_IDL
 
-	unless (idArrays1_Arrays1_1=1146) restart ARRAYS1_B_IDL
+	unless (idArrays1_Arrays1_1=1428) restart ARRAYS1_B_IDL
 
-	unless (idArrays1_Arrays1_1=1147) restart ARRAYS1_C_IDL
+	unless (idArrays1_Arrays1_1=1429) restart ARRAYS1_C_IDL
 
 	let
 
@@ -311,7 +311,8 @@ let
 	x1_2:int;
 	let
 
-		
+		-- transition trace :
+	--POINT__To__Arrays1_A_1
 		(idArrays1_Arrays1_2, x1_2) 
 	= Arrays1_A_en(idArrays1_Arrays1_1, x1_1, false);
 		
@@ -336,7 +337,8 @@ let
 	x2_2:int;
 	let
 
-		
+		-- transition trace :
+	--Arrays1_A__To__Arrays1_B_1
 		(idArrays1_Arrays1_2) 
 	= Arrays1_A_ex(idArrays1_Arrays1_1, false);
 		
@@ -365,7 +367,8 @@ let
 	x3_2:int;
 	let
 
-		
+		-- transition trace :
+	--Arrays1_B__To__Arrays1_C_1
 		(idArrays1_Arrays1_2) 
 	= Arrays1_B_ex(idArrays1_Arrays1_1, false);
 		
@@ -390,7 +393,8 @@ let
 	x1_2:int;
 	let
 
-		
+		-- transition trace :
+	--Arrays1_C__To__Arrays1_A_1
 		(idArrays1_Arrays1_2) 
 	= Arrays1_C_ex(idArrays1_Arrays1_1, false);
 		
@@ -534,8 +538,8 @@ var
 	Mux_1_1_event: bool;
 	Mux_1_2_event: bool;
 let 
-	Mux_1_1_event = false -> (pre(Mux_1_1) > Mux_1_1);
-	Mux_1_2_event = false -> (pre(Mux_1_2) < Mux_1_2);
+	Mux_1_1_event = false -> (pre(Mux_1_1) > 0.0 and Mux_1_1 <= 0.0);
+	Mux_1_2_event = false -> (pre(Mux_1_2) <= 0.0 and Mux_1_2 > 0.0);
 	(Arrays1_1_1, Arrays1_2_1, Arrays1_3_1) =  Arrays1V2_Arrays1(Mux_1_1_event, Mux_1_2_event);
 	Mux_1_1 = E_1_1 ;
 	Mux_1_2 = F_1_1 ;
