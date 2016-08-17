@@ -1,0 +1,40 @@
+#open <math> 
+node math_functions (ctrl3_1_1: real;) returns (Out1_1_1: real;)
+var __math_functions_2: bool;
+    __math_functions_1: bool;
+    subsystem_Constant_1_1: real;
+    subsystem_MathFunction_1_1: real;
+    subsystem_Saturation_1_1: real;
+    subsystem_Sqrt_1_1: real;
+    i_virtual_local: real;
+let
+    
+    subsystem_Constant_1_1 = 0.25;
+    subsystem_MathFunction_1_1 = pow (subsystem_Sqrt_1_1,subsystem_Constant_1_1);
+    subsystem_Saturation_1_1 = (if __math_functions_1 then 5. else (if __math_functions_2 then 0. else subsystem_MathFunction_1_1));
+    __math_functions_2 = (subsystem_MathFunction_1_1 <= 0.);
+    __math_functions_1 = (subsystem_MathFunction_1_1 >= 5.);
+    subsystem_Sqrt_1_1 = sqrt (ctrl3_1_1);
+    Out1_1_1 = subsystem_Saturation_1_1;
+    i_virtual_local = (0. -> 1.);
+     
+tel
+ 
+node math_functions_safety (ctrl3_1_1: real;) returns (safety_1_1: bool;)
+var Constant_1_1: real;
+    Constant1_1_1: real;
+    LogicalOperator_1_1: bool;
+    RelationalOperator_1_1: bool;
+    RelationalOperator1_1_1: bool;
+    Out1_1_1: real;
+let
+    
+    Constant_1_1 = 5.;
+    Constant1_1_1 = 0.;
+    LogicalOperator_1_1 = (RelationalOperator_1_1 and RelationalOperator1_1_1);
+    RelationalOperator_1_1 = (Out1_1_1 <= Constant_1_1);
+    RelationalOperator1_1_1 = (Out1_1_1 >= Constant1_1_1);
+    safety_1_1 = LogicalOperator_1_1;
+    Out1_1_1 = math_functions (ctrl3_1_1);
+     
+tel
