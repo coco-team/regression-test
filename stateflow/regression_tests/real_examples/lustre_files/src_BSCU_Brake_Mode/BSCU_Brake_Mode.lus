@@ -11,67 +11,7 @@
 
 
 
-
-node Brake_Mode_Brake_ModeJunction223__To__Brake_Mode_Brake_ModeJunction225_1_Condition_Action(MAX:int;
-	r_1:int)
-
-returns (r:int);
-
-
-var 	r_2:int;
-
-
-let
-
-
-
-	r_2 
-	= MAX;
-	
-
-	(r) 
-	= (r_2);
-	
-
-tel
-
-
-
-
-
-
-
-
-
-node Brake_Mode_Brake_ModeJunction221__To__Brake_Mode_Brake_ModeJunction226_1_Condition_Action(MED:int;
-	r_1:int)
-
-returns (r:int);
-
-
-var 	r_2:int;
-
-
-let
-
-
-
-	r_2 
-	= MED;
-	
-
-	(r) 
-	= (r_2);
-	
-
-tel
-
-
-
-
-
-
-node Brake_Mode_Brake_ModeJunction217__To__Brake_Mode_Brake_ModeJunction228_1_Condition_Action(MANUAL:int;
+node Brake_Mode_Brake_ModeJunction1359__To__Brake_Mode_Brake_ModeJunction1370_1_Condition_Action(MANUAL:int;
 	r_1:int)
 
 returns (r:int);
@@ -99,8 +39,70 @@ tel
 
 
 
+node Brake_Mode_Brake_ModeJunction1363__To__Brake_Mode_Brake_ModeJunction1368_1_Condition_Action(MED:int;
+	r_1:int)
 
-node Brake_Mode_Brake_ModeJunction219__To__Brake_Mode_Brake_ModeJunction227_1_Condition_Action(LO:int;
+returns (r:int);
+
+
+var 	r_2:int;
+
+
+let
+
+
+
+	r_2 
+	= MED;
+	
+
+	(r) 
+	= (r_2);
+	
+
+tel
+
+
+
+
+
+
+
+
+
+
+
+node Brake_Mode_Brake_ModeJunction1364__To__Brake_Mode_Brake_ModeJunction1366_2_Condition_Action(pre_mode:int;
+	r_1:int)
+
+returns (r:int);
+
+
+var 	r_2:int;
+
+
+let
+
+
+
+	r_2 
+	= pre_mode;
+	
+
+	(r) 
+	= (r_2);
+	
+
+tel
+
+
+
+
+
+
+
+
+node Brake_Mode_Brake_ModeJunction1361__To__Brake_Mode_Brake_ModeJunction1369_1_Condition_Action(LO:int;
 	r_1:int)
 
 returns (r:int);
@@ -128,9 +130,7 @@ tel
 
 
 
-
-
-node Brake_Mode_Brake_ModeJunction222__To__Brake_Mode_Brake_ModeJunction224_2_Condition_Action(pre_mode:int;
+node Brake_Mode_Brake_ModeJunction1365__To__Brake_Mode_Brake_ModeJunction1367_1_Condition_Action(MAX:int;
 	r_1:int)
 
 returns (r:int);
@@ -144,7 +144,7 @@ let
 
 
 	r_2 
-	= pre_mode;
+	= MAX;
 	
 
 	(r) 
@@ -177,7 +177,7 @@ let
 	 automaton brake_mode_brake_mode
 
 	state POINTBrake_Mode_Brake_Mode:
-	unless (idBrake_Mode_Brake_Mode_1=0) restart POINT__TO__BRAKE_MODE_BRAKE_MODEJUNCTION216_1
+	unless (idBrake_Mode_Brake_Mode_1=0) restart POINT__TO__BRAKE_MODE_BRAKE_MODEJUNCTION1358_1
 
 
 
@@ -191,7 +191,7 @@ let
 
 
 
-	state POINT__TO__BRAKE_MODE_BRAKE_MODEJUNCTION216_1:
+	state POINT__TO__BRAKE_MODE_BRAKE_MODEJUNCTION1358_1:
 
 	 var 	r_2, r_3, r_4, r_5, r_6:int;
 	let
@@ -211,13 +211,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction216_1, Junction216__To__Junction217_1, Junction217__To__Junction228_1, Junction228__To__Junction227_1, Junction227__To__Junction226_1, Junction226__To__Junction225_1, Junction225__To__Junction224_1, Junction224__To__Junction229_1
+	--POINT__To__Junction1358_1, Junction1358__To__Junction1359_1, Junction1359__To__Junction1370_1, Junction1370__To__Junction1369_1, Junction1369__To__Junction1368_1, Junction1368__To__Junction1367_1, Junction1367__To__Junction1366_1, Junction1366__To__Junction1371_1
 		-- condition Action : r=MANUAL;
 		
 		(r_2) 
 	= 
 		 if (( ((pre_mode=LO) and rise_lo) or ((pre_mode=MED) and rise_med) or ((pre_mode=MAX) and rise_max) )) then 
-		Brake_Mode_Brake_ModeJunction217__To__Brake_Mode_Brake_ModeJunction228_1_Condition_Action(MANUAL, r_1)
+		Brake_Mode_Brake_ModeJunction1359__To__Brake_Mode_Brake_ModeJunction1370_1_Condition_Action(MANUAL, r_1)
 		 else (r_1);
 		
 
@@ -235,13 +235,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction216_1, Junction216__To__Junction218_2, Junction218__To__Junction219_1, Junction219__To__Junction227_1, Junction227__To__Junction226_1, Junction226__To__Junction225_1, Junction225__To__Junction224_1, Junction224__To__Junction229_1
+	--POINT__To__Junction1358_1, Junction1358__To__Junction1360_2, Junction1360__To__Junction1361_1, Junction1361__To__Junction1369_1, Junction1369__To__Junction1368_1, Junction1368__To__Junction1367_1, Junction1367__To__Junction1366_1, Junction1366__To__Junction1371_1
 		-- condition Action : r=LO;
 		
 		(r_3) 
 	= 
 		 if (( (pre_mode!=LO) and rise_lo )) then 
-		Brake_Mode_Brake_ModeJunction219__To__Brake_Mode_Brake_ModeJunction227_1_Condition_Action(LO, r_1)
+		Brake_Mode_Brake_ModeJunction1361__To__Brake_Mode_Brake_ModeJunction1369_1_Condition_Action(LO, r_1)
 		 else (r_1);
 		
 
@@ -257,13 +257,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction216_1, Junction216__To__Junction218_2, Junction218__To__Junction220_2, Junction220__To__Junction221_1, Junction221__To__Junction226_1, Junction226__To__Junction225_1, Junction225__To__Junction224_1, Junction224__To__Junction229_1
+	--POINT__To__Junction1358_1, Junction1358__To__Junction1360_2, Junction1360__To__Junction1362_2, Junction1362__To__Junction1363_1, Junction1363__To__Junction1368_1, Junction1368__To__Junction1367_1, Junction1367__To__Junction1366_1, Junction1366__To__Junction1371_1
 		-- condition Action : r=MED;
 		
 		(r_4) 
 	= 
 		 if (( (pre_mode!=MED) and rise_med )) then 
-		Brake_Mode_Brake_ModeJunction221__To__Brake_Mode_Brake_ModeJunction226_1_Condition_Action(MED, r_1)
+		Brake_Mode_Brake_ModeJunction1363__To__Brake_Mode_Brake_ModeJunction1368_1_Condition_Action(MED, r_1)
 		 else (r_1);
 		
 
@@ -277,13 +277,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction216_1, Junction216__To__Junction218_2, Junction218__To__Junction220_2, Junction220__To__Junction222_2, Junction222__To__Junction223_1, Junction223__To__Junction225_1, Junction225__To__Junction224_1, Junction224__To__Junction229_1
+	--POINT__To__Junction1358_1, Junction1358__To__Junction1360_2, Junction1360__To__Junction1362_2, Junction1362__To__Junction1364_2, Junction1364__To__Junction1365_1, Junction1365__To__Junction1367_1, Junction1367__To__Junction1366_1, Junction1366__To__Junction1371_1
 		-- condition Action : r=MAX;
 		
 		(r_5) 
 	= 
 		 if (( (pre_mode!=MAX) and rise_max )) then 
-		Brake_Mode_Brake_ModeJunction223__To__Brake_Mode_Brake_ModeJunction225_1_Condition_Action(MAX, r_1)
+		Brake_Mode_Brake_ModeJunction1365__To__Brake_Mode_Brake_ModeJunction1367_1_Condition_Action(MAX, r_1)
 		 else (r_1);
 		
 
@@ -291,11 +291,11 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction216_1, Junction216__To__Junction218_2, Junction218__To__Junction220_2, Junction220__To__Junction222_2, Junction222__To__Junction224_2, Junction224__To__Junction229_1
+	--POINT__To__Junction1358_1, Junction1358__To__Junction1360_2, Junction1360__To__Junction1362_2, Junction1362__To__Junction1364_2, Junction1364__To__Junction1366_2, Junction1366__To__Junction1371_1
 		-- condition Action : r=pre_mode;
 		
 		(r_6) 
-	= Brake_Mode_Brake_ModeJunction222__To__Brake_Mode_Brake_ModeJunction224_2_Condition_Action(pre_mode, r_1);
+	= Brake_Mode_Brake_ModeJunction1364__To__Brake_Mode_Brake_ModeJunction1366_2_Condition_Action(pre_mode, r_1);
 		
 
 	(idBrake_Mode_Brake_Mode, r) 
@@ -351,11 +351,11 @@ var r_1: int;
 
 		MAX: int;
 
-		MANUAL: int;
+		MED: int;
 
 		LO: int;
 
-		MED: int;
+		MANUAL: int;
 
 	let
 
@@ -365,11 +365,11 @@ var r_1: int;
 
 	MAX = 4;
 
-	MANUAL = 1;
+	MED = 3;
 
 	LO = 2;
 
-	MED = 3;
+	MANUAL = 1;
 
 	
 
@@ -390,8 +390,10 @@ node BSCU_Brake_Mode (pre_mode_1_1 : int; rise_lo_1_1 : bool; rise_med_1_1 : boo
 returns (r_1_1 : int); 
 var
 	Brake_Mode_1_1 : int;
+	i_virtual_local : real;
 let 
 	Brake_Mode_1_1 =  BSCU_Brake_Mode_Brake_Mode(pre_mode_1_1, rise_lo_1_1, rise_med_1_1, rise_max_1_1);
 	r_1_1 = Brake_Mode_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

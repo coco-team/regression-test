@@ -6,7 +6,7 @@
 (declare-var Single1_A_en.idSingle1_Single1 Int)
 (declare-rel Single1_A_en (Int Bool Int))
 (rule (=> 
-  (= Single1_A_en.idSingle1_Single1 1544)
+  (= Single1_A_en.idSingle1_Single1 1472)
   (Single1_A_en Single1_A_en.idSingle1_Single1_1 Single1_A_en.isInner Single1_A_en.idSingle1_Single1)
 ))
 
@@ -46,7 +46,7 @@
 (declare-var single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_2 Bool)
 (declare-rel single1_single1__POINTSingle1_Single1_unless (Bool single1_single1__type Int Bool single1_single1__type))
 (rule (=> 
-  (and (= single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_2 (= single1_single1__POINTSingle1_Single1_unless.idSingle1_Single1_1 1544))
+  (and (= single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_2 (= single1_single1__POINTSingle1_Single1_unless.idSingle1_Single1_1 1472))
        (= single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_1 (= single1_single1__POINTSingle1_Single1_unless.idSingle1_Single1_1 0))
        (and (or (not (= single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_1 false))
                (and (or (not (= single1_single1__POINTSingle1_Single1_unless.__single1_single1__POINTSingle1_Single1_unless_2 false))
@@ -141,13 +141,13 @@
 (declare-var Single1_Single1_node.x Real)
 (declare-var Single1_Single1_node.__Single1_Single1_node_20_c Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_21_c single1_single1__type)
-(declare-var Single1_Single1_node.ni_3._arrow._first_c Bool)
+(declare-var Single1_Single1_node.ni_4._arrow._first_c Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_20_m Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_21_m single1_single1__type)
-(declare-var Single1_Single1_node.ni_3._arrow._first_m Bool)
+(declare-var Single1_Single1_node.ni_4._arrow._first_m Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_20_x Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_21_x single1_single1__type)
-(declare-var Single1_Single1_node.ni_3._arrow._first_x Bool)
+(declare-var Single1_Single1_node.ni_4._arrow._first_x Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_1 Bool)
 (declare-var Single1_Single1_node.__Single1_Single1_node_10 Real)
 (declare-var Single1_Single1_node.__Single1_Single1_node_11 Bool)
@@ -180,20 +180,20 @@
   (and 
        (= Single1_Single1_node.__Single1_Single1_node_20_m Single1_Single1_node.__Single1_Single1_node_20_c)
        (= Single1_Single1_node.__Single1_Single1_node_21_m Single1_Single1_node.__Single1_Single1_node_21_c)
-       (= Single1_Single1_node.ni_3._arrow._first_m true)
+       (= Single1_Single1_node.ni_4._arrow._first_m true)
   )
   (Single1_Single1_node_reset Single1_Single1_node.__Single1_Single1_node_20_c
                               Single1_Single1_node.__Single1_Single1_node_21_c
-                              Single1_Single1_node.ni_3._arrow._first_c
+                              Single1_Single1_node.ni_4._arrow._first_c
                               Single1_Single1_node.__Single1_Single1_node_20_m
                               Single1_Single1_node.__Single1_Single1_node_21_m
-                              Single1_Single1_node.ni_3._arrow._first_m)
+                              Single1_Single1_node.ni_4._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= Single1_Single1_node.ni_3._arrow._first_m Single1_Single1_node.ni_3._arrow._first_c)
-       (and (= Single1_Single1_node.__Single1_Single1_node_19 (ite Single1_Single1_node.ni_3._arrow._first_m true false))
-            (= Single1_Single1_node.ni_3._arrow._first_x false))
+  (and (= Single1_Single1_node.ni_4._arrow._first_m Single1_Single1_node.ni_4._arrow._first_c)
+       (and (= Single1_Single1_node.__Single1_Single1_node_19 (ite Single1_Single1_node.ni_4._arrow._first_m true false))
+            (= Single1_Single1_node.ni_4._arrow._first_x false))
        (and (or (not (= Single1_Single1_node.__Single1_Single1_node_19 false))
                (and (= Single1_Single1_node.single1_single1__state_in Single1_Single1_node.__Single1_Single1_node_21_c)
                     (= Single1_Single1_node.single1_single1__restart_in Single1_Single1_node.__Single1_Single1_node_20_c)
@@ -277,10 +277,10 @@
                              Single1_Single1_node.x
                              Single1_Single1_node.__Single1_Single1_node_20_c
                              Single1_Single1_node.__Single1_Single1_node_21_c
-                             Single1_Single1_node.ni_3._arrow._first_c
+                             Single1_Single1_node.ni_4._arrow._first_c
                              Single1_Single1_node.__Single1_Single1_node_20_x
                              Single1_Single1_node.__Single1_Single1_node_21_x
-                             Single1_Single1_node.ni_3._arrow._first_x)
+                             Single1_Single1_node.ni_4._arrow._first_x)
 ))
 
 ; Single1_Single1
@@ -288,22 +288,22 @@
 (declare-var Single1_Single1.x Real)
 (declare-var Single1_Single1.__Single1_Single1_2_c Int)
 (declare-var Single1_Single1.__Single1_Single1_3_c Real)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c Bool)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c single1_single1__type)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c Bool)
-(declare-var Single1_Single1.ni_2._arrow._first_c Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c single1_single1__type)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c Bool)
+(declare-var Single1_Single1.ni_3._arrow._first_c Bool)
 (declare-var Single1_Single1.__Single1_Single1_2_m Int)
 (declare-var Single1_Single1.__Single1_Single1_3_m Real)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m Bool)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m single1_single1__type)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m Bool)
-(declare-var Single1_Single1.ni_2._arrow._first_m Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m single1_single1__type)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m Bool)
+(declare-var Single1_Single1.ni_3._arrow._first_m Bool)
 (declare-var Single1_Single1.__Single1_Single1_2_x Int)
 (declare-var Single1_Single1.__Single1_Single1_3_x Real)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x Bool)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x single1_single1__type)
-(declare-var Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x Bool)
-(declare-var Single1_Single1.ni_2._arrow._first_x Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x Bool)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x single1_single1__type)
+(declare-var Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x Bool)
+(declare-var Single1_Single1.ni_3._arrow._first_x Bool)
 (declare-var Single1_Single1.__Single1_Single1_1 Bool)
 (declare-var Single1_Single1.idSingle1_Single1 Int)
 (declare-var Single1_Single1.idSingle1_Single1_1 Int)
@@ -315,32 +315,32 @@
   (and 
        (= Single1_Single1.__Single1_Single1_2_m Single1_Single1.__Single1_Single1_2_c)
        (= Single1_Single1.__Single1_Single1_3_m Single1_Single1.__Single1_Single1_3_c)
-       (= Single1_Single1.ni_2._arrow._first_m true)
-       (Single1_Single1_node_reset Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                                   Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                                   Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                                   Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                                   Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                                   Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m)
+       (= Single1_Single1.ni_3._arrow._first_m true)
+       (Single1_Single1_node_reset Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                                   Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                                   Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                                   Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                                   Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                                   Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m)
   )
   (Single1_Single1_reset Single1_Single1.__Single1_Single1_2_c
                          Single1_Single1.__Single1_Single1_3_c
-                         Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                         Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                         Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                         Single1_Single1.ni_2._arrow._first_c
+                         Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                         Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                         Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                         Single1_Single1.ni_3._arrow._first_c
                          Single1_Single1.__Single1_Single1_2_m
                          Single1_Single1.__Single1_Single1_3_m
-                         Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                         Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                         Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m
-                         Single1_Single1.ni_2._arrow._first_m)
+                         Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                         Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                         Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m
+                         Single1_Single1.ni_3._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= Single1_Single1.ni_2._arrow._first_m Single1_Single1.ni_2._arrow._first_c)
-       (and (= Single1_Single1.__Single1_Single1_1 (ite Single1_Single1.ni_2._arrow._first_m true false))
-            (= Single1_Single1.ni_2._arrow._first_x false))
+  (and (= Single1_Single1.ni_3._arrow._first_m Single1_Single1.ni_3._arrow._first_c)
+       (and (= Single1_Single1.__Single1_Single1_1 (ite Single1_Single1.ni_3._arrow._first_m true false))
+            (= Single1_Single1.ni_3._arrow._first_x false))
        (and (or (not (= Single1_Single1.__Single1_Single1_1 false))
                (and (= Single1_Single1.x_1 Single1_Single1.__Single1_Single1_3_c)
                     (= Single1_Single1.idSingle1_Single1_1 Single1_Single1.__Single1_Single1_2_c)
@@ -350,20 +350,20 @@
                     (= Single1_Single1.idSingle1_Single1_1 0)
                     ))
        )
-       (and (= Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c)
-            (= Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c)
-            (= Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c)
+       (and (= Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c)
+            (= Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c)
+            (= Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c)
             )
        (Single1_Single1_node_step Single1_Single1.idSingle1_Single1_1
                                   Single1_Single1.x_1
                                   Single1_Single1.idSingle1_Single1
                                   Single1_Single1.x
-                                  Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                                  Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                                  Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m
-                                  Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x
-                                  Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x
-                                  Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x)
+                                  Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                                  Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                                  Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m
+                                  Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x
+                                  Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x
+                                  Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x)
        (= Single1_Single1.__Single1_Single1_3_x Single1_Single1.x)
        (= Single1_Single1.__Single1_Single1_2_x Single1_Single1.idSingle1_Single1)
        )
@@ -371,16 +371,16 @@
                         Single1_Single1.x
                         Single1_Single1.__Single1_Single1_2_c
                         Single1_Single1.__Single1_Single1_3_c
-                        Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                        Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                        Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                        Single1_Single1.ni_2._arrow._first_c
+                        Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                        Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                        Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                        Single1_Single1.ni_3._arrow._first_c
                         Single1_Single1.__Single1_Single1_2_x
                         Single1_Single1.__Single1_Single1_3_x
-                        Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x
-                        Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x
-                        Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x
-                        Single1_Single1.ni_2._arrow._first_x)
+                        Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x
+                        Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x
+                        Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x
+                        Single1_Single1.ni_3._arrow._first_x)
 ))
 
 ; Single1_A_ex
@@ -403,95 +403,112 @@
 ; Single1
 (declare-var Single1.i_virtual Real)
 (declare-var Single1.x_1_1 Real)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_2_c Int)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_3_c Real)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c single1_single1__type)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_2._arrow._first_c Bool)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_2_m Int)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_3_m Real)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m single1_single1__type)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_2._arrow._first_m Bool)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_2_x Int)
-(declare-var Single1.ni_0.Single1_Single1.__Single1_Single1_3_x Real)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x single1_single1__type)
-(declare-var Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x Bool)
-(declare-var Single1.ni_0.Single1_Single1.ni_2._arrow._first_x Bool)
+(declare-var Single1.ni_0._arrow._first_c Bool)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_2_c Int)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_3_c Real)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c single1_single1__type)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_3._arrow._first_c Bool)
+(declare-var Single1.ni_0._arrow._first_m Bool)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_2_m Int)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_3_m Real)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m single1_single1__type)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_3._arrow._first_m Bool)
+(declare-var Single1.ni_0._arrow._first_x Bool)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_2_x Int)
+(declare-var Single1.ni_1.Single1_Single1.__Single1_Single1_3_x Real)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x single1_single1__type)
+(declare-var Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x Bool)
+(declare-var Single1.ni_1.Single1_Single1.ni_3._arrow._first_x Bool)
 (declare-var Single1.Single1_1_1 Real)
-(declare-rel Single1_reset (Int Real Bool single1_single1__type Bool Bool Int Real Bool single1_single1__type Bool Bool))
-(declare-rel Single1_step (Real Real Int Real Bool single1_single1__type Bool Bool Int Real Bool single1_single1__type Bool Bool))
+(declare-var Single1.__Single1_1 Bool)
+(declare-var Single1.i_virtual_local Real)
+(declare-rel Single1_reset (Bool Int Real Bool single1_single1__type Bool Bool Bool Int Real Bool single1_single1__type Bool Bool))
+(declare-rel Single1_step (Real Real Bool Int Real Bool single1_single1__type Bool Bool Bool Int Real Bool single1_single1__type Bool Bool))
 
 (rule (=> 
   (and 
        
-       (Single1_Single1_reset Single1.ni_0.Single1_Single1.__Single1_Single1_2_c
-                              Single1.ni_0.Single1_Single1.__Single1_Single1_3_c
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                              Single1.ni_0.Single1_Single1.ni_2._arrow._first_c
-                              Single1.ni_0.Single1_Single1.__Single1_Single1_2_m
-                              Single1.ni_0.Single1_Single1.__Single1_Single1_3_m
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                              Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m
-                              Single1.ni_0.Single1_Single1.ni_2._arrow._first_m)
+       (Single1_Single1_reset Single1.ni_1.Single1_Single1.__Single1_Single1_2_c
+                              Single1.ni_1.Single1_Single1.__Single1_Single1_3_c
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                              Single1.ni_1.Single1_Single1.ni_3._arrow._first_c
+                              Single1.ni_1.Single1_Single1.__Single1_Single1_2_m
+                              Single1.ni_1.Single1_Single1.__Single1_Single1_3_m
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                              Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m
+                              Single1.ni_1.Single1_Single1.ni_3._arrow._first_m)
+       (= Single1.ni_0._arrow._first_m true)
   )
-  (Single1_reset Single1.ni_0.Single1_Single1.__Single1_Single1_2_c
-                 Single1.ni_0.Single1_Single1.__Single1_Single1_3_c
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                 Single1.ni_0.Single1_Single1.ni_2._arrow._first_c
-                 Single1.ni_0.Single1_Single1.__Single1_Single1_2_m
-                 Single1.ni_0.Single1_Single1.__Single1_Single1_3_m
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                 Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m
-                 Single1.ni_0.Single1_Single1.ni_2._arrow._first_m)
+  (Single1_reset Single1.ni_0._arrow._first_c
+                 Single1.ni_1.Single1_Single1.__Single1_Single1_2_c
+                 Single1.ni_1.Single1_Single1.__Single1_Single1_3_c
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                 Single1.ni_1.Single1_Single1.ni_3._arrow._first_c
+                 Single1.ni_0._arrow._first_m
+                 Single1.ni_1.Single1_Single1.__Single1_Single1_2_m
+                 Single1.ni_1.Single1_Single1.__Single1_Single1_3_m
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                 Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m
+                 Single1.ni_1.Single1_Single1.ni_3._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (and (= Single1.ni_0.Single1_Single1.__Single1_Single1_2_m Single1.ni_0.Single1_Single1.__Single1_Single1_2_c)
-            (= Single1.ni_0.Single1_Single1.__Single1_Single1_3_m Single1.ni_0.Single1_Single1.__Single1_Single1_3_c)
-            (= Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c)
-            (= Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c)
-            (= Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c)
-            (= Single1.ni_0.Single1_Single1.ni_2._arrow._first_m Single1.ni_0.Single1_Single1.ni_2._arrow._first_c)
+  (and (and (= Single1.ni_1.Single1_Single1.__Single1_Single1_2_m Single1.ni_1.Single1_Single1.__Single1_Single1_2_c)
+            (= Single1.ni_1.Single1_Single1.__Single1_Single1_3_m Single1.ni_1.Single1_Single1.__Single1_Single1_3_c)
+            (= Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c)
+            (= Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c)
+            (= Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c)
+            (= Single1.ni_1.Single1_Single1.ni_3._arrow._first_m Single1.ni_1.Single1_Single1.ni_3._arrow._first_c)
             )
        (Single1_Single1_step true
                              Single1.Single1_1_1
-                             Single1.ni_0.Single1_Single1.__Single1_Single1_2_m
-                             Single1.ni_0.Single1_Single1.__Single1_Single1_3_m
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_m
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_m
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_m
-                             Single1.ni_0.Single1_Single1.ni_2._arrow._first_m
-                             Single1.ni_0.Single1_Single1.__Single1_Single1_2_x
-                             Single1.ni_0.Single1_Single1.__Single1_Single1_3_x
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x
-                             Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x
-                             Single1.ni_0.Single1_Single1.ni_2._arrow._first_x)
+                             Single1.ni_1.Single1_Single1.__Single1_Single1_2_m
+                             Single1.ni_1.Single1_Single1.__Single1_Single1_3_m
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_m
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_m
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_m
+                             Single1.ni_1.Single1_Single1.ni_3._arrow._first_m
+                             Single1.ni_1.Single1_Single1.__Single1_Single1_2_x
+                             Single1.ni_1.Single1_Single1.__Single1_Single1_3_x
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x
+                             Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x
+                             Single1.ni_1.Single1_Single1.ni_3._arrow._first_x)
        (= Single1.x_1_1 Single1.Single1_1_1)
+       (= Single1.ni_0._arrow._first_m Single1.ni_0._arrow._first_c)(and (= Single1.__Single1_1 (ite Single1.ni_0._arrow._first_m true false))
+                                                                    (= Single1.ni_0._arrow._first_x false))
+       (and (or (not (= Single1.__Single1_1 true))
+               (= Single1.i_virtual_local 0.))
+            (or (not (= Single1.__Single1_1 false))
+               (= Single1.i_virtual_local 1.))
+       )
        )
   (Single1_step Single1.i_virtual
                 Single1.x_1_1
-                Single1.ni_0.Single1_Single1.__Single1_Single1_2_c
-                Single1.ni_0.Single1_Single1.__Single1_Single1_3_c
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_c
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_c
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_c
-                Single1.ni_0.Single1_Single1.ni_2._arrow._first_c
-                Single1.ni_0.Single1_Single1.__Single1_Single1_2_x
-                Single1.ni_0.Single1_Single1.__Single1_Single1_3_x
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_20_x
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.__Single1_Single1_node_21_x
-                Single1.ni_0.Single1_Single1.ni_1.Single1_Single1_node.ni_3._arrow._first_x
-                Single1.ni_0.Single1_Single1.ni_2._arrow._first_x)
+                Single1.ni_0._arrow._first_c
+                Single1.ni_1.Single1_Single1.__Single1_Single1_2_c
+                Single1.ni_1.Single1_Single1.__Single1_Single1_3_c
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_c
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_c
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_c
+                Single1.ni_1.Single1_Single1.ni_3._arrow._first_c
+                Single1.ni_0._arrow._first_x
+                Single1.ni_1.Single1_Single1.__Single1_Single1_2_x
+                Single1.ni_1.Single1_Single1.__Single1_Single1_3_x
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_20_x
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.__Single1_Single1_node_21_x
+                Single1.ni_1.Single1_Single1.ni_2.Single1_Single1_node.ni_4._arrow._first_x
+                Single1.ni_1.Single1_Single1.ni_3._arrow._first_x)
 ))
 

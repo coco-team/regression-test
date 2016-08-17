@@ -6,7 +6,7 @@
 
 
 
-node Flowchart4_A__To__Flowchart4_Flowchart4Junction606_1_Condition_Action(x_1:int)
+node Flowchart4_A__To__Flowchart4_Flowchart4Junction1470_1_Condition_Action(x_1:int)
 
 returns (x:int);
 
@@ -52,7 +52,7 @@ let
 
 	-- set state as active 
 	idFlowchart4_Flowchart4_2 
-	= 605;
+	= 1469;
 	
 
 	-- case of state without states but contains transitions 
@@ -110,7 +110,7 @@ let
 	 automaton flowchart4_a
 
 	state POINTFlowchart4_A:
-	unless true restart FLOWCHART4_A__TO__FLOWCHART4_FLOWCHART4JUNCTION606_1
+	unless true restart FLOWCHART4_A__TO__FLOWCHART4_FLOWCHART4JUNCTION1470_1
 
 
 
@@ -124,17 +124,17 @@ let
 
 
 
-	state FLOWCHART4_A__TO__FLOWCHART4_FLOWCHART4JUNCTION606_1:
+	state FLOWCHART4_A__TO__FLOWCHART4_FLOWCHART4JUNCTION1470_1:
 
 	 var 	x_2:int;
 	let
 
 		-- transition trace :
-	--Flowchart4_A__To__Junction606_1
+	--Flowchart4_A__To__Junction1470_1
 		-- condition Action : x++;
 		
 		(x_2) 
-	= Flowchart4_A__To__Flowchart4_Flowchart4Junction606_1_Condition_Action(x_1);
+	= Flowchart4_A__To__Flowchart4_Flowchart4Junction1470_1_Condition_Action(x_1);
 		
 
 	(idFlowchart4_A, x) 
@@ -170,7 +170,7 @@ let
 
 
 
-	unless (idFlowchart4_Flowchart4_1=605) restart FLOWCHART4_A_IDL
+	unless (idFlowchart4_Flowchart4_1=1469) restart FLOWCHART4_A_IDL
 
 	let
 
@@ -274,8 +274,10 @@ node Flowchart4 (i_virtual : real)
 returns (Out1_1_1 : int); 
 var
 	Flowchart4_1_1 : int;
+	i_virtual_local : real;
 let 
 	Flowchart4_1_1 =  Flowchart4_Flowchart4(true);
 	Out1_1_1 = Flowchart4_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

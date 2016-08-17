@@ -37,7 +37,7 @@ let
 
 	-- set state as active 
 	idTemporal1_Temporal1_2 
-	= 1236;
+	= 120;
 	
 
 	x_2 
@@ -104,7 +104,7 @@ let
 
 	-- set state as active 
 	idTemporal1_Temporal1_2 
-	= 1235;
+	= 119;
 	
 
 	x_2 
@@ -171,17 +171,17 @@ let
 
 
 
-	unless (idTemporal1_Temporal1_1=1235) and E and ( after_E_2_output ) restart TEMPORAL1_A__TO__TEMPORAL1_B_1
+	unless (idTemporal1_Temporal1_1=119) and E and ( after_E_2_output ) restart TEMPORAL1_A__TO__TEMPORAL1_B_1
 
 
 
-	unless (idTemporal1_Temporal1_1=1236) and after_E_3_output restart TEMPORAL1_B__TO__TEMPORAL1_A_1
+	unless (idTemporal1_Temporal1_1=120) and after_E_3_output restart TEMPORAL1_B__TO__TEMPORAL1_A_1
 
 
 
-	unless (idTemporal1_Temporal1_1=1235) restart TEMPORAL1_A_IDL
+	unless (idTemporal1_Temporal1_1=119) restart TEMPORAL1_A_IDL
 
-	unless (idTemporal1_Temporal1_1=1236) restart TEMPORAL1_B_IDL
+	unless (idTemporal1_Temporal1_1=120) restart TEMPORAL1_B_IDL
 
 	let
 
@@ -344,10 +344,12 @@ node Temporal1 (E_1_1 : real)
 returns (x_1_1 : int); 
 var
 	Temporal1_1_1 : int;
+	i_virtual_local : real;
 	E_1_1_event: bool;
 let 
 	E_1_1_event = false -> (pre(E_1_1) <= 0.0 and E_1_1 > 0.0);
 	Temporal1_1_1 =  Temporal1_Temporal1(E_1_1_event);
 	x_1_1 = Temporal1_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

@@ -8,7 +8,7 @@
 
 
 
-node Mode_logic_SETUP__To__Mode_logic_Mode_logicJunction1709_1_Condition_Action(steps_to_cook:int;
+node Mode_logic_SETUP__To__Mode_logic_Mode_logicJunction594_1_Condition_Action(steps_to_cook:int;
 	steps_remaining_1:int)
 
 returns (steps_remaining:int);
@@ -40,8 +40,7 @@ tel
 
 
 
-
-node RUNNING_COOKING__To__RUNNING_COOKING_2_Transition_Action(steps_remaining_1:int)
+node RUNNING_COOKING__To__RUNNING_COOKING_1_Transition_Action(steps_remaining_1:int)
 
 returns (steps_remaining:int);
 
@@ -71,6 +70,7 @@ tel
 
 
 
+
 -- Entry action for state :RUNNING_COOKING
 node RUNNING_COOKING_en(idMode_logic_RUNNING_1:int;
 	mode_1:int;
@@ -90,7 +90,7 @@ let
 
 	-- set state as active 
 	idMode_logic_RUNNING_2 
-	= 1693;
+	= 578;
 	
 
 	mode_2 
@@ -157,7 +157,7 @@ let
 
 	-- set state as active 
 	idMode_logic_RUNNING_2 
-	= 1694;
+	= 579;
 	
 
 	mode_2 
@@ -228,14 +228,14 @@ let
 
 	-- set state as active 
 	idMode_logic_Mode_logic_2 
-	= 1695;
+	= 580;
 	
 
 	
 
 
 -- transition trace :
-	--POINT__To__Junction1696_1, Junction1696__To__RUNNING_COOKING_1
+	--POINT__To__Junction581_1, Junction581__To__RUNNING_COOKING_1
 		(idMode_logic_RUNNING_2, mode_2) 
 	= 
 		 if (( door_closed )) then 
@@ -245,7 +245,7 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction1696_1, Junction1696__To__RUNNING_SUSPENDED_2
+	--POINT__To__Junction581_1, Junction581__To__RUNNING_SUSPENDED_2
 		(idMode_logic_RUNNING_3, mode_3) 
 	= RUNNING_SUSPENDED_en(idMode_logic_RUNNING_1, mode_1, false);
 		
@@ -266,7 +266,7 @@ let
 
 	(idMode_logic_RUNNING_5, mode_5) 
 	= 
-	if ( idMode_logic_RUNNING_1 = 1693) then
+	if ( idMode_logic_RUNNING_1 = 578) then
 	RUNNING_COOKING_en(idMode_logic_RUNNING_1, mode_1, false)
 	 else (idMode_logic_RUNNING_1, mode_1);
 
@@ -274,7 +274,7 @@ let
 
 	(idMode_logic_RUNNING_6, mode_6) 
 	= 
-	if ( idMode_logic_RUNNING_1 = 1694) then
+	if ( idMode_logic_RUNNING_1 = 579) then
 	RUNNING_SUSPENDED_en(idMode_logic_RUNNING_1, mode_1, false)
 	 else (idMode_logic_RUNNING_1, mode_1);
 
@@ -285,10 +285,10 @@ let
 		 if ( idMode_logic_RUNNING_1 = 0) then 
 		(idMode_logic_RUNNING_4, idMode_logic_Mode_logic_3, mode_4)
 		 else
-		 if ( idMode_logic_RUNNING_1 = 1693) then 
+		 if ( idMode_logic_RUNNING_1 = 578) then 
 		(idMode_logic_RUNNING_5, idMode_logic_Mode_logic_3, mode_5)
 		 else
-		 if ( idMode_logic_RUNNING_1 = 1694) then 
+		 if ( idMode_logic_RUNNING_1 = 579) then 
 		(idMode_logic_RUNNING_6, idMode_logic_Mode_logic_3, mode_6)
 		 else (idMode_logic_RUNNING_1, idMode_logic_Mode_logic_2, mode_1);
 
@@ -323,7 +323,7 @@ let
 	
 	(idMode_logic_RUNNING_2) 
 	= 
-	if ( idMode_logic_RUNNING_1 = 1693) then
+	if ( idMode_logic_RUNNING_1 = 578) then
 	RUNNING_COOKING_ex(idMode_logic_RUNNING_1, false)
 	 else (idMode_logic_RUNNING_1);
 
@@ -331,7 +331,7 @@ let
 
 	(idMode_logic_RUNNING_3) 
 	= 
-	if ( idMode_logic_RUNNING_1 = 1694) then
+	if ( idMode_logic_RUNNING_1 = 579) then
 	RUNNING_SUSPENDED_ex(idMode_logic_RUNNING_1, false)
 	 else (idMode_logic_RUNNING_1);
 
@@ -339,10 +339,10 @@ let
 
 	(idMode_logic_RUNNING_4) 
 	= 
-		 if ( idMode_logic_RUNNING_1 = 1693) then 
+		 if ( idMode_logic_RUNNING_1 = 578) then 
 		(idMode_logic_RUNNING_2)
 		 else
-		 if ( idMode_logic_RUNNING_1 = 1694) then 
+		 if ( idMode_logic_RUNNING_1 = 579) then 
 		(idMode_logic_RUNNING_3)
 		 else (idMode_logic_RUNNING_1);
 
@@ -389,7 +389,7 @@ let
 
 	-- set state as active 
 	idMode_logic_Mode_logic_2 
-	= 1692;
+	= 577;
 	
 
 	mode_2 
@@ -443,8 +443,8 @@ tel
 node Mode_logic_RUNNING_node(idMode_logic_RUNNING_1:int;
 	door_closed:bool;
 	mode_1:int;
-	clear:bool;
 	steps_remaining_1:int;
+	clear:bool;
 	idMode_logic_Mode_logic_1:int;
 	steps_to_cook:int;
 	start:bool)
@@ -460,29 +460,29 @@ let
 	 automaton mode_logic_running
 
 	state POINTMode_logic_RUNNING:
-	unless (idMode_logic_RUNNING_1=0) restart POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION1696_1
+	unless (idMode_logic_RUNNING_1=0) restart POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION581_1
 
 
 
-	unless (idMode_logic_RUNNING_1=1693) and ( clear or not door_closed ) restart RUNNING_COOKING__TO__RUNNING_SUSPENDED_1
+	unless (idMode_logic_RUNNING_1=578) and (  steps_remaining_1 >0 ) restart RUNNING_COOKING__TO__RUNNING_COOKING_1
 
 
 
-	unless (idMode_logic_RUNNING_1=1693) and (  steps_remaining_1 >0 ) restart RUNNING_COOKING__TO__RUNNING_COOKING_2
+	unless (idMode_logic_RUNNING_1=578) and ( clear or not door_closed ) restart RUNNING_COOKING__TO__RUNNING_SUSPENDED_2
 
 
 
-	unless (idMode_logic_RUNNING_1=1694) and ( clear ) restart RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION1710_1
+	unless (idMode_logic_RUNNING_1=579) and ( clear ) restart RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION595_1
 
 
 
-	unless (idMode_logic_RUNNING_1=1694) and ( start and door_closed ) restart RUNNING_SUSPENDED__TO__RUNNING_COOKING_2
+	unless (idMode_logic_RUNNING_1=579) and ( start and door_closed ) restart RUNNING_SUSPENDED__TO__RUNNING_COOKING_2
 
 
 
-	unless (idMode_logic_RUNNING_1=1693) restart RUNNING_COOKING_IDL
+	unless (idMode_logic_RUNNING_1=578) restart RUNNING_COOKING_IDL
 
-	unless (idMode_logic_RUNNING_1=1694) restart RUNNING_SUSPENDED_IDL
+	unless (idMode_logic_RUNNING_1=579) restart RUNNING_SUSPENDED_IDL
 
 	let
 
@@ -494,7 +494,7 @@ let
 
 
 
-	state POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION1696_1:
+	state POINT__TO__MODE_LOGIC_MODE_LOGICJUNCTION581_1:
 
 	 var 	idMode_logic_RUNNING_2, idMode_logic_RUNNING_3:int;
 	mode_2, mode_3:int;
@@ -503,7 +503,7 @@ let
 		
 
 -- transition trace :
-	--POINT__To__Junction1696_1, Junction1696__To__RUNNING_COOKING_1
+	--POINT__To__Junction581_1, Junction581__To__RUNNING_COOKING_1
 		(idMode_logic_RUNNING_2, mode_2) 
 	= 
 		 if (( door_closed )) then 
@@ -513,7 +513,7 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction1696_1, Junction1696__To__RUNNING_SUSPENDED_2
+	--POINT__To__Junction581_1, Junction581__To__RUNNING_SUSPENDED_2
 		(idMode_logic_RUNNING_3, mode_3) 
 	= RUNNING_SUSPENDED_en(idMode_logic_RUNNING_1, mode_1, false);
 		
@@ -535,37 +535,7 @@ let
 
 
 
-	state RUNNING_COOKING__TO__RUNNING_SUSPENDED_1:
-
-	 var 	idMode_logic_RUNNING_2, idMode_logic_RUNNING_3:int;
-	mode_2:int;
-	let
-
-		-- transition trace :
-	--RUNNING_COOKING__To__RUNNING_SUSPENDED_1
-		(idMode_logic_RUNNING_2) 
-	= RUNNING_COOKING_ex(idMode_logic_RUNNING_1, false);
-		
-
-		(idMode_logic_RUNNING_3, mode_2) 
-	= RUNNING_SUSPENDED_en(idMode_logic_RUNNING_2, mode_1, false);
-		
-
-	(idMode_logic_RUNNING, mode) 
-	=  (idMode_logic_RUNNING_3, mode_2);
-
-	--add unused variables
-	(idMode_logic_Mode_logic, steps_remaining) 
-	= (idMode_logic_Mode_logic_1, steps_remaining_1);
-	
-
-	tel
-
-	until true restart POINTMode_logic_RUNNING
-
-
-
-	state RUNNING_COOKING__TO__RUNNING_COOKING_2:
+	state RUNNING_COOKING__TO__RUNNING_COOKING_1:
 
 	 var 	idMode_logic_RUNNING_2, idMode_logic_RUNNING_3:int;
 	mode_2:int;
@@ -573,13 +543,13 @@ let
 	let
 
 		-- transition trace :
-	--RUNNING_COOKING__To__RUNNING_COOKING_2
+	--RUNNING_COOKING__To__RUNNING_COOKING_1
 		(idMode_logic_RUNNING_2) 
 	= RUNNING_COOKING_ex(idMode_logic_RUNNING_1, false);
 		
 
 		(steps_remaining_2) 
-	= RUNNING_COOKING__To__RUNNING_COOKING_2_Transition_Action(steps_remaining_1);
+	= RUNNING_COOKING__To__RUNNING_COOKING_1_Transition_Action(steps_remaining_1);
 		
 
 		(idMode_logic_RUNNING_3, mode_2) 
@@ -600,7 +570,37 @@ let
 
 
 
-	state RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION1710_1:
+	state RUNNING_COOKING__TO__RUNNING_SUSPENDED_2:
+
+	 var 	idMode_logic_RUNNING_2, idMode_logic_RUNNING_3:int;
+	mode_2:int;
+	let
+
+		-- transition trace :
+	--RUNNING_COOKING__To__RUNNING_SUSPENDED_2
+		(idMode_logic_RUNNING_2) 
+	= RUNNING_COOKING_ex(idMode_logic_RUNNING_1, false);
+		
+
+		(idMode_logic_RUNNING_3, mode_2) 
+	= RUNNING_SUSPENDED_en(idMode_logic_RUNNING_2, mode_1, false);
+		
+
+	(idMode_logic_RUNNING, mode, steps_remaining) 
+	=  (idMode_logic_RUNNING_3, mode_2, steps_remaining_1);
+
+	--add unused variables
+	(idMode_logic_Mode_logic) 
+	= (idMode_logic_Mode_logic_1);
+	
+
+	tel
+
+	until true restart POINTMode_logic_RUNNING
+
+
+
+	state RUNNING_SUSPENDED__TO__MODE_LOGIC_MODE_LOGICJUNCTION595_1:
 
 	 var 	idMode_logic_RUNNING_2:int;
 	mode_2:int;
@@ -611,7 +611,7 @@ let
 		
 
 -- transition trace :
-	--RUNNING_SUSPENDED__To__Junction1710_1, Junction1710__To__Mode_logic_SETUP_1
+	--RUNNING_SUSPENDED__To__Junction595_1, Junction595__To__Mode_logic_SETUP_1
 		(idMode_logic_RUNNING_2, idMode_logic_Mode_logic_2) 
 	= Mode_logic_RUNNING_ex(idMode_logic_RUNNING_1, idMode_logic_Mode_logic_1, false);
 		
@@ -717,17 +717,17 @@ let
 
 
 
-	unless (idMode_logic_Mode_logic_1=1692) restart MODE_LOGIC_SETUP__TO__MODE_LOGIC_MODE_LOGICJUNCTION1709_1
+	unless (idMode_logic_Mode_logic_1=577) restart MODE_LOGIC_SETUP__TO__MODE_LOGIC_MODE_LOGICJUNCTION594_1
 
 
 
-	unless (idMode_logic_Mode_logic_1=1695) and (  steps_remaining_1 <=0 ) restart MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION1710_1
+	unless (idMode_logic_Mode_logic_1=580) and (  steps_remaining_1 <=0 ) restart MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION595_1
 
 
 
-	unless (idMode_logic_Mode_logic_1=1692) restart MODE_LOGIC_SETUP_IDL
+	unless (idMode_logic_Mode_logic_1=577) restart MODE_LOGIC_SETUP_IDL
 
-	unless (idMode_logic_Mode_logic_1=1695) restart MODE_LOGIC_RUNNING_IDL
+	unless (idMode_logic_Mode_logic_1=580) restart MODE_LOGIC_RUNNING_IDL
 
 	let
 
@@ -766,7 +766,7 @@ let
 
 
 
-	state MODE_LOGIC_SETUP__TO__MODE_LOGIC_MODE_LOGICJUNCTION1709_1:
+	state MODE_LOGIC_SETUP__TO__MODE_LOGIC_MODE_LOGICJUNCTION594_1:
 
 	 var 	idMode_logic_Mode_logic_2, idMode_logic_Mode_logic_3:int;
 	mode_2:int;
@@ -777,11 +777,11 @@ let
 		
 
 -- transition trace :
-	--Mode_logic_SETUP__To__Junction1709_1, Junction1709__To__Mode_logic_RUNNING_1
+	--Mode_logic_SETUP__To__Junction594_1, Junction594__To__Mode_logic_RUNNING_1
 		-- condition Action : steps_remaining=steps_to_cook;
 		
 		(steps_remaining_2) 
-	= Mode_logic_SETUP__To__Mode_logic_Mode_logicJunction1709_1_Condition_Action(steps_to_cook, steps_remaining_1);
+	= Mode_logic_SETUP__To__Mode_logic_Mode_logicJunction594_1_Condition_Action(steps_to_cook, steps_remaining_1);
 		
 
 		(idMode_logic_Mode_logic_2) 
@@ -811,7 +811,7 @@ let
 
 
 
-	state MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION1710_1:
+	state MODE_LOGIC_RUNNING__TO__MODE_LOGIC_MODE_LOGICJUNCTION595_1:
 
 	 var 	idMode_logic_Mode_logic_2, idMode_logic_Mode_logic_3:int;
 	mode_2:int;
@@ -822,7 +822,7 @@ let
 		
 
 -- transition trace :
-	--Mode_logic_RUNNING__To__Junction1710_1, Junction1710__To__Mode_logic_SETUP_1
+	--Mode_logic_RUNNING__To__Junction595_1, Junction595__To__Mode_logic_SETUP_1
 		(idMode_logic_RUNNING_2, idMode_logic_Mode_logic_2) 
 	= Mode_logic_RUNNING_ex(idMode_logic_RUNNING_1, idMode_logic_Mode_logic_1, false);
 		
@@ -867,7 +867,7 @@ let
 
 		
 	(idMode_logic_RUNNING_2, mode_2, steps_remaining_2, idMode_logic_Mode_logic_2) 
-	= Mode_logic_RUNNING_node(idMode_logic_RUNNING_1, door_closed, mode_1, clear, steps_remaining_1, idMode_logic_Mode_logic_1, steps_to_cook, start);
+	= Mode_logic_RUNNING_node(idMode_logic_RUNNING_1, door_closed, mode_1, steps_remaining_1, clear, idMode_logic_Mode_logic_1, steps_to_cook, start);
 
 		
 
@@ -934,9 +934,11 @@ returns (mode_1_1 : int;
 	steps_remaining_2_1 : int); 
 var
 	Mode_logic_1_1 : int; Mode_logic_2_1 : int;
+	i_virtual_local : real;
 let 
 	(Mode_logic_1_1, Mode_logic_2_1) =  Microwave_Mode_logic(start_1_1, clear_1_1, steps_to_cook_1_1, door_closed_1_1);
 	mode_1_1 = Mode_logic_1_1;
 	steps_remaining_2_1 = Mode_logic_2_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

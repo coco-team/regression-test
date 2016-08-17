@@ -8,7 +8,7 @@
 
 
 
-node POINT__To__Chart_fJunction783_1_Condition_Action(x:real;
+node POINT__To__Chart_fJunction1647_1_Condition_Action(x:real;
 	y:real;
 	z_1:real)
 
@@ -49,7 +49,7 @@ let
 	 automaton chart_f
 
 	state POINTChart_f:
-	unless (idChart_f_1=0) restart POINT__TO__CHART_FJUNCTION783_1
+	unless (idChart_f_1=0) restart POINT__TO__CHART_FJUNCTION1647_1
 
 
 
@@ -63,17 +63,17 @@ let
 
 
 
-	state POINT__TO__CHART_FJUNCTION783_1:
+	state POINT__TO__CHART_FJUNCTION1647_1:
 
 	 var 	z_2:real;
 	let
 
 		-- transition trace :
-	--POINT__To__Junction783_1
+	--POINT__To__Junction1647_1
 		-- condition Action : z=sqrt(x*x+y*y);
 		
 		(z_2) 
-	= POINT__To__Chart_fJunction783_1_Condition_Action(x, y, z_1);
+	= POINT__To__Chart_fJunction1647_1_Condition_Action(x, y, z_1);
 		
 
 	(idChart_f, z) 
@@ -126,6 +126,7 @@ tel
 
 
 
+
 node Chart_B__To__Chart_A_1_Condition_Action(a_1:real;
 	b_1:real;
 	c_1:real)
@@ -151,7 +152,6 @@ let
 	
 
 tel
-
 
 
 
@@ -211,7 +211,7 @@ let
 
 	-- set state as active 
 	idChart_Chart_2 
-	= 778;
+	= 1642;
 	
 
 	a_2 
@@ -286,7 +286,7 @@ let
 
 	-- set state as active 
 	idChart_Chart_2 
-	= 777;
+	= 1641;
 	
 
 	a_2 
@@ -357,17 +357,17 @@ let
 
 
 
-	unless (idChart_Chart_1=777) restart CHART_A__TO__CHART_B_1
+	unless (idChart_Chart_1=1641) restart CHART_A__TO__CHART_B_1
 
 
 
-	unless (idChart_Chart_1=778) restart CHART_B__TO__CHART_A_1
+	unless (idChart_Chart_1=1642) restart CHART_B__TO__CHART_A_1
 
 
 
-	unless (idChart_Chart_1=777) restart CHART_A_IDL
+	unless (idChart_Chart_1=1641) restart CHART_A_IDL
 
-	unless (idChart_Chart_1=778) restart CHART_B_IDL
+	unless (idChart_Chart_1=1642) restart CHART_B_IDL
 
 	let
 
@@ -553,8 +553,10 @@ node GraphFun1 (i_virtual : real)
 returns (c_1_1 : real); 
 var
 	Chart_1_1 : real;
+	i_virtual_local : real;
 let 
 	Chart_1_1 =  GraphFun1_Chart(true);
 	c_1_1 = Chart_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

@@ -7,8 +7,7 @@
 
 
 
-
-node N2_D__To__N2_C_1_Condition_Action(x_1:real)
+node N2_C__To__N2_D_1_Condition_Action(x_1:real)
 
 returns (x:real);
 
@@ -21,7 +20,7 @@ let
 
 
 	x_2 
-	=  x_1 -100.;
+	=  x_1 +100.;
 	
 
 	(x) 
@@ -29,6 +28,34 @@ let
 	
 
 tel
+
+
+
+
+
+
+node N1_B__To__N1_A_1_Condition_Action(x_1:real)
+
+returns (x:real);
+
+
+var 	x_2:real;
+
+
+let
+
+
+
+	x_2 
+	=  x_1 -1.;
+	
+
+	(x) 
+	= (x_2);
+	
+
+tel
+
 
 
 
@@ -65,7 +92,7 @@ tel
 
 
 
-node N1_B__To__N1_A_1_Condition_Action(x_1:real)
+node N2_D__To__N2_C_1_Condition_Action(x_1:real)
 
 returns (x:real);
 
@@ -78,34 +105,7 @@ let
 
 
 	x_2 
-	=  x_1 -1.;
-	
-
-	(x) 
-	= (x_2);
-	
-
-tel
-
-
-
-
-
-
-node N2_C__To__N2_D_1_Condition_Action(x_1:real)
-
-returns (x:real);
-
-
-var 	x_2:real;
-
-
-let
-
-
-
-	x_2 
-	=  x_1 +100.;
+	=  x_1 -100.;
 	
 
 	(x) 
@@ -139,7 +139,7 @@ let
 
 	-- set state as active 
 	idTOP_N2_2 
-	= 824;
+	= 1688;
 	
 
 	x_2 
@@ -206,7 +206,7 @@ let
 
 	-- set state as active 
 	idTOP_N2_2 
-	= 825;
+	= 1689;
 	
 
 	x_2 
@@ -276,7 +276,7 @@ let
 
 	-- set state as active 
 	idHierarchy1_TOP_2 
-	= 821;
+	= 1685;
 	
 
 	x_2 
@@ -304,7 +304,7 @@ let
 
 	(idTOP_N2_4, x_5) 
 	= 
-	if ( idTOP_N2_1 = 824) then
+	if ( idTOP_N2_1 = 1688) then
 	N2_C_en(idTOP_N2_1, x_2, false)
 	 else (idTOP_N2_1, x_2);
 
@@ -312,7 +312,7 @@ let
 
 	(idTOP_N2_5, x_6) 
 	= 
-	if ( idTOP_N2_1 = 825) then
+	if ( idTOP_N2_1 = 1689) then
 	N2_D_en(idTOP_N2_1, x_2, false)
 	 else (idTOP_N2_1, x_2);
 
@@ -323,10 +323,10 @@ let
 		 if ( idTOP_N2_1 = 0) then 
 		(idTOP_N2_3, idHierarchy1_TOP_3, x_4)
 		 else
-		 if ( idTOP_N2_1 = 824) then 
+		 if ( idTOP_N2_1 = 1688) then 
 		(idTOP_N2_4, idHierarchy1_TOP_3, x_5)
 		 else
-		 if ( idTOP_N2_1 = 825) then 
+		 if ( idTOP_N2_1 = 1689) then 
 		(idTOP_N2_5, idHierarchy1_TOP_3, x_6)
 		 else (idTOP_N2_1, idHierarchy1_TOP_2, x_2);
 
@@ -364,7 +364,7 @@ let
 	
 	(idTOP_N2_2) 
 	= 
-	if ( idTOP_N2_1 = 824) then
+	if ( idTOP_N2_1 = 1688) then
 	N2_C_ex(idTOP_N2_1, false)
 	 else (idTOP_N2_1);
 
@@ -372,7 +372,7 @@ let
 
 	(idTOP_N2_3) 
 	= 
-	if ( idTOP_N2_1 = 825) then
+	if ( idTOP_N2_1 = 1689) then
 	N2_D_ex(idTOP_N2_1, false)
 	 else (idTOP_N2_1);
 
@@ -380,10 +380,10 @@ let
 
 	(idTOP_N2_4) 
 	= 
-		 if ( idTOP_N2_1 = 824) then 
+		 if ( idTOP_N2_1 = 1688) then 
 		(idTOP_N2_2)
 		 else
-		 if ( idTOP_N2_1 = 825) then 
+		 if ( idTOP_N2_1 = 1689) then 
 		(idTOP_N2_3)
 		 else (idTOP_N2_1);
 
@@ -431,7 +431,7 @@ let
 
 	-- set state as active 
 	idTOP_N1_2 
-	= 822;
+	= 1686;
 	
 
 	x_2 
@@ -498,7 +498,7 @@ let
 
 	-- set state as active 
 	idTOP_N1_2 
-	= 823;
+	= 1687;
 	
 
 	x_2 
@@ -568,7 +568,7 @@ let
 
 	-- set state as active 
 	idHierarchy1_TOP_2 
-	= 820;
+	= 1684;
 	
 
 	x_2 
@@ -596,7 +596,7 @@ let
 
 	(idTOP_N1_4, x_5) 
 	= 
-	if ( idTOP_N1_1 = 822) then
+	if ( idTOP_N1_1 = 1686) then
 	N1_A_en(idTOP_N1_1, x_2, false)
 	 else (idTOP_N1_1, x_2);
 
@@ -604,7 +604,7 @@ let
 
 	(idTOP_N1_5, x_6) 
 	= 
-	if ( idTOP_N1_1 = 823) then
+	if ( idTOP_N1_1 = 1687) then
 	N1_B_en(idTOP_N1_1, x_2, false)
 	 else (idTOP_N1_1, x_2);
 
@@ -615,10 +615,10 @@ let
 		 if ( idTOP_N1_1 = 0) then 
 		(idTOP_N1_3, idHierarchy1_TOP_3, x_4)
 		 else
-		 if ( idTOP_N1_1 = 822) then 
+		 if ( idTOP_N1_1 = 1686) then 
 		(idTOP_N1_4, idHierarchy1_TOP_3, x_5)
 		 else
-		 if ( idTOP_N1_1 = 823) then 
+		 if ( idTOP_N1_1 = 1687) then 
 		(idTOP_N1_5, idHierarchy1_TOP_3, x_6)
 		 else (idTOP_N1_1, idHierarchy1_TOP_2, x_2);
 
@@ -656,7 +656,7 @@ let
 	
 	(idTOP_N1_2) 
 	= 
-	if ( idTOP_N1_1 = 822) then
+	if ( idTOP_N1_1 = 1686) then
 	N1_A_ex(idTOP_N1_1, false)
 	 else (idTOP_N1_1);
 
@@ -664,7 +664,7 @@ let
 
 	(idTOP_N1_3) 
 	= 
-	if ( idTOP_N1_1 = 823) then
+	if ( idTOP_N1_1 = 1687) then
 	N1_B_ex(idTOP_N1_1, false)
 	 else (idTOP_N1_1);
 
@@ -672,10 +672,10 @@ let
 
 	(idTOP_N1_4) 
 	= 
-		 if ( idTOP_N1_1 = 822) then 
+		 if ( idTOP_N1_1 = 1686) then 
 		(idTOP_N1_2)
 		 else
-		 if ( idTOP_N1_1 = 823) then 
+		 if ( idTOP_N1_1 = 1687) then 
 		(idTOP_N1_3)
 		 else (idTOP_N1_1);
 
@@ -732,7 +732,7 @@ let
 
 	-- set state as active 
 	idHierarchy1_Hierarchy1_2 
-	= 826;
+	= 1690;
 	
 
 	x_2 
@@ -760,7 +760,7 @@ let
 
 	(idTOP_N1_4, idHierarchy1_TOP_4, x_5) 
 	= 
-	if ( idHierarchy1_TOP_1 = 820) then
+	if ( idHierarchy1_TOP_1 = 1684) then
 	TOP_N1_en(idTOP_N1_1, idHierarchy1_TOP_1, x_2, false)
 	 else (idTOP_N1_1, idHierarchy1_TOP_1, x_2);
 
@@ -768,7 +768,7 @@ let
 
 	(idTOP_N2_2, idHierarchy1_TOP_5, x_6) 
 	= 
-	if ( idHierarchy1_TOP_1 = 821) then
+	if ( idHierarchy1_TOP_1 = 1685) then
 	TOP_N2_en(idTOP_N2_1, idHierarchy1_TOP_1, x_2, false)
 	 else (idTOP_N2_1, idHierarchy1_TOP_1, x_2);
 
@@ -779,11 +779,11 @@ let
 		 if ( idHierarchy1_TOP_1 = 0) then 
 		(idHierarchy1_TOP_3, idHierarchy1_Hierarchy1_3, x_4, idTOP_N1_3, idTOP_N2_1)
 		 else
-		 if ( idHierarchy1_TOP_1 = 820) then 
+		 if ( idHierarchy1_TOP_1 = 1684) then 
 		(idHierarchy1_TOP_4, idHierarchy1_Hierarchy1_3, x_5, idTOP_N1_4, idTOP_N2_1)
 		 else
-		 if ( idHierarchy1_TOP_1 = 821) then 
-		(idHierarchy1_TOP_5, idHierarchy1_Hierarchy1_3, x_6, idTOP_N1_4, idTOP_N2_2)
+		 if ( idHierarchy1_TOP_1 = 1685) then 
+		(idHierarchy1_TOP_5, idHierarchy1_Hierarchy1_3, x_6, idTOP_N1_1, idTOP_N2_2)
 		 else (idHierarchy1_TOP_1, idHierarchy1_Hierarchy1_2, x_2, idTOP_N1_1, idTOP_N2_1);
 
 
@@ -826,7 +826,7 @@ let
 	
 	(idTOP_N1_2, x_2, idHierarchy1_TOP_2) 
 	= 
-	if ( idHierarchy1_TOP_1 = 820) then
+	if ( idHierarchy1_TOP_1 = 1684) then
 	TOP_N1_ex(idTOP_N1_1, x_1, idHierarchy1_TOP_1, false)
 	 else (idTOP_N1_1, x_1, idHierarchy1_TOP_1);
 
@@ -834,7 +834,7 @@ let
 
 	(idTOP_N2_2, x_3, idHierarchy1_TOP_3) 
 	= 
-	if ( idHierarchy1_TOP_1 = 821) then
+	if ( idHierarchy1_TOP_1 = 1685) then
 	TOP_N2_ex(idTOP_N2_1, x_1, idHierarchy1_TOP_1, false)
 	 else (idTOP_N2_1, x_1, idHierarchy1_TOP_1);
 
@@ -842,11 +842,11 @@ let
 
 	(idTOP_N1_3, x_4, idHierarchy1_TOP_4, idTOP_N2_3) 
 	= 
-		 if ( idHierarchy1_TOP_1 = 820) then 
+		 if ( idHierarchy1_TOP_1 = 1684) then 
 		(idTOP_N1_2, x_2, idHierarchy1_TOP_2, idTOP_N2_1)
 		 else
-		 if ( idHierarchy1_TOP_1 = 821) then 
-		(idTOP_N1_2, x_3, idHierarchy1_TOP_3, idTOP_N2_2)
+		 if ( idHierarchy1_TOP_1 = 1685) then 
+		(idTOP_N1_1, x_3, idHierarchy1_TOP_3, idTOP_N2_2)
 		 else (idTOP_N1_1, x_1, idHierarchy1_TOP_1, idTOP_N2_1);
 
 
@@ -890,17 +890,17 @@ let
 
 
 
-	unless (idTOP_N2_1=824) and S restart N2_C__TO__N2_D_1
+	unless (idTOP_N2_1=1688) and S restart N2_C__TO__N2_D_1
 
 
 
-	unless (idTOP_N2_1=825) and R restart N2_D__TO__N2_C_1
+	unless (idTOP_N2_1=1689) and R restart N2_D__TO__N2_C_1
 
 
 
-	unless (idTOP_N2_1=824) restart N2_C_IDL
+	unless (idTOP_N2_1=1688) restart N2_C_IDL
 
-	unless (idTOP_N2_1=825) restart N2_D_IDL
+	unless (idTOP_N2_1=1689) restart N2_D_IDL
 
 	let
 
@@ -1053,17 +1053,17 @@ let
 
 
 
-	unless (idTOP_N1_1=822) and S restart N1_A__TO__N1_B_1
+	unless (idTOP_N1_1=1686) and S restart N1_A__TO__N1_B_1
 
 
 
-	unless (idTOP_N1_1=823) and R restart N1_B__TO__N1_A_1
+	unless (idTOP_N1_1=1687) and R restart N1_B__TO__N1_A_1
 
 
 
-	unless (idTOP_N1_1=822) restart N1_A_IDL
+	unless (idTOP_N1_1=1686) restart N1_A_IDL
 
-	unless (idTOP_N1_1=823) restart N1_B_IDL
+	unless (idTOP_N1_1=1687) restart N1_B_IDL
 
 	let
 
@@ -1221,17 +1221,17 @@ let
 
 
 
-	unless (idHierarchy1_TOP_1=820) and T restart TOP_N1__TO__TOP_N2_1
+	unless (idHierarchy1_TOP_1=1684) and T restart TOP_N1__TO__TOP_N2_1
 
 
 
-	unless (idHierarchy1_TOP_1=821) and T restart TOP_N2__TO__TOP_N1_1
+	unless (idHierarchy1_TOP_1=1685) and T restart TOP_N2__TO__TOP_N1_1
 
 
 
-	unless (idHierarchy1_TOP_1=820) restart TOP_N1_IDL
+	unless (idHierarchy1_TOP_1=1684) restart TOP_N1_IDL
 
-	unless (idHierarchy1_TOP_1=821) restart TOP_N2_IDL
+	unless (idHierarchy1_TOP_1=1685) restart TOP_N2_IDL
 
 	let
 
@@ -1402,7 +1402,7 @@ let
 
 
 
-	unless (idHierarchy1_Hierarchy1_1=826) restart HIERARCHY1_TOP_IDL
+	unless (idHierarchy1_Hierarchy1_1=1690) restart HIERARCHY1_TOP_IDL
 
 	let
 
@@ -1551,6 +1551,7 @@ returns (Out1_1_1 : real);
 var
 	Hierarchy1_1_1 : real;
 	Mux_1_1 : real; Mux_1_2 : real; Mux_1_3 : real;
+	i_virtual_local : real;
 	Mux_1_1_event: bool;
 	Mux_1_2_event: bool;
 	Mux_1_3_event: bool;
@@ -1563,5 +1564,6 @@ let
 	Mux_1_2 = In2_1_1 ;
 	Mux_1_3 = In3_1_1 ;
 	Out1_1_1 = Hierarchy1_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

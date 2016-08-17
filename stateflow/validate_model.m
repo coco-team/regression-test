@@ -7,7 +7,7 @@ if ~exist('cocoSim_path', 'var')
     cocoSim_path = pwd;
 end
 addpath(fullfile(cocoSim_path,'src/'));
-addpath(fullfile(cocoSim_path,'src/utils/'));
+% addpath(fullfile(cocoSim_path,'src/utils/'));
 
 assignin('base', 'SOLVER', 'NONE');
 assignin('base', 'RUST_GEN', 0);
@@ -46,7 +46,16 @@ for i=1:numel(block_paths)
         DataType = block_ports_dts.Outport;
         tns = regexp(block,'/','split');
         if numel(tns)==2    
-            inports = [inports, struct('Name',Utils.naming_alone(block), 'DataType', DataType)];
+            dimension = str2num(get_param(block,'PortDimensions'));
+            
+            if dimension==-1
+                dimension_struct = get_param(block,'CompiledPortDimensions');
+                dimension = dimension_struct.Outport;
+                if dimension(1)==1 && dimension(1)==1
+                    dimension = 1;
+                end
+            end
+            inports = [inports, struct('Name',Utils.naming_alone(block), 'DataType', DataType, 'Dimension', dimension)];
         end
     end
 end
@@ -61,7 +70,7 @@ IMAX = 10; %IMAX for randi the max born for random number
 
 try
     fprintf('start translating model "%s" to lustre automaton\n',file_name);
-%     lus_file_path= '/home/hamza/Documents/cocoSim/test/Fcn/lustre_files/src_Fcn2/Fcn2.lus';
+%     lus_file_path= '/home/hamza/Documents/coco_team/regression-test/stateflow/tests_with_properties/not_valid_models/lustre_files/src_GPCA_INFUSION_MGR/GPCA_INFUSION_MGR.lus';
     lus_file_path=cocoSim(model_full_path);
     chart_name = file_name;
     configSet = copy(getActiveConfigSet(file_name));
@@ -82,7 +91,7 @@ catch ME
 end
 fprintf('start lustrec for model "%s"\n',file_name);
 
-command = sprintf('lustrec -node %s %s.lus',chart_name, lus_file_name);
+command = sprintf('lustrec -node %s %s.lus',Utils.name_format(chart_name), lus_file_name);
 [status, lustre_out] = system(command);
 if status
     fprintf('lustrec failed for model "%s" :\n%s',file_name,lustre_out);
@@ -103,37 +112,56 @@ else
         cd(OldPwd);
         return
     else
-        lustre_binary = strcat(file_name,'_',chart_name);
+        lustre_binary = strcat(file_name,'_',Utils.name_format(chart_name));
         input_struct.time = (0:simulation_step:stop_time)';
         input_struct.signals = [];
+        number_of_inputs = 0;
         for i=1:numberOfInports
             input_struct.signals(i).name = inports(i).Name;
+            dim = inports(i).Dimension;
             if find(strcmp(inputEvents_names,inports(i).Name))
                 input_struct.signals(i).values = square(i*input_struct.time);
-                input_struct.signals(i).dimensions = 1;
+                input_struct.signals(i).dimensions = 1;%dim;
             elseif strcmp(sT2fT(inports(i).DataType),'bool')
-                input_struct.signals(i).values = Utils.construct_random_booleans(nb_steps, IMAX);
-                input_struct.signals(i).dimensions = 1;
+                input_struct.signals(i).values = Utils.construct_random_booleans(nb_steps, IMAX, dim);
+                input_struct.signals(i).dimensions = dim;
             elseif strcmp(sT2fT(inports(i).DataType),'int') 
-                input_struct.signals(i).values = Utils.construct_random_integers(nb_steps, IMAX, inports(i).DataType);
-                input_struct.signals(i).dimensions = 1;
+                input_struct.signals(i).values = Utils.construct_random_integers(nb_steps, IMAX, inports(i).DataType, dim);
+                input_struct.signals(i).dimensions = dim;
             else
-                input_struct.signals(i).values = Utils.construct_random_doubles(nb_steps);
-                input_struct.signals(i).dimensions = 1;
+                input_struct.signals(i).values = Utils.construct_random_doubles(nb_steps, dim);
+                input_struct.signals(i).dimensions = dim;
             end
+            if numel(dim)==1
+                number_of_inputs = number_of_inputs + nb_steps*dim;
+            else
+                number_of_inputs = number_of_inputs + nb_steps*(dim(1) * dim(2));
+            end
+%             input_struct.signals(i).values
+%             input_struct.signals(i).dimensions
         end
         if numberOfInports>=1
-            lustre_input_values = zeros(numberOfInports*nb_steps,1);
-
+            lustre_input_values = ones(number_of_inputs,1);
+            index = 0;
+            for i=0:nb_steps-1
                 for j=1:numberOfInports
-                    lustre_input_values(numberOfInports*(0:nb_steps-1)+j) = input_struct.signals(j).values;
+                    dim = input_struct.signals(j).dimensions;
+                    if numel(dim)==1
+                        index2 = index + dim;
+                        lustre_input_values(index+1:index2) = input_struct.signals(j).values(i+1,:)';
+                    else
+                        index2 = index + (dim(1) * dim(2));
+                        lustre_input_values(index+1:index2) = input_struct.signals(j).values(i+1,:)';
+                    end
+                    
+                    index = index2;
                 end
+            end
 
         else
             lustre_input_values = ones(1*nb_steps,1);
         end
-        
-        
+%         lustre_input_values
         values_file = fullfile(lus_file_dir, 'input_values');
         fid = fopen(values_file, 'w');
         for i=1:numel(lustre_input_values)
@@ -171,6 +199,7 @@ else
                     set_param(configSet, 'ExternalInput', 'input_struct');
                     hws = get_param(file_name, 'modelworkspace');
                     hws.assignin('input_struct',eval('input_struct'));
+                    assignin('base','input_struct',input_struct)
                     if show_models
                         open(file_name)
                     end
@@ -183,27 +212,44 @@ else
                 end
                 yout = get(simOut,'yout');
                 yout_signals = yout.signals;
+%                 assignin('base','yout_signals',yout_signals)
                 numberOfOutputs = numel(yout_signals);
                 outputs_array = importdata('outputs_values','\n');
                 valid = true;
                 error_index = 1;
                 eps = 0.01;
+                index_out = 0;
                 for i=0:nb_steps-1
                     for k=1:numberOfOutputs
-                        yout_values = yout_signals(k).values;
-                        output_value = regexp(outputs_array{numberOfOutputs*i+k},'\s*:\s*','split');
-                        if ~isempty(output_value)
-                            output_val = output_value{2};
-                            output_val = str2num(output_val(2:end-1));
-                            valid = valid && (abs(yout_values(i+1)-output_val)<eps);
-                            if  ~valid
-                                error_index = i+1;
-                                break
+                        dim = yout_signals(k).dimensions;
+                        if numel(dim)==2
+                            if dim(1)>1
+                                yout_values = [];
+                                y = yout_signals(k).values(:,:,i+1);
+                                for idr=1:dim(1)
+                                    yout_values = [yout_values; y(idr,:)'];
+                                end
                             end
+                            dim = dim(1)*dim(2);
                         else
-                            warning('strang behavour of output %s',outputs_array{numberOfOutputs*i+k});
-                            valid = 0;
-                            break;
+                            yout_values = yout_signals(k).values(i+1,:);
+                        end
+                        for j=1:dim
+                            index_out = index_out + 1;
+                            output_value = regexp(outputs_array{index_out},'\s*:\s*','split');
+                            if ~isempty(output_value)
+                                output_val = output_value{2};
+                                output_val = str2num(output_val(2:end-1));
+                                valid = valid && (abs(yout_values(j)-output_val)<eps);
+                                if  ~valid
+                                    error_index = i+1;
+                                    break
+                                end
+                            else
+                                warning('strang behavour of output %s',outputs_array{numberOfOutputs*i+k});
+                                valid = 0;
+                                break;
+                            end
                         end
                         
                     end
@@ -219,28 +265,45 @@ else
                     fprintf('The right order of inputs in your model is described in this counter example\n');
                     
                     fprintf('Here is the counter example:\n');
-
+                    index_out = 0;
                     for i=0:error_index-1
                         for j=1:numberOfInports
-                            in = input_struct.signals(j).values(i+1);
-                            name = input_struct.signals(j).name;
-                            fprintf('input %s:%d\n',name,in);
+                            dim = input_struct.signals(j).dimensions;
+                            for k=1:dim
+                                in = input_struct.signals(j).values(i+1,:);
+                                name = input_struct.signals(j).name;
+                                fprintf('input %s_%d:%d\n',name,k,in(k));
+                            end
                         end
                         for k=1:numberOfOutputs
-                            yout_values = yout_signals(k).values;
-                            output_value = regexp(outputs_array{numberOfOutputs*i+k},'\s*:\s*','split');
-                            if ~isempty(output_value)
-                                output_name = output_value{1};
-                                output_val = output_value{2};
-                                output_val = str2num(output_val(2:end-1));%str2double transform some numbers to NaN
-                                output_name1 = Utils.naming_alone(yout_signals(k).blockName);
-                                fprintf('output %s: %d\n',output_name1,yout_values(i+1));
-                                fprintf('Lustre output %s: %d\n',output_name,output_val);
+                            dim = yout_signals(k).dimensions;
+                            if numel(dim)==2
+                                if dim(1)>1
+                                    yout_values = [];
+                                    y = yout_signals(k).values(:,:,i+1);
+                                    for idr=1:dim(1)
+                                        yout_values = [yout_values; y(idr,:)'];
+                                    end
+                                end
+                                dim = dim(1)*dim(2);
                             else
-                                warning('strange behavour of output %s',outputs_array{numberOfOutputs*i+k});
-                                return;
+                                yout_values = yout_signals(k).values(i+1,:);
                             end
-                            
+                            for j=1:dim
+                                index_out = index_out + 1;
+                                output_value = regexp(outputs_array{index_out},'\s*:\s*','split');
+                                if ~isempty(output_value)
+                                    output_name = output_value{1};
+                                    output_val = output_value{2};
+                                    output_val = str2num(output_val(2:end-1));
+                                    output_name1 = Utils.naming_alone(yout_signals(k).blockName);
+                                    fprintf('output %s: %d\n',output_name1,yout_values(j));
+                                    fprintf('Lustre output %s: %d\n',output_name,output_val);
+                                else
+                                    warning('strang behavour of output %s',outputs_array{numberOfOutputs*i+k});
+                                    return;
+                                end
+                            end
                         end
                         
                     end
@@ -279,3 +342,4 @@ close_system(model_full_path,0);
 bdclose('all')
 cd(OldPwd);
 end
+

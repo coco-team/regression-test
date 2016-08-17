@@ -75,7 +75,7 @@ let
 
 	-- set state as active 
 	idArrays1_Arrays1_2 
-	= 525;
+	= 1023;
 	
 
 	x2_2 
@@ -142,7 +142,7 @@ let
 
 	-- set state as active 
 	idArrays1_Arrays1_2 
-	= 524;
+	= 1022;
 	
 
 	x1_2 
@@ -209,7 +209,7 @@ let
 
 	-- set state as active 
 	idArrays1_Arrays1_2 
-	= 526;
+	= 1024;
 	
 
 	x3_2 
@@ -277,23 +277,23 @@ let
 
 
 
-	unless (idArrays1_Arrays1_1=524) and E restart ARRAYS1_A__TO__ARRAYS1_B_1
+	unless (idArrays1_Arrays1_1=1022) and E restart ARRAYS1_A__TO__ARRAYS1_B_1
 
 
 
-	unless (idArrays1_Arrays1_1=525) and F restart ARRAYS1_B__TO__ARRAYS1_C_1
+	unless (idArrays1_Arrays1_1=1023) and F restart ARRAYS1_B__TO__ARRAYS1_C_1
 
 
 
-	unless (idArrays1_Arrays1_1=526) and E restart ARRAYS1_C__TO__ARRAYS1_A_1
+	unless (idArrays1_Arrays1_1=1024) and E restart ARRAYS1_C__TO__ARRAYS1_A_1
 
 
 
-	unless (idArrays1_Arrays1_1=524) restart ARRAYS1_A_IDL
+	unless (idArrays1_Arrays1_1=1022) restart ARRAYS1_A_IDL
 
-	unless (idArrays1_Arrays1_1=525) restart ARRAYS1_B_IDL
+	unless (idArrays1_Arrays1_1=1023) restart ARRAYS1_B_IDL
 
-	unless (idArrays1_Arrays1_1=526) restart ARRAYS1_C_IDL
+	unless (idArrays1_Arrays1_1=1024) restart ARRAYS1_C_IDL
 
 	let
 
@@ -535,6 +535,7 @@ returns (x1_1_1 : int;
 var
 	Arrays1_1_1 : int; Arrays1_2_1 : int; Arrays1_3_1 : int;
 	Mux_1_1 : real; Mux_1_2 : real;
+	i_virtual_local : real;
 	Mux_1_1_event: bool;
 	Mux_1_2_event: bool;
 let 
@@ -546,5 +547,6 @@ let
 	x1_1_1 = Arrays1_1_1;
 	x2_2_1 = Arrays1_2_1;
 	x3_3_1 = Arrays1_3_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

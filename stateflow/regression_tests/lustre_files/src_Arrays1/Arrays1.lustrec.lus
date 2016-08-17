@@ -1,0 +1,441 @@
+type arrays1_arrays1__type = enum {POINTArrays1_Arrays1, POINT__TO__ARRAYS1_A_1, ARRAYS1_A__TO__ARRAYS1_B_1, ARRAYS1_B__TO__ARRAYS1_C_1, ARRAYS1_C__TO__ARRAYS1_A_1, ARRAYS1_A_IDL, ARRAYS1_B_IDL, ARRAYS1_C_IDL };
+ 
+node Arrays1_A_ex (idArrays1_Arrays1_1: int; isInner: bool;) returns (idArrays1_Arrays1: int);
+var __Arrays1_A_ex_1: bool;
+    idArrays1_Arrays1_2: int;
+let
+    
+    idArrays1_Arrays1_2 = (if __Arrays1_A_ex_1 then 0 else idArrays1_Arrays1_1);
+    __Arrays1_A_ex_1 = (not (isInner));
+    idArrays1_Arrays1 = idArrays1_Arrays1_1;
+     
+tel
+ 
+node Arrays1_B_en (idArrays1_Arrays1_1: int; x_2_1: int; isInner: bool;) returns (idArrays1_Arrays1: int; x_2: int;);
+var __Arrays1_B_en_1: bool;
+    idArrays1_Arrays1_2: int;
+    x_2_2: int;
+let
+    
+    idArrays1_Arrays1_2 = 37;
+    x_2_2 = (if __Arrays1_B_en_1 then (x_2_1 + 1) else x_2_1);
+    __Arrays1_B_en_1 = (not (isInner));
+    idArrays1_Arrays1, x_2 = (idArrays1_Arrays1_2,x_2_2);
+     
+tel
+ 
+node Arrays1_B_ex (idArrays1_Arrays1_1: int; isInner: bool;) returns (idArrays1_Arrays1: int;);
+var __Arrays1_B_ex_1: bool;
+    idArrays1_Arrays1_2: int;
+let
+    
+    idArrays1_Arrays1_2 = (if __Arrays1_B_ex_1 then 0 else idArrays1_Arrays1_1);
+    __Arrays1_B_ex_1 = (not (isInner));
+    idArrays1_Arrays1 = idArrays1_Arrays1_1;
+     
+tel
+ 
+node Arrays1_C_en (idArrays1_Arrays1_1: int; x_3_1: int; isInner: bool;) returns (idArrays1_Arrays1: int; x_3: int;);
+var __Arrays1_C_en_1: bool;
+    idArrays1_Arrays1_2: int;
+    x_3_2: int;
+let
+    
+    idArrays1_Arrays1_2 = 38;
+    x_3_2 = (if __Arrays1_C_en_1 then (x_3_1 + 1) else x_3_1);
+    __Arrays1_C_en_1 = (not (isInner));
+    idArrays1_Arrays1, x_3 = (idArrays1_Arrays1_2,x_3_2);
+     
+tel
+ 
+node Arrays1_A_en (idArrays1_Arrays1_1: int; x_1_1: int; isInner: bool;) returns (idArrays1_Arrays1: int; x_1: int;);
+var __Arrays1_A_en_1: bool;
+    idArrays1_Arrays1_2: int;
+    x_1_2: int;
+let
+    
+    idArrays1_Arrays1_2 = 36;
+    x_1_2 = (if __Arrays1_A_en_1 then (x_1_1 + 1) else x_1_1);
+    __Arrays1_A_en_1 = (not (isInner));
+    idArrays1_Arrays1, x_1 = (idArrays1_Arrays1_2,x_1_2);
+     
+tel
+ 
+node Arrays1_C_ex (idArrays1_Arrays1_1: int; isInner: bool;) returns (idArrays1_Arrays1: int;);
+var __Arrays1_C_ex_1: bool;
+    idArrays1_Arrays1_2: int;
+let
+    
+    idArrays1_Arrays1_2 = (if __Arrays1_C_ex_1 then 0 else idArrays1_Arrays1_1);
+    __Arrays1_C_ex_1 = (not (isInner));
+    idArrays1_Arrays1 = idArrays1_Arrays1_1;
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_A_IDL_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;);
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_A_IDL));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_1,x_1_1,x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_A_IDL_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;);
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_A__TO__ARRAYS1_B_1_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;);
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+    x_2_2: int;
+    idArrays1_Arrays1_3: int;
+    idArrays1_Arrays1_2: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_A__TO__ARRAYS1_B_1));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1_2 = Arrays1_A_ex (idArrays1_Arrays1_1,false);
+    idArrays1_Arrays1_3, x_2_2 = Arrays1_B_en (idArrays1_Arrays1_2,x_2_1,false);
+    idArrays1_Arrays1, x_1, x_2 = (idArrays1_Arrays1_3,x_1_1,x_2_2);
+    x_3 = x_3_1;
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_A__TO__ARRAYS1_B_1_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_B_IDL_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_B_IDL));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_1,x_1_1,x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_B_IDL_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_B__TO__ARRAYS1_C_1_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+    x_3_2: int;
+    idArrays1_Arrays1_3: int;
+    idArrays1_Arrays1_2: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_B__TO__ARRAYS1_C_1));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1_2 = Arrays1_B_ex (idArrays1_Arrays1_1,false);
+    idArrays1_Arrays1_3, x_3_2 = Arrays1_C_en (idArrays1_Arrays1_2,x_3_1,false);
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_3,x_1_1,x_2_1,x_3_2);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_B__TO__ARRAYS1_C_1_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_C_IDL_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_C_IDL));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_1,x_1_1,x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_C_IDL_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_C__TO__ARRAYS1_A_1_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+    x_1_2: int;
+    idArrays1_Arrays1_3: int;
+    idArrays1_Arrays1_2: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,ARRAYS1_C__TO__ARRAYS1_A_1));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1_2 = Arrays1_C_ex (idArrays1_Arrays1_1,false);
+    idArrays1_Arrays1_3, x_1_2 = Arrays1_A_en (idArrays1_Arrays1_2,x_1_1,false);
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_3,x_1_2,x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__ARRAYS1_C__TO__ARRAYS1_A_1_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node arrays1_arrays1__POINTArrays1_Arrays1_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (false,POINTArrays1_Arrays1);
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1, x_1, x_2, x_3 = (idArrays1_Arrays1_1,x_1_1,x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__POINTArrays1_Arrays1_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_1: int; E: bool;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+var __arrays1_arrays1__POINTArrays1_Arrays1_unless_7: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_6: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_5: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_4: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_3: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_2: bool;
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_1: bool;
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_1 then (true,POINT__TO__ARRAYS1_A_1) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_2 then (true,ARRAYS1_A__TO__ARRAYS1_B_1) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_3 then (true,ARRAYS1_B__TO__ARRAYS1_C_1) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_4 then (true,ARRAYS1_C__TO__ARRAYS1_A_1) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_5 then (true,ARRAYS1_A_IDL) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_6 then (true,ARRAYS1_B_IDL) else (if __arrays1_arrays1__POINTArrays1_Arrays1_unless_7 then (true,ARRAYS1_C_IDL) else (arrays1_arrays1__restart_in,arrays1_arrays1__state_in))))))));
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_7 = (idArrays1_Arrays1_1 = 38);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_6 = (idArrays1_Arrays1_1 = 37);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_5 = (idArrays1_Arrays1_1 = 36);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_4 = ((idArrays1_Arrays1_1 = 38) and E);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_3 = ((idArrays1_Arrays1_1 = 37) and E);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_2 = ((idArrays1_Arrays1_1 = 36) and E);
+    __arrays1_arrays1__POINTArrays1_Arrays1_unless_1 = (idArrays1_Arrays1_1 = 0);
+     
+tel
+ 
+node arrays1_arrays1__POINT__TO__ARRAYS1_A_1_handler_until (idArrays1_Arrays1_1: int; x_1_1: int; x_2_1: int; x_3_1: int;) returns (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type; idArrays1_Arrays1_out: int; x_1_out: int; x_2_out: int; x_3_out: int;)
+var idArrays1_Arrays1: int;
+    x_1: int;
+    x_2: int;
+    x_3: int;
+    x_1_2: int;
+    idArrays1_Arrays1_2: int;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = (if true then (true,POINTArrays1_Arrays1) else (false,POINT__TO__ARRAYS1_A_1));
+    idArrays1_Arrays1_out = idArrays1_Arrays1;
+    x_1_out = x_1;
+    x_2_out = x_2;
+    x_3_out = x_3;
+    idArrays1_Arrays1_2, x_1_2 = Arrays1_A_en (idArrays1_Arrays1_1,x_1_1,false);
+    idArrays1_Arrays1, x_1 = (idArrays1_Arrays1_2,x_1_2);
+    x_2, x_3 = (x_2_1,x_3_1);
+     
+tel
+ 
+node arrays1_arrays1__POINT__TO__ARRAYS1_A_1_unless (arrays1_arrays1__restart_in: bool; arrays1_arrays1__state_in: arrays1_arrays1__type;) returns (arrays1_arrays1__restart_act: bool; arrays1_arrays1__state_act: arrays1_arrays1__type;)
+let
+    
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = (arrays1_arrays1__restart_in,arrays1_arrays1__state_in);
+     
+tel
+ 
+node Arrays1_Arrays1_node (idArrays1_Arrays1_1: int; x_1_1: int; E: bool; x_2_1: int; x_3_1: int;) returns (idArrays1_Arrays1: int; x_1: int; x_2: int; x_3: int;)
+var __Arrays1_Arrays1_node_65: bool;
+    __Arrays1_Arrays1_node_66: arrays1_arrays1__type;
+    __Arrays1_Arrays1_node_59: bool; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_60: arrays1_arrays1__type; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_61: int; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_62: int; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_63: int; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_64: int; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_53: bool; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_54: arrays1_arrays1__type; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_55: int; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_56: int; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_57: int; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_58: int; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_47: bool; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_48: arrays1_arrays1__type; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_49: int; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_50: int; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_51: int; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_52: int; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_41: bool; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_42: arrays1_arrays1__type; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_43: int; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_44: int; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_45: int; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_46: int; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_35: bool; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_36: arrays1_arrays1__type; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_37: int; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_38: int; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_39: int; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_40: int; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_29: bool; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_30: arrays1_arrays1__type; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_31: int; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_32: int; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_33: int; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_34: int; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_23: bool; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_24: arrays1_arrays1__type; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_25: int; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_26: int; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_27: int; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_28: int; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_17: bool; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_18: arrays1_arrays1__type; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_19: int; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_20: int; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_21: int; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_22: int; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_act)
+    __Arrays1_Arrays1_node_15: bool; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_16: arrays1_arrays1__type; --  when POINTArrays1_Arrays1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_13: bool; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_14: arrays1_arrays1__type; --  when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_11: bool; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_12: arrays1_arrays1__type; --  when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_9: bool; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_10: arrays1_arrays1__type; --  when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_7: bool; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_8: arrays1_arrays1__type; --  when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_5: bool; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_6: arrays1_arrays1__type; --  when ARRAYS1_A_IDL(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_3: bool; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_4: arrays1_arrays1__type; --  when ARRAYS1_B_IDL(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_1: bool; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_in)
+    __Arrays1_Arrays1_node_2: arrays1_arrays1__type; --  when ARRAYS1_C_IDL(arrays1_arrays1__state_in)
+    arrays1_arrays1__next_restart_in: bool;
+    arrays1_arrays1__restart_in: bool;
+    arrays1_arrays1__restart_act: bool;
+    arrays1_arrays1__next_state_in: arrays1_arrays1__type;
+    arrays1_arrays1__state_in: arrays1_arrays1__type clock;
+    arrays1_arrays1__state_act: arrays1_arrays1__type clock;
+let
+    
+    arrays1_arrays1__restart_in, arrays1_arrays1__state_in = ((false,POINTArrays1_Arrays1) -> (__Arrays1_Arrays1_node_65,__Arrays1_Arrays1_node_66));
+    arrays1_arrays1__next_restart_in, arrays1_arrays1__next_state_in, idArrays1_Arrays1, x_1, x_2, x_3 = merge arrays1_arrays1__state_act (POINTArrays1_Arrays1 -> (__Arrays1_Arrays1_node_59,__Arrays1_Arrays1_node_60,__Arrays1_Arrays1_node_61,__Arrays1_Arrays1_node_62,__Arrays1_Arrays1_node_63,__Arrays1_Arrays1_node_64)) (POINT__TO__ARRAYS1_A_1 -> (__Arrays1_Arrays1_node_53,__Arrays1_Arrays1_node_54,__Arrays1_Arrays1_node_55,__Arrays1_Arrays1_node_56,__Arrays1_Arrays1_node_57,__Arrays1_Arrays1_node_58)) (ARRAYS1_A__TO__ARRAYS1_B_1 -> (__Arrays1_Arrays1_node_47,__Arrays1_Arrays1_node_48,__Arrays1_Arrays1_node_49,__Arrays1_Arrays1_node_50,__Arrays1_Arrays1_node_51,__Arrays1_Arrays1_node_52)) (ARRAYS1_B__TO__ARRAYS1_C_1 -> (__Arrays1_Arrays1_node_41,__Arrays1_Arrays1_node_42,__Arrays1_Arrays1_node_43,__Arrays1_Arrays1_node_44,__Arrays1_Arrays1_node_45,__Arrays1_Arrays1_node_46)) (ARRAYS1_C__TO__ARRAYS1_A_1 -> (__Arrays1_Arrays1_node_35,__Arrays1_Arrays1_node_36,__Arrays1_Arrays1_node_37,__Arrays1_Arrays1_node_38,__Arrays1_Arrays1_node_39,__Arrays1_Arrays1_node_40)) (ARRAYS1_A_IDL -> (__Arrays1_Arrays1_node_29,__Arrays1_Arrays1_node_30,__Arrays1_Arrays1_node_31,__Arrays1_Arrays1_node_32,__Arrays1_Arrays1_node_33,__Arrays1_Arrays1_node_34)) (ARRAYS1_B_IDL -> (__Arrays1_Arrays1_node_23,__Arrays1_Arrays1_node_24,__Arrays1_Arrays1_node_25,__Arrays1_Arrays1_node_26,__Arrays1_Arrays1_node_27,__Arrays1_Arrays1_node_28)) (ARRAYS1_C_IDL -> (__Arrays1_Arrays1_node_17,__Arrays1_Arrays1_node_18,__Arrays1_Arrays1_node_19,__Arrays1_Arrays1_node_20,__Arrays1_Arrays1_node_21,__Arrays1_Arrays1_node_22));
+    __Arrays1_Arrays1_node_59, __Arrays1_Arrays1_node_60, __Arrays1_Arrays1_node_61, __Arrays1_Arrays1_node_62, __Arrays1_Arrays1_node_63, __Arrays1_Arrays1_node_64 = arrays1_arrays1__POINTArrays1_Arrays1_handler_until (idArrays1_Arrays1_1 when POINTArrays1_Arrays1(arrays1_arrays1__state_act),x_1_1 when POINTArrays1_Arrays1(arrays1_arrays1__state_act),x_2_1 when POINTArrays1_Arrays1(arrays1_arrays1__state_act),x_3_1 when POINTArrays1_Arrays1(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_53, __Arrays1_Arrays1_node_54, __Arrays1_Arrays1_node_55, __Arrays1_Arrays1_node_56, __Arrays1_Arrays1_node_57, __Arrays1_Arrays1_node_58 = arrays1_arrays1__POINT__TO__ARRAYS1_A_1_handler_until (idArrays1_Arrays1_1 when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_1_1 when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_2_1 when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_3_1 when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_47, __Arrays1_Arrays1_node_48, __Arrays1_Arrays1_node_49, __Arrays1_Arrays1_node_50, __Arrays1_Arrays1_node_51, __Arrays1_Arrays1_node_52 = arrays1_arrays1__ARRAYS1_A__TO__ARRAYS1_B_1_handler_until (idArrays1_Arrays1_1 when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_41, __Arrays1_Arrays1_node_42, __Arrays1_Arrays1_node_43, __Arrays1_Arrays1_node_44, __Arrays1_Arrays1_node_45, __Arrays1_Arrays1_node_46 = arrays1_arrays1__ARRAYS1_B__TO__ARRAYS1_C_1_handler_until (idArrays1_Arrays1_1 when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_35, __Arrays1_Arrays1_node_36, __Arrays1_Arrays1_node_37, __Arrays1_Arrays1_node_38, __Arrays1_Arrays1_node_39, __Arrays1_Arrays1_node_40 = arrays1_arrays1__ARRAYS1_C__TO__ARRAYS1_A_1_handler_until (idArrays1_Arrays1_1 when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_29, __Arrays1_Arrays1_node_30, __Arrays1_Arrays1_node_31, __Arrays1_Arrays1_node_32, __Arrays1_Arrays1_node_33, __Arrays1_Arrays1_node_34 = arrays1_arrays1__ARRAYS1_A_IDL_handler_until (idArrays1_Arrays1_1 when ARRAYS1_A_IDL(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_A_IDL(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_A_IDL(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_A_IDL(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_23, __Arrays1_Arrays1_node_24, __Arrays1_Arrays1_node_25, __Arrays1_Arrays1_node_26, __Arrays1_Arrays1_node_27, __Arrays1_Arrays1_node_28 = arrays1_arrays1__ARRAYS1_B_IDL_handler_until (idArrays1_Arrays1_1 when ARRAYS1_B_IDL(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_B_IDL(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_B_IDL(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_B_IDL(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    __Arrays1_Arrays1_node_17, __Arrays1_Arrays1_node_18, __Arrays1_Arrays1_node_19, __Arrays1_Arrays1_node_20, __Arrays1_Arrays1_node_21, __Arrays1_Arrays1_node_22 = arrays1_arrays1__ARRAYS1_C_IDL_handler_until (idArrays1_Arrays1_1 when ARRAYS1_C_IDL(arrays1_arrays1__state_act),x_1_1 when ARRAYS1_C_IDL(arrays1_arrays1__state_act),x_2_1 when ARRAYS1_C_IDL(arrays1_arrays1__state_act),x_3_1 when ARRAYS1_C_IDL(arrays1_arrays1__state_act)) every (arrays1_arrays1__restart_act);
+    arrays1_arrays1__restart_act, arrays1_arrays1__state_act = merge arrays1_arrays1__state_in (POINTArrays1_Arrays1 -> (__Arrays1_Arrays1_node_15,__Arrays1_Arrays1_node_16)) (POINT__TO__ARRAYS1_A_1 -> (__Arrays1_Arrays1_node_13,__Arrays1_Arrays1_node_14)) (ARRAYS1_A__TO__ARRAYS1_B_1 -> (__Arrays1_Arrays1_node_11,__Arrays1_Arrays1_node_12)) (ARRAYS1_B__TO__ARRAYS1_C_1 -> (__Arrays1_Arrays1_node_9,__Arrays1_Arrays1_node_10)) (ARRAYS1_C__TO__ARRAYS1_A_1 -> (__Arrays1_Arrays1_node_7,__Arrays1_Arrays1_node_8)) (ARRAYS1_A_IDL -> (__Arrays1_Arrays1_node_5,__Arrays1_Arrays1_node_6)) (ARRAYS1_B_IDL -> (__Arrays1_Arrays1_node_3,__Arrays1_Arrays1_node_4)) (ARRAYS1_C_IDL -> (__Arrays1_Arrays1_node_1,__Arrays1_Arrays1_node_2));
+    __Arrays1_Arrays1_node_15, __Arrays1_Arrays1_node_16 = arrays1_arrays1__POINTArrays1_Arrays1_unless (arrays1_arrays1__restart_in when POINTArrays1_Arrays1(arrays1_arrays1__state_in),arrays1_arrays1__state_in when POINTArrays1_Arrays1(arrays1_arrays1__state_in),idArrays1_Arrays1_1 when POINTArrays1_Arrays1(arrays1_arrays1__state_in),E when POINTArrays1_Arrays1(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_13, __Arrays1_Arrays1_node_14 = arrays1_arrays1__POINT__TO__ARRAYS1_A_1_unless (arrays1_arrays1__restart_in when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_in),arrays1_arrays1__state_in when POINT__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_11, __Arrays1_Arrays1_node_12 = arrays1_arrays1__ARRAYS1_A__TO__ARRAYS1_B_1_unless (arrays1_arrays1__restart_in when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_A__TO__ARRAYS1_B_1(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_9, __Arrays1_Arrays1_node_10 = arrays1_arrays1__ARRAYS1_B__TO__ARRAYS1_C_1_unless (arrays1_arrays1__restart_in when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_B__TO__ARRAYS1_C_1(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_7, __Arrays1_Arrays1_node_8 = arrays1_arrays1__ARRAYS1_C__TO__ARRAYS1_A_1_unless (arrays1_arrays1__restart_in when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_C__TO__ARRAYS1_A_1(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_5, __Arrays1_Arrays1_node_6 = arrays1_arrays1__ARRAYS1_A_IDL_unless (arrays1_arrays1__restart_in when ARRAYS1_A_IDL(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_A_IDL(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_3, __Arrays1_Arrays1_node_4 = arrays1_arrays1__ARRAYS1_B_IDL_unless (arrays1_arrays1__restart_in when ARRAYS1_B_IDL(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_B_IDL(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_1, __Arrays1_Arrays1_node_2 = arrays1_arrays1__ARRAYS1_C_IDL_unless (arrays1_arrays1__restart_in when ARRAYS1_C_IDL(arrays1_arrays1__state_in),arrays1_arrays1__state_in when ARRAYS1_C_IDL(arrays1_arrays1__state_in)) every (arrays1_arrays1__restart_in);
+    __Arrays1_Arrays1_node_65, __Arrays1_Arrays1_node_66 = pre (arrays1_arrays1__next_restart_in,arrays1_arrays1__next_state_in);
+     
+tel
+ 
+node Arrays1_Arrays1 (E: bool;) returns (x_1: int; x_2: int; x_3: int;)
+var __Arrays1_Arrays1_8: int;
+    __Arrays1_Arrays1_7: int;
+    __Arrays1_Arrays1_6: int;
+    __Arrays1_Arrays1_5: int;
+    __Arrays1_Arrays1_1: int;
+    __Arrays1_Arrays1_2: int;
+    __Arrays1_Arrays1_3: int;
+    __Arrays1_Arrays1_4: int;
+    x_1_1: int;
+    x_2_1: int;
+    x_3_1: int;
+    idArrays1_Arrays1: int;
+    idArrays1_Arrays1_1: int;
+let
+    
+    x_1_1 = (1 -> __Arrays1_Arrays1_8);
+    x_2_1 = (1 -> __Arrays1_Arrays1_7);
+    x_3_1 = (1 -> __Arrays1_Arrays1_6);
+    idArrays1_Arrays1_1 = (0 -> __Arrays1_Arrays1_5);
+    idArrays1_Arrays1, x_1, x_2, x_3 = (if E then (__Arrays1_Arrays1_1,__Arrays1_Arrays1_2,__Arrays1_Arrays1_3,__Arrays1_Arrays1_4) else (idArrays1_Arrays1_1,x_1_1,x_2_1,x_3_1));
+    __Arrays1_Arrays1_1, __Arrays1_Arrays1_2, __Arrays1_Arrays1_3, __Arrays1_Arrays1_4 = Arrays1_Arrays1_node (idArrays1_Arrays1_1,x_1_1,E,x_2_1,x_3_1);
+    __Arrays1_Arrays1_8 = pre x_1;
+    __Arrays1_Arrays1_7 = pre x_2;
+    __Arrays1_Arrays1_6 = pre x_3;
+    __Arrays1_Arrays1_5 = pre idArrays1_Arrays1;
+     
+tel
+ 
+node Arrays1 (E_1_1: real;) returns (x1_1_1: int; x2_2_1: int; x3_3_1: int;)
+var __Arrays1_1: real;
+    Arrays1_1_1: int;
+    Arrays1_1_2: int;
+    Arrays1_1_3: int;
+    Demux_1_1: int;
+    Demux_2_1: int;
+    Demux_3_1: int;
+    E_1_1_event: bool;
+let
+    
+    E_1_1_event = (false -> ((__Arrays1_1 <= 0.) and (E_1_1 > 0.)));
+    Arrays1_1_1, Arrays1_1_2, Arrays1_1_3 = Arrays1_Arrays1 (E_1_1_event);
+    Demux_1_1 = Arrays1_1_1;
+    Demux_2_1 = Arrays1_1_2;
+    Demux_3_1 = Arrays1_1_3;
+    x1_1_1 = Demux_1_1;
+    x2_2_1 = Demux_2_1;
+    x3_3_1 = Demux_3_1;
+    __Arrays1_1 = pre E_1_1;
+     
+tel

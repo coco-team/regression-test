@@ -6,8 +6,7 @@
 
 
 
-
-node POINT__To__Flowchart7_Flowchart7Junction677_1_Condition_Action(cent_1:int)
+node POINT__To__Flowchart7_Flowchart7Junction1541_1_Condition_Action(cent_1:int)
 
 returns (cent:int);
 
@@ -34,42 +33,7 @@ tel
 
 
 
-node Flowchart7_Flowchart7Junction678__To__Flowchart7_Flowchart7Junction679_1_Condition_Action(sec_1:int;
-	min_1:int)
-
-returns (sec:int;
-	min:int);
-
-
-var 	sec_2:int;
-	min_2:int;
-
-
-let
-
-
-
-	sec_2 
-	= 0;
-	
-
-	min_2 
-	=  min_1  + 1;
-	
-
-	(sec, min) 
-	= (sec_2, min_2);
-	
-
-tel
-
-
-
-
-
-
-
-node Flowchart7_Flowchart7Junction677__To__Flowchart7_Flowchart7Junction678_1_Condition_Action(cent_1:int;
+node Flowchart7_Flowchart7Junction1541__To__Flowchart7_Flowchart7Junction1542_1_Condition_Action(cent_1:int;
 	sec_1:int)
 
 returns (cent:int;
@@ -99,6 +63,42 @@ let
 tel
 
 
+
+
+
+
+
+
+node Flowchart7_Flowchart7Junction1542__To__Flowchart7_Flowchart7Junction1543_1_Condition_Action(sec_1:int;
+	min_1:int)
+
+returns (sec:int;
+	min:int);
+
+
+var 	sec_2:int;
+	min_2:int;
+
+
+let
+
+
+
+	sec_2 
+	= 0;
+	
+
+	min_2 
+	=  min_1  + 1;
+	
+
+	(sec, min) 
+	= (sec_2, min_2);
+	
+
+tel
+
+
 --***************************************************State :Flowchart7_Flowchart7 Automaton***************************************************
 
 node Flowchart7_Flowchart7_node(idFlowchart7_Flowchart7_1:int;
@@ -118,7 +118,7 @@ let
 	 automaton flowchart7_flowchart7
 
 	state POINTFlowchart7_Flowchart7:
-	unless (idFlowchart7_Flowchart7_1=0) and TIC restart POINT__TO__FLOWCHART7_FLOWCHART7JUNCTION677_1
+	unless (idFlowchart7_Flowchart7_1=0) and TIC restart POINT__TO__FLOWCHART7_FLOWCHART7JUNCTION1541_1
 
 
 
@@ -132,7 +132,7 @@ let
 
 
 
-	state POINT__TO__FLOWCHART7_FLOWCHART7JUNCTION677_1:
+	state POINT__TO__FLOWCHART7_FLOWCHART7JUNCTION1541_1:
 
 	 var 	cent_2, cent_3, cent_4, cent_5, cent_6:int;
 	sec_2, sec_3, sec_4:int;
@@ -144,11 +144,11 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction677_1, Junction677__To__Junction678_1, Junction678__To__Junction679_1
+	--POINT__To__Junction1541_1, Junction1541__To__Junction1542_1, Junction1542__To__Junction1543_1
 		-- condition Action : cent++
 		
 		(cent_2) 
-	= POINT__To__Flowchart7_Flowchart7Junction677_1_Condition_Action(cent_1);
+	= POINT__To__Flowchart7_Flowchart7Junction1541_1_Condition_Action(cent_1);
 		
 
 		-- condition Action : cent=0;sec++
@@ -156,7 +156,7 @@ let
 		(cent_3, sec_2) 
 	= 
 		 if ((  cent_2 =2 )) then 
-		Flowchart7_Flowchart7Junction677__To__Flowchart7_Flowchart7Junction678_1_Condition_Action(cent_2, sec_1)
+		Flowchart7_Flowchart7Junction1541__To__Flowchart7_Flowchart7Junction1542_1_Condition_Action(cent_2, sec_1)
 		 else (cent_2, sec_1);
 		
 
@@ -165,17 +165,17 @@ let
 		(sec_3, min_2) 
 	= 
 		 if ((  cent_2 =2 ) and (  sec_2 =3 )) then 
-		Flowchart7_Flowchart7Junction678__To__Flowchart7_Flowchart7Junction679_1_Condition_Action(sec_2, min_1)
+		Flowchart7_Flowchart7Junction1542__To__Flowchart7_Flowchart7Junction1543_1_Condition_Action(sec_2, min_1)
 		 else (sec_2, min_1);
 		
 
 
 -- transition trace :
-	--POINT__To__Junction677_1, Junction677__To__Junction678_1, Junction678__To__Junction679_2
+	--POINT__To__Junction1541_1, Junction1541__To__Junction1542_1, Junction1542__To__Junction1543_2
 		-- condition Action : cent++
 		
 		(cent_4) 
-	= POINT__To__Flowchart7_Flowchart7Junction677_1_Condition_Action(cent_1);
+	= POINT__To__Flowchart7_Flowchart7Junction1541_1_Condition_Action(cent_1);
 		
 
 		-- condition Action : cent=0;sec++
@@ -183,17 +183,17 @@ let
 		(cent_5, sec_4) 
 	= 
 		 if ((  cent_4 =2 )) then 
-		Flowchart7_Flowchart7Junction677__To__Flowchart7_Flowchart7Junction678_1_Condition_Action(cent_4, sec_1)
+		Flowchart7_Flowchart7Junction1541__To__Flowchart7_Flowchart7Junction1542_1_Condition_Action(cent_4, sec_1)
 		 else (cent_4, sec_1);
 		
 
 
 -- transition trace :
-	--POINT__To__Junction677_1, Junction677__To__Junction679_2
+	--POINT__To__Junction1541_1, Junction1541__To__Junction1543_2
 		-- condition Action : cent++
 		
 		(cent_6) 
-	= POINT__To__Flowchart7_Flowchart7Junction677_1_Condition_Action(cent_1);
+	= POINT__To__Flowchart7_Flowchart7Junction1541_1_Condition_Action(cent_1);
 		
 
 	(idFlowchart7_Flowchart7, cent, sec, min) 
@@ -272,6 +272,7 @@ returns (Out1_1_1 : int;
 	Out3_3_1 : int); 
 var
 	Flowchart7_1_1 : int; Flowchart7_2_1 : int; Flowchart7_3_1 : int;
+	i_virtual_local : real;
 	TIC_1_1_event: bool;
 let 
 	TIC_1_1_event = false -> ((pre(TIC_1_1) > 0.0 and TIC_1_1 <= 0.0) or (pre(TIC_1_1) <= 0.0 and TIC_1_1 > 0.0));
@@ -279,5 +280,6 @@ let
 	Out1_1_1 = Flowchart7_1_1;
 	Out2_2_1 = Flowchart7_2_1;
 	Out3_3_1 = Flowchart7_3_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

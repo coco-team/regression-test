@@ -29,7 +29,7 @@ let
 
 	-- set state as active 
 	idSystemMonitorSubSystem_SystemMonitorSubSystem_2 
-	= 671;
+	= 1813;
 	
 
 	SYS_MON_OUT_System_Monitor_Failed_2 
@@ -128,7 +128,7 @@ let
 
 	-- set state as active 
 	idSystemMonitorSubSystem_SystemMonitorSubSystem_2 
-	= 672;
+	= 1814;
 	
 
 	(idSystemMonitorSubSystem_SystemMonitorSubSystem) 
@@ -190,17 +190,17 @@ let
 
 
 
-	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=671) and ( not TLM_MODE_IN_System_On ) restart SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR__TO__SYSTEMMONITORSUBSYSTEM_NOT_ON_1
+	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=1813) and ( not TLM_MODE_IN_System_On ) restart SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR__TO__SYSTEMMONITORSUBSYSTEM_NOT_ON_1
 
 
 
-	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=672) and ( TLM_MODE_IN_System_On ) restart SYSTEMMONITORSUBSYSTEM_NOT_ON__TO__SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR_1
+	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=1814) and ( TLM_MODE_IN_System_On ) restart SYSTEMMONITORSUBSYSTEM_NOT_ON__TO__SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR_1
 
 
 
-	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=671) restart SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR_IDL
+	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=1813) restart SYSTEMMONITORSUBSYSTEM_SYSTEM_MONITOR_IDL
 
-	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=672) restart SYSTEMMONITORSUBSYSTEM_NOT_ON_IDL
+	unless (idSystemMonitorSubSystem_SystemMonitorSubSystem_1=1814) restart SYSTEMMONITORSUBSYSTEM_NOT_ON_IDL
 
 	let
 
@@ -384,8 +384,10 @@ node GPCA_System_Monitor (In1_1_1 : bool)
 returns (Out1_1_1 : bool); 
 var
 	SystemMonitorSubSystem_1_1 : bool;
+	i_virtual_local : real;
 let 
 	SystemMonitorSubSystem_1_1 =  GPCA_System_Monitor_SystemMonitorSubSystem(In1_1_1);
 	Out1_1_1 = SystemMonitorSubSystem_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

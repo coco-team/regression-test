@@ -6,7 +6,68 @@
 
 
 
-node Active_State_Active_StateJunction137__To__Active_State_Active_StateJunction139_2_Condition_Action(pre_Active:bool;
+
+
+
+
+
+node Active_State_Active_StateJunction1278__To__Active_State_Active_StateJunction1283_1_Condition_Action(Active_1:bool)
+
+returns (Active:bool);
+
+
+var 	Active_2:bool;
+
+
+let
+
+
+
+	Active_2 
+	= false;
+	
+
+	(Active) 
+	= (Active_2);
+	
+
+tel
+
+
+
+
+
+
+node Active_State_Active_StateJunction1276__To__Active_State_Active_StateJunction1284_1_Condition_Action(Active_1:bool)
+
+returns (Active:bool);
+
+
+var 	Active_2:bool;
+
+
+let
+
+
+
+	Active_2 
+	= false;
+	
+
+	(Active) 
+	= (Active_2);
+	
+
+tel
+
+
+
+
+
+
+
+
+node Active_State_Active_StateJunction1279__To__Active_State_Active_StateJunction1281_2_Condition_Action(pre_Active:bool;
 	Active_1:bool)
 
 returns (Active:bool);
@@ -34,7 +95,8 @@ tel
 
 
 
-node Active_State_Active_StateJunction138__To__Active_State_Active_StateJunction140_1_Condition_Action(Active_1:bool)
+
+node Active_State_Active_StateJunction1280__To__Active_State_Active_StateJunction1282_1_Condition_Action(Active_1:bool)
 
 returns (Active:bool);
 
@@ -59,68 +121,6 @@ tel
 
 
 
-
-
-
-
-
-
-node Active_State_Active_StateJunction134__To__Active_State_Active_StateJunction142_1_Condition_Action(Active_1:bool)
-
-returns (Active:bool);
-
-
-var 	Active_2:bool;
-
-
-let
-
-
-
-	Active_2 
-	= false;
-	
-
-	(Active) 
-	= (Active_2);
-	
-
-tel
-
-
-
-
-
-
-
-
-
-
-
-
-node Active_State_Active_StateJunction136__To__Active_State_Active_StateJunction141_1_Condition_Action(Active_1:bool)
-
-returns (Active:bool);
-
-
-var 	Active_2:bool;
-
-
-let
-
-
-
-	Active_2 
-	= false;
-	
-
-	(Active) 
-	= (Active_2);
-	
-
-tel
-
-
 --***************************************************State :Active_State_Active_State Automaton***************************************************
 
 node Active_State_Active_State_node(idActive_State_Active_State_1:int;
@@ -140,7 +140,7 @@ let
 	 automaton active_state_active_state
 
 	state POINTActive_State_Active_State:
-	unless (idActive_State_Active_State_1=0) restart POINT__TO__ACTIVE_STATE_ACTIVE_STATEJUNCTION133_1
+	unless (idActive_State_Active_State_1=0) restart POINT__TO__ACTIVE_STATE_ACTIVE_STATEJUNCTION1275_1
 
 
 
@@ -154,7 +154,7 @@ let
 
 
 
-	state POINT__TO__ACTIVE_STATE_ACTIVE_STATEJUNCTION133_1:
+	state POINT__TO__ACTIVE_STATE_ACTIVE_STATEJUNCTION1275_1:
 
 	 var 	Active_2, Active_3, Active_4, Active_5:bool;
 	let
@@ -172,13 +172,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction133_1, Junction133__To__Junction134_1, Junction134__To__Junction142_1, Junction142__To__Junction141_1, Junction141__To__Junction140_1, Junction140__To__Junction139_1, Junction139__To__Junction143_1
+	--POINT__To__Junction1275_1, Junction1275__To__Junction1276_1, Junction1276__To__Junction1284_1, Junction1284__To__Junction1283_1, Junction1283__To__Junction1282_1, Junction1282__To__Junction1281_1, Junction1281__To__Junction1285_1
 		-- condition Action : Active=false;
 		
 		(Active_2) 
 	= 
 		 if (( Error )) then 
-		Active_State_Active_StateJunction134__To__Active_State_Active_StateJunction142_1_Condition_Action(Active_1)
+		Active_State_Active_StateJunction1276__To__Active_State_Active_StateJunction1284_1_Condition_Action(Active_1)
 		 else (Active_1);
 		
 
@@ -194,13 +194,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction133_1, Junction133__To__Junction135_2, Junction135__To__Junction136_1, Junction136__To__Junction141_1, Junction141__To__Junction140_1, Junction140__To__Junction139_1, Junction139__To__Junction143_1
+	--POINT__To__Junction1275_1, Junction1275__To__Junction1277_2, Junction1277__To__Junction1278_1, Junction1278__To__Junction1283_1, Junction1283__To__Junction1282_1, Junction1282__To__Junction1281_1, Junction1281__To__Junction1285_1
 		-- condition Action : Active=false;
 		
 		(Active_3) 
 	= 
 		 if (( pre_Active and Sync_From_Active and (not Sync_From_Error) and (not Primary_Side) )) then 
-		Active_State_Active_StateJunction136__To__Active_State_Active_StateJunction141_1_Condition_Action(Active_1)
+		Active_State_Active_StateJunction1278__To__Active_State_Active_StateJunction1283_1_Condition_Action(Active_1)
 		 else (Active_1);
 		
 
@@ -214,13 +214,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction133_1, Junction133__To__Junction135_2, Junction135__To__Junction137_2, Junction137__To__Junction138_1, Junction138__To__Junction140_1, Junction140__To__Junction139_1, Junction139__To__Junction143_1
+	--POINT__To__Junction1275_1, Junction1275__To__Junction1277_2, Junction1277__To__Junction1279_2, Junction1279__To__Junction1280_1, Junction1280__To__Junction1282_1, Junction1282__To__Junction1281_1, Junction1281__To__Junction1285_1
 		-- condition Action : Active=true;
 		
 		(Active_4) 
 	= 
 		 if (( (not pre_Active) and ((not Sync_From_Active) or Sync_From_Error) )) then 
-		Active_State_Active_StateJunction138__To__Active_State_Active_StateJunction140_1_Condition_Action(Active_1)
+		Active_State_Active_StateJunction1280__To__Active_State_Active_StateJunction1282_1_Condition_Action(Active_1)
 		 else (Active_1);
 		
 
@@ -228,11 +228,11 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction133_1, Junction133__To__Junction135_2, Junction135__To__Junction137_2, Junction137__To__Junction139_2, Junction139__To__Junction143_1
+	--POINT__To__Junction1275_1, Junction1275__To__Junction1277_2, Junction1277__To__Junction1279_2, Junction1279__To__Junction1281_2, Junction1281__To__Junction1285_1
 		-- condition Action : Active=pre_Active;
 		
 		(Active_5) 
-	= Active_State_Active_StateJunction137__To__Active_State_Active_StateJunction139_2_Condition_Action(pre_Active, Active_1);
+	= Active_State_Active_StateJunction1279__To__Active_State_Active_StateJunction1281_2_Condition_Action(pre_Active, Active_1);
 		
 
 	(idActive_State_Active_State, Active) 
@@ -309,8 +309,10 @@ node BSCU_Active_State (In1_1_1 : bool; In2_1_1 : bool; In3_1_1 : bool; In4_1_1 
 returns (Active_1_1 : bool); 
 var
 	Active_State_1_1 : bool;
+	i_virtual_local : real;
 let 
 	Active_State_1_1 =  BSCU_Active_State_Active_State(In1_1_1, In2_1_1, In3_1_1, In4_1_1);
 	Active_1_1 = Active_State_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

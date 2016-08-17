@@ -1,8 +1,8 @@
-(declare-datatypes () ((latchcapture_latch__type POINTLatchCapture_latch POINT__TO__LATCH_OPENING_1 LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1 LATCH_OPEN__TO__LATCH_CLOSING_1 LATCH_CLOSING__TO__LATCH_MATED_1 LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2 LATCH_CLOSING__TO__LATCH_CLOSEDBUTUNMATED_3 LATCH_MATED__TO__CHART_CHARTJUNCTION609_1 LATCH_OPENING__TO__LATCH_OPEN_1 LATCH_OPENING__TO__LATCH_CLOSING_2 LATCH_CLOSEDBUTUNMATED_IDL LATCH_OPEN_IDL LATCH_CLOSING_IDL LATCH_MATED_IDL LATCH_OPENING_IDL)));
+(declare-datatypes () ((latchcapture_latch__type POINTLatchCapture_latch POINT__TO__LATCH_OPENING_1 LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1 LATCH_OPEN__TO__LATCH_CLOSING_1 LATCH_CLOSING__TO__LATCH_MATED_1 LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2 LATCH_CLOSING__TO__LATCH_CLOSEDBUTUNMATED_3 LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1 LATCH_OPENING__TO__LATCH_OPEN_1 LATCH_OPENING__TO__LATCH_CLOSING_2 LATCH_CLOSEDBUTUNMATED_IDL LATCH_OPEN_IDL LATCH_CLOSING_IDL LATCH_MATED_IDL LATCH_OPENING_IDL)));
 
 (declare-datatypes () ((missionphasestates_latchcapture__type POINTMissionPhaseStates_LatchCapture MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_ENTRY MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL)));
 
-(declare-datatypes () ((latchcapture_latchcapturecheck__type POINTLatchCapture_LatchCaptureCheck POINT__TO__LATCHCAPTURECHECK_CHECKLATCHOPEN_1 LATCHCAPTURECHECK_DOCKED__TO__MISSIONPHASESTATES_JOINTSTABILIZE_1 LATCHCAPTURECHECK_LATCHFAILED__TO__MISSIONPHASESTATES_DOCKINGAPPROACH_1 LATCHCAPTURECHECK_CHECKLATCHOPEN__TO__LATCHCAPTURECHECK_CHECKLATCHMATED_1 LATCHCAPTURECHECK_CHECKLATCHOPEN__TO__LATCHCAPTURECHECK_LATCHFAILED_2 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__LATCHCAPTURECHECK_DOCKED_1 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3 LATCHCAPTURECHECK_DOCKED_IDL LATCHCAPTURECHECK_LATCHFAILED_IDL LATCHCAPTURECHECK_CHECKLATCHOPEN_IDL LATCHCAPTURECHECK_CHECKLATCHMATED_IDL)));
+(declare-datatypes () ((latchcapture_latchcapturecheck__type POINTLatchCapture_LatchCaptureCheck POINT__TO__LATCHCAPTURECHECK_CHECKLATCHOPEN_1 LATCHCAPTURECHECK_DOCKED__TO__MISSIONPHASESTATES_JOINTSTABILIZE_1 LATCHCAPTURECHECK_LATCHFAILED__TO__MISSIONPHASESTATES_DOCKINGAPPROACH_1 LATCHCAPTURECHECK_CHECKLATCHOPEN__TO__LATCHCAPTURECHECK_CHECKLATCHMATED_1 LATCHCAPTURECHECK_CHECKLATCHOPEN__TO__LATCHCAPTURECHECK_LATCHFAILED_2 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__LATCHCAPTURECHECK_DOCKED_1 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2 LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3 LATCHCAPTURECHECK_DOCKED_IDL LATCHCAPTURECHECK_LATCHFAILED_IDL LATCHCAPTURECHECK_CHECKLATCHOPEN_IDL LATCHCAPTURECHECK_CHECKLATCHMATED_IDL)));
 
 (declare-datatypes () ((chart_missionphasestates__type POINTChart_MissionPhaseStates POINT__TO__MISSIONPHASESTATES_START_1 MISSIONPHASESTATES_START__TO__MISSIONPHASESTATES_APPROACHORBIT_1 MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER__TO__MISSIONPHASESTATES_FAILEDAPPROACH_1 MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER__TO__MISSIONPHASESTATES_APPROACHORBIT_2 MISSIONPHASESTATES_APPROACHORBIT__TO__MISSIONPHASESTATES_PROXIMITYOPERATIONS_1 MISSIONPHASESTATES_PROXIMITYOPERATIONS__TO__MISSIONPHASESTATES_APPROACHORBIT_1 MISSIONPHASESTATES_PROXIMITYOPERATIONS__TO__MISSIONPHASESTATES_FARAPPROACH_2 MISSIONPHASESTATES_DISENGAGE__TO__MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER_1 MISSIONPHASESTATES_FARAPPROACH__TO__MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER_1 MISSIONPHASESTATES_FARAPPROACH__TO__MISSIONPHASESTATES_CAPTUREAPPROACH_2 MISSIONPHASESTATES_CAPTUREAPPROACH__TO__MISSIONPHASESTATES_DOCKINGAPPROACH_1 MISSIONPHASESTATES_CAPTUREAPPROACH__TO__MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER_2 MISSIONPHASESTATES_DOCKINGAPPROACH__TO__MISSIONPHASESTATES_LATCHCAPTURE_1 MISSIONPHASESTATES_DOCKINGAPPROACH__TO__MISSIONPHASESTATES_CAPTUREAPPROACH_2 MISSIONPHASESTATES_JOINTSTABILIZE__TO__MISSIONPHASESTATES_DISENGAGE_1 MISSIONPHASESTATES_JOINTSTABILIZE__TO__MISSIONPHASESTATES_JOINTMISSION_2 MISSIONPHASESTATES_START_IDL MISSIONPHASESTATES_COLLISIONAVOIDANCEMANUEVER_IDL MISSIONPHASESTATES_APPROACHORBIT_IDL MISSIONPHASESTATES_PROXIMITYOPERATIONS_IDL MISSIONPHASESTATES_DISENGAGE_IDL MISSIONPHASESTATES_FARAPPROACH_IDL MISSIONPHASESTATES_FAILEDAPPROACH_IDL MISSIONPHASESTATES_JOINTMISSION_IDL MISSIONPHASESTATES_CAPTUREAPPROACH_IDL MISSIONPHASESTATES_DOCKINGAPPROACH_IDL MISSIONPHASESTATES_JOINTSTABILIZE_IDL MISSIONPHASESTATES_LATCHCAPTURE_IDL)));
 
@@ -196,7 +196,7 @@
        (LatchCaptureCheck_CheckLatchMated_ex LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1
                                              false
                                              LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_6)
-       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_5 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 569))
+       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_5 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 1711))
        (and (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_5 true))
                (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_5 LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_6))
             (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_5 false))
@@ -205,7 +205,7 @@
        (LatchCaptureCheck_CheckLatchOpen_ex LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1
                                             false
                                             LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_7)
-       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_4 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 562))
+       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_4 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 1704))
        (and (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_4 true))
                (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_4 LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_7))
             (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_4 false))
@@ -214,7 +214,7 @@
        (LatchCaptureCheck_LatchFailed_ex LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1
                                          false
                                          LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_8)
-       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_3 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 561))
+       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_3 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 1703))
        (and (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_3 true))
                (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_3 LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_8))
             (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_3 false))
@@ -223,7 +223,7 @@
        (LatchCaptureCheck_Docked_ex LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1
                                     false
                                     LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_9)
-       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_2 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 559))
+       (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_2 (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1 1701))
        (and (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_2 false))
                (and (= LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_2 LatchCapture_LatchCaptureCheck_ex.idLatchCapture_LatchCaptureCheck_1)
                     (and (or (not (= LatchCapture_LatchCaptureCheck_ex.__LatchCapture_LatchCaptureCheck_ex_3 true))
@@ -290,7 +290,7 @@
        (latch_Opening_ex LatchCapture_latch_ex.idLatchCapture_latch_1
                          false
                          LatchCapture_latch_ex.__LatchCapture_latch_ex_7)
-       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_6 (= LatchCapture_latch_ex.idLatchCapture_latch_1 574))
+       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_6 (= LatchCapture_latch_ex.idLatchCapture_latch_1 1716))
        (and (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_6 true))
                (= LatchCapture_latch_ex.idLatchCapture_latch_6 LatchCapture_latch_ex.__LatchCapture_latch_ex_7))
             (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_6 false))
@@ -299,7 +299,7 @@
        (latch_Mated_ex LatchCapture_latch_ex.idLatchCapture_latch_1
                        false
                        LatchCapture_latch_ex.__LatchCapture_latch_ex_8)
-       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_5 (= LatchCapture_latch_ex.idLatchCapture_latch_1 571))
+       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_5 (= LatchCapture_latch_ex.idLatchCapture_latch_1 1713))
        (and (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_5 true))
                (= LatchCapture_latch_ex.idLatchCapture_latch_5 LatchCapture_latch_ex.__LatchCapture_latch_ex_8))
             (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_5 false))
@@ -308,13 +308,13 @@
        (latch_Closing_ex LatchCapture_latch_ex.idLatchCapture_latch_1
                          false
                          LatchCapture_latch_ex.__LatchCapture_latch_ex_9)
-       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_4 (= LatchCapture_latch_ex.idLatchCapture_latch_1 570))
+       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_4 (= LatchCapture_latch_ex.idLatchCapture_latch_1 1712))
        (and (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_4 true))
                (= LatchCapture_latch_ex.idLatchCapture_latch_4 LatchCapture_latch_ex.__LatchCapture_latch_ex_9))
             (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_4 false))
                (= LatchCapture_latch_ex.idLatchCapture_latch_4 LatchCapture_latch_ex.idLatchCapture_latch_1))
        )
-       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_3 (= LatchCapture_latch_ex.idLatchCapture_latch_1 564))
+       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_3 (= LatchCapture_latch_ex.idLatchCapture_latch_1 1706))
        (latch_Open_ex LatchCapture_latch_ex.idLatchCapture_latch_1
                       false
                       LatchCapture_latch_ex.__LatchCapture_latch_ex_10)
@@ -323,7 +323,7 @@
             (or (not (= LatchCapture_latch_ex.__LatchCapture_latch_ex_3 false))
                (= LatchCapture_latch_ex.idLatchCapture_latch_3 LatchCapture_latch_ex.idLatchCapture_latch_1))
        )
-       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_2 (= LatchCapture_latch_ex.idLatchCapture_latch_1 556))
+       (= LatchCapture_latch_ex.__LatchCapture_latch_ex_2 (= LatchCapture_latch_ex.idLatchCapture_latch_1 1698))
        (latch_ClosedButUnmated_ex LatchCapture_latch_ex.idLatchCapture_latch_1
                                   false
                                   LatchCapture_latch_ex.__LatchCapture_latch_ex_11)
@@ -364,7 +364,7 @@
 (declare-var LatchCaptureCheck_CheckLatchMated_en.idLatchCapture_LatchCaptureCheck Int)
 (declare-rel LatchCaptureCheck_CheckLatchMated_en (Int Bool Int))
 (rule (=> 
-  (= LatchCaptureCheck_CheckLatchMated_en.idLatchCapture_LatchCaptureCheck 569)
+  (= LatchCaptureCheck_CheckLatchMated_en.idLatchCapture_LatchCaptureCheck 1711)
   (LatchCaptureCheck_CheckLatchMated_en LatchCaptureCheck_CheckLatchMated_en.idLatchCapture_LatchCaptureCheck_1 LatchCaptureCheck_CheckLatchMated_en.isInner LatchCaptureCheck_CheckLatchMated_en.idLatchCapture_LatchCaptureCheck)
 ))
 
@@ -382,7 +382,7 @@
             (or (not (= (not LatchCaptureCheck_CheckLatchOpen_en.isInner) false))
                (= LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer_2 LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer_1))
        )
-       (= LatchCaptureCheck_CheckLatchOpen_en.idLatchCapture_LatchCaptureCheck 562)
+       (= LatchCaptureCheck_CheckLatchOpen_en.idLatchCapture_LatchCaptureCheck 1704)
        (= LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer_2)
        )
   (LatchCaptureCheck_CheckLatchOpen_en LatchCaptureCheck_CheckLatchOpen_en.idLatchCapture_LatchCaptureCheck_1 LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer_1 LatchCaptureCheck_CheckLatchOpen_en.isInner LatchCaptureCheck_CheckLatchOpen_en.idLatchCapture_LatchCaptureCheck LatchCaptureCheck_CheckLatchOpen_en.LatchCapture_timer)
@@ -402,7 +402,7 @@
             (or (not (= (not LatchCaptureCheck_Docked_en.isInner) false))
                (= LatchCaptureCheck_Docked_en.LatchCaptureComplete_2 LatchCaptureCheck_Docked_en.LatchCaptureComplete_1))
        )
-       (= LatchCaptureCheck_Docked_en.idLatchCapture_LatchCaptureCheck 559)
+       (= LatchCaptureCheck_Docked_en.idLatchCapture_LatchCaptureCheck 1701)
        (= LatchCaptureCheck_Docked_en.LatchCaptureComplete LatchCaptureCheck_Docked_en.LatchCaptureComplete_2)
        )
   (LatchCaptureCheck_Docked_en LatchCaptureCheck_Docked_en.idLatchCapture_LatchCaptureCheck_1 LatchCaptureCheck_Docked_en.LatchCaptureComplete_1 LatchCaptureCheck_Docked_en.isInner LatchCaptureCheck_Docked_en.idLatchCapture_LatchCaptureCheck LatchCaptureCheck_Docked_en.LatchCaptureComplete)
@@ -414,7 +414,7 @@
 (declare-var LatchCaptureCheck_LatchFailed_en.idLatchCapture_LatchCaptureCheck Int)
 (declare-rel LatchCaptureCheck_LatchFailed_en (Int Bool Int))
 (rule (=> 
-  (= LatchCaptureCheck_LatchFailed_en.idLatchCapture_LatchCaptureCheck 561)
+  (= LatchCaptureCheck_LatchFailed_en.idLatchCapture_LatchCaptureCheck 1703)
   (LatchCaptureCheck_LatchFailed_en LatchCaptureCheck_LatchFailed_en.idLatchCapture_LatchCaptureCheck_1 LatchCaptureCheck_LatchFailed_en.isInner LatchCaptureCheck_LatchFailed_en.idLatchCapture_LatchCaptureCheck)
 ))
 
@@ -434,7 +434,7 @@
                (= latch_ClosedButUnmated_en.latch_status_2 latch_ClosedButUnmated_en.latch_status_1))
        )
        (= latch_ClosedButUnmated_en.latch_status latch_ClosedButUnmated_en.latch_status_2)
-       (= latch_ClosedButUnmated_en.idLatchCapture_latch 556)
+       (= latch_ClosedButUnmated_en.idLatchCapture_latch 1698)
        )
   (latch_ClosedButUnmated_en latch_ClosedButUnmated_en.idLatchCapture_latch_1 latch_ClosedButUnmated_en.CLOSEDBUTUNMATED latch_ClosedButUnmated_en.latch_status_1 latch_ClosedButUnmated_en.isInner latch_ClosedButUnmated_en.idLatchCapture_latch latch_ClosedButUnmated_en.latch_status)
 ))
@@ -455,7 +455,7 @@
                (= latch_Closing_en.latch_status_2 latch_Closing_en.latch_status_1))
        )
        (= latch_Closing_en.latch_status latch_Closing_en.latch_status_2)
-       (= latch_Closing_en.idLatchCapture_latch 570)
+       (= latch_Closing_en.idLatchCapture_latch 1712)
        )
   (latch_Closing_en latch_Closing_en.idLatchCapture_latch_1 latch_Closing_en.INDETERMINATE latch_Closing_en.latch_status_1 latch_Closing_en.isInner latch_Closing_en.idLatchCapture_latch latch_Closing_en.latch_status)
 ))
@@ -476,7 +476,7 @@
                (= latch_Mated_en.latch_status_2 latch_Mated_en.latch_status_1))
        )
        (= latch_Mated_en.latch_status latch_Mated_en.latch_status_2)
-       (= latch_Mated_en.idLatchCapture_latch 571)
+       (= latch_Mated_en.idLatchCapture_latch 1713)
        )
   (latch_Mated_en latch_Mated_en.idLatchCapture_latch_1 latch_Mated_en.MATED latch_Mated_en.latch_status_1 latch_Mated_en.isInner latch_Mated_en.idLatchCapture_latch latch_Mated_en.latch_status)
 ))
@@ -497,7 +497,7 @@
                (= latch_Open_en.latch_status_2 latch_Open_en.latch_status_1))
        )
        (= latch_Open_en.latch_status latch_Open_en.latch_status_2)
-       (= latch_Open_en.idLatchCapture_latch 564)
+       (= latch_Open_en.idLatchCapture_latch 1706)
        )
   (latch_Open_en latch_Open_en.idLatchCapture_latch_1 latch_Open_en.OPEN latch_Open_en.latch_status_1 latch_Open_en.isInner latch_Open_en.idLatchCapture_latch latch_Open_en.latch_status)
 ))
@@ -518,7 +518,7 @@
                (= latch_Opening_en.latch_status_2 latch_Opening_en.latch_status_1))
        )
        (= latch_Opening_en.latch_status latch_Opening_en.latch_status_2)
-       (= latch_Opening_en.idLatchCapture_latch 574)
+       (= latch_Opening_en.idLatchCapture_latch 1716)
        )
   (latch_Opening_en latch_Opening_en.idLatchCapture_latch_1 latch_Opening_en.INDETERMINATE latch_Opening_en.latch_status_1 latch_Opening_en.isInner latch_Opening_en.idLatchCapture_latch latch_Opening_en.latch_status)
 ))
@@ -529,7 +529,7 @@
 (declare-var MissionPhaseStates_JointStabilize_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_JointStabilize_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_JointStabilize_en.idChart_MissionPhaseStates 557)
+  (= MissionPhaseStates_JointStabilize_en.idChart_MissionPhaseStates 1699)
   (MissionPhaseStates_JointStabilize_en MissionPhaseStates_JointStabilize_en.idChart_MissionPhaseStates_1 MissionPhaseStates_JointStabilize_en.isInner MissionPhaseStates_JointStabilize_en.idChart_MissionPhaseStates)
 ))
 
@@ -585,7 +585,7 @@
 (declare-var MissionPhaseStates_DockingApproach_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_DockingApproach_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_DockingApproach_en.idChart_MissionPhaseStates 560)
+  (= MissionPhaseStates_DockingApproach_en.idChart_MissionPhaseStates 1702)
   (MissionPhaseStates_DockingApproach_en MissionPhaseStates_DockingApproach_en.idChart_MissionPhaseStates_1 MissionPhaseStates_DockingApproach_en.isInner MissionPhaseStates_DockingApproach_en.idChart_MissionPhaseStates)
 ))
 
@@ -635,7 +635,7 @@
   (and (LatchCaptureCheck_CheckLatchMated_en LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1
                                              false
                                              LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_6)
-       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 569))
+       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 1711))
        (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 true))
                (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_7 LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_6))
             (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 false))
@@ -644,7 +644,7 @@
        (LatchCaptureCheck_LatchFailed_en LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1
                                          false
                                          LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_9)
-       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 561))
+       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 1703))
        (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 true))
                (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_5 LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_9))
             (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 false))
@@ -655,8 +655,8 @@
                                             false
                                             LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_7
                                             LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_8)
-       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_4 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 562))
-       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_2 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 559))
+       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_4 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 1704))
+       (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_2 (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1 1701))
        (LatchCaptureCheck_Docked_en LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1
                                     LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_1
                                     false
@@ -692,7 +692,7 @@
                (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_2 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_1))
        )
        (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_1 false))
-               (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3 577)
+               (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3 1719)
                     (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_3 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1)
                     (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_3 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_1)
                     (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_2)
@@ -700,7 +700,7 @@
                             (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 false))
                                     (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_4 false))
                                             (and (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 false))
-                                                    (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 577)
+                                                    (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 1719)
                                                          (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_8 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_1)
                                                          (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_1)
                                                          (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_1)
@@ -709,8 +709,8 @@
                                                  (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_5 true))
                                                     (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3)
                                                          (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_8 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_7)
-                                                         (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_4)
-                                                         (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_2)
+                                                         (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_1)
+                                                         (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_1)
                                                          (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_4 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3)
                                                          ))
                                             ))
@@ -718,29 +718,29 @@
                                             (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3)
                                                  (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_8 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_6)
                                                  (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_4)
-                                                 (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_2)
+                                                 (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_1)
                                                  (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_4 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3)
                                                  ))
                                     ))
                                  (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_3 true))
                                     (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3)
                                          (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_8 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_5)
-                                         (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_3)
-                                         (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_2)
+                                         (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_1)
+                                         (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_1)
                                          (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_4 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3)
                                          ))
                             ))
                          (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_2 true))
                             (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_4 LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3)
                                  (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_8 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_4)
-                                 (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_3)
+                                 (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_5 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_1)
                                  (= LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_3 LatchCapture_LatchCaptureCheck_en.LatchCaptureComplete_2)
                                  (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_4 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3)
                                  ))
                     )
                     ))
             (or (not (= LatchCapture_LatchCaptureCheck_en.__LatchCapture_LatchCaptureCheck_en_1 true))
-               (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3 577)
+               (and (= LatchCapture_LatchCaptureCheck_en.idMissionPhaseStates_LatchCapture_3 1719)
                     (= LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_3 LatchCapture_LatchCaptureCheck_en.idLatchCapture_LatchCaptureCheck_2)
                     (= LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_3 LatchCapture_LatchCaptureCheck_en.LatchCapture_timer_2)
                     (= LatchCapture_LatchCaptureCheck_en.AttemptingToDock_3 LatchCapture_LatchCaptureCheck_en.AttemptingToDock_2)
@@ -814,7 +814,7 @@
                          false
                          LatchCapture_latch_en.__LatchCapture_latch_en_7
                          LatchCapture_latch_en.__LatchCapture_latch_en_8)
-       (= LatchCapture_latch_en.__LatchCapture_latch_en_6 (= LatchCapture_latch_en.idLatchCapture_latch_1 574))
+       (= LatchCapture_latch_en.__LatchCapture_latch_en_6 (= LatchCapture_latch_en.idLatchCapture_latch_1 1716))
        (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_6 false))
                (and (= LatchCapture_latch_en.latch_status_8 LatchCapture_latch_en.latch_status_1)
                     (= LatchCapture_latch_en.idLatchCapture_latch_8 LatchCapture_latch_en.idLatchCapture_latch_1)
@@ -824,7 +824,7 @@
                     (= LatchCapture_latch_en.idLatchCapture_latch_8 LatchCapture_latch_en.__LatchCapture_latch_en_7)
                     ))
        )
-       (= LatchCapture_latch_en.__LatchCapture_latch_en_5 (= LatchCapture_latch_en.idLatchCapture_latch_1 571))
+       (= LatchCapture_latch_en.__LatchCapture_latch_en_5 (= LatchCapture_latch_en.idLatchCapture_latch_1 1713))
        (latch_Mated_en LatchCapture_latch_en.idLatchCapture_latch_1
                        LatchCapture_latch_en.MATED
                        LatchCapture_latch_en.latch_status_1
@@ -840,7 +840,7 @@
                     (= LatchCapture_latch_en.idLatchCapture_latch_7 LatchCapture_latch_en.__LatchCapture_latch_en_9)
                     ))
        )
-       (= LatchCapture_latch_en.__LatchCapture_latch_en_4 (= LatchCapture_latch_en.idLatchCapture_latch_1 570))
+       (= LatchCapture_latch_en.__LatchCapture_latch_en_4 (= LatchCapture_latch_en.idLatchCapture_latch_1 1712))
        (latch_Closing_en LatchCapture_latch_en.idLatchCapture_latch_1
                          LatchCapture_latch_en.INDETERMINATE
                          LatchCapture_latch_en.latch_status_1
@@ -856,7 +856,7 @@
                     (= LatchCapture_latch_en.idLatchCapture_latch_6 LatchCapture_latch_en.__LatchCapture_latch_en_11)
                     ))
        )
-       (= LatchCapture_latch_en.__LatchCapture_latch_en_3 (= LatchCapture_latch_en.idLatchCapture_latch_1 564))
+       (= LatchCapture_latch_en.__LatchCapture_latch_en_3 (= LatchCapture_latch_en.idLatchCapture_latch_1 1706))
        (latch_Open_en LatchCapture_latch_en.idLatchCapture_latch_1
                       LatchCapture_latch_en.OPEN
                       LatchCapture_latch_en.latch_status_1
@@ -872,7 +872,7 @@
                     (= LatchCapture_latch_en.idLatchCapture_latch_5 LatchCapture_latch_en.__LatchCapture_latch_en_13)
                     ))
        )
-       (= LatchCapture_latch_en.__LatchCapture_latch_en_2 (= LatchCapture_latch_en.idLatchCapture_latch_1 556))
+       (= LatchCapture_latch_en.__LatchCapture_latch_en_2 (= LatchCapture_latch_en.idLatchCapture_latch_1 1698))
        (latch_ClosedButUnmated_en LatchCapture_latch_en.idLatchCapture_latch_1
                                   LatchCapture_latch_en.CLOSEDBUTUNMATED
                                   LatchCapture_latch_en.latch_status_1
@@ -897,7 +897,7 @@
        (= LatchCapture_latch_en.__LatchCapture_latch_en_1 (= LatchCapture_latch_en.idLatchCapture_latch_1 0))
        (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_1 false))
                (and (= LatchCapture_latch_en.latch_status_3 LatchCapture_latch_en.latch_status_1)
-                    (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_3 578)
+                    (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_3 1720)
                     (= LatchCapture_latch_en.idLatchCapture_latch_3 LatchCapture_latch_en.idLatchCapture_latch_1)
                     (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_2 false))
                             (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_3 false))
@@ -905,7 +905,7 @@
                                             (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_5 false))
                                                     (and (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_6 false))
                                                             (and (= LatchCapture_latch_en.latch_status_9 LatchCapture_latch_en.latch_status_1)
-                                                                 (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_4 578)
+                                                                 (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_4 1720)
                                                                  (= LatchCapture_latch_en.idLatchCapture_latch_9 LatchCapture_latch_en.idLatchCapture_latch_1)
                                                                  ))
                                                          (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_6 true))
@@ -941,7 +941,7 @@
                     ))
             (or (not (= LatchCapture_latch_en.__LatchCapture_latch_en_1 true))
                (and (= LatchCapture_latch_en.latch_status_3 LatchCapture_latch_en.latch_status_2)
-                    (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_3 578)
+                    (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_3 1720)
                     (= LatchCapture_latch_en.idLatchCapture_latch_3 LatchCapture_latch_en.idLatchCapture_latch_2)
                     (= LatchCapture_latch_en.latch_status_9 LatchCapture_latch_en.latch_status_3)
                     (= LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_4 LatchCapture_latch_en.idMissionPhaseStates_LatchCapture_3)
@@ -1014,110 +1014,110 @@
   (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED_IDL_unless latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED_IDL_unless.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED_IDL_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED_IDL_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED_IDL_unless.latchcapture_latchcapturecheck__state_act)
 ))
 
-; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_1 Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_1 Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__restart_in Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_out Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_out Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_2 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_3 Int)
-(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until (Int Int Bool Int Int Int Bool Bool latchcapture_latchcapturecheck__type Bool Bool Int Int Int Int Int))
+; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_1 Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_1 Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__restart_in Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_out Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_out Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_2 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_3 Int)
+(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until (Int Int Bool Int Int Int Bool Bool latchcapture_latchcapturecheck__type Bool Bool Int Int Int Int Int))
 (rule (=> 
-  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__state_in POINTLatchCapture_LatchCaptureCheck)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__restart_in true)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_1)
-       (LatchCaptureCheck_CheckLatchMated_ex latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_1
+  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__state_in POINTLatchCapture_LatchCaptureCheck)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__restart_in true)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_1)
+       (LatchCaptureCheck_CheckLatchMated_ex latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_1
                                              false
-                                             latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_2)
-       (LatchCaptureCheck_LatchFailed_en latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_2
+                                             latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_2)
+       (LatchCaptureCheck_LatchFailed_en latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_2
                                          false
-                                         latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_3)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_3)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_1)
+                                         latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_3)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_3)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_1)
        )
-  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until.idMissionPhaseStates_LatchCapture_out)
+  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until.idMissionPhaseStates_LatchCapture_out)
 ))
 
-; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_in Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_act Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__type)
-(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless (Bool latchcapture_latchcapturecheck__type Bool latchcapture_latchcapturecheck__type))
+; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_in Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_act Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__type)
+(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless (Bool latchcapture_latchcapturecheck__type Bool latchcapture_latchcapturecheck__type))
 (rule (=> 
-  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_in)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_in)
+  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_in)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_in)
        )
-  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless.latchcapture_latchcapturecheck__state_act)
+  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless.latchcapture_latchcapturecheck__state_act)
 ))
 
-; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_1 Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_1 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_1 Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__restart_in Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_out Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_out Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_out Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_2 Int)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_3 Int)
-(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until (Int Int Bool Int Int Int Bool Bool latchcapture_latchcapturecheck__type Bool Bool Int Int Int Int Int))
+; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_1 Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_1 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_1 Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__restart_in Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_out Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_out Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_out Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_2 Int)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_3 Int)
+(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until (Int Int Bool Int Int Int Bool Bool latchcapture_latchcapturecheck__type Bool Bool Int Int Int Int Int))
 (rule (=> 
-  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__state_in POINTLatchCapture_LatchCaptureCheck)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__restart_in true)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_1)
-       (LatchCaptureCheck_CheckLatchMated_ex latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_1
+  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__state_in POINTLatchCapture_LatchCaptureCheck)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__restart_in true)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_1)
+       (LatchCaptureCheck_CheckLatchMated_ex latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_1
                                              false
-                                             latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_2)
-       (LatchCaptureCheck_LatchFailed_en latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_2
+                                             latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_2)
+       (LatchCaptureCheck_LatchFailed_en latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_2
                                          false
-                                         latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_3)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_3)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_1)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_1)
+                                         latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_3)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_3)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_1)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_1)
        )
-  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until.idMissionPhaseStates_LatchCapture_out)
+  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_1 latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.AttemptingToDock_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCaptureComplete_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.LatchCapture_timer_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idChart_MissionPhaseStates_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_LatchCaptureCheck_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idLatchCapture_latch_out latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until.idMissionPhaseStates_LatchCapture_out)
 ))
 
-; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_in Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_act Bool)
-(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__type)
-(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless (Bool latchcapture_latchcapturecheck__type Bool latchcapture_latchcapturecheck__type))
+; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_in Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__type)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_act Bool)
+(declare-var latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__type)
+(declare-rel latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless (Bool latchcapture_latchcapturecheck__type Bool latchcapture_latchcapturecheck__type))
 (rule (=> 
-  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_in)
-       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_in)
+  (and (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_in)
+       (= latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_in)
        )
-  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless.latchcapture_latchcapturecheck__state_act)
+  (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_in latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__restart_act latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless.latchcapture_latchcapturecheck__state_act)
 ))
 
 ; latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__LATCHCAPTURECHECK_DOCKED_1_handler_until
@@ -1603,15 +1603,15 @@
 (declare-var latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_9 Bool)
 (declare-rel latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless (Bool latchcapture_latchcapturecheck__type Int Int Int Int Int Int Int Bool latchcapture_latchcapturecheck__type))
 (rule (=> 
-  (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_9 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 562))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_8 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 569) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_upper_limit)))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_7 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 569) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.CLOSEDBUTUNMATED)))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_6 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 569) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.MATED)))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_5 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 562) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_upper_limit)))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_4 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 562) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.OPEN)))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_3 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 561))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_2 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 559))
-       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_10 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 569))
+  (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_9 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1704))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_8 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1711) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_upper_limit)))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_7 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1711) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.CLOSEDBUTUNMATED)))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_6 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1711) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.MATED)))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_5 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1704) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.LatchCapture_timer_upper_limit)))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_4 (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1704) (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latch_status_1 latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.OPEN)))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_3 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1703))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_2 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1701))
+       (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_10 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 1711))
        (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_1 (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.idLatchCapture_LatchCaptureCheck_1 0))
        (and (or (not (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_1 false))
                (and (or (not (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_2 false))
@@ -1659,12 +1659,12 @@
                                                                     ))
                                                                     (or (not (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_8 true))
                                                                     (and 
-                                                                    (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3)
+                                                                    (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3)
                                                                     (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__restart_act true)
                                                                     ))
                                                                ))
                                                             (or (not (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.__latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless_7 true))
-                                                               (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2)
+                                                               (and (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2)
                                                                     (= latchcapture_latchcapturecheck__POINTLatchCapture_LatchCaptureCheck_unless.latchcapture_latchcapturecheck__restart_act true)
                                                                     ))
                                                        ))
@@ -1784,47 +1784,47 @@
   (latchcapture_latch__LATCH_CLOSEDBUTUNMATED_IDL_unless latchcapture_latch__LATCH_CLOSEDBUTUNMATED_IDL_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED_IDL_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED_IDL_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED_IDL_unless.latchcapture_latch__state_act)
 ))
 
-; latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1 Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1 Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2 Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3 Int)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2 Int)
-(declare-rel latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
+; latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1 Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1 Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2 Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3 Int)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2 Int)
+(declare-rel latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
-       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in true)
-       (latch_ClosedButUnmated_ex latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1
+  (and (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
+       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in true)
+       (latch_ClosedButUnmated_ex latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1
                                   false
-                                  latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2)
-       (latch_Opening_en latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2
-                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE
-                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1
+                                  latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2)
+       (latch_Opening_en latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2
+                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE
+                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1
                          false
-                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3
-                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3)
+                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3
+                         latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3)
        )
-  (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1 latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out)
+  (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1 latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out)
 ))
 
-; latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act Bool)
-(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act latchcapture_latch__type)
-(declare-rel latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
+; latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act Bool)
+(declare-var latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act latchcapture_latch__type)
+(declare-rel latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in)
-       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in)
+  (and (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in)
+       (= latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in)
        )
-  (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act)
+  (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act)
 ))
 
 ; latchcapture_latch__LATCH_CLOSING_IDL_handler_until
@@ -1857,47 +1857,47 @@
   (latchcapture_latch__LATCH_CLOSING_IDL_unless latchcapture_latch__LATCH_CLOSING_IDL_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSING_IDL_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSING_IDL_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSING_IDL_unless.latchcapture_latch__state_act)
 ))
 
-; latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_1 Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.INDETERMINATE Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_1 Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_out Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_out Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_2 Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_3 Int)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_2 Int)
-(declare-rel latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
+; latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_1 Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.INDETERMINATE Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_1 Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_out Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_out Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_2 Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_3 Int)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_2 Int)
+(declare-rel latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
-       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__restart_in true)
-       (latch_Closing_ex latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_1
+  (and (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
+       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__restart_in true)
+       (latch_Closing_ex latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_1
                          false
-                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_2)
-       (latch_Opening_en latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_2
-                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.INDETERMINATE
-                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_1
+                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_2)
+       (latch_Opening_en latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_2
+                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.INDETERMINATE
+                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_1
                          false
-                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_3
-                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_3)
+                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_3
+                         latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_3)
        )
-  (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.INDETERMINATE latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_1 latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until.latch_status_out)
+  (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.INDETERMINATE latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_1 latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until.latch_status_out)
 ))
 
-; latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_act Bool)
-(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_act latchcapture_latch__type)
-(declare-rel latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
+; latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_act Bool)
+(declare-var latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_act latchcapture_latch__type)
+(declare-rel latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_in)
-       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_in)
+  (and (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_in)
+       (= latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_in)
        )
-  (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless.latchcapture_latch__state_act)
+  (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless.latchcapture_latch__state_act)
 ))
 
 ; latchcapture_latch__LATCH_CLOSING__TO__LATCH_CLOSEDBUTUNMATED_3_handler_until
@@ -2016,47 +2016,47 @@
   (latchcapture_latch__LATCH_MATED_IDL_unless latchcapture_latch__LATCH_MATED_IDL_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_MATED_IDL_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_MATED_IDL_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_MATED_IDL_unless.latchcapture_latch__state_act)
 ))
 
-; latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1 Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1 Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2 Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3 Int)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2 Int)
-(declare-rel latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
+; latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1 Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1 Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2 Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3 Int)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2 Int)
+(declare-rel latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until (Int Int Int Bool latchcapture_latch__type Int Int))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
-       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in true)
-       (latch_Mated_ex latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1
+  (and (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in POINTLatchCapture_latch)
+       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in true)
+       (latch_Mated_ex latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1
                        false
-                       latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2)
-       (latch_Opening_en latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_2
-                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE
-                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1
+                       latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2)
+       (latch_Opening_en latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_2
+                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE
+                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1
                          false
-                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3
-                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_2)
-       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_3)
+                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3
+                         latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_2)
+       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_3)
        )
-  (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.INDETERMINATE latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_1 latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until.latch_status_out)
+  (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_1 latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.INDETERMINATE latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_1 latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__restart_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latchcapture_latch__state_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.idLatchCapture_latch_out latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until.latch_status_out)
 ))
 
-; latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in Bool)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in latchcapture_latch__type)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act Bool)
-(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act latchcapture_latch__type)
-(declare-rel latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
+; latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in Bool)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in latchcapture_latch__type)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act Bool)
+(declare-var latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act latchcapture_latch__type)
+(declare-rel latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless (Bool latchcapture_latch__type Bool latchcapture_latch__type))
 (rule (=> 
-  (and (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in)
-       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in)
+  (and (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in)
+       (= latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in)
        )
-  (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless.latchcapture_latch__state_act)
+  (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_in latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__restart_act latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless.latchcapture_latch__state_act)
 ))
 
 ; latchcapture_latch__LATCH_OPENING_IDL_handler_until
@@ -2279,11 +2279,11 @@
 (declare-var latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_6 Bool)
 (declare-rel latchcapture_latch__POINTLatchCapture_latch_unless (Bool latchcapture_latch__type Int Bool latchcapture_latch__type))
 (rule (=> 
-  (and (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_6 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 574))
-       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_5 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 571))
-       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_4 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 570))
-       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_3 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 564))
-       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_2 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 556))
+  (and (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_6 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 1716))
+       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_5 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 1713))
+       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_4 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 1712))
+       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_3 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 1706))
+       (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_2 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 1698))
        (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_1 (= latchcapture_latch__POINTLatchCapture_latch_unless.idLatchCapture_latch_1 0))
        (and (or (not (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_1 false))
                (and (or (not (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_2 false))
@@ -2352,7 +2352,7 @@
                                                                     ))
                                                                ))
                                                             (or (not (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_5 true))
-                                                               (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_MATED__TO__CHART_CHARTJUNCTION609_1)
+                                                               (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1)
                                                                     (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__restart_act true)
                                                                     ))
                                                        ))
@@ -2362,7 +2362,7 @@
                                                             ))
                                                ))
                                             (or (not (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_4 true))
-                                               (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2)
+                                               (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2)
                                                     (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__restart_act true)
                                                     ))
                                        ))
@@ -2377,7 +2377,7 @@
                                     ))
                        ))
                     (or (not (= latchcapture_latch__POINTLatchCapture_latch_unless.__latchcapture_latch__POINTLatchCapture_latch_unless_2 true))
-                       (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1)
+                       (and (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__state_act LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1)
                             (= latchcapture_latch__POINTLatchCapture_latch_unless.latchcapture_latch__restart_act true)
                             ))
                ))
@@ -2461,7 +2461,7 @@
 (declare-var MissionPhaseStates_ProximityOperations_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_ProximityOperations_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_ProximityOperations_en.idChart_MissionPhaseStates 567)
+  (= MissionPhaseStates_ProximityOperations_en.idChart_MissionPhaseStates 1709)
   (MissionPhaseStates_ProximityOperations_en MissionPhaseStates_ProximityOperations_en.idChart_MissionPhaseStates_1 MissionPhaseStates_ProximityOperations_en.isInner MissionPhaseStates_ProximityOperations_en.idChart_MissionPhaseStates)
 ))
 
@@ -2488,7 +2488,7 @@
 (declare-var MissionPhaseStates_CollisionAvoidanceManuever_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_CollisionAvoidanceManuever_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_CollisionAvoidanceManuever_en.idChart_MissionPhaseStates 563)
+  (= MissionPhaseStates_CollisionAvoidanceManuever_en.idChart_MissionPhaseStates 1705)
   (MissionPhaseStates_CollisionAvoidanceManuever_en MissionPhaseStates_CollisionAvoidanceManuever_en.idChart_MissionPhaseStates_1 MissionPhaseStates_CollisionAvoidanceManuever_en.isInner MissionPhaseStates_CollisionAvoidanceManuever_en.idChart_MissionPhaseStates)
 ))
 
@@ -2507,7 +2507,7 @@
 (declare-var MissionPhaseStates_ApproachOrbit_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_ApproachOrbit_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_ApproachOrbit_en.idChart_MissionPhaseStates 565)
+  (= MissionPhaseStates_ApproachOrbit_en.idChart_MissionPhaseStates 1707)
   (MissionPhaseStates_ApproachOrbit_en MissionPhaseStates_ApproachOrbit_en.idChart_MissionPhaseStates_1 MissionPhaseStates_ApproachOrbit_en.isInner MissionPhaseStates_ApproachOrbit_en.idChart_MissionPhaseStates)
 ))
 
@@ -2570,7 +2570,7 @@
             (or (not (= (not MissionPhaseStates_FailedApproach_en.isInner) false))
                (= MissionPhaseStates_FailedApproach_en.FailedApproach_2 MissionPhaseStates_FailedApproach_en.FailedApproach_1))
        )
-       (= MissionPhaseStates_FailedApproach_en.idChart_MissionPhaseStates 576)
+       (= MissionPhaseStates_FailedApproach_en.idChart_MissionPhaseStates 1718)
        (= MissionPhaseStates_FailedApproach_en.FailedApproach MissionPhaseStates_FailedApproach_en.FailedApproach_2)
        )
   (MissionPhaseStates_FailedApproach_en MissionPhaseStates_FailedApproach_en.idChart_MissionPhaseStates_1 MissionPhaseStates_FailedApproach_en.FailedApproach_1 MissionPhaseStates_FailedApproach_en.isInner MissionPhaseStates_FailedApproach_en.idChart_MissionPhaseStates MissionPhaseStates_FailedApproach_en.FailedApproach)
@@ -2599,7 +2599,7 @@
 (declare-var MissionPhaseStates_CaptureApproach_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_CaptureApproach_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_CaptureApproach_en.idChart_MissionPhaseStates 573)
+  (= MissionPhaseStates_CaptureApproach_en.idChart_MissionPhaseStates 1715)
   (MissionPhaseStates_CaptureApproach_en MissionPhaseStates_CaptureApproach_en.idChart_MissionPhaseStates_1 MissionPhaseStates_CaptureApproach_en.isInner MissionPhaseStates_CaptureApproach_en.idChart_MissionPhaseStates)
 ))
 
@@ -2687,7 +2687,7 @@
        (= MissionPhaseStates_LatchCapture_en.idMissionPhaseStates_LatchCapture MissionPhaseStates_LatchCapture_en.idMissionPhaseStates_LatchCapture_3)
        (= MissionPhaseStates_LatchCapture_en.idLatchCapture_latch MissionPhaseStates_LatchCapture_en.idLatchCapture_latch_2)
        (= MissionPhaseStates_LatchCapture_en.idLatchCapture_LatchCaptureCheck MissionPhaseStates_LatchCapture_en.idLatchCapture_LatchCaptureCheck_2)
-       (= MissionPhaseStates_LatchCapture_en.idChart_MissionPhaseStates 575)
+       (= MissionPhaseStates_LatchCapture_en.idChart_MissionPhaseStates 1717)
        (= MissionPhaseStates_LatchCapture_en.LatchCapture_timer MissionPhaseStates_LatchCapture_en.LatchCapture_timer_2)
        (= MissionPhaseStates_LatchCapture_en.LatchCaptureComplete MissionPhaseStates_LatchCapture_en.LatchCaptureComplete_2)
        (= MissionPhaseStates_LatchCapture_en.AttemptingToDock MissionPhaseStates_LatchCapture_en.AttemptingToDock_2)
@@ -2727,7 +2727,7 @@
 (declare-var MissionPhaseStates_Disengage_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_Disengage_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_Disengage_en.idChart_MissionPhaseStates 566)
+  (= MissionPhaseStates_Disengage_en.idChart_MissionPhaseStates 1708)
   (MissionPhaseStates_Disengage_en MissionPhaseStates_Disengage_en.idChart_MissionPhaseStates_1 MissionPhaseStates_Disengage_en.isInner MissionPhaseStates_Disengage_en.idChart_MissionPhaseStates)
 ))
 
@@ -2762,7 +2762,7 @@
             (or (not (= (not MissionPhaseStates_JointMission_en.isInner) false))
                (= MissionPhaseStates_JointMission_en.JointMission_2 MissionPhaseStates_JointMission_en.JointMission_1))
        )
-       (= MissionPhaseStates_JointMission_en.idChart_MissionPhaseStates 568)
+       (= MissionPhaseStates_JointMission_en.idChart_MissionPhaseStates 1710)
        (= MissionPhaseStates_JointMission_en.JointMission MissionPhaseStates_JointMission_en.JointMission_2)
        )
   (MissionPhaseStates_JointMission_en MissionPhaseStates_JointMission_en.idChart_MissionPhaseStates_1 MissionPhaseStates_JointMission_en.JointMission_1 MissionPhaseStates_JointMission_en.isInner MissionPhaseStates_JointMission_en.idChart_MissionPhaseStates MissionPhaseStates_JointMission_en.JointMission)
@@ -2805,13 +2805,13 @@
 (declare-var LatchCapture_LatchCaptureCheck_node.LatchCaptureComplete Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
+(declare-var LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
+(declare-var LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
+(declare-var LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_1 Bool)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_10 latchcapture_latchcapturecheck__type)
 (declare-var LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_100 latchcapture_latchcapturecheck__type)
@@ -2969,20 +2969,20 @@
   (and 
        (= LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
        (= LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-       (= LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m true)
+       (= LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m true)
   )
   (LatchCapture_LatchCaptureCheck_node_reset LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
                                              LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                             LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
+                                             LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
                                              LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
                                              LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                             LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
+                                             LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-       (and (= LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_144 (ite LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m true false))
-            (= LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x false))
+  (and (= LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+       (and (= LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_144 (ite LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m true false))
+            (= LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x false))
        (and (or (not (= LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_144 false))
                (and (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__restart_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
@@ -3001,8 +3001,8 @@
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_2)
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__restart_act LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_1)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2))
-               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_unless 
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2))
+               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_unless 
                     LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__restart_in
                     LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in
                     LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_11
@@ -3010,8 +3010,8 @@
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_12)
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__restart_act LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_11)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3))
-               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_unless 
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3))
+               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_unless 
                     LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__restart_in
                     LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_in
                     LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_9
@@ -3138,8 +3138,8 @@
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__next_state_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_28)
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__next_restart_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_27)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2))
-               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2_handler_until 
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2))
+               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2_handler_until 
                     LatchCapture_LatchCaptureCheck_node.idLatchCapture_LatchCaptureCheck_1
                     LatchCapture_LatchCaptureCheck_node.LatchCapture_timer_1
                     LatchCapture_LatchCaptureCheck_node.AttemptingToDock_1
@@ -3159,8 +3159,8 @@
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__next_state_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_73)
                     (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__next_restart_in LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_72)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3))
-               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3_handler_until 
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3))
+               (and (latchcapture_latchcapturecheck__LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3_handler_until 
                     LatchCapture_LatchCaptureCheck_node.idLatchCapture_LatchCaptureCheck_1
                     LatchCapture_LatchCaptureCheck_node.LatchCapture_timer_1
                     LatchCapture_LatchCaptureCheck_node.AttemptingToDock_1
@@ -3402,7 +3402,7 @@
                     (= LatchCapture_LatchCaptureCheck_node.LatchCaptureComplete LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_30)
                     (= LatchCapture_LatchCaptureCheck_node.AttemptingToDock LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_29)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_2))
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_2))
                (and (= LatchCapture_LatchCaptureCheck_node.idMissionPhaseStates_LatchCapture LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_80)
                     (= LatchCapture_LatchCaptureCheck_node.idLatchCapture_latch LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_79)
                     (= LatchCapture_LatchCaptureCheck_node.idLatchCapture_LatchCaptureCheck LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_78)
@@ -3411,7 +3411,7 @@
                     (= LatchCapture_LatchCaptureCheck_node.LatchCaptureComplete LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_75)
                     (= LatchCapture_LatchCaptureCheck_node.AttemptingToDock LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_74)
                     ))
-            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION601_3))
+            (or (not (= LatchCapture_LatchCaptureCheck_node.latchcapture_latchcapturecheck__state_act LATCHCAPTURECHECK_CHECKLATCHMATED__TO__CHART_CHARTJUNCTION1743_3))
                (and (= LatchCapture_LatchCaptureCheck_node.idMissionPhaseStates_LatchCapture LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_71)
                     (= LatchCapture_LatchCaptureCheck_node.idLatchCapture_latch LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_70)
                     (= LatchCapture_LatchCaptureCheck_node.idLatchCapture_LatchCaptureCheck LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_69)
@@ -3533,10 +3533,10 @@
                                             LatchCapture_LatchCaptureCheck_node.LatchCaptureComplete
                                             LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
                                             LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                            LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
+                                            LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
                                             LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
                                             LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                            LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+                                            LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
 ))
 
 ; LatchCapture_latch_node
@@ -3550,13 +3550,13 @@
 (declare-var LatchCapture_latch_node.latch_status Int)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var LatchCapture_latch_node.ni_14._arrow._first_c Bool)
+(declare-var LatchCapture_latch_node.ni_15._arrow._first_c Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var LatchCapture_latch_node.ni_14._arrow._first_m Bool)
+(declare-var LatchCapture_latch_node.ni_15._arrow._first_m Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var LatchCapture_latch_node.ni_14._arrow._first_x Bool)
+(declare-var LatchCapture_latch_node.ni_15._arrow._first_x Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_1 Bool)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_10 latchcapture_latch__type)
 (declare-var LatchCapture_latch_node.__LatchCapture_latch_node_11 Bool)
@@ -3661,20 +3661,20 @@
   (and 
        (= LatchCapture_latch_node.__LatchCapture_latch_node_92_m LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
        (= LatchCapture_latch_node.__LatchCapture_latch_node_93_m LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-       (= LatchCapture_latch_node.ni_14._arrow._first_m true)
+       (= LatchCapture_latch_node.ni_15._arrow._first_m true)
   )
   (LatchCapture_latch_node_reset LatchCapture_latch_node.__LatchCapture_latch_node_92_c
                                  LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                 LatchCapture_latch_node.ni_14._arrow._first_c
+                                 LatchCapture_latch_node.ni_15._arrow._first_c
                                  LatchCapture_latch_node.__LatchCapture_latch_node_92_m
                                  LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                 LatchCapture_latch_node.ni_14._arrow._first_m)
+                                 LatchCapture_latch_node.ni_15._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= LatchCapture_latch_node.ni_14._arrow._first_m LatchCapture_latch_node.ni_14._arrow._first_c)
-       (and (= LatchCapture_latch_node.__LatchCapture_latch_node_91 (ite LatchCapture_latch_node.ni_14._arrow._first_m true false))
-            (= LatchCapture_latch_node.ni_14._arrow._first_x false))
+  (and (= LatchCapture_latch_node.ni_15._arrow._first_m LatchCapture_latch_node.ni_15._arrow._first_c)
+       (and (= LatchCapture_latch_node.__LatchCapture_latch_node_91 (ite LatchCapture_latch_node.ni_15._arrow._first_m true false))
+            (= LatchCapture_latch_node.ni_15._arrow._first_x false))
        (and (or (not (= LatchCapture_latch_node.__LatchCapture_latch_node_91 false))
                (and (= LatchCapture_latch_node.latchcapture_latch__state_in LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
                     (= LatchCapture_latch_node.latchcapture_latch__restart_in LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
@@ -3693,8 +3693,8 @@
                     (= LatchCapture_latch_node.latchcapture_latch__state_act LatchCapture_latch_node.__LatchCapture_latch_node_10)
                     (= LatchCapture_latch_node.latchcapture_latch__restart_act LatchCapture_latch_node.__LatchCapture_latch_node_9)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1))
-               (and (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_unless 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1))
+               (and (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_unless 
                     LatchCapture_latch_node.latchcapture_latch__restart_in
                     LatchCapture_latch_node.latchcapture_latch__state_in
                     LatchCapture_latch_node.__LatchCapture_latch_node_25
@@ -3710,8 +3710,8 @@
                     (= LatchCapture_latch_node.latchcapture_latch__state_act LatchCapture_latch_node.__LatchCapture_latch_node_6)
                     (= LatchCapture_latch_node.latchcapture_latch__restart_act LatchCapture_latch_node.__LatchCapture_latch_node_5)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2))
-               (and (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_unless 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2))
+               (and (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_unless 
                     LatchCapture_latch_node.latchcapture_latch__restart_in
                     LatchCapture_latch_node.latchcapture_latch__state_in
                     LatchCapture_latch_node.__LatchCapture_latch_node_19
@@ -3745,8 +3745,8 @@
                     (= LatchCapture_latch_node.latchcapture_latch__state_act LatchCapture_latch_node.__LatchCapture_latch_node_4)
                     (= LatchCapture_latch_node.latchcapture_latch__restart_act LatchCapture_latch_node.__LatchCapture_latch_node_3)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_MATED__TO__CHART_CHARTJUNCTION609_1))
-               (and (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_unless 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_in LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1))
+               (and (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_unless 
                     LatchCapture_latch_node.latchcapture_latch__restart_in
                     LatchCapture_latch_node.latchcapture_latch__state_in
                     LatchCapture_latch_node.__LatchCapture_latch_node_15
@@ -3830,8 +3830,8 @@
                     (= LatchCapture_latch_node.latch_status LatchCapture_latch_node.__LatchCapture_latch_node_50)
                     (= LatchCapture_latch_node.idLatchCapture_latch LatchCapture_latch_node.__LatchCapture_latch_node_49)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1))
-               (and (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION609_1_handler_until 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1))
+               (and (latchcapture_latch__LATCH_CLOSEDBUTUNMATED__TO__CHART_CHARTJUNCTION1751_1_handler_until 
                     LatchCapture_latch_node.idLatchCapture_latch_1
                     LatchCapture_latch_node.INDETERMINATE
                     LatchCapture_latch_node.latch_status_1
@@ -3857,8 +3857,8 @@
                     (= LatchCapture_latch_node.latch_status LatchCapture_latch_node.__LatchCapture_latch_node_42)
                     (= LatchCapture_latch_node.idLatchCapture_latch LatchCapture_latch_node.__LatchCapture_latch_node_41)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2))
-               (and (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION609_2_handler_until 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2))
+               (and (latchcapture_latch__LATCH_CLOSING__TO__CHART_CHARTJUNCTION1751_2_handler_until 
                     LatchCapture_latch_node.idLatchCapture_latch_1
                     LatchCapture_latch_node.INDETERMINATE
                     LatchCapture_latch_node.latch_status_1
@@ -3912,8 +3912,8 @@
                     (= LatchCapture_latch_node.latch_status LatchCapture_latch_node.__LatchCapture_latch_node_38)
                     (= LatchCapture_latch_node.idLatchCapture_latch LatchCapture_latch_node.__LatchCapture_latch_node_37)
                     ))
-            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_MATED__TO__CHART_CHARTJUNCTION609_1))
-               (and (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION609_1_handler_until 
+            (or (not (= LatchCapture_latch_node.latchcapture_latch__state_act LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1))
+               (and (latchcapture_latch__LATCH_MATED__TO__CHART_CHARTJUNCTION1751_1_handler_until 
                     LatchCapture_latch_node.idLatchCapture_latch_1
                     LatchCapture_latch_node.INDETERMINATE
                     LatchCapture_latch_node.latch_status_1
@@ -4035,10 +4035,10 @@
                                 LatchCapture_latch_node.latch_status
                                 LatchCapture_latch_node.__LatchCapture_latch_node_92_c
                                 LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                LatchCapture_latch_node.ni_14._arrow._first_c
+                                LatchCapture_latch_node.ni_15._arrow._first_c
                                 LatchCapture_latch_node.__LatchCapture_latch_node_92_x
                                 LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                LatchCapture_latch_node.ni_14._arrow._first_x)
+                                LatchCapture_latch_node.ni_15._arrow._first_x)
 ))
 
 ; MissionPhaseStates_ProximityOperations__To__MissionPhaseStates_ApproachOrbit_1_Condition_Action
@@ -4073,7 +4073,7 @@
 (declare-var MissionPhaseStates_FarApproach_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_FarApproach_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_FarApproach_en.idChart_MissionPhaseStates 555)
+  (= MissionPhaseStates_FarApproach_en.idChart_MissionPhaseStates 1697)
   (MissionPhaseStates_FarApproach_en MissionPhaseStates_FarApproach_en.idChart_MissionPhaseStates_1 MissionPhaseStates_FarApproach_en.isInner MissionPhaseStates_FarApproach_en.idChart_MissionPhaseStates)
 ))
 
@@ -4109,7 +4109,7 @@
 (declare-var MissionPhaseStates_Start_en.idChart_MissionPhaseStates Int)
 (declare-rel MissionPhaseStates_Start_en (Int Bool Int))
 (rule (=> 
-  (= MissionPhaseStates_Start_en.idChart_MissionPhaseStates 558)
+  (= MissionPhaseStates_Start_en.idChart_MissionPhaseStates 1700)
   (MissionPhaseStates_Start_en MissionPhaseStates_Start_en.idChart_MissionPhaseStates_1 MissionPhaseStates_Start_en.isInner MissionPhaseStates_Start_en.idChart_MissionPhaseStates)
 ))
 
@@ -5771,24 +5771,24 @@
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_out Int)
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idMissionPhaseStates_LatchCapture_out Int)
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.latch_status_out Int)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.AttemptingToDock_2 Bool)
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.LatchCaptureComplete_2 Bool)
 (declare-var chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.LatchCapture_timer_2 Int)
@@ -5817,32 +5817,32 @@
 (rule (=> 
   (and 
        
-       (LatchCapture_LatchCaptureCheck_node_reset chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
-       (LatchCapture_latch_node_reset chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m)
+       (LatchCapture_LatchCaptureCheck_node_reset chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
+       (LatchCapture_latch_node_reset chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m)
   )
   (chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_reset 
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
 ))
 
 (rule (=> 
@@ -5855,9 +5855,9 @@
             (or (not (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_4 false))
                (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.LatchCapture_timer_2 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.LatchCapture_timer_1))
        )
-       (and (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+       (and (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
             )
        (LatchCapture_LatchCaptureCheck_node_step chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_LatchCaptureCheck_1
                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.LatchCapture_timer_2
@@ -5878,20 +5878,20 @@
                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_9
                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_10
                                                  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_11
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                                 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
        (and (or (not (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_4 true))
                (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_2 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_9))
             (or (not (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_4 false))
                (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_2 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_1))
        )
-       (and (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
+       (and (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+            (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
             )
        (LatchCapture_latch_node_step chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_2
                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.INDETERMINATE
@@ -5901,12 +5901,12 @@
                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.OPEN
                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_2
                                      chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_3
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x)
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                     chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x)
        (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_1 (not (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_2 0)))
        (and (or (not (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_1 true))
                (= chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.latch_status_2 chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.__chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_3))
@@ -6004,18 +6004,18 @@
   chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idLatchCapture_latch_out
   chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.idMissionPhaseStates_LatchCapture_out
   chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.latch_status_out
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+  chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
 ))
 
 ; chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_unless
@@ -6499,31 +6499,31 @@
 (declare-var chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_9 Bool)
 (declare-rel chart_missionphasestates__POINTChart_MissionPhaseStates_unless (Bool chart_missionphasestates__type Int Int Bool chart_missionphasestates__type))
 (rule (=> 
-  (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_9 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 555) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 5)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_8 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 566) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 7)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_7 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 567) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 3)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_6 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 567) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 1)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_5 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 565) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 2)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_4 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 563) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 6)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_3 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 563) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 8)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_26 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 575))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_25 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 557))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_24 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 568))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_23 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 576))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_22 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 555))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_21 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 566))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_20 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 567))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_2 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 558) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 0)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_19 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 565))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_18 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 563))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_17 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 558))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_16 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 557) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 10)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_15 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 557) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 9)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_14 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 560))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_13 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 560) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 6)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_12 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 573))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_11 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 573) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 5)))
-       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_10 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 555) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 4)))
+  (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_9 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1697) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 5)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_8 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1708) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 7)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_7 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1709) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 3)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_6 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1709) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 1)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_5 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1707) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 2)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_4 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1705) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 6)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_3 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1705) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 8)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_26 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1717))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_25 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1699))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_24 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1710))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_23 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1718))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_22 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1697))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_21 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1708))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_20 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1709))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_2 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1700) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 0)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_19 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1707))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_18 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1705))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_17 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1700))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_16 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1699) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 10)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_15 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1699) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 9)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_14 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1702))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_13 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1702) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 6)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_12 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1715))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_11 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1715) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 5)))
+       (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_10 (and (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 1697) (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.StageTransition 4)))
        (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_1 (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.idChart_MissionPhaseStates_1 0))
        (and (or (not (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_1 false))
                (and (or (not (= chart_missionphasestates__POINTChart_MissionPhaseStates_unless.__chart_missionphasestates__POINTChart_MissionPhaseStates_unless_2 false))
@@ -6854,31 +6854,31 @@
 (declare-var Chart_MissionPhaseStates_node.JointMission Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_11._arrow._first_c Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_12._arrow._first_c Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_11._arrow._first_m Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_12._arrow._first_m Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
-(declare-var Chart_MissionPhaseStates_node.ni_11._arrow._first_x Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
+(declare-var Chart_MissionPhaseStates_node.ni_12._arrow._first_x Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_1 Bool)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_10 chart_missionphasestates__type)
 (declare-var Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_100 Bool)
@@ -7444,45 +7444,45 @@
   (and 
        (= Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
        (= Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-       (= Chart_MissionPhaseStates_node.ni_11._arrow._first_m true)
+       (= Chart_MissionPhaseStates_node.ni_12._arrow._first_m true)
        (chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_reset 
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
   )
   (Chart_MissionPhaseStates_node_reset Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
                                        Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                       Chart_MissionPhaseStates_node.ni_11._arrow._first_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                       Chart_MissionPhaseStates_node.ni_12._arrow._first_c
                                        Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
                                        Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                       Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                       Chart_MissionPhaseStates_node.ni_11._arrow._first_m)
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                       Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                       Chart_MissionPhaseStates_node.ni_12._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= Chart_MissionPhaseStates_node.ni_11._arrow._first_m Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
-       (and (= Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_552 (ite Chart_MissionPhaseStates_node.ni_11._arrow._first_m true false))
-            (= Chart_MissionPhaseStates_node.ni_11._arrow._first_x false))
+  (and (= Chart_MissionPhaseStates_node.ni_12._arrow._first_m Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
+       (and (= Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_552 (ite Chart_MissionPhaseStates_node.ni_12._arrow._first_m true false))
+            (= Chart_MissionPhaseStates_node.ni_12._arrow._first_x false))
        (and (or (not (= Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_552 false))
                (and (= Chart_MissionPhaseStates_node.chart_missionphasestates__state_in Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
                     (= Chart_MissionPhaseStates_node.chart_missionphasestates__restart_in Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
@@ -8540,34 +8540,34 @@
             (or (not (= Chart_MissionPhaseStates_node.chart_missionphasestates__state_act MISSIONPHASESTATES_LATCHCAPTURE_IDL))
                (and (and (or (not (= Chart_MissionPhaseStates_node.chart_missionphasestates__restart_act true))
                             (chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_reset 
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                            Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m))
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                            Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m))
                          (or (not (= Chart_MissionPhaseStates_node.chart_missionphasestates__restart_act false))
-                            (and (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                                 (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                                 (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-                                 (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                                 (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                                 (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+                            (and (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                                 (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                                 (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+                                 (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                                 (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                                 (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
                                  )
                             )
                     )
-                    (and (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                         (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                         (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-                         (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                         (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                         (= Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+                    (and (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                         (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                         (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+                         (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                         (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                         (= Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
                          )
                     (chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until_step 
                     Chart_MissionPhaseStates_node.idChart_MissionPhaseStates_1
@@ -8607,18 +8607,18 @@
                     Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_73
                     Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_74
                     Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_75
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                    Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                    Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
                     (= Chart_MissionPhaseStates_node.chart_missionphasestates__next_state_in Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_60)
                     (= Chart_MissionPhaseStates_node.chart_missionphasestates__next_restart_in Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_59)
                     ))
@@ -9417,22 +9417,22 @@
                                       Chart_MissionPhaseStates_node.JointMission
                                       Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
                                       Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                      Chart_MissionPhaseStates_node.ni_11._arrow._first_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                      Chart_MissionPhaseStates_node.ni_12._arrow._first_c
                                       Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
                                       Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                      Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                                      Chart_MissionPhaseStates_node.ni_11._arrow._first_x)
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                      Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                                      Chart_MissionPhaseStates_node.ni_12._arrow._first_x)
 ))
 
 ; Chart_MissionPhaseStates_en
@@ -9534,7 +9534,7 @@
 (declare-var Chart_MissionPhaseStates_en.latch_status_3 Int)
 (declare-rel Chart_MissionPhaseStates_en (Int Int Bool Bool Bool Int Int Bool Int Int Int Int Int Int Int Bool Int Int Bool Bool Bool Bool Int Int Int Int Int))
 (rule (=> 
-  (and (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_7 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 555))
+  (and (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_7 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1697))
        (MissionPhaseStates_FarApproach_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                           false
                                           Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_29)
@@ -9543,7 +9543,7 @@
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_7 false))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_9 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_6 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 566))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_6 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1708))
        (MissionPhaseStates_Disengage_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                         false
                                         Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_30)
@@ -9552,7 +9552,7 @@
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_6 false))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_8 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_5 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 567))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_5 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1709))
        (MissionPhaseStates_ProximityOperations_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                                   false
                                                   Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_31)
@@ -9561,7 +9561,7 @@
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_5 false))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_7 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_4 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 565))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_4 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1707))
        (MissionPhaseStates_ApproachOrbit_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                             false
                                             Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_32)
@@ -9573,7 +9573,7 @@
        (MissionPhaseStates_CollisionAvoidanceManuever_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                                          false
                                                          Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_33)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_3 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 563))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_3 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1705))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_3 true))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_5 Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_33))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_3 false))
@@ -9582,7 +9582,7 @@
        (MissionPhaseStates_Start_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                     false
                                     Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_34)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_2 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 558))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_2 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1700))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_2 true))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_4 Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_34))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_2 false))
@@ -9594,7 +9594,7 @@
        (MissionPhaseStates_JointStabilize_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                              false
                                              Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_22)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_12 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 557))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_12 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1699))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_12 true))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_22))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_12 false))
@@ -9603,7 +9603,7 @@
        (MissionPhaseStates_DockingApproach_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                               false
                                               Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_23)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_11 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 560))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_11 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1702))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_11 true))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_13 Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_23))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_11 false))
@@ -9612,7 +9612,7 @@
        (MissionPhaseStates_CaptureApproach_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                               false
                                               Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_24)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_10 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 573))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_10 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1715))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_10 true))
                (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_12 Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_24))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_10 false))
@@ -9621,15 +9621,15 @@
        (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_1 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 0))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_1 false))
                (and (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_3 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1)
-                    (= Chart_MissionPhaseStates_en.idChart_Chart_3 572)
+                    (= Chart_MissionPhaseStates_en.idChart_Chart_3 1714)
                     ))
             (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_1 true))
                (and (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_3 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_2)
-                    (= Chart_MissionPhaseStates_en.idChart_Chart_3 572)
+                    (= Chart_MissionPhaseStates_en.idChart_Chart_3 1714)
                     ))
        )
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_9 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 568))
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_8 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 576))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_9 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1710))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_8 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1718))
        (MissionPhaseStates_FailedApproach_en Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1
                                              Chart_MissionPhaseStates_en.FailedApproach_1
                                              false
@@ -9661,7 +9661,7 @@
                                            Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_19
                                            Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_20
                                            Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_21)
-       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_13 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 575))
+       (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_13 (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1 1717))
        (and (or (not (= Chart_MissionPhaseStates_en.__Chart_MissionPhaseStates_en_9 false))
                (and (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_11 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1)
                     (= Chart_MissionPhaseStates_en.JointMission_2 Chart_MissionPhaseStates_en.JointMission_1)
@@ -9725,7 +9725,7 @@
                                                                     (= Chart_MissionPhaseStates_en.idLatchCapture_latch_3 Chart_MissionPhaseStates_en.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_en.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_en.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_16 Chart_MissionPhaseStates_en.idChart_MissionPhaseStates_1)
-                                                                    (= Chart_MissionPhaseStates_en.idChart_Chart_4 572)
+                                                                    (= Chart_MissionPhaseStates_en.idChart_Chart_4 1714)
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_1)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_1)
                                                                     (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_1)
@@ -9742,8 +9742,8 @@
                                                                     (= Chart_MissionPhaseStates_en.idChart_Chart_4 Chart_MissionPhaseStates_en.idChart_Chart_3)
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_2)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_2)
-                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_2)
-                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_2)
+                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_1)
+                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_1)
                                                                     (= Chart_MissionPhaseStates_en.AttemptingToDock_3 Chart_MissionPhaseStates_en.AttemptingToDock_2)
                                                                     ))
                                                                     ))
@@ -9757,8 +9757,8 @@
                                                                     (= Chart_MissionPhaseStates_en.idChart_Chart_4 Chart_MissionPhaseStates_en.idChart_Chart_3)
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_1)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_1)
-                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_2)
-                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_2)
+                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_1)
+                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_1)
                                                                     (= Chart_MissionPhaseStates_en.AttemptingToDock_3 Chart_MissionPhaseStates_en.AttemptingToDock_1)
                                                                     ))
                                                                     ))
@@ -9772,8 +9772,8 @@
                                                                     (= Chart_MissionPhaseStates_en.idChart_Chart_4 Chart_MissionPhaseStates_en.idChart_Chart_3)
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_1)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_1)
-                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_2)
-                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_2)
+                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_1)
+                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_1)
                                                                     (= Chart_MissionPhaseStates_en.AttemptingToDock_3 Chart_MissionPhaseStates_en.AttemptingToDock_1)
                                                                     ))
                                                                     ))
@@ -9787,8 +9787,8 @@
                                                                     (= Chart_MissionPhaseStates_en.idChart_Chart_4 Chart_MissionPhaseStates_en.idChart_Chart_3)
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_1)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_1)
-                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_2)
-                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_2)
+                                                                    (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_1)
+                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_1)
                                                                     (= Chart_MissionPhaseStates_en.AttemptingToDock_3 Chart_MissionPhaseStates_en.AttemptingToDock_1)
                                                                     ))
                                                                     ))
@@ -9803,7 +9803,7 @@
                                                                     (= Chart_MissionPhaseStates_en.LatchCapture_timer_3 Chart_MissionPhaseStates_en.LatchCapture_timer_1)
                                                                     (= Chart_MissionPhaseStates_en.LatchCaptureComplete_3 Chart_MissionPhaseStates_en.LatchCaptureComplete_1)
                                                                     (= Chart_MissionPhaseStates_en.JointMission_3 Chart_MissionPhaseStates_en.JointMission_2)
-                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_2)
+                                                                    (= Chart_MissionPhaseStates_en.FailedApproach_3 Chart_MissionPhaseStates_en.FailedApproach_1)
                                                                     (= Chart_MissionPhaseStates_en.AttemptingToDock_3 Chart_MissionPhaseStates_en.AttemptingToDock_1)
                                                                     ))
                                                                     ))
@@ -9976,33 +9976,33 @@
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idLatchCapture_latch_out Int)
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idMissionPhaseStates_LatchCapture_out Int)
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.latch_status_out Int)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
-(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
+(declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x Bool)
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ApproachOrbitComplete_2 Bool)
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.AttemptingToDock_2 Bool)
 (declare-var chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.CaptureApproachComplete_2 Bool)
@@ -10040,55 +10040,55 @@
 (rule (=> 
   (and 
        
-       (Chart_MissionPhaseStates_node_reset chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m)
+       (Chart_MissionPhaseStates_node_reset chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m)
   )
-  (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_reset chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m)
+  (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_reset chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (and (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
+  (and (and (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+            (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
             )
        (Chart_MissionPhaseStates_node_step chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idChart_MissionPhaseStates_1
                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.StageTransition
@@ -10126,24 +10126,24 @@
                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_14
                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_15
                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_16
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x)
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                                           chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x)
        (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_1 (not (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idChart_MissionPhaseStates_1 0)))
        (and (or (not (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_1 true))
                (= chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.latch_status_2 chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.__chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_15))
@@ -10279,24 +10279,24 @@
                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idLatchCapture_latch_out
                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.idMissionPhaseStates_LatchCapture_out
                                                             chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.latch_status_out
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x)
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                                                            chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x)
 ))
 
 ; chart_chart__CHART_CHART_PARALLEL_IDL_unless
@@ -10549,40 +10549,40 @@
 (declare-var Chart_Chart_node.ProximityOperationsComplete Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_62_c Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_63_c chart_chart__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c Bool)
-(declare-var Chart_Chart_node.ni_8._arrow._first_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c Bool)
+(declare-var Chart_Chart_node.ni_9._arrow._first_c Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_62_m Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_63_m chart_chart__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Bool)
-(declare-var Chart_Chart_node.ni_8._arrow._first_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Bool)
+(declare-var Chart_Chart_node.ni_9._arrow._first_m Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_62_x Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_63_x chart_chart__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
-(declare-var Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x Bool)
-(declare-var Chart_Chart_node.ni_8._arrow._first_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
+(declare-var Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x Bool)
+(declare-var Chart_Chart_node.ni_9._arrow._first_x Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_1 Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_10 Bool)
 (declare-var Chart_Chart_node.__Chart_Chart_node_11 Bool)
@@ -10657,56 +10657,56 @@
   (and 
        (= Chart_Chart_node.__Chart_Chart_node_62_m Chart_Chart_node.__Chart_Chart_node_62_c)
        (= Chart_Chart_node.__Chart_Chart_node_63_m Chart_Chart_node.__Chart_Chart_node_63_c)
-       (= Chart_Chart_node.ni_8._arrow._first_m true)
-       (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_reset Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                                                  Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m)
+       (= Chart_Chart_node.ni_9._arrow._first_m true)
+       (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_reset Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                                                  Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m)
   )
   (Chart_Chart_node_reset Chart_Chart_node.__Chart_Chart_node_62_c
                           Chart_Chart_node.__Chart_Chart_node_63_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                          Chart_Chart_node.ni_8._arrow._first_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                          Chart_Chart_node.ni_9._arrow._first_c
                           Chart_Chart_node.__Chart_Chart_node_62_m
                           Chart_Chart_node.__Chart_Chart_node_63_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                          Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                          Chart_Chart_node.ni_8._arrow._first_m)
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                          Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                          Chart_Chart_node.ni_9._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= Chart_Chart_node.ni_8._arrow._first_m Chart_Chart_node.ni_8._arrow._first_c)
-       (and (= Chart_Chart_node.__Chart_Chart_node_61 (ite Chart_Chart_node.ni_8._arrow._first_m true false))
-            (= Chart_Chart_node.ni_8._arrow._first_x false))
+  (and (= Chart_Chart_node.ni_9._arrow._first_m Chart_Chart_node.ni_9._arrow._first_c)
+       (and (= Chart_Chart_node.__Chart_Chart_node_61 (ite Chart_Chart_node.ni_9._arrow._first_m true false))
+            (= Chart_Chart_node.ni_9._arrow._first_x false))
        (and (or (not (= Chart_Chart_node.__Chart_Chart_node_61 false))
                (and (= Chart_Chart_node.chart_chart__state_in Chart_Chart_node.__Chart_Chart_node_63_c)
                     (= Chart_Chart_node.chart_chart__restart_in Chart_Chart_node.__Chart_Chart_node_62_c)
@@ -10746,46 +10746,46 @@
        (and (or (not (= Chart_Chart_node.chart_chart__state_act CHART_CHART_PARALLEL_IDL))
                (and (and (or (not (= Chart_Chart_node.chart_chart__restart_act true))
                             (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_reset 
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                            Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m))
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                            Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m))
                          (or (not (= Chart_Chart_node.chart_chart__restart_act false))
-                            (and (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-                                 (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
+                            (and (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+                                 (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
                                  )
                             )
                     )
-                    (and (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-                         (= Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
+                    (and (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+                         (= Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
                          )
                     (chart_chart__CHART_CHART_PARALLEL_IDL_handler_until_step 
                     Chart_Chart_node.idChart_Chart_1
@@ -10828,24 +10828,24 @@
                     Chart_Chart_node.__Chart_Chart_node_22
                     Chart_Chart_node.__Chart_Chart_node_23
                     Chart_Chart_node.__Chart_Chart_node_24
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                    Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x)
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                    Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x)
                     (= Chart_Chart_node.chart_chart__next_state_in Chart_Chart_node.__Chart_Chart_node_8)
                     (= Chart_Chart_node.chart_chart__next_restart_in Chart_Chart_node.__Chart_Chart_node_7)
                     ))
@@ -11029,28 +11029,28 @@
                          Chart_Chart_node.ProximityOperationsComplete
                          Chart_Chart_node.__Chart_Chart_node_62_c
                          Chart_Chart_node.__Chart_Chart_node_63_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                         Chart_Chart_node.ni_8._arrow._first_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                         Chart_Chart_node.ni_9._arrow._first_c
                          Chart_Chart_node.__Chart_Chart_node_62_x
                          Chart_Chart_node.__Chart_Chart_node_63_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                         Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x
-                         Chart_Chart_node.ni_8._arrow._first_x)
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                         Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x
+                         Chart_Chart_node.ni_9._arrow._first_x)
 ))
 
 ; DA1_Chart
@@ -11092,19 +11092,19 @@
 (declare-var DA1_Chart.__DA1_Chart_7_c Int)
 (declare-var DA1_Chart.__DA1_Chart_8_c Int)
 (declare-var DA1_Chart.__DA1_Chart_9_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c chart_chart__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c Bool)
-(declare-var DA1_Chart.ni_6._arrow._first_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c chart_chart__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c Bool)
+(declare-var DA1_Chart.ni_7._arrow._first_c Bool)
 (declare-var DA1_Chart.__DA1_Chart_10_m Bool)
 (declare-var DA1_Chart.__DA1_Chart_11_m Bool)
 (declare-var DA1_Chart.__DA1_Chart_12_m Bool)
@@ -11121,19 +11121,19 @@
 (declare-var DA1_Chart.__DA1_Chart_7_m Int)
 (declare-var DA1_Chart.__DA1_Chart_8_m Int)
 (declare-var DA1_Chart.__DA1_Chart_9_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m chart_chart__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m Bool)
-(declare-var DA1_Chart.ni_6._arrow._first_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m chart_chart__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m Bool)
+(declare-var DA1_Chart.ni_7._arrow._first_m Bool)
 (declare-var DA1_Chart.__DA1_Chart_10_x Bool)
 (declare-var DA1_Chart.__DA1_Chart_11_x Bool)
 (declare-var DA1_Chart.__DA1_Chart_12_x Bool)
@@ -11150,19 +11150,19 @@
 (declare-var DA1_Chart.__DA1_Chart_7_x Int)
 (declare-var DA1_Chart.__DA1_Chart_8_x Int)
 (declare-var DA1_Chart.__DA1_Chart_9_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x chart_chart__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x Bool)
-(declare-var DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x Bool)
-(declare-var DA1_Chart.ni_6._arrow._first_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x chart_chart__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x Bool)
+(declare-var DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x Bool)
+(declare-var DA1_Chart.ni_7._arrow._first_x Bool)
 (declare-var DA1_Chart.ApproachOrbitComplete_1 Bool)
 (declare-var DA1_Chart.AttemptingToDock_1 Bool)
 (declare-var DA1_Chart.CaptureApproachComplete_1 Bool)
@@ -11208,31 +11208,31 @@
        (= DA1_Chart.__DA1_Chart_7_m DA1_Chart.__DA1_Chart_7_c)
        (= DA1_Chart.__DA1_Chart_8_m DA1_Chart.__DA1_Chart_8_c)
        (= DA1_Chart.__DA1_Chart_9_m DA1_Chart.__DA1_Chart_9_c)
-       (= DA1_Chart.ni_6._arrow._first_m true)
-       (Chart_Chart_node_reset DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-                               DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-                               DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-                               DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                               DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m)
+       (= DA1_Chart.ni_7._arrow._first_m true)
+       (Chart_Chart_node_reset DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+                               DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+                               DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+                               DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                               DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m)
   )
   (DA1_Chart_reset DA1_Chart.__DA1_Chart_10_c
                    DA1_Chart.__DA1_Chart_11_c
@@ -11250,19 +11250,19 @@
                    DA1_Chart.__DA1_Chart_7_c
                    DA1_Chart.__DA1_Chart_8_c
                    DA1_Chart.__DA1_Chart_9_c
-                   DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-                   DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-                   DA1_Chart.ni_6._arrow._first_c
+                   DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+                   DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+                   DA1_Chart.ni_7._arrow._first_c
                    DA1_Chart.__DA1_Chart_10_m
                    DA1_Chart.__DA1_Chart_11_m
                    DA1_Chart.__DA1_Chart_12_m
@@ -11279,25 +11279,25 @@
                    DA1_Chart.__DA1_Chart_7_m
                    DA1_Chart.__DA1_Chart_8_m
                    DA1_Chart.__DA1_Chart_9_m
-                   DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-                   DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                   DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m
-                   DA1_Chart.ni_6._arrow._first_m)
+                   DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+                   DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                   DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m
+                   DA1_Chart.ni_7._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (= DA1_Chart.ni_6._arrow._first_m DA1_Chart.ni_6._arrow._first_c)
-       (and (= DA1_Chart.__DA1_Chart_1 (ite DA1_Chart.ni_6._arrow._first_m true false))
-            (= DA1_Chart.ni_6._arrow._first_x false))
+  (and (= DA1_Chart.ni_7._arrow._first_m DA1_Chart.ni_7._arrow._first_c)
+       (and (= DA1_Chart.__DA1_Chart_1 (ite DA1_Chart.ni_7._arrow._first_m true false))
+            (= DA1_Chart.ni_7._arrow._first_x false))
        (and (or (not (= DA1_Chart.__DA1_Chart_1 false))
                (and (= DA1_Chart.latch_status_1 DA1_Chart.__DA1_Chart_7_c)
                     (= DA1_Chart.idMissionPhaseStates_LatchCapture_1 DA1_Chart.__DA1_Chart_3_c)
@@ -11353,18 +11353,18 @@
                     (= DA1_Chart.ApproachOrbitComplete_1 false)
                     ))
        )
-       (and (= DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
-            (= DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c)
+       (and (= DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
+            (= DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c)
             )
        (Chart_Chart_node_step DA1_Chart.idChart_Chart_1
                               DA1_Chart.AttemptingToDock_1
@@ -11404,30 +11404,30 @@
                               DA1_Chart.DockingApproachComplete
                               DA1_Chart.FarApproachComplete
                               DA1_Chart.ProximityOperationsComplete
-                              DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-                              DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m
-                              DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x
-                              DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x
-                              DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x)
+                              DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+                              DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m
+                              DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x
+                              DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x
+                              DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x)
        (= DA1_Chart.__DA1_Chart_9_x DA1_Chart.JointMission)
        (= DA1_Chart.__DA1_Chart_8_x DA1_Chart.LatchCapture_timer)
        (= DA1_Chart.__DA1_Chart_7_x DA1_Chart.latch_status)
@@ -11483,19 +11483,19 @@
                   DA1_Chart.__DA1_Chart_7_c
                   DA1_Chart.__DA1_Chart_8_c
                   DA1_Chart.__DA1_Chart_9_c
-                  DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-                  DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-                  DA1_Chart.ni_6._arrow._first_c
+                  DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+                  DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+                  DA1_Chart.ni_7._arrow._first_c
                   DA1_Chart.__DA1_Chart_10_x
                   DA1_Chart.__DA1_Chart_11_x
                   DA1_Chart.__DA1_Chart_12_x
@@ -11512,19 +11512,19 @@
                   DA1_Chart.__DA1_Chart_7_x
                   DA1_Chart.__DA1_Chart_8_x
                   DA1_Chart.__DA1_Chart_9_x
-                  DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x
-                  DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x
-                  DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x
-                  DA1_Chart.ni_6._arrow._first_x)
+                  DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x
+                  DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x
+                  DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x
+                  DA1_Chart.ni_7._arrow._first_x)
 ))
 
 ; missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_ENTRY_handler_until
@@ -11633,24 +11633,24 @@
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_out Int)
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idMissionPhaseStates_LatchCapture_out Int)
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.latch_status_out Int)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.AttemptingToDock_2 Bool)
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.LatchCaptureComplete_2 Bool)
 (declare-var missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.LatchCapture_timer_2 Int)
@@ -11679,32 +11679,32 @@
 (rule (=> 
   (and 
        
-       (LatchCapture_LatchCaptureCheck_node_reset missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
-       (LatchCapture_latch_node_reset missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m)
+       (LatchCapture_LatchCaptureCheck_node_reset missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
+       (LatchCapture_latch_node_reset missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m)
   )
   (missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_reset 
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
 ))
 
 (rule (=> 
@@ -11719,9 +11719,9 @@
             (or (not (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_4 false))
                (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.LatchCapture_timer_2 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.LatchCapture_timer_1))
        )
-       (and (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+       (and (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
             )
        (LatchCapture_LatchCaptureCheck_node_step missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_LatchCaptureCheck_1
                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.LatchCapture_timer_2
@@ -11742,20 +11742,20 @@
                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_9
                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_10
                                                  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_11
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                                 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
        (and (or (not (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_4 true))
                (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_2 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_9))
             (or (not (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_4 false))
                (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_2 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_1))
        )
-       (and (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c)
+       (and (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+            (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c)
             )
        (LatchCapture_latch_node_step missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_2
                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.INDETERMINATE
@@ -11765,12 +11765,12 @@
                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.OPEN
                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_2
                                      missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_3
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x)
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                     missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x)
        (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_1 (not (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_2 0)))
        (and (or (not (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_1 true))
                (= missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.latch_status_2 missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.__missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_3))
@@ -11845,18 +11845,18 @@
   missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idLatchCapture_latch_out
   missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.idMissionPhaseStates_LatchCapture_out
   missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.latch_status_out
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+  missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
 ))
 
 ; missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_unless
@@ -12003,19 +12003,20 @@
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_7_c Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_8_c Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_9_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c chart_chart__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_6._arrow._first_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c chart_chart__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c chart_missionphasestates__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_7._arrow._first_c Bool)
+(declare-var DA1.ni_3._arrow._first_c Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_10_m Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_11_m Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_12_m Bool)
@@ -12032,19 +12033,20 @@
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_7_m Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_8_m Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_9_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m chart_chart__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_6._arrow._first_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m chart_chart__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m chart_missionphasestates__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_7._arrow._first_m Bool)
+(declare-var DA1.ni_3._arrow._first_m Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_10_x Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_11_x Bool)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_12_x Bool)
@@ -12061,19 +12063,20 @@
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_7_x Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_8_x Int)
 (declare-var DA1.ni_2.DA1_Chart.__DA1_Chart_9_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x chart_chart__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x Bool)
-(declare-var DA1.ni_2.DA1_Chart.ni_6._arrow._first_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x chart_chart__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x chart_missionphasestates__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x Bool)
+(declare-var DA1.ni_2.DA1_Chart.ni_7._arrow._first_x Bool)
+(declare-var DA1.ni_3._arrow._first_x Bool)
 (declare-var DA1.Chart_1_1 Bool)
 (declare-var DA1.Chart_2_1 Bool)
 (declare-var DA1.Chart_3_1 Bool)
@@ -12083,12 +12086,15 @@
 (declare-var DA1.Chart_7_1 Bool)
 (declare-var DA1.Chart_8_1 Bool)
 (declare-var DA1.Chart_9_1 Bool)
-(declare-rel DA1_reset (Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool))
-(declare-rel DA1_step (Int Int Int Bool Bool Int Bool Int Int Bool Int Int Int Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool))
+(declare-var DA1.__DA1_1 Bool)
+(declare-var DA1.i_virtual_local Real)
+(declare-rel DA1_reset (Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool))
+(declare-rel DA1_step (Int Int Int Bool Bool Int Bool Int Int Bool Int Int Int Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Int Int Int Int Int Int Int Bool Bool chart_chart__type Bool chart_missionphasestates__type Bool latchcapture_latch__type Bool Bool latchcapture_latchcapturecheck__type Bool Bool Bool Bool Bool))
 
 (rule (=> 
   (and 
        
+       (= DA1.ni_3._arrow._first_m true)
        (DA1_Chart_reset DA1.ni_2.DA1_Chart.__DA1_Chart_10_c
                         DA1.ni_2.DA1_Chart.__DA1_Chart_11_c
                         DA1.ni_2.DA1_Chart.__DA1_Chart_12_c
@@ -12105,19 +12111,19 @@
                         DA1.ni_2.DA1_Chart.__DA1_Chart_7_c
                         DA1.ni_2.DA1_Chart.__DA1_Chart_8_c
                         DA1.ni_2.DA1_Chart.__DA1_Chart_9_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-                        DA1.ni_2.DA1_Chart.ni_6._arrow._first_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+                        DA1.ni_2.DA1_Chart.ni_7._arrow._first_c
                         DA1.ni_2.DA1_Chart.__DA1_Chart_10_m
                         DA1.ni_2.DA1_Chart.__DA1_Chart_11_m
                         DA1.ni_2.DA1_Chart.__DA1_Chart_12_m
@@ -12134,19 +12140,19 @@
                         DA1.ni_2.DA1_Chart.__DA1_Chart_7_m
                         DA1.ni_2.DA1_Chart.__DA1_Chart_8_m
                         DA1.ni_2.DA1_Chart.__DA1_Chart_9_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                        DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m
-                        DA1.ni_2.DA1_Chart.ni_6._arrow._first_m)
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                        DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m
+                        DA1.ni_2.DA1_Chart.ni_7._arrow._first_m)
   )
   (DA1_reset DA1.ni_2.DA1_Chart.__DA1_Chart_10_c
              DA1.ni_2.DA1_Chart.__DA1_Chart_11_c
@@ -12164,19 +12170,20 @@
              DA1.ni_2.DA1_Chart.__DA1_Chart_7_c
              DA1.ni_2.DA1_Chart.__DA1_Chart_8_c
              DA1.ni_2.DA1_Chart.__DA1_Chart_9_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-             DA1.ni_2.DA1_Chart.ni_6._arrow._first_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+             DA1.ni_2.DA1_Chart.ni_7._arrow._first_c
+             DA1.ni_3._arrow._first_c
              DA1.ni_2.DA1_Chart.__DA1_Chart_10_m
              DA1.ni_2.DA1_Chart.__DA1_Chart_11_m
              DA1.ni_2.DA1_Chart.__DA1_Chart_12_m
@@ -12193,23 +12200,31 @@
              DA1.ni_2.DA1_Chart.__DA1_Chart_7_m
              DA1.ni_2.DA1_Chart.__DA1_Chart_8_m
              DA1.ni_2.DA1_Chart.__DA1_Chart_9_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-             DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m
-             DA1.ni_2.DA1_Chart.ni_6._arrow._first_m)
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+             DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m
+             DA1.ni_2.DA1_Chart.ni_7._arrow._first_m
+             DA1.ni_3._arrow._first_m)
 ))
 
 (rule (=> 
-  (and (and (= DA1.ni_2.DA1_Chart.__DA1_Chart_10_m DA1.ni_2.DA1_Chart.__DA1_Chart_10_c)
+  (and (= DA1.ni_3._arrow._first_m DA1.ni_3._arrow._first_c)(and (= DA1.__DA1_1 (ite DA1.ni_3._arrow._first_m true false))
+                                                                 (= DA1.ni_3._arrow._first_x false))
+       (and (or (not (= DA1.__DA1_1 true))
+               (= DA1.i_virtual_local 0.))
+            (or (not (= DA1.__DA1_1 false))
+               (= DA1.i_virtual_local 1.))
+       )
+       (and (= DA1.ni_2.DA1_Chart.__DA1_Chart_10_m DA1.ni_2.DA1_Chart.__DA1_Chart_10_c)
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_11_m DA1.ni_2.DA1_Chart.__DA1_Chart_11_c)
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_12_m DA1.ni_2.DA1_Chart.__DA1_Chart_12_c)
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_13_m DA1.ni_2.DA1_Chart.__DA1_Chart_13_c)
@@ -12225,19 +12240,19 @@
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_7_m DA1.ni_2.DA1_Chart.__DA1_Chart_7_c)
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_8_m DA1.ni_2.DA1_Chart.__DA1_Chart_8_c)
             (= DA1.ni_2.DA1_Chart.__DA1_Chart_9_m DA1.ni_2.DA1_Chart.__DA1_Chart_9_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c)
-            (= DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c)
-            (= DA1.ni_2.DA1_Chart.ni_6._arrow._first_m DA1.ni_2.DA1_Chart.ni_6._arrow._first_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c)
+            (= DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c)
+            (= DA1.ni_2.DA1_Chart.ni_7._arrow._first_m DA1.ni_2.DA1_Chart.ni_7._arrow._first_c)
             )
        (DA1_Chart_step DA1.GroundTrack_OrbitalPosition_1_1
                        DA1.GroundTrack_OrbitalVelocity_1_1
@@ -12277,19 +12292,19 @@
                        DA1.ni_2.DA1_Chart.__DA1_Chart_7_m
                        DA1.ni_2.DA1_Chart.__DA1_Chart_8_m
                        DA1.ni_2.DA1_Chart.__DA1_Chart_9_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_m
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_m
-                       DA1.ni_2.DA1_Chart.ni_6._arrow._first_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_m
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_m
+                       DA1.ni_2.DA1_Chart.ni_7._arrow._first_m
                        DA1.ni_2.DA1_Chart.__DA1_Chart_10_x
                        DA1.ni_2.DA1_Chart.__DA1_Chart_11_x
                        DA1.ni_2.DA1_Chart.__DA1_Chart_12_x
@@ -12306,19 +12321,19 @@
                        DA1.ni_2.DA1_Chart.__DA1_Chart_7_x
                        DA1.ni_2.DA1_Chart.__DA1_Chart_8_x
                        DA1.ni_2.DA1_Chart.__DA1_Chart_9_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x
-                       DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x
-                       DA1.ni_2.DA1_Chart.ni_6._arrow._first_x)
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x
+                       DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x
+                       DA1.ni_2.DA1_Chart.ni_7._arrow._first_x)
        (= DA1.ProximityOperationsComplete_7_1 DA1.Chart_7_1)
        (= DA1.LatchCaptureComplete_4_1 DA1.Chart_4_1)
        (= DA1.JointMission_9_1 DA1.Chart_9_1)
@@ -12367,19 +12382,20 @@
             DA1.ni_2.DA1_Chart.__DA1_Chart_7_c
             DA1.ni_2.DA1_Chart.__DA1_Chart_8_c
             DA1.ni_2.DA1_Chart.__DA1_Chart_9_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_c
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_c
-            DA1.ni_2.DA1_Chart.ni_6._arrow._first_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_c
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_c
+            DA1.ni_2.DA1_Chart.ni_7._arrow._first_c
+            DA1.ni_3._arrow._first_c
             DA1.ni_2.DA1_Chart.__DA1_Chart_10_x
             DA1.ni_2.DA1_Chart.__DA1_Chart_11_x
             DA1.ni_2.DA1_Chart.__DA1_Chart_12_x
@@ -12396,19 +12412,20 @@
             DA1.ni_2.DA1_Chart.__DA1_Chart_7_x
             DA1.ni_2.DA1_Chart.__DA1_Chart_8_x
             DA1.ni_2.DA1_Chart.__DA1_Chart_9_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_62_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.__Chart_Chart_node_63_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_12.LatchCapture_latch_node.ni_14._arrow._first_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_10.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_7.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_9.Chart_MissionPhaseStates_node.ni_11._arrow._first_x
-            DA1.ni_2.DA1_Chart.ni_5.Chart_Chart_node.ni_8._arrow._first_x
-            DA1.ni_2.DA1_Chart.ni_6._arrow._first_x)
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_62_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.__Chart_Chart_node_63_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_553_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.__Chart_MissionPhaseStates_node_554_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_13.LatchCapture_latch_node.ni_15._arrow._first_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_11.chart_missionphasestates__MISSIONPHASESTATES_LATCHCAPTURE_IDL_handler_until.ni_14.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_8.chart_chart__CHART_CHART_PARALLEL_IDL_handler_until.ni_10.Chart_MissionPhaseStates_node.ni_12._arrow._first_x
+            DA1.ni_2.DA1_Chart.ni_6.Chart_Chart_node.ni_9._arrow._first_x
+            DA1.ni_2.DA1_Chart.ni_7._arrow._first_x
+            DA1.ni_3._arrow._first_x)
 ))
 
 ; MissionPhaseStates_LatchCapture_node
@@ -12435,30 +12452,30 @@
 (declare-var MissionPhaseStates_LatchCapture_node.idChart_MissionPhaseStates Int)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_c Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_c missionphasestates_latchcapture__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c latchcapture_latch__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c latchcapture_latchcapturecheck__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_c Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_m Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_m missionphasestates_latchcapture__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m latchcapture_latch__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m latchcapture_latchcapturecheck__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_m Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_x Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_x missionphasestates_latchcapture__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
-(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x latchcapture_latch__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x Bool)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x latchcapture_latchcapturecheck__type)
+(declare-var MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_x Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_1 Bool)
 (declare-var MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_10 Bool)
@@ -12512,36 +12529,36 @@
        (= MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_m MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_c)
        (= MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_m true)
        (missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_reset 
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m)
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+       MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m)
   )
   (MissionPhaseStates_LatchCapture_node_reset MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_c
                                               MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
                                               MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_c
                                               MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_m
                                               MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                                              MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
                                               MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_m)
 ))
 
@@ -12617,34 +12634,34 @@
             (or (not (= MissionPhaseStates_LatchCapture_node.missionphasestates_latchcapture__state_act MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL))
                (and (and (or (not (= MissionPhaseStates_LatchCapture_node.missionphasestates_latchcapture__restart_act true))
                             (missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_reset 
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m))
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                            MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m))
                          (or (not (= MissionPhaseStates_LatchCapture_node.missionphasestates_latchcapture__restart_act false))
-                            (and (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c)
-                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+                            (and (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c)
+                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                                 (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
                                  )
                             )
                     )
-                    (and (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
-                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
-                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c)
-                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
-                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
-                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c)
+                    (and (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c)
+                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c)
+                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c)
+                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c)
+                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c)
+                         (= MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c)
                          )
                     (missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until_step 
                     MissionPhaseStates_LatchCapture_node.idMissionPhaseStates_LatchCapture_1
@@ -12670,18 +12687,18 @@
                     MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_14
                     MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_15
                     MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_16
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_m
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x)
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_m
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                    MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x)
                     (= MissionPhaseStates_LatchCapture_node.missionphasestates_latchcapture__next_state_in MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_8)
                     (= MissionPhaseStates_LatchCapture_node.missionphasestates_latchcapture__next_restart_in MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_7)
                     ))
@@ -12766,21 +12783,21 @@
                                              MissionPhaseStates_LatchCapture_node.idChart_MissionPhaseStates
                                              MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_c
                                              MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_c
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_c
                                              MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_c
                                              MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_38_x
                                              MissionPhaseStates_LatchCapture_node.__MissionPhaseStates_LatchCapture_node_39_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_3.LatchCapture_latch_node.ni_14._arrow._first_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
-                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_LatchCaptureCheck_node.ni_15._arrow._first_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_92_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.__LatchCapture_latch_node_93_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_4.LatchCapture_latch_node.ni_15._arrow._first_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_145_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.__LatchCapture_LatchCaptureCheck_node_146_x
+                                             MissionPhaseStates_LatchCapture_node.ni_0.missionphasestates_latchcapture__MISSIONPHASESTATES_LATCHCAPTURE_PARALLEL_IDL_handler_until.ni_5.LatchCapture_LatchCaptureCheck_node.ni_16._arrow._first_x
                                              MissionPhaseStates_LatchCapture_node.ni_1._arrow._first_x)
 ))
 
@@ -12870,7 +12887,7 @@
 (declare-var Chart_MissionPhaseStates_ex.idMissionPhaseStates_LatchCapture_3 Int)
 (declare-rel Chart_MissionPhaseStates_ex (Int Bool Bool Bool Bool Bool Int Int Int Int Bool Int Bool Bool Bool Bool Bool Int Int Int Int))
 (rule (=> 
-  (and (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_9 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 568))
+  (and (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_9 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1710))
        (MissionPhaseStates_JointMission_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                            false
                                            Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_22)
@@ -12879,7 +12896,7 @@
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_9 false))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_9 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_8 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 576))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_8 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1718))
        (MissionPhaseStates_FailedApproach_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                              false
                                              Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_23)
@@ -12888,7 +12905,7 @@
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_8 false))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_8 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_7 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 555))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_7 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1697))
        (MissionPhaseStates_FarApproach_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                           false
                                           Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_24)
@@ -12897,7 +12914,7 @@
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_7 false))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_7 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_6 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 566))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_6 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1708))
        (MissionPhaseStates_Disengage_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                         false
                                         Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_25)
@@ -12906,7 +12923,7 @@
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_6 false))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_6 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_5 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 567))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_5 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1709))
        (MissionPhaseStates_ProximityOperations_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                                   false
                                                   Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_26)
@@ -12915,7 +12932,7 @@
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_5 false))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_5 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_4 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 565))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_4 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1707))
        (MissionPhaseStates_ApproachOrbit_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                             false
                                             Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_27)
@@ -12927,7 +12944,7 @@
        (MissionPhaseStates_Start_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                     false
                                     Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_33)
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_2 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 558))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_2 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1700))
        (and (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_2 true))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_2 Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_33))
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_2 false))
@@ -12936,7 +12953,7 @@
        (MissionPhaseStates_JointStabilize_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                              false
                                              Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_19)
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_12 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 557))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_12 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1699))
        (and (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_12 true))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_12 Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_19))
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_12 false))
@@ -12945,7 +12962,7 @@
        (MissionPhaseStates_DockingApproach_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                               false
                                               Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_20)
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_11 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 560))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_11 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1702))
        (and (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_11 true))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_11 Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_20))
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_11 false))
@@ -12954,7 +12971,7 @@
        (MissionPhaseStates_CaptureApproach_ex Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1
                                               false
                                               Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_21)
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_10 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 573))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_10 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1715))
        (and (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_10 true))
                (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_10 Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_21))
             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_10 false))
@@ -12965,7 +12982,7 @@
             (or (not (= (not Chart_MissionPhaseStates_ex.isInner) false))
                (= Chart_MissionPhaseStates_ex.idChart_Chart_2 Chart_MissionPhaseStates_ex.idChart_Chart_1))
        )
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_3 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 563))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_3 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1705))
        (MissionPhaseStates_CollisionAvoidanceManuever_ex Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1
                                                          Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1
                                                          Chart_MissionPhaseStates_ex.FarApproachComplete_1
@@ -12988,7 +13005,7 @@
                                            Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_16
                                            Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_17
                                            Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_18)
-       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_13 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 575))
+       (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_13 (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_1 1717))
        (and (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_13 false))
                (and (= Chart_MissionPhaseStates_ex.idMissionPhaseStates_LatchCapture_2 Chart_MissionPhaseStates_ex.idMissionPhaseStates_LatchCapture_1)
                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_2 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
@@ -13052,11 +13069,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_2)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_2)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_13)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_2)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                                     ))
                                                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_12 true))
@@ -13065,11 +13082,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_12)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                                     ))
                                                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_11 true))
@@ -13078,11 +13095,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_11)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                                     ))
                                                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_10 true))
@@ -13091,11 +13108,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_10)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                                     ))
                                                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_9 true))
@@ -13104,11 +13121,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_9)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                                ))
                                                             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_8 true))
@@ -13116,11 +13133,11 @@
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_8)
-                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                                     ))
                                                        ))
                                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_7 true))
@@ -13128,11 +13145,11 @@
                                                             (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                             (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                             (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_7)
-                                                            (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                            (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                            (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                            (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                            (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                            (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                             (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                            (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                            (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                             ))
                                                ))
                                             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_6 true))
@@ -13140,11 +13157,11 @@
                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_6)
-                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                                     ))
                                        ))
                                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_5 true))
@@ -13152,11 +13169,11 @@
                                             (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                             (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                             (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_5)
-                                            (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                            (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                            (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                            (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                            (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                            (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                             (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                            (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                            (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                             ))
                                ))
                             (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_4 true))
@@ -13164,11 +13181,11 @@
                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_latch_3 Chart_MissionPhaseStates_ex.idLatchCapture_latch_1)
                                     (= Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_3 Chart_MissionPhaseStates_ex.idLatchCapture_LatchCaptureCheck_1)
                                     (= Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_14 Chart_MissionPhaseStates_ex.idChart_MissionPhaseStates_4)
-                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_2)
-                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_2)
-                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_2)
+                                    (= Chart_MissionPhaseStates_ex.ProximityOperationsComplete_3 Chart_MissionPhaseStates_ex.ProximityOperationsComplete_1)
+                                    (= Chart_MissionPhaseStates_ex.FarApproachComplete_3 Chart_MissionPhaseStates_ex.FarApproachComplete_1)
+                                    (= Chart_MissionPhaseStates_ex.CaptureApproachComplete_3 Chart_MissionPhaseStates_ex.CaptureApproachComplete_1)
                                     (= Chart_MissionPhaseStates_ex.AttemptingToDock_3 Chart_MissionPhaseStates_ex.AttemptingToDock_1)
-                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_2)
+                                    (= Chart_MissionPhaseStates_ex.ApproachOrbitComplete_3 Chart_MissionPhaseStates_ex.ApproachOrbitComplete_1)
                                     ))
                        ))
                     (or (not (= Chart_MissionPhaseStates_ex.__Chart_MissionPhaseStates_ex_3 true))

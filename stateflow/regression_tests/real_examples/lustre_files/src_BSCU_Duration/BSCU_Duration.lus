@@ -8,34 +8,9 @@
 
 
 
-node Duration_DurationJunction355__To__Duration_DurationJunction357_2_Condition_Action(c_1:int)
-
-returns (c:int);
 
 
-var 	c_2:int;
-
-
-let
-
-
-
-	c_2 
-	= 0;
-	
-
-	(c) 
-	= (c_2);
-	
-
-tel
-
-
-
-
-
-
-node Duration_DurationJunction356__To__Duration_DurationJunction358_1_Condition_Action(pre_c:int;
+node Duration_DurationJunction1498__To__Duration_DurationJunction1500_1_Condition_Action(pre_c:int;
 	c_1:int)
 
 returns (c:int);
@@ -61,6 +36,31 @@ tel
 
 
 
+
+
+node Duration_DurationJunction1497__To__Duration_DurationJunction1499_2_Condition_Action(c_1:int)
+
+returns (c:int);
+
+
+var 	c_2:int;
+
+
+let
+
+
+
+	c_2 
+	= 0;
+	
+
+	(c) 
+	= (c_2);
+	
+
+tel
+
+
 --***************************************************State :Duration_Duration Automaton***************************************************
 
 node Duration_Duration_node(idDuration_Duration_1:int;
@@ -77,7 +77,7 @@ let
 	 automaton duration_duration
 
 	state POINTDuration_Duration:
-	unless (idDuration_Duration_1=0) restart POINT__TO__DURATION_DURATIONJUNCTION355_1
+	unless (idDuration_Duration_1=0) restart POINT__TO__DURATION_DURATIONJUNCTION1497_1
 
 
 
@@ -91,7 +91,7 @@ let
 
 
 
-	state POINT__TO__DURATION_DURATIONJUNCTION355_1:
+	state POINT__TO__DURATION_DURATIONJUNCTION1497_1:
 
 	 var 	c_2, c_3:int;
 	let
@@ -105,13 +105,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction355_1, Junction355__To__Junction356_1, Junction356__To__Junction358_1, Junction358__To__Junction357_1, Junction357__To__Junction359_1
+	--POINT__To__Junction1497_1, Junction1497__To__Junction1498_1, Junction1498__To__Junction1500_1, Junction1500__To__Junction1499_1, Junction1499__To__Junction1501_1
 		-- condition Action : c=pre_c+1;
 		
 		(c_2) 
 	= 
 		 if (( p )) then 
-		Duration_DurationJunction356__To__Duration_DurationJunction358_1_Condition_Action(pre_c, c_1)
+		Duration_DurationJunction1498__To__Duration_DurationJunction1500_1_Condition_Action(pre_c, c_1)
 		 else (c_1);
 		
 
@@ -119,11 +119,11 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction355_1, Junction355__To__Junction357_2, Junction357__To__Junction359_1
+	--POINT__To__Junction1497_1, Junction1497__To__Junction1499_2, Junction1499__To__Junction1501_1
 		-- condition Action : c=0;
 		
 		(c_3) 
-	= Duration_DurationJunction355__To__Duration_DurationJunction357_2_Condition_Action(c_1);
+	= Duration_DurationJunction1497__To__Duration_DurationJunction1499_2_Condition_Action(c_1);
 		
 
 	(idDuration_Duration, c) 
@@ -182,8 +182,10 @@ node BSCU_Duration (p_1_1 : bool; pre_c_1_1 : int)
 returns (c_1_1 : int); 
 var
 	Duration_1_1 : int;
+	i_virtual_local : real;
 let 
 	Duration_1_1 =  BSCU_Duration_Duration(p_1_1, pre_c_1_1);
 	c_1_1 = Duration_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

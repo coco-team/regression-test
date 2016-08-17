@@ -43,7 +43,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.14"
+    ComputedModelVersion    "1.15"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -79,7 +79,7 @@ Model {
       $ObjectID		      3
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [816.0, 24.0, 791.0, 898.0]
+      Location		      [55.0, 14.0, 948.0, 1076.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		4
@@ -103,7 +103,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[737.0, 705.0]
+	Extents			[894.0, 883.0]
 	ZoomFactor		[0.8]
 	Offset			[0.0, -0.5]
       }
@@ -115,9 +115,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "hamza"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Jul 27 16:02:04 2016"
-  RTWModifiedTimeStamp	  391536122
-  ModelVersionFormat	  "1.%<AutoIncrement:14>"
+  LastModifiedDate	  "Mon Aug 15 20:37:01 2016"
+  RTWModifiedTimeStamp	  393194213
+  ModelVersionFormat	  "1.%<AutoIncrement:15>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -948,7 +948,7 @@ Model {
   }
   System {
     Name		    "Microwave"
-    Location		    [816, 24, 1607, 922]
+    Location		    [55, 14, 1003, 1090]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -1013,7 +1013,7 @@ Model {
       Variant		      off
       System {
 	Name			"Mode_logic"
-	Location		[806, 14, 1617, 960]
+	Location		[55, 14, 1003, 1090]
 	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
@@ -1262,8 +1262,8 @@ Stateflow {
     id			    2
     name		    "Mode_logic"
     windowPosition	    [603 225 1005 602]
-    viewLimits		    [-78.474 1170.008 -344.708 1004.378]
-    zoomFactor		    2.199
+    viewLimits		    [-25.773 1091.727 -298.395 805.355]
+    zoomFactor		    1.667
     screen		    [1 1 1600 900 1.333333333333333]
     treeNode		    [0 6 0 0]
     firstTransition	    22
@@ -1281,7 +1281,6 @@ Stateflow {
     updateMethod	    DISCRETE
     sampleTime		    "1"
     chartFileNumber	    1
-    userSpecifiedStateTransitionExecutionOrder 1
     disableImplicitCasting  1
     supportVariableSizing   0
   }
@@ -1391,7 +1390,7 @@ Stateflow {
       sticky		      BOTH_STICK
       midPointSticky	      1
     }
-    executionOrder	    2
+    executionOrder	    1
     ssIdNumber		    9
   }
   transition {
@@ -1523,7 +1522,7 @@ Stateflow {
     slide {
       sticky		      BOTH_STICK
     }
-    executionOrder	    1
+    executionOrder	    2
     ssIdNumber		    8
   }
   data {

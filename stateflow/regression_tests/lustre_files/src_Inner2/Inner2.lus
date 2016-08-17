@@ -33,6 +33,33 @@ tel
 
 
 
+node A_A1__To__Inner2_A_1_Condition_Action(z_1:int)
+
+returns (z:int);
+
+
+var 	z_2:int;
+
+
+let
+
+
+
+	z_2 
+	=  z_1  + 1;
+	
+
+	(z) 
+	= (z_2);
+	
+
+tel
+
+
+
+
+
+
 
 node POINT__To__A_A2_1_Condition_Action(v_1:int)
 
@@ -88,33 +115,6 @@ tel
 
 
 
-node A_A1__To__Inner2_A_1_Condition_Action(z_1:int)
-
-returns (z:int);
-
-
-var 	z_2:int;
-
-
-let
-
-
-
-	z_2 
-	=  z_1  + 1;
-	
-
-	(z) 
-	= (z_2);
-	
-
-tel
-
-
-
-
-
-
 -- Entry action for state :A_A2
 node A_A2_en(idInner2_A_1:int;
 	v_1:int;
@@ -134,7 +134,7 @@ let
 
 	-- set state as active 
 	idInner2_A_2 
-	= 1149;
+	= 33;
 	
 
 	v_2 
@@ -236,7 +236,7 @@ let
 
 	-- set state as active 
 	idInner2_A_2 
-	= 1148;
+	= 32;
 	
 
 	x_2 
@@ -347,7 +347,7 @@ let
 
 	-- set state as active 
 	idInner2_Inner2_2 
-	= 1147;
+	= 31;
 	
 
 	u_2 
@@ -381,7 +381,7 @@ let
 
 	(idInner2_A_4, x_2) 
 	= 
-	if ( idInner2_A_1 = 1148) then
+	if ( idInner2_A_1 = 32) then
 	A_A1_en(idInner2_A_1, x_1, false)
 	 else (idInner2_A_1, x_1);
 
@@ -389,7 +389,7 @@ let
 
 	(idInner2_A_5, v_5) 
 	= 
-	if ( idInner2_A_1 = 1149) then
+	if ( idInner2_A_1 = 33) then
 	A_A2_en(idInner2_A_1, v_1, false)
 	 else (idInner2_A_1, v_1);
 
@@ -400,11 +400,11 @@ let
 		 if ( idInner2_A_1 = 0) then 
 		(idInner2_A_3, idInner2_Inner2_3, u_3, v_4, x_1)
 		 else
-		 if ( idInner2_A_1 = 1148) then 
-		(idInner2_A_4, idInner2_Inner2_3, u_3, v_4, x_2)
+		 if ( idInner2_A_1 = 32) then 
+		(idInner2_A_4, idInner2_Inner2_3, u_3, v_1, x_2)
 		 else
-		 if ( idInner2_A_1 = 1149) then 
-		(idInner2_A_5, idInner2_Inner2_3, u_3, v_5, x_2)
+		 if ( idInner2_A_1 = 33) then 
+		(idInner2_A_5, idInner2_Inner2_3, u_3, v_5, x_1)
 		 else (idInner2_A_1, idInner2_Inner2_2, u_2, v_1, x_1);
 
 
@@ -447,7 +447,7 @@ let
 	
 	(x_2, idInner2_A_2) 
 	= 
-	if ( idInner2_A_1 = 1148) then
+	if ( idInner2_A_1 = 32) then
 	A_A1_ex(x_1, idInner2_A_1, false)
 	 else (x_1, idInner2_A_1);
 
@@ -455,7 +455,7 @@ let
 
 	(v_2, idInner2_A_3) 
 	= 
-	if ( idInner2_A_1 = 1149) then
+	if ( idInner2_A_1 = 33) then
 	A_A2_ex(v_1, idInner2_A_1, false)
 	 else (v_1, idInner2_A_1);
 
@@ -463,11 +463,11 @@ let
 
 	(x_3, idInner2_A_4, v_3) 
 	= 
-		 if ( idInner2_A_1 = 1148) then 
+		 if ( idInner2_A_1 = 32) then 
 		(x_2, idInner2_A_2, v_1)
 		 else
-		 if ( idInner2_A_1 = 1149) then 
-		(x_2, idInner2_A_3, v_2)
+		 if ( idInner2_A_1 = 33) then 
+		(x_1, idInner2_A_3, v_2)
 		 else (x_1, idInner2_A_1, v_1);
 
 
@@ -555,13 +555,13 @@ let
 
 
 
-	unless (idInner2_A_1=1148) and E and (  u_1  mod 3=2 ) restart A_A1__TO__INNER2_A_1
+	unless (idInner2_A_1=32) and E and (  u_1  mod 3=2 ) restart A_A1__TO__INNER2_A_1
 
 
 
-	unless (idInner2_A_1=1148) restart A_A1_IDL
+	unless (idInner2_A_1=32) restart A_A1_IDL
 
-	unless (idInner2_A_1=1149) restart A_A2_IDL
+	unless (idInner2_A_1=33) restart A_A2_IDL
 
 	let
 
@@ -802,7 +802,7 @@ let
 
 
 
-	unless (idInner2_Inner2_1=1147) restart INNER2_A_IDL
+	unless (idInner2_Inner2_1=31) restart INNER2_A_IDL
 
 	let
 
@@ -949,6 +949,7 @@ returns (u_1_1 : int;
 	x_5_1 : int); 
 var
 	Inner2_1_1 : int; Inner2_2_1 : int; Inner2_3_1 : int; Inner2_4_1 : int; Inner2_5_1 : int;
+	i_virtual_local : real;
 	E_1_1_event: bool;
 let 
 	E_1_1_event = false -> ((pre(E_1_1) > 0.0 and E_1_1 <= 0.0) or (pre(E_1_1) <= 0.0 and E_1_1 > 0.0));
@@ -958,5 +959,6 @@ let
 	w_3_1 = Inner2_3_1;
 	z_4_1 = Inner2_4_1;
 	x_5_1 = Inner2_5_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

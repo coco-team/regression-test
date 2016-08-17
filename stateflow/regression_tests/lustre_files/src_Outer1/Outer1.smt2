@@ -10,16 +10,12 @@
 ))
 
 ; Outer1_A__To__Outer1_A_1_Transition_Action
-(declare-var Outer1_A__To__Outer1_A_1_Transition_Action.x_1 Int)
 (declare-var Outer1_A__To__Outer1_A_1_Transition_Action.y_1 Int)
-(declare-var Outer1_A__To__Outer1_A_1_Transition_Action.x Int)
 (declare-var Outer1_A__To__Outer1_A_1_Transition_Action.y Int)
-(declare-rel Outer1_A__To__Outer1_A_1_Transition_Action (Int Int Int Int))
+(declare-rel Outer1_A__To__Outer1_A_1_Transition_Action (Int Int))
 (rule (=> 
-  (and (= Outer1_A__To__Outer1_A_1_Transition_Action.y (+ Outer1_A__To__Outer1_A_1_Transition_Action.y_1 1))
-       (= Outer1_A__To__Outer1_A_1_Transition_Action.x Outer1_A__To__Outer1_A_1_Transition_Action.x_1)
-       )
-  (Outer1_A__To__Outer1_A_1_Transition_Action Outer1_A__To__Outer1_A_1_Transition_Action.x_1 Outer1_A__To__Outer1_A_1_Transition_Action.y_1 Outer1_A__To__Outer1_A_1_Transition_Action.x Outer1_A__To__Outer1_A_1_Transition_Action.y)
+  (= Outer1_A__To__Outer1_A_1_Transition_Action.y (+ Outer1_A__To__Outer1_A_1_Transition_Action.y_1 1))
+  (Outer1_A__To__Outer1_A_1_Transition_Action Outer1_A__To__Outer1_A_1_Transition_Action.y_1 Outer1_A__To__Outer1_A_1_Transition_Action.y)
 ))
 
 ; Outer1_A_en
@@ -37,7 +33,7 @@
                (= Outer1_A_en.z_2 Outer1_A_en.z_1))
        )
        (= Outer1_A_en.z Outer1_A_en.z_2)
-       (= Outer1_A_en.idOuter1_Outer1 265)
+       (= Outer1_A_en.idOuter1_Outer1 618)
        )
   (Outer1_A_en Outer1_A_en.idOuter1_Outer1_1 Outer1_A_en.z_1 Outer1_A_en.isInner Outer1_A_en.idOuter1_Outer1 Outer1_A_en.z)
 ))
@@ -125,7 +121,6 @@
 (declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.idOuter1_Outer1_3 Int)
 (declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.w_2 Int)
 (declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_2 Int)
-(declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_3 Int)
 (declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_2 Int)
 (declare-var outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.z_2 Int)
 (declare-rel outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until (Int Int Int Int Int Bool outer1_outer1__type Int Int Int Int Int))
@@ -141,14 +136,12 @@
                     outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.idOuter1_Outer1_3
                     outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.z_2)
        (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.z_out outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.z_2)
-       (Outer1_A__To__Outer1_A_1_Condition_Action outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_1
-                                                  outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_2)
-       (Outer1_A__To__Outer1_A_1_Transition_Action outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_2
-                                                   outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_1
-                                                   outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_3
+       (Outer1_A__To__Outer1_A_1_Transition_Action outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_1
                                                    outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_2)
        (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_out outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.y_2)
-       (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_out outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_3)
+       (Outer1_A__To__Outer1_A_1_Condition_Action outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_1
+                                                  outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_2)
+       (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_out outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.x_2)
        (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.w_out outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.w_2)
        (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.outer1_outer1__state_in POINTOuter1_Outer1)
        (= outer1_outer1__OUTER1_A__TO__OUTER1_A_1_handler_until.outer1_outer1__restart_in true)
@@ -208,8 +201,8 @@
 (declare-var outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_3 Bool)
 (declare-rel outer1_outer1__POINTOuter1_Outer1_unless (Bool outer1_outer1__type Int Bool Bool outer1_outer1__type))
 (rule (=> 
-  (and (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_3 (= outer1_outer1__POINTOuter1_Outer1_unless.idOuter1_Outer1_1 265))
-       (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_2 (and (= outer1_outer1__POINTOuter1_Outer1_unless.idOuter1_Outer1_1 265) outer1_outer1__POINTOuter1_Outer1_unless.E))
+  (and (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_3 (= outer1_outer1__POINTOuter1_Outer1_unless.idOuter1_Outer1_1 618))
+       (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_2 (and (= outer1_outer1__POINTOuter1_Outer1_unless.idOuter1_Outer1_1 618) outer1_outer1__POINTOuter1_Outer1_unless.E))
        (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_1 (= outer1_outer1__POINTOuter1_Outer1_unless.idOuter1_Outer1_1 0))
        (and (or (not (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_1 false))
                (and (or (not (= outer1_outer1__POINTOuter1_Outer1_unless.__outer1_outer1__POINTOuter1_Outer1_unless_2 false))
@@ -735,6 +728,7 @@
 (declare-var Outer1.Outer1_3_1 Int)
 (declare-var Outer1.Outer1_4_1 Int)
 (declare-var Outer1.__Outer1_1 Bool)
+(declare-var Outer1.i_virtual_local Real)
 (declare-rel Outer1_reset (Real Int Int Int Int Int Bool outer1_outer1__type Bool Bool Bool Real Int Int Int Int Int Bool outer1_outer1__type Bool Bool Bool))
 (declare-rel Outer1_step (Real Int Int Int Int Real Int Int Int Int Int Bool outer1_outer1__type Bool Bool Bool Real Int Int Int Int Int Bool outer1_outer1__type Bool Bool Bool))
 
@@ -830,6 +824,11 @@
        (= Outer1.y_4_1 Outer1.Outer1_4_1)
        (= Outer1.x_2_1 Outer1.Outer1_2_1)
        (= Outer1.w_1_1 Outer1.Outer1_1_1)
+       (and (or (not (= Outer1.__Outer1_1 true))
+               (= Outer1.i_virtual_local 0.))
+            (or (not (= Outer1.__Outer1_1 false))
+               (= Outer1.i_virtual_local 1.))
+       )
        (= Outer1.__Outer1_2_x Outer1.E_1_1)
        )
   (Outer1_step Outer1.E_1_1

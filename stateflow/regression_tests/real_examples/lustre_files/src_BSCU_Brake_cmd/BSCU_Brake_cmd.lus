@@ -6,7 +6,68 @@
 
 
 
-node Brake_Cmd_Brake_CmdJunction309__To__Brake_Cmd_Brake_CmdJunction310_1_Condition_Action(pedal:int;
+
+
+node Brake_Cmd_Brake_CmdJunction1448__To__Brake_Cmd_Brake_CmdJunction1454_1_Condition_Action(BRAKE_PRESSURE_MED:int;
+	r_1:int)
+
+returns (r:int);
+
+
+var 	r_2:int;
+
+
+let
+
+
+
+	r_2 
+	= BRAKE_PRESSURE_MED;
+	
+
+	(r) 
+	= (r_2);
+	
+
+tel
+
+
+
+
+
+
+
+
+
+node Brake_Cmd_Brake_CmdJunction1446__To__Brake_Cmd_Brake_CmdJunction1455_1_Condition_Action(BRAKE_PRESSURE_LO:int;
+	r_1:int)
+
+returns (r:int);
+
+
+var 	r_2:int;
+
+
+let
+
+
+
+	r_2 
+	= BRAKE_PRESSURE_LO;
+	
+
+	(r) 
+	= (r_2);
+	
+
+tel
+
+
+
+
+
+
+node Brake_Cmd_Brake_CmdJunction1451__To__Brake_Cmd_Brake_CmdJunction1452_1_Condition_Action(pedal:int;
 	r_1:int)
 
 returns (r:int);
@@ -39,67 +100,7 @@ tel
 
 
 
-node Brake_Cmd_Brake_CmdJunction306__To__Brake_Cmd_Brake_CmdJunction312_1_Condition_Action(BRAKE_PRESSURE_MED:int;
-	r_1:int)
-
-returns (r:int);
-
-
-var 	r_2:int;
-
-
-let
-
-
-
-	r_2 
-	= BRAKE_PRESSURE_MED;
-	
-
-	(r) 
-	= (r_2);
-	
-
-tel
-
-
-
-
-
-
-
-
-
-
-node Brake_Cmd_Brake_CmdJunction304__To__Brake_Cmd_Brake_CmdJunction313_1_Condition_Action(BRAKE_PRESSURE_LO:int;
-	r_1:int)
-
-returns (r:int);
-
-
-var 	r_2:int;
-
-
-let
-
-
-
-	r_2 
-	= BRAKE_PRESSURE_LO;
-	
-
-	(r) 
-	= (r_2);
-	
-
-tel
-
-
-
-
-
-
-node Brake_Cmd_Brake_CmdJunction308__To__Brake_Cmd_Brake_CmdJunction311_1_Condition_Action(BRAKE_PRESSURE_MAX:int;
+node Brake_Cmd_Brake_CmdJunction1450__To__Brake_Cmd_Brake_CmdJunction1453_1_Condition_Action(BRAKE_PRESSURE_MAX:int;
 	r_1:int)
 
 returns (r:int);
@@ -121,7 +122,6 @@ let
 	
 
 tel
-
 
 
 
@@ -147,7 +147,7 @@ let
 	 automaton brake_cmd_brake_cmd
 
 	state POINTBrake_Cmd_Brake_Cmd:
-	unless (idBrake_Cmd_Brake_Cmd_1=0) restart POINT__TO__BRAKE_CMD_BRAKE_CMDJUNCTION303_1
+	unless (idBrake_Cmd_Brake_Cmd_1=0) restart POINT__TO__BRAKE_CMD_BRAKE_CMDJUNCTION1445_1
 
 
 
@@ -161,7 +161,7 @@ let
 
 
 
-	state POINT__TO__BRAKE_CMD_BRAKE_CMDJUNCTION303_1:
+	state POINT__TO__BRAKE_CMD_BRAKE_CMDJUNCTION1445_1:
 
 	 var 	r_2, r_3, r_4, r_5:int;
 	let
@@ -179,13 +179,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction303_1, Junction303__To__Junction304_1, Junction304__To__Junction313_1, Junction313__To__Junction312_1, Junction312__To__Junction311_1, Junction311__To__Junction310_1, Junction310__To__Junction314_1
+	--POINT__To__Junction1445_1, Junction1445__To__Junction1446_1, Junction1446__To__Junction1455_1, Junction1455__To__Junction1454_1, Junction1454__To__Junction1453_1, Junction1453__To__Junction1452_1, Junction1452__To__Junction1456_1
 		-- condition Action : r=BRAKE_PRESSURE_LO;
 		
 		(r_2) 
 	= 
 		 if (( mode=LO )) then 
-		Brake_Cmd_Brake_CmdJunction304__To__Brake_Cmd_Brake_CmdJunction313_1_Condition_Action(BRAKE_PRESSURE_LO, r_1)
+		Brake_Cmd_Brake_CmdJunction1446__To__Brake_Cmd_Brake_CmdJunction1455_1_Condition_Action(BRAKE_PRESSURE_LO, r_1)
 		 else (r_1);
 		
 
@@ -201,13 +201,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction303_1, Junction303__To__Junction305_2, Junction305__To__Junction306_1, Junction306__To__Junction312_1, Junction312__To__Junction311_1, Junction311__To__Junction310_1, Junction310__To__Junction314_1
+	--POINT__To__Junction1445_1, Junction1445__To__Junction1447_2, Junction1447__To__Junction1448_1, Junction1448__To__Junction1454_1, Junction1454__To__Junction1453_1, Junction1453__To__Junction1452_1, Junction1452__To__Junction1456_1
 		-- condition Action : r=BRAKE_PRESSURE_MED;
 		
 		(r_3) 
 	= 
 		 if (( mode=MED )) then 
-		Brake_Cmd_Brake_CmdJunction306__To__Brake_Cmd_Brake_CmdJunction312_1_Condition_Action(BRAKE_PRESSURE_MED, r_1)
+		Brake_Cmd_Brake_CmdJunction1448__To__Brake_Cmd_Brake_CmdJunction1454_1_Condition_Action(BRAKE_PRESSURE_MED, r_1)
 		 else (r_1);
 		
 
@@ -221,13 +221,13 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction303_1, Junction303__To__Junction305_2, Junction305__To__Junction307_2, Junction307__To__Junction308_1, Junction308__To__Junction311_1, Junction311__To__Junction310_1, Junction310__To__Junction314_1
+	--POINT__To__Junction1445_1, Junction1445__To__Junction1447_2, Junction1447__To__Junction1449_2, Junction1449__To__Junction1450_1, Junction1450__To__Junction1453_1, Junction1453__To__Junction1452_1, Junction1452__To__Junction1456_1
 		-- condition Action : r=BRAKE_PRESSURE_MAX;
 		
 		(r_4) 
 	= 
 		 if (( mode=MAX )) then 
-		Brake_Cmd_Brake_CmdJunction308__To__Brake_Cmd_Brake_CmdJunction311_1_Condition_Action(BRAKE_PRESSURE_MAX, r_1)
+		Brake_Cmd_Brake_CmdJunction1450__To__Brake_Cmd_Brake_CmdJunction1453_1_Condition_Action(BRAKE_PRESSURE_MAX, r_1)
 		 else (r_1);
 		
 
@@ -237,11 +237,11 @@ let
 
 
 -- transition trace :
-	--POINT__To__Junction303_1, Junction303__To__Junction305_2, Junction305__To__Junction307_2, Junction307__To__Junction309_2, Junction309__To__Junction310_1, Junction310__To__Junction314_1
+	--POINT__To__Junction1445_1, Junction1445__To__Junction1447_2, Junction1447__To__Junction1449_2, Junction1449__To__Junction1451_2, Junction1451__To__Junction1452_1, Junction1452__To__Junction1456_1
 		-- condition Action : r=pedal;
 		
 		(r_5) 
-	= Brake_Cmd_Brake_CmdJunction309__To__Brake_Cmd_Brake_CmdJunction310_1_Condition_Action(pedal, r_1);
+	= Brake_Cmd_Brake_CmdJunction1451__To__Brake_Cmd_Brake_CmdJunction1452_1_Condition_Action(pedal, r_1);
 		
 
 	(idBrake_Cmd_Brake_Cmd, r) 
@@ -287,19 +287,19 @@ var r_1: int;
 
 	idBrake_Cmd_Brake_Cmd, idBrake_Cmd_Brake_Cmd_1: int;
 
-		LO: int;
-
-		MED: int;
+		MAX: int;
 
 		BRAKE_PRESSURE_MED: int;
 
-		MAX: int;
-
-		BRAKE_PRESSURE_MAX: int;
+		MED: int;
 
 		BRAKE_PRESSURE_LO: int;
 
+		LO: int;
+
 		MANUAL: int;
+
+		BRAKE_PRESSURE_MAX: int;
 
 	let
 
@@ -307,19 +307,19 @@ var r_1: int;
 
 	idBrake_Cmd_Brake_Cmd_1 = 0 -> pre idBrake_Cmd_Brake_Cmd;
 
-	LO = 2;
-
-	MED = 3;
+	MAX = 4;
 
 	BRAKE_PRESSURE_MED = 340;
 
-	MAX = 4;
-
-	BRAKE_PRESSURE_MAX = 510;
+	MED = 3;
 
 	BRAKE_PRESSURE_LO = 170;
 
+	LO = 2;
+
 	MANUAL = 1;
+
+	BRAKE_PRESSURE_MAX = 510;
 
 	
 
@@ -340,8 +340,10 @@ node BSCU_Brake_cmd (mode_1_1 : int; pedal_1_1 : int)
 returns (r_1_1 : int); 
 var
 	Brake_Cmd_1_1 : int;
+	i_virtual_local : real;
 let 
 	Brake_Cmd_1_1 =  BSCU_Brake_cmd_Brake_Cmd(mode_1_1, pedal_1_1);
 	r_1_1 = Brake_Cmd_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

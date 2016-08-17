@@ -31,7 +31,7 @@ let
 
 	-- set state as active 
 	idSetResetWait_SetResetWait_2 
-	= 544;
+	= 1408;
 	
 
 	s_2 
@@ -98,7 +98,7 @@ let
 
 	-- set state as active 
 	idSetResetWait_SetResetWait_2 
-	= 543;
+	= 1407;
 	
 
 	s_2 
@@ -165,7 +165,7 @@ let
 
 	-- set state as active 
 	idSetResetWait_SetResetWait_2 
-	= 542;
+	= 1406;
 	
 
 	s_2 
@@ -231,31 +231,31 @@ let
 
 
 
-	unless (idSetResetWait_SetResetWait_1=542) and Suspend restart SETRESETWAIT_ON__TO__SETRESETWAIT_WAIT_1
+	unless (idSetResetWait_SetResetWait_1=1406) and Suspend restart SETRESETWAIT_ON__TO__SETRESETWAIT_WAIT_1
 
 
 
-	unless (idSetResetWait_SetResetWait_1=542) and Reset restart SETRESETWAIT_ON__TO__SETRESETWAIT_OFF_2
+	unless (idSetResetWait_SetResetWait_1=1406) and Reset restart SETRESETWAIT_ON__TO__SETRESETWAIT_OFF_2
 
 
 
-	unless (idSetResetWait_SetResetWait_1=543) and Set restart SETRESETWAIT_OFF__TO__SETRESETWAIT_ON_1
+	unless (idSetResetWait_SetResetWait_1=1407) and Set restart SETRESETWAIT_OFF__TO__SETRESETWAIT_ON_1
 
 
 
-	unless (idSetResetWait_SetResetWait_1=543) and Suspend restart SETRESETWAIT_OFF__TO__SETRESETWAIT_WAIT_2
+	unless (idSetResetWait_SetResetWait_1=1407) and Suspend restart SETRESETWAIT_OFF__TO__SETRESETWAIT_WAIT_2
 
 
 
-	unless (idSetResetWait_SetResetWait_1=544) and Clear restart SETRESETWAIT_WAIT__TO__SETRESETWAIT_OFF_1
+	unless (idSetResetWait_SetResetWait_1=1408) and Clear restart SETRESETWAIT_WAIT__TO__SETRESETWAIT_OFF_1
 
 
 
-	unless (idSetResetWait_SetResetWait_1=542) restart SETRESETWAIT_ON_IDL
+	unless (idSetResetWait_SetResetWait_1=1406) restart SETRESETWAIT_ON_IDL
 
-	unless (idSetResetWait_SetResetWait_1=543) restart SETRESETWAIT_OFF_IDL
+	unless (idSetResetWait_SetResetWait_1=1407) restart SETRESETWAIT_OFF_IDL
 
-	unless (idSetResetWait_SetResetWait_1=544) restart SETRESETWAIT_WAIT_IDL
+	unless (idSetResetWait_SetResetWait_1=1408) restart SETRESETWAIT_WAIT_IDL
 
 	let
 
@@ -551,6 +551,7 @@ returns (s_1_1 : real);
 var
 	Mux_1_1 : real; Mux_1_2 : real; Mux_1_3 : real; Mux_1_4 : real;
 	SetResetWait_1_1 : real;
+	i_virtual_local : real;
 	Mux_1_1_event: bool;
 	Mux_1_2_event: bool;
 	Mux_1_3_event: bool;
@@ -566,5 +567,6 @@ let
 	Mux_1_4_event = false -> ((pre(Mux_1_4) > 0.0 and Mux_1_4 <= 0.0) or (pre(Mux_1_4) <= 0.0 and Mux_1_4 > 0.0));
 	SetResetWait_1_1 =  SetResetWait_SetResetWait(Mux_1_1_event, Mux_1_2_event, Mux_1_3_event, Mux_1_4_event);
 	s_1_1 = SetResetWait_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

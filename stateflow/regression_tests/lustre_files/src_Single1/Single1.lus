@@ -49,7 +49,7 @@ let
 
 	-- set state as active 
 	idSingle1_Single1_2 
-	= 608;
+	= 1472;
 	
 
 	(idSingle1_Single1) 
@@ -106,7 +106,7 @@ let
 
 
 
-	unless (idSingle1_Single1_1=608) restart SINGLE1_A_IDL
+	unless (idSingle1_Single1_1=1472) restart SINGLE1_A_IDL
 
 	let
 
@@ -204,8 +204,10 @@ node Single1 (i_virtual : real)
 returns (x_1_1 : real); 
 var
 	Single1_1_1 : real;
+	i_virtual_local : real;
 let 
 	Single1_1_1 =  Single1_Single1(true);
 	x_1_1 = Single1_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

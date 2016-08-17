@@ -31,7 +31,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 581;
+	= 1445;
 	
 
 	suspended_2 
@@ -106,7 +106,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 582;
+	= 1446;
 	
 
 	on_off_2 
@@ -173,7 +173,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 583;
+	= 1447;
 	
 
 	on_off_2 
@@ -241,31 +241,31 @@ let
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=581) and Clear restart SETRESETWAITOUT_WAIT__TO__SETRESETWAITOUT_OFF_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1445) and Clear restart SETRESETWAITOUT_WAIT__TO__SETRESETWAITOUT_OFF_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=582) and Set restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_ON_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) and Set restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_ON_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=582) and Suspend restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_WAIT_2
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) and Suspend restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_WAIT_2
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=583) and Suspend restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_WAIT_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) and Suspend restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_WAIT_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=583) and Reset restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_OFF_2
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) and Reset restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_OFF_2
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=581) restart SETRESETWAITOUT_WAIT_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1445) restart SETRESETWAITOUT_WAIT_IDL
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=582) restart SETRESETWAITOUT_OFF_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) restart SETRESETWAITOUT_OFF_IDL
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=583) restart SETRESETWAITOUT_ON_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) restart SETRESETWAITOUT_ON_IDL
 
 	let
 
@@ -575,6 +575,7 @@ returns (on_off_1_1 : int;
 var
 	Mux_1_1 : real; Mux_1_2 : real; Mux_1_3 : real; Mux_1_4 : real;
 	SetResetWaitOut_1_1 : int; SetResetWaitOut_2_1 : int;
+	i_virtual_local : real;
 	Mux_1_1_event: bool;
 	Mux_1_2_event: bool;
 	Mux_1_3_event: bool;
@@ -591,5 +592,6 @@ let
 	(SetResetWaitOut_1_1, SetResetWaitOut_2_1) =  SetResetWaitOut_SetResetWaitOut(off_val_1_1, on_val_1_1, Mux_1_1_event, Mux_1_2_event, Mux_1_3_event, Mux_1_4_event);
 	on_off_1_1 = SetResetWaitOut_1_1;
 	suspended_2_1 = SetResetWaitOut_2_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

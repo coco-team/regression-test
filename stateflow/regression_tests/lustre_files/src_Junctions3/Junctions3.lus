@@ -6,7 +6,7 @@
 
 
 
-node Junctions3_Junctions3Junction1474__To__Junctions3_B_1_Condition_Action(y_1:int)
+node Junctions3_Junctions3Junction357__To__Junctions3_Junctions3Junction358_1_Condition_Action(y_1:int)
 
 returns (y:int);
 
@@ -33,7 +33,7 @@ tel
 
 
 
-node Junctions3_Junctions3Junction1472__To__Junctions3_Junctions3Junction1473_1_Condition_Action(y_1:int)
+node Junctions3_Junctions3Junction358__To__Junctions3_Junctions3Junction359_1_Condition_Action(y_1:int)
 
 returns (y:int);
 
@@ -60,34 +60,7 @@ tel
 
 
 
-node Junctions3_Junctions3Junction1473__To__Junctions3_Junctions3Junction1474_1_Condition_Action(y_1:int)
-
-returns (y:int);
-
-
-var 	y_2:int;
-
-
-let
-
-
-
-	y_2 
-	=  y_1  + 1;
-	
-
-	(y) 
-	= (y_2);
-	
-
-tel
-
-
-
-
-
-
-node Junctions3_A__To__Junctions3_Junctions3Junction1471_1_Condition_Action(y_1:int)
+node Junctions3_A__To__Junctions3_Junctions3Junction356_1_Condition_Action(y_1:int)
 
 returns (y:int);
 
@@ -114,7 +87,34 @@ tel
 
 
 
-node Junctions3_Junctions3Junction1471__To__Junctions3_Junctions3Junction1472_1_Condition_Action(y_1:int)
+node Junctions3_Junctions3Junction356__To__Junctions3_Junctions3Junction357_1_Condition_Action(y_1:int)
+
+returns (y:int);
+
+
+var 	y_2:int;
+
+
+let
+
+
+
+	y_2 
+	=  y_1  + 1;
+	
+
+	(y) 
+	= (y_2);
+	
+
+tel
+
+
+
+
+
+
+node Junctions3_Junctions3Junction359__To__Junctions3_B_1_Condition_Action(y_1:int)
 
 returns (y:int);
 
@@ -158,7 +158,7 @@ let
 
 	-- set state as active 
 	idJunctions3_Junctions3_2 
-	= 1468;
+	= 353;
 	
 
 	(idJunctions3_Junctions3) 
@@ -217,7 +217,7 @@ let
 
 	-- set state as active 
 	idJunctions3_Junctions3_2 
-	= 1467;
+	= 352;
 	
 
 	(idJunctions3_Junctions3) 
@@ -275,13 +275,13 @@ let
 
 
 
-	unless (idJunctions3_Junctions3_1=1467) and ( x=0 ) restart JUNCTIONS3_A__TO__JUNCTIONS3_JUNCTIONS3JUNCTION1471_1
+	unless (idJunctions3_Junctions3_1=352) and ( x=0 ) restart JUNCTIONS3_A__TO__JUNCTIONS3_JUNCTIONS3JUNCTION356_1
 
 
 
-	unless (idJunctions3_Junctions3_1=1467) restart JUNCTIONS3_A_IDL
+	unless (idJunctions3_Junctions3_1=352) restart JUNCTIONS3_A_IDL
 
-	unless (idJunctions3_Junctions3_1=1468) restart JUNCTIONS3_B_IDL
+	unless (idJunctions3_Junctions3_1=353) restart JUNCTIONS3_B_IDL
 
 	let
 
@@ -318,7 +318,7 @@ let
 
 
 
-	state JUNCTIONS3_A__TO__JUNCTIONS3_JUNCTIONS3JUNCTION1471_1:
+	state JUNCTIONS3_A__TO__JUNCTIONS3_JUNCTIONS3JUNCTION356_1:
 
 	 var 	idJunctions3_Junctions3_2, idJunctions3_Junctions3_3:int;
 	y_2, y_3, y_4, y_5, y_6:int;
@@ -333,11 +333,11 @@ let
 
 
 -- transition trace :
-	--Junctions3_A__To__Junction1471_1, Junction1471__To__Junction1472_1, Junction1472__To__Junction1473_1, Junction1473__To__Junction1474_1, Junction1474__To__Junctions3_B_1
+	--Junctions3_A__To__Junction356_1, Junction356__To__Junction357_1, Junction357__To__Junction358_1, Junction358__To__Junction359_1, Junction359__To__Junctions3_B_1
 		-- condition Action : y=0
 		
 		(y_2) 
-	= Junctions3_A__To__Junctions3_Junctions3Junction1471_1_Condition_Action(y_1);
+	= Junctions3_A__To__Junctions3_Junctions3Junction356_1_Condition_Action(y_1);
 		
 
 		-- condition Action : y++
@@ -345,7 +345,7 @@ let
 		(y_3) 
 	= 
 		 if ((  y_2 =0 )) then 
-		Junctions3_Junctions3Junction1471__To__Junctions3_Junctions3Junction1472_1_Condition_Action(y_2)
+		Junctions3_Junctions3Junction356__To__Junctions3_Junctions3Junction357_1_Condition_Action(y_2)
 		 else (y_2);
 		
 
@@ -354,7 +354,7 @@ let
 		(y_4) 
 	= 
 		 if ((  y_2 =0 ) and (  y_3 =1 )) then 
-		Junctions3_Junctions3Junction1472__To__Junctions3_Junctions3Junction1473_1_Condition_Action(y_3)
+		Junctions3_Junctions3Junction357__To__Junctions3_Junctions3Junction358_1_Condition_Action(y_3)
 		 else (y_3);
 		
 
@@ -363,7 +363,7 @@ let
 		(y_5) 
 	= 
 		 if ((  y_2 =0 ) and (  y_3 =1 ) and (  y_4 =2 )) then 
-		Junctions3_Junctions3Junction1473__To__Junctions3_Junctions3Junction1474_1_Condition_Action(y_4)
+		Junctions3_Junctions3Junction358__To__Junctions3_Junctions3Junction359_1_Condition_Action(y_4)
 		 else (y_4);
 		
 
@@ -372,7 +372,7 @@ let
 		(y_6) 
 	= 
 		 if ((  y_2 =0 ) and (  y_3 =1 ) and (  y_4 =2 )) then 
-		Junctions3_Junctions3Junction1474__To__Junctions3_B_1_Condition_Action(y_5)
+		Junctions3_Junctions3Junction359__To__Junctions3_B_1_Condition_Action(y_5)
 		 else (y_5);
 		
 
@@ -483,8 +483,10 @@ node Junctions3 (x_1_1 : int)
 returns (y_1_1 : int); 
 var
 	Junctions3_1_1 : int;
+	i_virtual_local : real;
 let 
 	Junctions3_1_1 =  Junctions3_Junctions3(x_1_1);
 	y_1_1 = Junctions3_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 

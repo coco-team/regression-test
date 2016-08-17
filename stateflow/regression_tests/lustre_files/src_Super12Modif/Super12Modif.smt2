@@ -54,7 +54,7 @@
 (declare-var B_B0_en.idSuper12_B Int)
 (declare-rel B_B0_en (Int Bool Int))
 (rule (=> 
-  (= B_B0_en.idSuper12_B 1981)
+  (= B_B0_en.idSuper12_B 1755)
   (B_B0_en B_B0_en.idSuper12_B_1 B_B0_en.isInner B_B0_en.idSuper12_B)
 ))
 
@@ -72,7 +72,7 @@
             (or (not (= (not B_B1_en.isInner) false))
                (= B_B1_en.enB1_2 B_B1_en.enB1_1))
        )
-       (= B_B1_en.idSuper12_B 1980)
+       (= B_B1_en.idSuper12_B 1754)
        (= B_B1_en.enB1 B_B1_en.enB1_2)
        )
   (B_B1_en B_B1_en.idSuper12_B_1 B_B1_en.enB1_1 B_B1_en.isInner B_B1_en.idSuper12_B B_B1_en.enB1)
@@ -92,7 +92,7 @@
             (or (not (= (not A_A0_en.isInner) false))
                (= A_A0_en.enA0_2 A_A0_en.enA0_1))
        )
-       (= A_A0_en.idSuper12_A 1977)
+       (= A_A0_en.idSuper12_A 1751)
        (= A_A0_en.enA0 A_A0_en.enA0_2)
        )
   (A_A0_en A_A0_en.idSuper12_A_1 A_A0_en.enA0_1 A_A0_en.isInner A_A0_en.idSuper12_A A_A0_en.enA0)
@@ -104,7 +104,7 @@
 (declare-var A_A1_en.idSuper12_A Int)
 (declare-rel A_A1_en (Int Bool Int))
 (rule (=> 
-  (= A_A1_en.idSuper12_A 1982)
+  (= A_A1_en.idSuper12_A 1756)
   (A_A1_en A_A1_en.idSuper12_A_1 A_A1_en.isInner A_A1_en.idSuper12_A)
 ))
 
@@ -195,7 +195,7 @@
        (A_A1_ex Super12_A_ex.idSuper12_A_1
                 false
                 Super12_A_ex.__Super12_A_ex_6)
-       (= Super12_A_ex.__Super12_A_ex_2 (= Super12_A_ex.idSuper12_A_1 1982))
+       (= Super12_A_ex.__Super12_A_ex_2 (= Super12_A_ex.idSuper12_A_1 1756))
        (and (or (not (= Super12_A_ex.__Super12_A_ex_2 true))
                (= Super12_A_ex.idSuper12_A_2 Super12_A_ex.__Super12_A_ex_6))
             (or (not (= Super12_A_ex.__Super12_A_ex_2 false))
@@ -211,7 +211,7 @@
                 false
                 Super12_A_ex.__Super12_A_ex_4
                 Super12_A_ex.__Super12_A_ex_5)
-       (= Super12_A_ex.__Super12_A_ex_3 (= Super12_A_ex.idSuper12_A_1 1977))
+       (= Super12_A_ex.__Super12_A_ex_3 (= Super12_A_ex.idSuper12_A_1 1751))
        (and (or (not (= Super12_A_ex.__Super12_A_ex_3 false))
                (and (= Super12_A_ex.idSuper12_A_3 Super12_A_ex.idSuper12_A_1)
                     (= Super12_A_ex.exA0_2 Super12_A_ex.exA0_1)
@@ -277,7 +277,7 @@
   (and (B_B0_en Super12_B_en.idSuper12_B_1
                 false
                 Super12_B_en.__Super12_B_en_6)
-       (= Super12_B_en.__Super12_B_en_2 (= Super12_B_en.idSuper12_B_1 1981))
+       (= Super12_B_en.__Super12_B_en_2 (= Super12_B_en.idSuper12_B_1 1755))
        (and (or (not (= Super12_B_en.__Super12_B_en_2 true))
                (= Super12_B_en.idSuper12_B_4 Super12_B_en.__Super12_B_en_6))
             (or (not (= Super12_B_en.__Super12_B_en_2 false))
@@ -293,12 +293,12 @@
        )
        (= Super12_B_en.__Super12_B_en_1 (= Super12_B_en.idSuper12_B_1 0))
        (and (or (not (= Super12_B_en.__Super12_B_en_1 false))
-               (and (= Super12_B_en.idSuper12_Super12_3 1979)
+               (and (= Super12_B_en.idSuper12_Super12_3 1753)
                     (= Super12_B_en.idSuper12_B_3 Super12_B_en.idSuper12_B_1)
                     (= Super12_B_en.enB_3 Super12_B_en.enB_2)
                     ))
             (or (not (= Super12_B_en.__Super12_B_en_1 true))
-               (and (= Super12_B_en.idSuper12_Super12_3 1979)
+               (and (= Super12_B_en.idSuper12_Super12_3 1753)
                     (= Super12_B_en.idSuper12_B_3 Super12_B_en.idSuper12_B_2)
                     (= Super12_B_en.enB_3 Super12_B_en.enB_2)
                     ))
@@ -308,7 +308,7 @@
                 false
                 Super12_B_en.__Super12_B_en_4
                 Super12_B_en.__Super12_B_en_5)
-       (= Super12_B_en.__Super12_B_en_3 (= Super12_B_en.idSuper12_B_1 1980))
+       (= Super12_B_en.__Super12_B_en_3 (= Super12_B_en.idSuper12_B_1 1754))
        (and (or (not (= Super12_B_en.__Super12_B_en_3 false))
                (and (= Super12_B_en.idSuper12_B_5 Super12_B_en.idSuper12_B_1)
                     (= Super12_B_en.enB1_2 Super12_B_en.enB1_1)
@@ -321,7 +321,7 @@
        (and (or (not (= Super12_B_en.__Super12_B_en_1 false))
                (and (or (not (= Super12_B_en.__Super12_B_en_2 false))
                        (and (or (not (= Super12_B_en.__Super12_B_en_3 false))
-                               (and (= Super12_B_en.idSuper12_Super12_4 1979)
+                               (and (= Super12_B_en.idSuper12_Super12_4 1753)
                                     (= Super12_B_en.idSuper12_B_6 Super12_B_en.idSuper12_B_1)
                                     (= Super12_B_en.enB_4 Super12_B_en.enB_2)
                                     (= Super12_B_en.enB1_3 Super12_B_en.enB1_1)
@@ -399,7 +399,7 @@
   (and (A_A1_en Super12_A_en.idSuper12_A_1
                 false
                 Super12_A_en.__Super12_A_en_6)
-       (= Super12_A_en.__Super12_A_en_2 (= Super12_A_en.idSuper12_A_1 1982))
+       (= Super12_A_en.__Super12_A_en_2 (= Super12_A_en.idSuper12_A_1 1756))
        (and (or (not (= Super12_A_en.__Super12_A_en_2 true))
                (= Super12_A_en.idSuper12_A_4 Super12_A_en.__Super12_A_en_6))
             (or (not (= Super12_A_en.__Super12_A_en_2 false))
@@ -415,7 +415,7 @@
                 false
                 Super12_A_en.__Super12_A_en_4
                 Super12_A_en.__Super12_A_en_5)
-       (= Super12_A_en.__Super12_A_en_3 (= Super12_A_en.idSuper12_A_1 1977))
+       (= Super12_A_en.__Super12_A_en_3 (= Super12_A_en.idSuper12_A_1 1751))
        (and (or (not (= Super12_A_en.__Super12_A_en_3 false))
                (and (= Super12_A_en.idSuper12_A_5 Super12_A_en.idSuper12_A_1)
                     (= Super12_A_en.enA0_4 Super12_A_en.enA0_1)
@@ -432,13 +432,13 @@
                 Super12_A_en.enA0_2)
        (= Super12_A_en.__Super12_A_en_1 (= Super12_A_en.idSuper12_A_1 0))
        (and (or (not (= Super12_A_en.__Super12_A_en_1 false))
-               (and (= Super12_A_en.idSuper12_Super12_3 1978)
+               (and (= Super12_A_en.idSuper12_Super12_3 1752)
                     (= Super12_A_en.idSuper12_A_3 Super12_A_en.idSuper12_A_1)
                     (= Super12_A_en.enA_3 Super12_A_en.enA_2)
                     (= Super12_A_en.enA0_3 Super12_A_en.enA0_1)
                     (and (or (not (= Super12_A_en.__Super12_A_en_2 false))
                             (and (or (not (= Super12_A_en.__Super12_A_en_3 false))
-                                    (and (= Super12_A_en.idSuper12_Super12_4 1978)
+                                    (and (= Super12_A_en.idSuper12_Super12_4 1752)
                                          (= Super12_A_en.idSuper12_A_6 Super12_A_en.idSuper12_A_1)
                                          (= Super12_A_en.enA_4 Super12_A_en.enA_2)
                                          (= Super12_A_en.enA0_5 Super12_A_en.enA0_1)
@@ -454,12 +454,12 @@
                             (and (= Super12_A_en.idSuper12_Super12_4 Super12_A_en.idSuper12_Super12_3)
                                  (= Super12_A_en.idSuper12_A_6 Super12_A_en.idSuper12_A_4)
                                  (= Super12_A_en.enA_4 Super12_A_en.enA_3)
-                                 (= Super12_A_en.enA0_5 Super12_A_en.enA0_3)
+                                 (= Super12_A_en.enA0_5 Super12_A_en.enA0_1)
                                  ))
                     )
                     ))
             (or (not (= Super12_A_en.__Super12_A_en_1 true))
-               (and (= Super12_A_en.idSuper12_Super12_3 1978)
+               (and (= Super12_A_en.idSuper12_Super12_3 1752)
                     (= Super12_A_en.idSuper12_A_3 Super12_A_en.idSuper12_A_2)
                     (= Super12_A_en.enA_3 Super12_A_en.enA_2)
                     (= Super12_A_en.enA0_3 Super12_A_en.enA0_2)
@@ -511,7 +511,7 @@
        (B_B0_ex Super12_B_ex.idSuper12_B_1
                 false
                 Super12_B_ex.__Super12_B_ex_6)
-       (= Super12_B_ex.__Super12_B_ex_2 (= Super12_B_ex.idSuper12_B_1 1981))
+       (= Super12_B_ex.__Super12_B_ex_2 (= Super12_B_ex.idSuper12_B_1 1755))
        (and (or (not (= Super12_B_ex.__Super12_B_ex_2 true))
                (= Super12_B_ex.idSuper12_B_2 Super12_B_ex.__Super12_B_ex_6))
             (or (not (= Super12_B_ex.__Super12_B_ex_2 false))
@@ -527,7 +527,7 @@
                 false
                 Super12_B_ex.__Super12_B_ex_4
                 Super12_B_ex.__Super12_B_ex_5)
-       (= Super12_B_ex.__Super12_B_ex_3 (= Super12_B_ex.idSuper12_B_1 1980))
+       (= Super12_B_ex.__Super12_B_ex_3 (= Super12_B_ex.idSuper12_B_1 1754))
        (and (or (not (= Super12_B_ex.__Super12_B_ex_3 false))
                (and (= Super12_B_ex.idSuper12_B_3 Super12_B_ex.idSuper12_B_1)
                     (= Super12_B_ex.exB1_2 Super12_B_ex.exB1_1)
@@ -717,7 +717,7 @@
                      super12_a__A_A0__TO__B_B1_1_handler_until.exA0_2
                      super12_a__A_A0__TO__B_B1_1_handler_until.exA_2
                      super12_a__A_A0__TO__B_B1_1_handler_until.idSuper12_Super12_2)
-       (Super12_B_en 1980
+       (Super12_B_en 1754
                      super12_a__A_A0__TO__B_B1_1_handler_until.idSuper12_Super12_2
                      super12_a__A_A0__TO__B_B1_1_handler_until.enB_1
                      super12_a__A_A0__TO__B_B1_1_handler_until.enB1_1
@@ -919,11 +919,11 @@
 (declare-var super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_6 Bool)
 (declare-rel super12_a__POINTSuper12_A_unless (Bool super12_a__type Int Bool Bool Bool super12_a__type))
 (rule (=> 
-  (and (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_6 (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1977))
-       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_5 (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1982))
-       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_4 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1977) super12_a__POINTSuper12_A_unless.F))
-       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_3 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1977) super12_a__POINTSuper12_A_unless.E))
-       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_2 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1982) super12_a__POINTSuper12_A_unless.F))
+  (and (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_6 (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1751))
+       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_5 (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1756))
+       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_4 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1751) super12_a__POINTSuper12_A_unless.F))
+       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_3 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1751) super12_a__POINTSuper12_A_unless.E))
+       (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_2 (and (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 1756) super12_a__POINTSuper12_A_unless.F))
        (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_1 (= super12_a__POINTSuper12_A_unless.idSuper12_A_1 0))
        (and (or (not (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_1 false))
                (and (or (not (= super12_a__POINTSuper12_A_unless.__super12_a__POINTSuper12_A_unless_2 false))
@@ -1234,7 +1234,7 @@
                      super12_b__B_B1__TO__A_A0_1_handler_until.exB1_2
                      super12_b__B_B1__TO__A_A0_1_handler_until.exB_2
                      super12_b__B_B1__TO__A_A0_1_handler_until.idSuper12_Super12_2)
-       (Super12_A_en 1977
+       (Super12_A_en 1751
                      super12_b__B_B1__TO__A_A0_1_handler_until.idSuper12_Super12_2
                      super12_b__B_B1__TO__A_A0_1_handler_until.enA_1
                      super12_b__B_B1__TO__A_A0_1_handler_until.enA0_1
@@ -1385,11 +1385,11 @@
 (declare-var super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_6 Bool)
 (declare-rel super12_b__POINTSuper12_B_unless (Bool super12_b__type Int Bool Bool Bool super12_b__type))
 (rule (=> 
-  (and (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_6 (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1980))
-       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_5 (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1981))
-       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_4 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1980) super12_b__POINTSuper12_B_unless.E))
-       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_3 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1980) super12_b__POINTSuper12_B_unless.F))
-       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_2 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1981) super12_b__POINTSuper12_B_unless.E))
+  (and (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_6 (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1754))
+       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_5 (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1755))
+       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_4 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1754) super12_b__POINTSuper12_B_unless.E))
+       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_3 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1754) super12_b__POINTSuper12_B_unless.F))
+       (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_2 (and (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 1755) super12_b__POINTSuper12_B_unless.E))
        (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_1 (= super12_b__POINTSuper12_B_unless.idSuper12_B_1 0))
        (and (or (not (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_1 false))
                (and (or (not (= super12_b__POINTSuper12_B_unless.__super12_b__POINTSuper12_B_unless_2 false))
@@ -2536,9 +2536,9 @@
 (declare-var super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_4 Bool)
 (declare-rel super12_super12__POINTSuper12_Super12_unless (Bool super12_super12__type Int Bool Bool super12_super12__type))
 (rule (=> 
-  (and (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_4 (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1979))
-       (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_3 (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1978))
-       (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_2 (and (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1978) super12_super12__POINTSuper12_Super12_unless.F))
+  (and (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_4 (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1753))
+       (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_3 (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1752))
+       (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_2 (and (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 1752) super12_super12__POINTSuper12_Super12_unless.F))
        (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_1 (= super12_super12__POINTSuper12_Super12_unless.idSuper12_Super12_1 0))
        (and (or (not (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_1 false))
                (and (or (not (= super12_super12__POINTSuper12_Super12_unless.__super12_super12__POINTSuper12_Super12_unless_2 false))
@@ -4519,6 +4519,7 @@
 (declare-var Super12Modif.Super12_8_1 Int)
 (declare-var Super12Modif.Super12_9_1 Int)
 (declare-var Super12Modif.__Super12Modif_1 Bool)
+(declare-var Super12Modif.i_virtual_local Real)
 (declare-rel Super12Modif_reset (Real Real Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool Bool Real Real Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool Bool))
 (declare-rel Super12Modif_step (Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool Bool Real Real Int Int Int Int Int Int Int Int Int Int Int Int Int Int Int Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool super12_super12__type Bool super12_b__type Bool Bool super12_a__type Bool Bool Bool Bool))
 
@@ -4676,6 +4677,11 @@
   (and (= Super12Modif.ni_1._arrow._first_m Super12Modif.ni_1._arrow._first_c)
        (and (= Super12Modif.__Super12Modif_1 (ite Super12Modif.ni_1._arrow._first_m true false))
             (= Super12Modif.ni_1._arrow._first_x false))
+       (and (or (not (= Super12Modif.__Super12Modif_1 true))
+               (= Super12Modif.i_virtual_local 0.))
+            (or (not (= Super12Modif.__Super12Modif_1 false))
+               (= Super12Modif.i_virtual_local 1.))
+       )
        (and (or (not (= Super12Modif.__Super12Modif_1 true))
                (= Super12Modif.Mux_1_2_event false))
             (or (not (= Super12Modif.__Super12Modif_1 false))

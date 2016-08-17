@@ -33,11 +33,9 @@ tel
 
 
 
-node Outer1_A__To__Outer1_A_1_Transition_Action(x_1:int;
-	y_1:int)
+node Outer1_A__To__Outer1_A_1_Transition_Action(y_1:int)
 
-returns (x:int;
-	y:int);
+returns (y:int);
 
 
 var 	y_2:int;
@@ -51,8 +49,8 @@ let
 	=  y_1  + 1;
 	
 
-	(x, y) 
-	= (x_1, y_2);
+	(y) 
+	= (y_2);
 	
 
 tel
@@ -81,7 +79,7 @@ let
 
 	-- set state as active 
 	idOuter1_Outer1_2 
-	= 1733;
+	= 618;
 	
 
 	z_2 
@@ -158,11 +156,11 @@ let
 
 
 
-	unless (idOuter1_Outer1_1=1733) and E restart OUTER1_A__TO__OUTER1_A_1
+	unless (idOuter1_Outer1_1=618) and E restart OUTER1_A__TO__OUTER1_A_1
 
 
 
-	unless (idOuter1_Outer1_1=1733) restart OUTER1_A_IDL
+	unless (idOuter1_Outer1_1=618) restart OUTER1_A_IDL
 
 	let
 
@@ -204,7 +202,7 @@ let
 
 	 var 	idOuter1_Outer1_2, idOuter1_Outer1_3:int;
 	z_2:int;
-	x_2, x_3:int;
+	x_2:int;
 	w_2:int;
 	y_2:int;
 	let
@@ -221,8 +219,8 @@ let
 	= Outer1_A_ex(w_1, idOuter1_Outer1_1, false);
 		
 
-		(x_3, y_2) 
-	= Outer1_A__To__Outer1_A_1_Transition_Action(x_2, y_1);
+		(y_2) 
+	= Outer1_A__To__Outer1_A_1_Transition_Action(y_1);
 		
 
 		(idOuter1_Outer1_3, z_2) 
@@ -230,7 +228,7 @@ let
 		
 
 	(idOuter1_Outer1, z, x, w, y) 
-	=  (idOuter1_Outer1_3, z_2, x_3, w_2, y_2);
+	=  (idOuter1_Outer1_3, z_2, x_2, w_2, y_2);
 
 
 	tel
@@ -318,6 +316,7 @@ returns (w_1_1 : int;
 	y_4_1 : int); 
 var
 	Outer1_1_1 : int; Outer1_2_1 : int; Outer1_3_1 : int; Outer1_4_1 : int;
+	i_virtual_local : real;
 	E_1_1_event: bool;
 let 
 	E_1_1_event = false -> ((pre(E_1_1) > 0.0 and E_1_1 <= 0.0) or (pre(E_1_1) <= 0.0 and E_1_1 > 0.0));
@@ -326,5 +325,6 @@ let
 	x_2_1 = Outer1_2_1;
 	z_3_1 = Outer1_3_1;
 	y_4_1 = Outer1_4_1;
+	i_virtual_local= 0.0 -> 1.0;
 tel
 
