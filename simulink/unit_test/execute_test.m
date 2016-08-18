@@ -34,7 +34,7 @@ function [test_result] = execute_test(tool_path, mdl_path, cst, trace)
 
 	%% Generate Lustre code
 	try
-		cocoSim(file_path, cst, 0.1, trace);
+		nom_lustre_file=cocoSim(file_path, cst, 0.1, trace);
 	catch ERR
 		step_passed = false;
 		test_result.step{cpt_step}.status = 'FAIL';
@@ -50,7 +50,7 @@ function [test_result] = execute_test(tool_path, mdl_path, cst, trace)
 	cpt_step = cpt_step + 1;
     
 	%% Move to folder where generated code has been generated
-	gen_path = fullfile(current_folder, ['src_' file_name]);
+    [gen_path, ~, ~] = fileparts(nom_lustre_file);
 	cd(gen_path);
 
 	disp(sep);
@@ -60,7 +60,7 @@ function [test_result] = execute_test(tool_path, mdl_path, cst, trace)
 	test_result.step{cpt_step}.name = 'lustrec';
 
 	%% Launch lustrec on the generated code
-	command = ['lustrec ' fullfile(gen_path, [file_name '.lus'])];
+	command = ['lustrec ' nom_lustre_file];
 	[status, out] = system(command);
 
 	disp(out);
@@ -84,7 +84,7 @@ function [test_result] = execute_test(tool_path, mdl_path, cst, trace)
 		test_result.step{cpt_step}.name = 'lus2lic';
 
 		%% Launch lus2lic on the generated code
-		command = ['lus2lic ' fullfile(gen_path, [file_name '.lus'])];
+		command = ['lus2lic ' nom_lustre_file];
 		[status, out] = system(command);
 
 		disp(out);
@@ -109,7 +109,7 @@ function [test_result] = execute_test(tool_path, mdl_path, cst, trace)
 	%% Diff with expected test result
 	result_path = fullfile(current_folder, ['test_results']);
 	result_path = fullfile(result_path, ['src_' file_name]);
-	command = ['diff ' fullfile(gen_path, [file_name '.lus']) ' ' fullfile(result_path, [file_name '.lus'])];
+	command = ['diff ' nom_lustre_file ' ' fullfile(result_path, [file_name '.lus'])];
 	[status, out] = system(command);
 
 	if status ~= 0

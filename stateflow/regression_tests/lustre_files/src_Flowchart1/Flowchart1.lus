@@ -6,7 +6,7 @@
 
 
 
-node POINT__To__Flowchart1_Flowchart1Junction1362_1_Condition_Action(x_1:int)
+node POINT__To__Flowchart1_Flowchart1Junction1501_1_Condition_Action(x_1:int)
 
 returns (x:int);
 
@@ -55,16 +55,16 @@ let
 
 	-- set state as active 
 	idFlowchart1_Flowchart1_2 
-	= 1361;
+	= 1500;
 	
 
 	
 -- transition trace :
-	--POINT__To__Junction1362_1
+	--POINT__To__Junction1501_1
 		-- condition Action : x++;
 		
 		(x_2) 
-	= POINT__To__Flowchart1_Flowchart1Junction1362_1_Condition_Action(x_1);
+	= POINT__To__Flowchart1_Flowchart1Junction1501_1_Condition_Action(x_1);
 		
 
 	(idFlowchart1_A_2, idFlowchart1_Flowchart1_3, x_3) 
@@ -138,7 +138,7 @@ let
 	 automaton flowchart1_a
 
 	state POINTFlowchart1_A:
-	unless (idFlowchart1_A_1=0) restart POINT__TO__FLOWCHART1_FLOWCHART1JUNCTION1362_1
+	unless (idFlowchart1_A_1=0) restart POINT__TO__FLOWCHART1_FLOWCHART1JUNCTION1501_1
 
 
 
@@ -152,17 +152,17 @@ let
 
 
 
-	state POINT__TO__FLOWCHART1_FLOWCHART1JUNCTION1362_1:
+	state POINT__TO__FLOWCHART1_FLOWCHART1JUNCTION1501_1:
 
 	 var 	x_2:int;
 	let
 
 		-- transition trace :
-	--POINT__To__Junction1362_1
+	--POINT__To__Junction1501_1
 		-- condition Action : x++;
 		
 		(x_2) 
-	= POINT__To__Flowchart1_Flowchart1Junction1362_1_Condition_Action(x_1);
+	= POINT__To__Flowchart1_Flowchart1Junction1501_1_Condition_Action(x_1);
 		
 
 	(idFlowchart1_A, x) 

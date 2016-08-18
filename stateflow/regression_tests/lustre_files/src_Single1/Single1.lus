@@ -49,7 +49,7 @@ let
 
 	-- set state as active 
 	idSingle1_Single1_2 
-	= 1472;
+	= 567;
 	
 
 	(idSingle1_Single1) 
@@ -106,7 +106,7 @@ let
 
 
 
-	unless (idSingle1_Single1_1=1472) restart SINGLE1_A_IDL
+	unless (idSingle1_Single1_1=567) restart SINGLE1_A_IDL
 
 	let
 

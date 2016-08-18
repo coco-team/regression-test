@@ -32,7 +32,7 @@ let
 
 	-- set state as active 
 	idSuper12_B_2 
-	= 1755;
+	= 696;
 	
 
 	(idSuper12_B) 
@@ -94,7 +94,7 @@ let
 
 	-- set state as active 
 	idSuper12_B_2 
-	= 1754;
+	= 695;
 	
 
 	enB1_2 
@@ -202,7 +202,7 @@ let
 
 	-- set state as active 
 	idSuper12_Super12_2 
-	= 1753;
+	= 694;
 	
 
 	enB_2 
@@ -230,7 +230,7 @@ let
 
 	(idSuper12_B_4) 
 	= 
-	if ( idSuper12_B_1 = 1755) then
+	if ( idSuper12_B_1 = 696) then
 	B_B0_en(idSuper12_B_1, false)
 	 else (idSuper12_B_1);
 
@@ -238,7 +238,7 @@ let
 
 	(idSuper12_B_5, enB1_2) 
 	= 
-	if ( idSuper12_B_1 = 1754) then
+	if ( idSuper12_B_1 = 695) then
 	B_B1_en(idSuper12_B_1, enB1_1, false)
 	 else (idSuper12_B_1, enB1_1);
 
@@ -249,10 +249,10 @@ let
 		 if ( idSuper12_B_1 = 0) then 
 		(idSuper12_B_3, idSuper12_Super12_3, enB_3, enB1_1)
 		 else
-		 if ( idSuper12_B_1 = 1755) then 
+		 if ( idSuper12_B_1 = 696) then 
 		(idSuper12_B_4, idSuper12_Super12_3, enB_3, enB1_1)
 		 else
-		 if ( idSuper12_B_1 = 1754) then 
+		 if ( idSuper12_B_1 = 695) then 
 		(idSuper12_B_5, idSuper12_Super12_3, enB_3, enB1_2)
 		 else (idSuper12_B_1, idSuper12_Super12_2, enB_2, enB1_1);
 
@@ -320,7 +320,7 @@ let
 	
 	(idSuper12_B_2) 
 	= 
-	if ( idSuper12_B_1 = 1755) then
+	if ( idSuper12_B_1 = 696) then
 	B_B0_ex(idSuper12_B_1, false)
 	 else (idSuper12_B_1);
 
@@ -328,7 +328,7 @@ let
 
 	(exB1_2, idSuper12_B_3) 
 	= 
-	if ( idSuper12_B_1 = 1754) then
+	if ( idSuper12_B_1 = 695) then
 	B_B1_ex(exB1_1, idSuper12_B_1, false)
 	 else (exB1_1, idSuper12_B_1);
 
@@ -336,10 +336,10 @@ let
 
 	(idSuper12_B_4, exB1_3) 
 	= 
-		 if ( idSuper12_B_1 = 1755) then 
+		 if ( idSuper12_B_1 = 696) then 
 		(idSuper12_B_2, exB1_1)
 		 else
-		 if ( idSuper12_B_1 = 1754) then 
+		 if ( idSuper12_B_1 = 695) then 
 		(idSuper12_B_3, exB1_2)
 		 else (idSuper12_B_1, exB1_1);
 
@@ -384,7 +384,7 @@ let
 
 	-- set state as active 
 	idSuper12_A_2 
-	= 1756;
+	= 697;
 	
 
 	(idSuper12_A) 
@@ -446,7 +446,7 @@ let
 
 	-- set state as active 
 	idSuper12_A_2 
-	= 1751;
+	= 692;
 	
 
 	enA0_2 
@@ -554,7 +554,7 @@ let
 
 	-- set state as active 
 	idSuper12_Super12_2 
-	= 1752;
+	= 693;
 	
 
 	enA_2 
@@ -582,7 +582,7 @@ let
 
 	(idSuper12_A_4) 
 	= 
-	if ( idSuper12_A_1 = 1756) then
+	if ( idSuper12_A_1 = 697) then
 	A_A1_en(idSuper12_A_1, false)
 	 else (idSuper12_A_1);
 
@@ -590,7 +590,7 @@ let
 
 	(idSuper12_A_5, enA0_4) 
 	= 
-	if ( idSuper12_A_1 = 1751) then
+	if ( idSuper12_A_1 = 692) then
 	A_A0_en(idSuper12_A_1, enA0_1, false)
 	 else (idSuper12_A_1, enA0_1);
 
@@ -601,10 +601,10 @@ let
 		 if ( idSuper12_A_1 = 0) then 
 		(idSuper12_A_3, idSuper12_Super12_3, enA_3, enA0_3)
 		 else
-		 if ( idSuper12_A_1 = 1756) then 
+		 if ( idSuper12_A_1 = 697) then 
 		(idSuper12_A_4, idSuper12_Super12_3, enA_3, enA0_1)
 		 else
-		 if ( idSuper12_A_1 = 1751) then 
+		 if ( idSuper12_A_1 = 692) then 
 		(idSuper12_A_5, idSuper12_Super12_3, enA_3, enA0_4)
 		 else (idSuper12_A_1, idSuper12_Super12_2, enA_2, enA0_1);
 
@@ -645,7 +645,7 @@ let
 	
 	(idSuper12_A_2) 
 	= 
-	if ( idSuper12_A_1 = 1756) then
+	if ( idSuper12_A_1 = 697) then
 	A_A1_ex(idSuper12_A_1, false)
 	 else (idSuper12_A_1);
 
@@ -653,7 +653,7 @@ let
 
 	(exA0_2, idSuper12_A_3) 
 	= 
-	if ( idSuper12_A_1 = 1751) then
+	if ( idSuper12_A_1 = 692) then
 	A_A0_ex(exA0_1, idSuper12_A_1, false)
 	 else (exA0_1, idSuper12_A_1);
 
@@ -661,10 +661,10 @@ let
 
 	(idSuper12_A_4, exA0_3) 
 	= 
-		 if ( idSuper12_A_1 = 1756) then 
+		 if ( idSuper12_A_1 = 697) then 
 		(idSuper12_A_2, exA0_1)
 		 else
-		 if ( idSuper12_A_1 = 1751) then 
+		 if ( idSuper12_A_1 = 692) then 
 		(idSuper12_A_3, exA0_2)
 		 else (idSuper12_A_1, exA0_1);
 
@@ -750,21 +750,21 @@ let
 
 
 
-	unless (idSuper12_B_1=1755) and E restart B_B0__TO__B_B1_1
+	unless (idSuper12_B_1=696) and E restart B_B0__TO__B_B1_1
 
 
 
-	unless (idSuper12_B_1=1754) and F restart B_B1__TO__A_A0_1
+	unless (idSuper12_B_1=695) and F restart B_B1__TO__A_A0_1
 
 
 
-	unless (idSuper12_B_1=1754) and E restart B_B1__TO__B_B0_2
+	unless (idSuper12_B_1=695) and E restart B_B1__TO__B_B0_2
 
 
 
-	unless (idSuper12_B_1=1755) restart B_B0_IDL
+	unless (idSuper12_B_1=696) restart B_B0_IDL
 
-	unless (idSuper12_B_1=1754) restart B_B1_IDL
+	unless (idSuper12_B_1=695) restart B_B1_IDL
 
 	let
 
@@ -849,7 +849,7 @@ let
 		
 
 		idSuper12_A_2 
-	= 1751;
+	= 692;
 	
 		(idSuper12_A_3, idSuper12_Super12_3, enA_2, enA0_2) 
 	= Super12_A_en(idSuper12_A_2, idSuper12_Super12_2, enA_1, enA0_1, false);
@@ -978,21 +978,21 @@ let
 
 
 
-	unless (idSuper12_A_1=1756) and F restart A_A1__TO__A_A0_1
+	unless (idSuper12_A_1=697) and F restart A_A1__TO__A_A0_1
 
 
 
-	unless (idSuper12_A_1=1751) and E restart A_A0__TO__B_B1_1
+	unless (idSuper12_A_1=692) and E restart A_A0__TO__B_B1_1
 
 
 
-	unless (idSuper12_A_1=1751) and F restart A_A0__TO__A_A1_2
+	unless (idSuper12_A_1=692) and F restart A_A0__TO__A_A1_2
 
 
 
-	unless (idSuper12_A_1=1756) restart A_A1_IDL
+	unless (idSuper12_A_1=697) restart A_A1_IDL
 
-	unless (idSuper12_A_1=1751) restart A_A0_IDL
+	unless (idSuper12_A_1=692) restart A_A0_IDL
 
 	let
 
@@ -1078,7 +1078,7 @@ let
 		
 
 		idSuper12_B_2 
-	= 1754;
+	= 695;
 	
 		(idSuper12_B_3, idSuper12_Super12_3, enB_2, enB1_2) 
 	= Super12_B_en(idSuper12_B_2, idSuper12_Super12_2, enB_1, enB1_1, false);
@@ -1219,13 +1219,13 @@ let
 
 
 
-	unless (idSuper12_Super12_1=1752) and F restart SUPER12_A__TO__SUPER12_B_1
+	unless (idSuper12_Super12_1=693) and F restart SUPER12_A__TO__SUPER12_B_1
 
 
 
-	unless (idSuper12_Super12_1=1752) restart SUPER12_A_IDL
+	unless (idSuper12_Super12_1=693) restart SUPER12_A_IDL
 
-	unless (idSuper12_Super12_1=1753) restart SUPER12_B_IDL
+	unless (idSuper12_Super12_1=694) restart SUPER12_B_IDL
 
 	let
 

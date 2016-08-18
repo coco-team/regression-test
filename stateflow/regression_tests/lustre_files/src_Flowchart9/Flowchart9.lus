@@ -6,7 +6,9 @@
 
 
 
-node TOP_B__To__Flowchart9_Flowchart9Junction1611_1_Condition_Action(y_1:int)
+
+
+node TOP_B__To__Flowchart9_Flowchart9Junction1623_1_Condition_Action(y_1:int)
 
 returns (y:int);
 
@@ -34,8 +36,7 @@ tel
 
 
 
-
-node TOP_A__To__Flowchart9_Flowchart9Junction1609_1_Condition_Action(x_1:int)
+node TOP_A__To__Flowchart9_Flowchart9Junction1621_1_Condition_Action(x_1:int)
 
 returns (x:int);
 
@@ -62,7 +63,6 @@ tel
 
 
 
-
 -- Entry action for state :TOP_A
 node TOP_A_en(idTOP_A_1:int;
 	idFlowchart9_TOP_1:int;
@@ -82,7 +82,7 @@ let
 
 	-- set state as active 
 	idFlowchart9_TOP_2 
-	= 1606;
+	= 1618;
 	
 
 	-- case of state without states but contains transitions 
@@ -149,7 +149,7 @@ let
 
 	-- set state as active 
 	idFlowchart9_TOP_2 
-	= 1607;
+	= 1619;
 	
 
 	-- case of state without states but contains transitions 
@@ -222,7 +222,7 @@ let
 
 	-- set state as active 
 	idFlowchart9_Flowchart9_2 
-	= 1608;
+	= 1620;
 	
 
 	
@@ -245,7 +245,7 @@ let
 
 	(idTOP_A_4, idFlowchart9_TOP_4) 
 	= 
-	if ( idFlowchart9_TOP_1 = 1606) then
+	if ( idFlowchart9_TOP_1 = 1618) then
 	TOP_A_en(idTOP_A_1, idFlowchart9_TOP_1, false)
 	 else (idTOP_A_1, idFlowchart9_TOP_1);
 
@@ -253,7 +253,7 @@ let
 
 	(idTOP_B_2, idFlowchart9_TOP_5) 
 	= 
-	if ( idFlowchart9_TOP_1 = 1607) then
+	if ( idFlowchart9_TOP_1 = 1619) then
 	TOP_B_en(idTOP_B_1, idFlowchart9_TOP_1, false)
 	 else (idTOP_B_1, idFlowchart9_TOP_1);
 
@@ -264,10 +264,10 @@ let
 		 if ( idFlowchart9_TOP_1 = 0) then 
 		(idFlowchart9_TOP_3, idFlowchart9_Flowchart9_3, idTOP_A_3, idTOP_B_1)
 		 else
-		 if ( idFlowchart9_TOP_1 = 1606) then 
+		 if ( idFlowchart9_TOP_1 = 1618) then 
 		(idFlowchart9_TOP_4, idFlowchart9_Flowchart9_3, idTOP_A_4, idTOP_B_1)
 		 else
-		 if ( idFlowchart9_TOP_1 = 1607) then 
+		 if ( idFlowchart9_TOP_1 = 1619) then 
 		(idFlowchart9_TOP_5, idFlowchart9_Flowchart9_3, idTOP_A_1, idTOP_B_2)
 		 else (idFlowchart9_TOP_1, idFlowchart9_Flowchart9_2, idTOP_A_1, idTOP_B_1);
 
@@ -302,7 +302,7 @@ let
 	
 	(idFlowchart9_TOP_2) 
 	= 
-	if ( idFlowchart9_TOP_1 = 1606) then
+	if ( idFlowchart9_TOP_1 = 1618) then
 	TOP_A_ex(idFlowchart9_TOP_1, false)
 	 else (idFlowchart9_TOP_1);
 
@@ -310,7 +310,7 @@ let
 
 	(idFlowchart9_TOP_3) 
 	= 
-	if ( idFlowchart9_TOP_1 = 1607) then
+	if ( idFlowchart9_TOP_1 = 1619) then
 	TOP_B_ex(idFlowchart9_TOP_1, false)
 	 else (idFlowchart9_TOP_1);
 
@@ -318,10 +318,10 @@ let
 
 	(idFlowchart9_TOP_4) 
 	= 
-		 if ( idFlowchart9_TOP_1 = 1606) then 
+		 if ( idFlowchart9_TOP_1 = 1618) then 
 		(idFlowchart9_TOP_2)
 		 else
-		 if ( idFlowchart9_TOP_1 = 1607) then 
+		 if ( idFlowchart9_TOP_1 = 1619) then 
 		(idFlowchart9_TOP_3)
 		 else (idFlowchart9_TOP_1);
 
@@ -355,7 +355,7 @@ let
 	 automaton top_a
 
 	state POINTTOP_A:
-	unless true restart TOP_A__TO__FLOWCHART9_FLOWCHART9JUNCTION1609_1
+	unless true restart TOP_A__TO__FLOWCHART9_FLOWCHART9JUNCTION1621_1
 
 
 
@@ -369,17 +369,17 @@ let
 
 
 
-	state TOP_A__TO__FLOWCHART9_FLOWCHART9JUNCTION1609_1:
+	state TOP_A__TO__FLOWCHART9_FLOWCHART9JUNCTION1621_1:
 
 	 var 	x_2:int;
 	let
 
 		-- transition trace :
-	--TOP_A__To__Junction1609_1
+	--TOP_A__To__Junction1621_1
 		-- condition Action : x++
 		
 		(x_2) 
-	= TOP_A__To__Flowchart9_Flowchart9Junction1609_1_Condition_Action(x_1);
+	= TOP_A__To__Flowchart9_Flowchart9Junction1621_1_Condition_Action(x_1);
 		
 
 	(idTOP_A, x) 
@@ -409,7 +409,7 @@ let
 	 automaton top_b
 
 	state POINTTOP_B:
-	unless true restart TOP_B__TO__FLOWCHART9_FLOWCHART9JUNCTION1611_1
+	unless true restart TOP_B__TO__FLOWCHART9_FLOWCHART9JUNCTION1623_1
 
 
 
@@ -423,17 +423,17 @@ let
 
 
 
-	state TOP_B__TO__FLOWCHART9_FLOWCHART9JUNCTION1611_1:
+	state TOP_B__TO__FLOWCHART9_FLOWCHART9JUNCTION1623_1:
 
 	 var 	y_2:int;
 	let
 
 		-- transition trace :
-	--TOP_B__To__Junction1611_1
+	--TOP_B__To__Junction1623_1
 		-- condition Action : y++
 		
 		(y_2) 
-	= TOP_B__To__Flowchart9_Flowchart9Junction1611_1_Condition_Action(y_1);
+	= TOP_B__To__Flowchart9_Flowchart9Junction1623_1_Condition_Action(y_1);
 		
 
 	(idTOP_B, y) 
@@ -474,17 +474,17 @@ let
 
 
 
-	unless (idFlowchart9_TOP_1=1606) and E restart TOP_A__TO__TOP_B_1
+	unless (idFlowchart9_TOP_1=1618) and E restart TOP_A__TO__TOP_B_1
 
 
 
-	unless (idFlowchart9_TOP_1=1607) and E restart TOP_B__TO__TOP_A_1
+	unless (idFlowchart9_TOP_1=1619) and E restart TOP_B__TO__TOP_A_1
 
 
 
-	unless (idFlowchart9_TOP_1=1606) restart TOP_A_IDL
+	unless (idFlowchart9_TOP_1=1618) restart TOP_A_IDL
 
-	unless (idFlowchart9_TOP_1=1607) restart TOP_B_IDL
+	unless (idFlowchart9_TOP_1=1619) restart TOP_B_IDL
 
 	let
 

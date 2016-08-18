@@ -6,9 +6,34 @@
 
 
 
+node Flowchart8_A__To__Flowchart8_Flowchart8Junction1605_1_Condition_Action(cent_1:int)
+
+returns (cent:int);
 
 
-node Flowchart8_Flowchart8Junction1577__To__Flowchart8_Flowchart8Junction1578_1_Condition_Action(sec_1:int;
+var 	cent_2:int;
+
+
+let
+
+
+
+	cent_2 
+	=  cent_1  + 1;
+	
+
+	(cent) 
+	= (cent_2);
+	
+
+tel
+
+
+
+
+
+
+node Flowchart8_Flowchart8Junction1606__To__Flowchart8_Flowchart8Junction1607_1_Condition_Action(sec_1:int;
 	min_1:int)
 
 returns (sec:int;
@@ -43,7 +68,9 @@ tel
 
 
 
-node Flowchart8_Flowchart8Junction1576__To__Flowchart8_Flowchart8Junction1577_1_Condition_Action(cent_1:int;
+
+
+node Flowchart8_Flowchart8Junction1605__To__Flowchart8_Flowchart8Junction1606_1_Condition_Action(cent_1:int;
 	sec_1:int)
 
 returns (cent:int;
@@ -77,33 +104,6 @@ tel
 
 
 
-node Flowchart8_A__To__Flowchart8_Flowchart8Junction1576_1_Condition_Action(cent_1:int)
-
-returns (cent:int);
-
-
-var 	cent_2:int;
-
-
-let
-
-
-
-	cent_2 
-	=  cent_1  + 1;
-	
-
-	(cent) 
-	= (cent_2);
-	
-
-tel
-
-
-
-
-
-
 -- Entry action for state :Flowchart8_A
 node Flowchart8_A_en(idFlowchart8_Flowchart8_1:int;
 	isInner:bool)
@@ -120,7 +120,7 @@ let
 
 	-- set state as active 
 	idFlowchart8_Flowchart8_2 
-	= 1571;
+	= 1600;
 	
 
 	(idFlowchart8_Flowchart8) 
@@ -182,11 +182,11 @@ let
 
 
 
-	unless (idFlowchart8_Flowchart8_1=1571) and TIC restart FLOWCHART8_A__TO__FLOWCHART8_FLOWCHART8JUNCTION1576_1
+	unless (idFlowchart8_Flowchart8_1=1600) and TIC restart FLOWCHART8_A__TO__FLOWCHART8_FLOWCHART8JUNCTION1605_1
 
 
 
-	unless (idFlowchart8_Flowchart8_1=1571) restart FLOWCHART8_A_IDL
+	unless (idFlowchart8_Flowchart8_1=1600) restart FLOWCHART8_A_IDL
 
 	let
 
@@ -223,7 +223,7 @@ let
 
 
 
-	state FLOWCHART8_A__TO__FLOWCHART8_FLOWCHART8JUNCTION1576_1:
+	state FLOWCHART8_A__TO__FLOWCHART8_FLOWCHART8JUNCTION1605_1:
 
 	 var 	cent_2, cent_3, cent_4, cent_5, cent_6:int;
 	sec_2, sec_3, sec_4:int;
@@ -235,11 +235,11 @@ let
 
 
 -- transition trace :
-	--Flowchart8_A__To__Junction1576_1, Junction1576__To__Junction1577_1, Junction1577__To__Junction1578_1
+	--Flowchart8_A__To__Junction1605_1, Junction1605__To__Junction1606_1, Junction1606__To__Junction1607_1
 		-- condition Action : cent++
 		
 		(cent_2) 
-	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1576_1_Condition_Action(cent_1);
+	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1605_1_Condition_Action(cent_1);
 		
 
 		-- condition Action : cent=0;sec++
@@ -247,7 +247,7 @@ let
 		(cent_3, sec_2) 
 	= 
 		 if ((  cent_2 =2 )) then 
-		Flowchart8_Flowchart8Junction1576__To__Flowchart8_Flowchart8Junction1577_1_Condition_Action(cent_2, sec_1)
+		Flowchart8_Flowchart8Junction1605__To__Flowchart8_Flowchart8Junction1606_1_Condition_Action(cent_2, sec_1)
 		 else (cent_2, sec_1);
 		
 
@@ -256,17 +256,17 @@ let
 		(sec_3, min_2) 
 	= 
 		 if ((  cent_2 =2 ) and (  sec_2 =3 )) then 
-		Flowchart8_Flowchart8Junction1577__To__Flowchart8_Flowchart8Junction1578_1_Condition_Action(sec_2, min_1)
+		Flowchart8_Flowchart8Junction1606__To__Flowchart8_Flowchart8Junction1607_1_Condition_Action(sec_2, min_1)
 		 else (sec_2, min_1);
 		
 
 
 -- transition trace :
-	--Flowchart8_A__To__Junction1576_1, Junction1576__To__Junction1577_1, Junction1577__To__Junction1578_2
+	--Flowchart8_A__To__Junction1605_1, Junction1605__To__Junction1606_1, Junction1606__To__Junction1607_2
 		-- condition Action : cent++
 		
 		(cent_4) 
-	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1576_1_Condition_Action(cent_1);
+	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1605_1_Condition_Action(cent_1);
 		
 
 		-- condition Action : cent=0;sec++
@@ -274,17 +274,17 @@ let
 		(cent_5, sec_4) 
 	= 
 		 if ((  cent_4 =2 )) then 
-		Flowchart8_Flowchart8Junction1576__To__Flowchart8_Flowchart8Junction1577_1_Condition_Action(cent_4, sec_1)
+		Flowchart8_Flowchart8Junction1605__To__Flowchart8_Flowchart8Junction1606_1_Condition_Action(cent_4, sec_1)
 		 else (cent_4, sec_1);
 		
 
 
 -- transition trace :
-	--Flowchart8_A__To__Junction1576_1, Junction1576__To__Junction1578_2
+	--Flowchart8_A__To__Junction1605_1, Junction1605__To__Junction1607_2
 		-- condition Action : cent++
 		
 		(cent_6) 
-	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1576_1_Condition_Action(cent_1);
+	= Flowchart8_A__To__Flowchart8_Flowchart8Junction1605_1_Condition_Action(cent_1);
 		
 
 	(idFlowchart8_Flowchart8, cent, sec, min) 

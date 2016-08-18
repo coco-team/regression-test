@@ -31,7 +31,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 1445;
+	= 546;
 	
 
 	suspended_2 
@@ -106,7 +106,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 1446;
+	= 547;
 	
 
 	on_off_2 
@@ -173,7 +173,7 @@ let
 
 	-- set state as active 
 	idSetResetWaitOut_SetResetWaitOut_2 
-	= 1447;
+	= 548;
 	
 
 	on_off_2 
@@ -241,31 +241,31 @@ let
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1445) and Clear restart SETRESETWAITOUT_WAIT__TO__SETRESETWAITOUT_OFF_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=546) and Clear restart SETRESETWAITOUT_WAIT__TO__SETRESETWAITOUT_OFF_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) and Set restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_ON_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=547) and Set restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_ON_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) and Suspend restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_WAIT_2
+	unless (idSetResetWaitOut_SetResetWaitOut_1=547) and Suspend restart SETRESETWAITOUT_OFF__TO__SETRESETWAITOUT_WAIT_2
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) and Suspend restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_WAIT_1
+	unless (idSetResetWaitOut_SetResetWaitOut_1=548) and Suspend restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_WAIT_1
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) and Reset restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_OFF_2
+	unless (idSetResetWaitOut_SetResetWaitOut_1=548) and Reset restart SETRESETWAITOUT_ON__TO__SETRESETWAITOUT_OFF_2
 
 
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1445) restart SETRESETWAITOUT_WAIT_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=546) restart SETRESETWAITOUT_WAIT_IDL
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1446) restart SETRESETWAITOUT_OFF_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=547) restart SETRESETWAITOUT_OFF_IDL
 
-	unless (idSetResetWaitOut_SetResetWaitOut_1=1447) restart SETRESETWAITOUT_ON_IDL
+	unless (idSetResetWaitOut_SetResetWaitOut_1=548) restart SETRESETWAITOUT_ON_IDL
 
 	let
 
