@@ -2,6 +2,16 @@
 
 
 -- System nodes
+node current(In2_1_1 : real; c : bool;)returns(out:real;);
+
+let
+    out = if c then In2_1_1 else pre out;
+tel
+node current2(In2_1_1 : bool; c : bool;)returns(out:bool;);
+
+let
+    out = if c then In2_1_1 else pre out;
+tel
 node enable_held_with_pre_Subsystem2 (In1_1_1 : real; enable_held_with_pre_Subsystem2_Enable_1_1: bool)
 returns (Out1_1_1 : real); 
 var
@@ -18,10 +28,16 @@ tel
 node enable_held_with_pre (In1_1_1 : bool; In2_1_1 : real)
 returns (Out1_1_1 : real); 
 var
-	Subsystem2_1_1 : real;
+	Subsystem2_1_1, in2 : real;
 	i_virtual_local : real;
+    c : bool clock;
+    in1 : bool;
+    
 let 
-	Subsystem2_1_1 = if (In1_1_1) then enable_held_with_pre_Subsystem2(In2_1_1, In1_1_1) else pre Subsystem2_1_1;
+    c = false -> In1_1_1;
+    in2 = current(In2_1_1,In1_1_1);
+    in1 = current2(In1_1_1, In1_1_1);
+	Subsystem2_1_1 = if (In1_1_1 ) then enable_held_with_pre_Subsystem2(in2, in1) else pre Subsystem2_1_1;
 	Out1_1_1 = Subsystem2_1_1;
 	i_virtual_local= 0.0 -> 1.0;
 tel
