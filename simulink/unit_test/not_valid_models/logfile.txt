@@ -902,3 +902,145 @@ Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback
 Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/coco_team/regression-test/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/coco_team/regression-test/validate_model.m',77,0)">line 77</a>)
     lus_file_path=cocoSim(model_full_path);
 
+2016-08-24 15:44:46,464 ERROR cocoSim - if_multi_test\nIndex exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_subsystem', '/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m', 230)" style="font-weight:bold">write_subsystem</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',230,0)">line 230</a>)
+                input_dt = unbloc.inports_dt{cpt_dim};
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 15:50:38,268 ERROR cocoSim - if_multi_test\nUndefined function or variable 'cpt_dims'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_subsystem', '/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m', 230)" style="font-weight:bold">write_subsystem</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',230,0)">line 230</a>)
+            cpt_dims
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 15:51:16,065 ERROR cocoSim - if_multi_test\nIndex exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_subsystem', '/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m', 232)" style="font-weight:bold">write_subsystem</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',232,0)">line 232</a>)
+                input_dt = unbloc.inports_dt{cpt_dim};
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 15:59:27,582 ERROR cocoSim - if_multi_test\nIndex exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_subsystem', '/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m', 232)" style="font-weight:bold">write_subsystem</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',232,0)">line 232</a>)
+                input_dt = unbloc.inports_dt{cpt_dim};
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 16:08:12,778 ERROR cocoSim - if_multi_test\nError: <a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',201,92)">File: write_subsystem.m Line: 201 Column: 92
+</a>Unbalanced or unexpected parenthesis or bracket.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 16:08:44,177 ERROR cocoSim - if_multi_test\nIndex exceeds matrix dimensions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_subsystem', '/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m', 235)" style="font-weight:bold">write_subsystem</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_subsystem.m',235,0)">line 235</a>)
+                input_dt = unbloc.inports_dt{cpt_dim};
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 607)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',607,0)">line 607</a>)
+            [block_string, var_str] = write_subsystem(inter_blk{idx_block}, inter_blk, main_blk, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+
+2016-08-24 17:26:29,540 ERROR cocoSim - merge_test\nError using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sprintf')" style="font-weight:bold">sprintf</a>
+Function is not defined for 'cell' inputs.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('app_sprintf', '/home/hamza/Documents/cocoSim/src/frontEnd/app_sprintf.m', 20)" style="font-weight:bold">app_sprintf</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/app_sprintf.m',20,0)">line 20</a>)
+	tmp = sprintf(formatSpec, varargin{:});
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_merge', '/home/hamza/Documents/cocoSim/src/middleEnd/write_merge.m', 65)" style="font-weight:bold">write_merge</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/middleEnd/write_merge.m',65,0)">line 65</a>)
+    right_exp = app_sprintf(right_exp,'\tif  %s then %s else\n', condition,inputs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('write_code', '/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m', 282)" style="font-weight:bold">write_code</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/write_code.m',282,0)">line 282</a>)
+		block_string = write_merge(inter_blk{idx_block}, inter_blk);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('blocks2lustre', '/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m', 199)" style="font-weight:bold">blocks2lustre</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/frontEnd/blocks2lustre.m',199,0)">line 199</a>)
+    write_code(nblk, inter_blk, blks, main_blks, myblk, nom_lustre_file, idx_subsys, false, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cocoSim', '/home/hamza/Documents/cocoSim/src/cocoSim.m', 333)" style="font-weight:bold">cocoSim</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/cocoSim.m',333,0)">line 333</a>)
+            blocks2lustre(file_name, nom_lustre_file, inter_blk, blks, mat_files, idx_subsys, trace, xml_trace);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('validate_model', '/home/hamza/Documents/cocoSim/src/validate_model.m', 77)" style="font-weight:bold">validate_model</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/src/validate_model.m',77,0)">line 77</a>)
+    lus_file_path=cocoSim(model_full_path);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sl_customization>validateCallBack', '/home/hamza/Documents/cocoSim/sl_customization.m', 32)" style="font-weight:bold">sl_customization>validateCallBack</a> (<a href="matlab: opentoline('/home/hamza/Documents/cocoSim/sl_customization.m',32,0)">line 32</a>)
+          lustrec_binary_failed, sim_failed, lus_file_path]=validate_model(model_full_path,cocoSim_path,1);
+

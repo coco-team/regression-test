@@ -2,63 +2,88 @@
 
 
 -- System nodes
-node merge_test (i_virtual : real)
-returns (Out1_1_1 : real; Out1_1_2 : real; Out1_1_3 : real; Out1_1_4 : real; Out1_1_5 : real; Out1_1_6 : real); 
+node merge_test_Act2 (state_1_1 : int; state_1_2 : int; state_1_3 : int; )
+returns (NextState_1_1 : int; NextState_1_2 : int; NextState_1_3 : int); 
 var
-	Constant_1_1 : real; Constant_1_2 : real; Constant_1_3 : real; Constant_1_4 : real; Constant_1_5 : real; Constant_1_6 : real;
-	Constant1_1_1 : real; Constant1_1_2 : real; Constant1_1_3 : real; Constant1_1_4 : real; Constant1_1_5 : real; Constant1_1_6 : real;
-	Constant2_1_1 : real; Constant2_1_2 : real; Constant2_1_3 : real; Constant2_1_4 : real; Constant2_1_5 : real; Constant2_1_6 : real;
-	Merge_1_1 : real; Merge_1_2 : real; Merge_1_3 : real; Merge_1_4 : real; Merge_1_5 : real; Merge_1_6 : real;
+	Constant1_1_1 : int;
+	Demux_1_1 : int; Demux_2_1 : int; Demux_3_1 : int;
+	From21_1_1 : int; From21_1_2 : int; From21_1_3 : int;
+	Mux_1_1 : int; Mux_1_2 : int; Mux_1_3 : int;
+	SignalConversion_1_1 : int; SignalConversion_1_2 : int; SignalConversion_1_3 : int;
+	Sum_1_1 : int;
+	Goto_state_1, Goto_state_2, Goto_state_3: int;
+let 
+	Constant1_1_1 = 1;
+	Demux_1_1 = From21_1_1 ;
+	Demux_2_1 = From21_1_2 ;
+	Demux_3_1 = From21_1_3 ;
+	From21_1_1 = Goto_state_1;
+	From21_1_2 = Goto_state_2;
+	From21_1_3 = Goto_state_3;
+	Goto_state_1 = state_1_1;
+	Goto_state_2 = state_1_2;
+	Goto_state_3 = state_1_3;
+	Mux_1_1 = Sum_1_1 ;
+	Mux_1_2 = Demux_2_1 ;
+	Mux_1_3 = Demux_3_1 ;
+	SignalConversion_1_1 = Mux_1_1 ;
+	SignalConversion_1_2 = Mux_1_2 ;
+	SignalConversion_1_3 = Mux_1_3 ;
+	Sum_1_1 =  - Constant1_1_1 + Demux_1_1;
+	NextState_1_1 = SignalConversion_1_1;
+	NextState_1_2 = SignalConversion_1_2;
+	NextState_1_3 = SignalConversion_1_3;
+tel
+
+node merge_test_Act1 (state_1_1 : int; state_1_2 : int; state_1_3 : int; )
+returns (NextState_1_1 : int; NextState_1_2 : int; NextState_1_3 : int); 
+var
+	Constant1_1_1 : int;
+	Demux_1_1 : int; Demux_2_1 : int; Demux_3_1 : int;
+	From21_1_1 : int; From21_1_2 : int; From21_1_3 : int;
+	Mux_1_1 : int; Mux_1_2 : int; Mux_1_3 : int;
+	SignalConversion_1_1 : int; SignalConversion_1_2 : int; SignalConversion_1_3 : int;
+	Goto_state_1, Goto_state_2, Goto_state_3: int;
+let 
+	Constant1_1_1 = 0;
+	Demux_1_1 = From21_1_1 ;
+	Demux_2_1 = From21_1_2 ;
+	Demux_3_1 = From21_1_3 ;
+	From21_1_1 = Goto_state_1;
+	From21_1_2 = Goto_state_2;
+	From21_1_3 = Goto_state_3;
+	Goto_state_1 = state_1_1;
+	Goto_state_2 = state_1_2;
+	Goto_state_3 = state_1_3;
+	Mux_1_1 = Constant1_1_1 ;
+	Mux_1_2 = Demux_2_1 ;
+	Mux_1_3 = Demux_3_1 ;
+	SignalConversion_1_1 = Mux_1_1 ;
+	SignalConversion_1_2 = Mux_1_2 ;
+	SignalConversion_1_3 = Mux_1_3 ;
+	NextState_1_1 = SignalConversion_1_1;
+	NextState_1_2 = SignalConversion_1_2;
+	NextState_1_3 = SignalConversion_1_3;
+tel
+
+node merge_test (In1_1_1 : bool; In2_1_1 : bool; In3_1_1 : int; In3_1_2 : int; In3_1_3 : int; In4_1_1 : int; In4_1_2 : int; In4_1_3 : int; )
+returns (NextState_1_1 : int; NextState_1_2 : int; NextState_1_3 : int); 
+var
+	Act1_1_1 : int; Act1_1_2 : int; Act1_1_3 : int;
+	Act2_1_1 : int; Act2_1_2 : int; Act2_1_3 : int;
+	If_1_1 : bool; If_2_1 : bool;
+	Merge_1_1 : int; Merge_1_2 : int; Merge_1_3 : int;
 	i_virtual_local : real;
 let 
-	Constant_1_1 = 1.0000000000;
-	Constant_1_2 = 2.0000000000;
-	Constant_1_3 = 3.0000000000;
-	Constant_1_4 = 4.0000000000;
-	Constant_1_5 = 5.0000000000;
-	Constant_1_6 = 6.0000000000;
-	Constant1_1_1 = 1.0000000000;
-	Constant1_1_2 = 2.0000000000;
-	Constant1_1_3 = 3.0000000000;
-	Constant1_1_4 = 4.0000000000;
-	Constant1_1_5 = 5.0000000000;
-	Constant1_1_6 = 6.0000000000;
-	Constant2_1_1 = 1.0000000000;
-	Constant2_1_2 = 2.0000000000;
-	Constant2_1_3 = 3.0000000000;
-	Constant2_1_4 = 4.0000000000;
-	Constant2_1_5 = 5.0000000000;
-	Constant2_1_6 = 6.0000000000;
-	Merge_1_1 = 	if  Constant1_1_1 != 1.0 then Constant1_1_1 else
-	if  Constant_1_1 != 1.0 then Constant_1_1 else
-	if  Constant2_1_1 != 1.0 then Constant2_1_1 else
- 	1.0;
-	Merge_1_2 = 	if  Constant1_1_2 != 1.0 then Constant1_1_2 else
-	if  Constant_1_2 != 1.0 then Constant_1_2 else
-	if  Constant2_1_2 != 1.0 then Constant2_1_2 else
- 	1.0;
-	Merge_1_3 = 	if  Constant1_1_3 != 1.0 then Constant1_1_3 else
-	if  Constant_1_3 != 1.0 then Constant_1_3 else
-	if  Constant2_1_3 != 1.0 then Constant2_1_3 else
- 	1.0;
-	Merge_1_4 = 	if  Constant1_1_4 != 1.0 then Constant1_1_4 else
-	if  Constant_1_4 != 1.0 then Constant_1_4 else
-	if  Constant2_1_4 != 1.0 then Constant2_1_4 else
- 	1.0;
-	Merge_1_5 = 	if  Constant1_1_5 != 1.0 then Constant1_1_5 else
-	if  Constant_1_5 != 1.0 then Constant_1_5 else
-	if  Constant2_1_5 != 1.0 then Constant2_1_5 else
- 	1.0;
-	Merge_1_6 = 	if  Constant1_1_6 != 1.0 then Constant1_1_6 else
-	if  Constant_1_6 != 1.0 then Constant_1_6 else
-	if  Constant2_1_6 != 1.0 then Constant2_1_6 else
- 	1.0;
-	Out1_1_1 = Merge_1_1;
-	Out1_1_2 = Merge_1_2;
-	Out1_1_3 = Merge_1_3;
-	Out1_1_4 = Merge_1_4;
-	Out1_1_5 = Merge_1_5;
-	Out1_1_6 = Merge_1_6;
+	(Act1_1_1, Act1_1_2, Act1_1_3) = if (If_1_1) then merge_test_Act1(In3_1_1, In3_1_2, In3_1_3) else (pre Act1_1_1, pre Act1_1_2, pre Act1_1_3);
+	(Act2_1_1, Act2_1_2, Act2_1_3) = if (If_2_1) then merge_test_Act2(In4_1_1, In4_1_2, In4_1_3) else (pre Act2_1_1, pre Act2_1_2, pre Act2_1_3);
+	(If_1_1, If_2_1) = if In1_1_1 then (true, false) else if In2_1_1 then (false, true) else (false, false);
+	(Merge_1_1, Merge_1_2, Merge_1_3) = 	if  ((Act1_1_1 != pre Act1_1_1) or (Act1_1_2 != pre Act1_1_2) or (Act1_1_3 != pre Act1_1_3)) then (Act1_1_1, Act1_1_2, Act1_1_3) else
+	if  ((Act2_1_1 != pre Act2_1_1) or (Act2_1_2 != pre Act2_1_2) or (Act2_1_3 != pre Act2_1_3)) then (Act2_1_1, Act2_1_2, Act2_1_3) else
+ 	(pre Merge_1_1, pre Merge_1_2, pre Merge_1_3);
+	NextState_1_1 = Merge_1_1;
+	NextState_1_2 = Merge_1_2;
+	NextState_1_3 = Merge_1_3;
 	i_virtual_local= 0.0 -> 1.0;
 tel
 
