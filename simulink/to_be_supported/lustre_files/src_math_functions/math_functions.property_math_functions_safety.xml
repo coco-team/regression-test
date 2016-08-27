@@ -1,13 +1,14 @@
-(error "line 26 column 46: unknown function/constant sqrt")
+(error "line 16 column 71: unknown function/constant sqrt")
+(error "line 26 column 71: unknown function/constant sqrt")
 Process Process-1:
 Traceback (most recent call last):
   File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
     self.run()
   File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
     self._target(*self._args, **self._kwargs)
-  File "/home/hamza/Documents/zustre/build2/run/bin/zustre", line 76, in main
+  File "/home/hamza/Documents/coco_team/zustre/build/run/bin/zustre", line 76, in main
     zus.encodeAndSolve()
-  File "/home/hamza/Documents/zustre/build2/run/lib/zustrepy/src/zustre.py", line 179, in encodeAndSolve
+  File "/home/hamza/Documents/coco_team/zustre/build/run/lib/zustrepy/src/zustre.py", line 179, in encodeAndSolve
     q = self.fp.parse_file (hornFormulas)
   File "src/api/python/z3.py", line 6444, in parse_file
   File "src/api/python/z3core.py", line 4734, in Z3_fixedpoint_from_file

@@ -12,13 +12,15 @@ var
 	RelationalOperator_1_1 : bool;
 	RelationalOperator1_1_1 : bool;
 	Out1_1_1 : real;
+	i_virtual_local : real;
 let
-	Constant_1_1 = 5.0000000000;
-	Constant1_1_1 = 0.0000000000;
+	Constant_1_1 = 5.00000000;
+	Constant1_1_1 = 0.00000000;
 	LogicalOperator_1_1 = RelationalOperator_1_1 and RelationalOperator1_1_1;
 	RelationalOperator_1_1 = Out1_1_1 <= Constant_1_1;
 	RelationalOperator1_1_1 = Out1_1_1 >= Constant1_1_1;
 	safety_1_1 = LogicalOperator_1_1;
+	i_virtual_local= 0.0 -> 1.0;
 
 	Out1_1_1 = math_functions(ctrl3_1_1);
 	--%PROPERTY safety_1_1; 
@@ -27,7 +29,7 @@ tel
 
 
 -- System nodes
-node math_functions (ctrl3_1_1 : real)
+node math_functions (ctrl3_1_1 : real; )
 returns (Out1_1_1 : real); 
 var
 	subsystem_Constant_1_1 : real;
@@ -36,7 +38,7 @@ var
 	subsystem_Sqrt_1_1 : real;
 	i_virtual_local : real;
 let 
-	subsystem_Constant_1_1 = 0.2500000000;
+	subsystem_Constant_1_1 = 0.25000000;
 	subsystem_MathFunction_1_1 = pow(subsystem_Sqrt_1_1, subsystem_Constant_1_1);
 	subsystem_Saturation_1_1 =  if subsystem_MathFunction_1_1 >= 5.000000 then 5.000000 
 		else if subsystem_MathFunction_1_1 <= 0.000000 then 0.000000 
