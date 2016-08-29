@@ -2,7 +2,7 @@
 
 
 -- System nodes
-node saturate_test (In1_1_1 : real; In2_1_1 : real; In2_1_2 : real; In2_1_3 : real; In3_1_1 : real; In3_1_2 : real; In3_1_3 : real; In3_1_4 : real; In3_1_5 : real; In3_1_6 : real; In4_1_1 : real; In4_1_2 : real; In4_1_3 : real; In5_1_1 : real; In5_1_2 : real; In5_1_3 : real; In5_1_4 : real; In5_1_5 : real; In5_1_6 : real; In6_1_1 : real; In7_1_1 : real; In8_1_1 : real; In9_1_1 : real)
+node saturate_test (In1_1_1 : real; In2_1_1 : real; In2_1_2 : real; In2_1_3 : real; In3_1_1 : real; In3_1_2 : real; In3_1_3 : real; In3_1_4 : real; In3_1_5 : real; In3_1_6 : real; In4_1_1 : real; In4_1_2 : real; In4_1_3 : real; In5_1_1 : real; In5_1_2 : real; In5_1_3 : real; In5_1_4 : real; In5_1_5 : real; In5_1_6 : real; In6_1_1 : real; In7_1_1 : real; In8_1_1 : real; In9_1_1 : real; )
 returns (Out1_1_1 : real;
 	Out2_2_1 : real; Out2_2_2 : real; Out2_2_3 : real;
 	Out3_3_1 : real; Out3_3_2 : real; Out3_3_3 : real; Out3_3_4 : real; Out3_3_5 : real; Out3_3_6 : real;
@@ -66,17 +66,17 @@ let
 	Saturation4_1_1 =  if In5_1_1 >= 0.500000 then 0.500000 
 		else if In5_1_1 <= -0.500000 then -0.500000 
 		else In5_1_1 ;
-	Saturation4_1_2 =  if In5_1_2 >= 1.500000 then 1.500000 
-		else if In5_1_2 <= -1.500000 then -1.500000 
+	Saturation4_1_2 =  if In5_1_2 >= 0.600000 then 0.600000 
+		else if In5_1_2 <= -0.600000 then -0.600000 
 		else In5_1_2 ;
-	Saturation4_1_3 =  if In5_1_3 >= 0.600000 then 0.600000 
-		else if In5_1_3 <= -0.600000 then -0.600000 
+	Saturation4_1_3 =  if In5_1_3 >= 0.700000 then 0.700000 
+		else if In5_1_3 <= -0.700000 then -0.700000 
 		else In5_1_3 ;
-	Saturation4_1_4 =  if In5_1_4 >= 1.600000 then 1.600000 
-		else if In5_1_4 <= -1.600000 then -1.600000 
+	Saturation4_1_4 =  if In5_1_4 >= 1.500000 then 1.500000 
+		else if In5_1_4 <= -1.500000 then -1.500000 
 		else In5_1_4 ;
-	Saturation4_1_5 =  if In5_1_5 >= 0.700000 then 0.700000 
-		else if In5_1_5 <= -0.700000 then -0.700000 
+	Saturation4_1_5 =  if In5_1_5 >= 1.600000 then 1.600000 
+		else if In5_1_5 <= -1.600000 then -1.600000 
 		else In5_1_5 ;
 	Saturation4_1_6 =  if In5_1_6 >= 1.700000 then 1.700000 
 		else if In5_1_6 <= -1.700000 then -1.700000 
@@ -93,17 +93,17 @@ let
 	Saturation6_1_1 =  if In7_1_1 >= 2.000000 then 2.000000 
 		else if In7_1_1 <= -2.000000 then -2.000000 
 		else In7_1_1 ;
-	Saturation6_1_2 =  if In7_1_1 >= 5.000000 then 5.000000 
-		else if In7_1_1 <= -5.000000 then -5.000000 
-		else In7_1_1 ;
-	Saturation6_1_3 =  if In7_1_1 >= 3.000000 then 3.000000 
+	Saturation6_1_2 =  if In7_1_1 >= 3.000000 then 3.000000 
 		else if In7_1_1 <= -3.000000 then -3.000000 
 		else In7_1_1 ;
-	Saturation6_1_4 =  if In7_1_1 >= 6.000000 then 6.000000 
-		else if In7_1_1 <= -6.000000 then -6.000000 
-		else In7_1_1 ;
-	Saturation6_1_5 =  if In7_1_1 >= 4.000000 then 4.000000 
+	Saturation6_1_3 =  if In7_1_1 >= 4.000000 then 4.000000 
 		else if In7_1_1 <= -4.000000 then -4.000000 
+		else In7_1_1 ;
+	Saturation6_1_4 =  if In7_1_1 >= 5.000000 then 5.000000 
+		else if In7_1_1 <= -5.000000 then -5.000000 
+		else In7_1_1 ;
+	Saturation6_1_5 =  if In7_1_1 >= 6.000000 then 6.000000 
+		else if In7_1_1 <= -6.000000 then -6.000000 
 		else In7_1_1 ;
 	Saturation6_1_6 =  if In7_1_1 >= 7.000000 then 7.000000 
 		else if In7_1_1 <= -7.000000 then -7.000000 
@@ -120,16 +120,16 @@ let
 	Saturation8_1_1 =  if In9_1_1 >= 2.000000 then 2.000000 
 		else if In9_1_1 <= -2.000000 then -2.000000 
 		else In9_1_1 ;
-	Saturation8_1_2 =  if In9_1_1 >= 5.000000 then 5.000000 
+	Saturation8_1_2 =  if In9_1_1 >= 3.000000 then 3.000000 
 		else if In9_1_1 <= -2.000000 then -2.000000 
 		else In9_1_1 ;
-	Saturation8_1_3 =  if In9_1_1 >= 3.000000 then 3.000000 
+	Saturation8_1_3 =  if In9_1_1 >= 4.000000 then 4.000000 
 		else if In9_1_1 <= -2.000000 then -2.000000 
 		else In9_1_1 ;
-	Saturation8_1_4 =  if In9_1_1 >= 6.000000 then 6.000000 
+	Saturation8_1_4 =  if In9_1_1 >= 5.000000 then 5.000000 
 		else if In9_1_1 <= -2.000000 then -2.000000 
 		else In9_1_1 ;
-	Saturation8_1_5 =  if In9_1_1 >= 4.000000 then 4.000000 
+	Saturation8_1_5 =  if In9_1_1 >= 6.000000 then 6.000000 
 		else if In9_1_1 <= -2.000000 then -2.000000 
 		else In9_1_1 ;
 	Saturation8_1_6 =  if In9_1_1 >= 7.000000 then 7.000000 

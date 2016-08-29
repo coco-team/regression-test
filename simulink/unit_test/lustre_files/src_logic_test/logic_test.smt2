@@ -165,809 +165,91 @@
 (declare-var logic_test.Out21_21_2 Bool)
 (declare-var logic_test.Out21_21_3 Bool)
 (declare-var logic_test.Out21_21_4 Bool)
-(declare-var logic_test.ni_0._arrow._first_c Bool)
-(declare-var logic_test.ni_0._arrow._first_m Bool)
-(declare-var logic_test.ni_0._arrow._first_x Bool)
+(declare-var logic_test.LogicalOperator10_1_1 Bool)
+(declare-var logic_test.LogicalOperator10_1_2 Bool)
+(declare-var logic_test.LogicalOperator11_1_1 Bool)
+(declare-var logic_test.LogicalOperator11_1_2 Bool)
+(declare-var logic_test.LogicalOperator11_1_3 Bool)
+(declare-var logic_test.LogicalOperator11_1_4 Bool)
+(declare-var logic_test.LogicalOperator11_1_5 Bool)
+(declare-var logic_test.LogicalOperator11_1_6 Bool)
+(declare-var logic_test.LogicalOperator12_1_1 Bool)
+(declare-var logic_test.LogicalOperator12_1_2 Bool)
+(declare-var logic_test.LogicalOperator13_1_1 Bool)
+(declare-var logic_test.LogicalOperator13_1_2 Bool)
+(declare-var logic_test.LogicalOperator13_1_3 Bool)
+(declare-var logic_test.LogicalOperator13_1_4 Bool)
+(declare-var logic_test.LogicalOperator13_1_5 Bool)
+(declare-var logic_test.LogicalOperator13_1_6 Bool)
+(declare-var logic_test.LogicalOperator14_1_1 Bool)
+(declare-var logic_test.LogicalOperator14_1_2 Bool)
+(declare-var logic_test.LogicalOperator15_1_1 Bool)
+(declare-var logic_test.LogicalOperator15_1_2 Bool)
+(declare-var logic_test.LogicalOperator15_1_3 Bool)
+(declare-var logic_test.LogicalOperator15_1_4 Bool)
+(declare-var logic_test.LogicalOperator15_1_5 Bool)
+(declare-var logic_test.LogicalOperator15_1_6 Bool)
+(declare-var logic_test.LogicalOperator16_1_1 Bool)
+(declare-var logic_test.LogicalOperator16_1_2 Bool)
+(declare-var logic_test.LogicalOperator17_1_1 Bool)
+(declare-var logic_test.LogicalOperator17_1_2 Bool)
+(declare-var logic_test.LogicalOperator17_1_3 Bool)
+(declare-var logic_test.LogicalOperator17_1_4 Bool)
+(declare-var logic_test.LogicalOperator17_1_5 Bool)
+(declare-var logic_test.LogicalOperator17_1_6 Bool)
+(declare-var logic_test.LogicalOperator18_1_1 Bool)
+(declare-var logic_test.LogicalOperator18_1_2 Bool)
+(declare-var logic_test.LogicalOperator19_1_1 Bool)
+(declare-var logic_test.LogicalOperator19_1_2 Bool)
+(declare-var logic_test.LogicalOperator19_1_3 Bool)
+(declare-var logic_test.LogicalOperator19_1_4 Bool)
+(declare-var logic_test.LogicalOperator19_1_5 Bool)
+(declare-var logic_test.LogicalOperator19_1_6 Bool)
+(declare-var logic_test.LogicalOperator1_1_1 Bool)
+(declare-var logic_test.LogicalOperator1_1_2 Bool)
+(declare-var logic_test.LogicalOperator20_1_1 Bool)
+(declare-var logic_test.LogicalOperator20_1_2 Bool)
+(declare-var logic_test.LogicalOperator20_1_3 Bool)
+(declare-var logic_test.LogicalOperator20_1_4 Bool)
+(declare-var logic_test.LogicalOperator2_1_1 Bool)
+(declare-var logic_test.LogicalOperator2_1_2 Bool)
+(declare-var logic_test.LogicalOperator3_1_1 Bool)
+(declare-var logic_test.LogicalOperator3_1_2 Bool)
+(declare-var logic_test.LogicalOperator3_1_3 Bool)
+(declare-var logic_test.LogicalOperator3_1_4 Bool)
+(declare-var logic_test.LogicalOperator4_1_1 Bool)
+(declare-var logic_test.LogicalOperator4_1_2 Bool)
+(declare-var logic_test.LogicalOperator5_1_1 Bool)
+(declare-var logic_test.LogicalOperator5_1_2 Bool)
+(declare-var logic_test.LogicalOperator5_1_3 Bool)
+(declare-var logic_test.LogicalOperator5_1_4 Bool)
+(declare-var logic_test.LogicalOperator6_1_1 Bool)
+(declare-var logic_test.LogicalOperator7_1_1 Bool)
+(declare-var logic_test.LogicalOperator8_1_1 Bool)
+(declare-var logic_test.LogicalOperator8_1_2 Bool)
+(declare-var logic_test.LogicalOperator9_1_1 Bool)
+(declare-var logic_test.LogicalOperator9_1_2 Bool)
+(declare-var logic_test.LogicalOperator9_1_3 Bool)
+(declare-var logic_test.LogicalOperator9_1_4 Bool)
+(declare-var logic_test.LogicalOperator9_1_5 Bool)
+(declare-var logic_test.LogicalOperator9_1_6 Bool)
+(declare-var logic_test.LogicalOperator_1_1 Bool)
 (declare-var logic_test.__logic_test_1 Bool)
-(declare-var logic_test.__logic_test_101 Bool)
-(declare-var logic_test.__logic_test_103 Bool)
-(declare-var logic_test.__logic_test_105 Bool)
-(declare-var logic_test.__logic_test_107 Bool)
-(declare-var logic_test.__logic_test_109 Bool)
-(declare-var logic_test.__logic_test_11 Bool)
-(declare-var logic_test.__logic_test_111 Bool)
-(declare-var logic_test.__logic_test_113 Bool)
-(declare-var logic_test.__logic_test_115 Bool)
-(declare-var logic_test.__logic_test_117 Bool)
-(declare-var logic_test.__logic_test_119 Bool)
-(declare-var logic_test.__logic_test_121 Bool)
-(declare-var logic_test.__logic_test_123 Bool)
-(declare-var logic_test.__logic_test_125 Bool)
-(declare-var logic_test.__logic_test_127 Bool)
-(declare-var logic_test.__logic_test_129 Bool)
-(declare-var logic_test.__logic_test_13 Bool)
-(declare-var logic_test.__logic_test_131 Bool)
-(declare-var logic_test.__logic_test_133 Bool)
-(declare-var logic_test.__logic_test_135 Bool)
-(declare-var logic_test.__logic_test_137 Bool)
-(declare-var logic_test.__logic_test_139 Bool)
-(declare-var logic_test.__logic_test_141 Bool)
-(declare-var logic_test.__logic_test_143 Bool)
-(declare-var logic_test.__logic_test_145 Bool)
-(declare-var logic_test.__logic_test_147 Bool)
-(declare-var logic_test.__logic_test_149 Bool)
-(declare-var logic_test.__logic_test_15 Bool)
-(declare-var logic_test.__logic_test_151 Bool)
-(declare-var logic_test.__logic_test_153 Bool)
-(declare-var logic_test.__logic_test_155 Bool)
-(declare-var logic_test.__logic_test_157 Bool)
-(declare-var logic_test.__logic_test_159 Bool)
-(declare-var logic_test.__logic_test_161 Bool)
-(declare-var logic_test.__logic_test_163 Bool)
-(declare-var logic_test.__logic_test_165 Bool)
-(declare-var logic_test.__logic_test_167 Bool)
-(declare-var logic_test.__logic_test_169 Bool)
-(declare-var logic_test.__logic_test_17 Bool)
-(declare-var logic_test.__logic_test_171 Bool)
-(declare-var logic_test.__logic_test_173 Bool)
-(declare-var logic_test.__logic_test_175 Bool)
-(declare-var logic_test.__logic_test_177 Bool)
-(declare-var logic_test.__logic_test_179 Bool)
-(declare-var logic_test.__logic_test_181 Bool)
-(declare-var logic_test.__logic_test_19 Bool)
-(declare-var logic_test.__logic_test_21 Bool)
-(declare-var logic_test.__logic_test_23 Bool)
-(declare-var logic_test.__logic_test_25 Bool)
-(declare-var logic_test.__logic_test_27 Bool)
-(declare-var logic_test.__logic_test_29 Bool)
-(declare-var logic_test.__logic_test_3 Bool)
-(declare-var logic_test.__logic_test_31 Bool)
-(declare-var logic_test.__logic_test_33 Bool)
-(declare-var logic_test.__logic_test_35 Bool)
-(declare-var logic_test.__logic_test_37 Bool)
-(declare-var logic_test.__logic_test_39 Bool)
-(declare-var logic_test.__logic_test_41 Bool)
-(declare-var logic_test.__logic_test_43 Bool)
-(declare-var logic_test.__logic_test_45 Bool)
-(declare-var logic_test.__logic_test_47 Bool)
-(declare-var logic_test.__logic_test_49 Bool)
-(declare-var logic_test.__logic_test_5 Bool)
-(declare-var logic_test.__logic_test_51 Bool)
-(declare-var logic_test.__logic_test_53 Bool)
-(declare-var logic_test.__logic_test_55 Bool)
-(declare-var logic_test.__logic_test_57 Bool)
-(declare-var logic_test.__logic_test_59 Bool)
-(declare-var logic_test.__logic_test_61 Bool)
-(declare-var logic_test.__logic_test_63 Bool)
-(declare-var logic_test.__logic_test_65 Bool)
-(declare-var logic_test.__logic_test_67 Bool)
-(declare-var logic_test.__logic_test_69 Bool)
-(declare-var logic_test.__logic_test_7 Bool)
-(declare-var logic_test.__logic_test_71 Bool)
-(declare-var logic_test.__logic_test_73 Bool)
-(declare-var logic_test.__logic_test_75 Bool)
-(declare-var logic_test.__logic_test_77 Bool)
-(declare-var logic_test.__logic_test_79 Bool)
-(declare-var logic_test.__logic_test_81 Bool)
-(declare-var logic_test.__logic_test_83 Bool)
-(declare-var logic_test.__logic_test_85 Bool)
-(declare-var logic_test.__logic_test_87 Bool)
-(declare-var logic_test.__logic_test_89 Bool)
-(declare-var logic_test.__logic_test_9 Bool)
-(declare-var logic_test.__logic_test_91 Bool)
-(declare-var logic_test.__logic_test_93 Bool)
-(declare-var logic_test.__logic_test_95 Bool)
-(declare-var logic_test.__logic_test_97 Bool)
-(declare-var logic_test.__logic_test_99 Bool)
 (declare-var logic_test.i_virtual_local Real)
-(declare-rel logic_test_reset (Bool Bool))
-(declare-rel logic_test_step (Bool Real Int Real Real Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool))
+(declare-rel logic_test_init (Bool Real Int Real Real Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool))
+(declare-rel logic_test_step (Bool Real Int Real Real Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Real Real Real Real Int Int Int Int Int Int Int Int Int Int Int Int Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool Bool))
 
 (rule (=> 
-  (and 
-       
-       (= logic_test.ni_0._arrow._first_m true)
+  (and (= logic_test.__logic_test_1 true) (= logic_test.i_virtual_local (
+       ite logic_test.__logic_test_1 0. 1.)) (= logic_test.LogicalOperator8_1_2 (not (not (= logic_test.In6_1_2 0.)))) (= logic_test.Out9_4_2 logic_test.LogicalOperator8_1_2) (= logic_test.LogicalOperator8_1_1 (not (not (= logic_test.In6_1_1 0.)))) (= logic_test.Out9_4_1 logic_test.LogicalOperator8_1_1) (= logic_test.LogicalOperator7_1_1 (not (not (= logic_test.In5_1_1 0)))) (= logic_test.Out8_3_1 logic_test.LogicalOperator7_1_1) (= logic_test.LogicalOperator6_1_1 (not (not (= logic_test.In4_1_1 0.)))) (= logic_test.Out7_2_1 logic_test.LogicalOperator6_1_1) (= logic_test.LogicalOperator5_1_4 (not (or (or logic_test.In3_1_4 logic_test.In3_1_4) logic_test.In3_1_4))) (= logic_test.Out6_20_4 logic_test.LogicalOperator5_1_4) (= logic_test.LogicalOperator5_1_3 (not (or (or logic_test.In3_1_3 logic_test.In3_1_3) logic_test.In3_1_3))) (= logic_test.Out6_20_3 logic_test.LogicalOperator5_1_3) (= logic_test.LogicalOperator5_1_2 (not (or (or logic_test.In3_1_2 logic_test.In3_1_2) logic_test.In3_1_2))) (= logic_test.Out6_20_2 logic_test.LogicalOperator5_1_2) (= logic_test.LogicalOperator5_1_1 (not (or (or logic_test.In3_1_1 logic_test.In3_1_1) logic_test.In3_1_1))) (= logic_test.Out6_20_1 logic_test.LogicalOperator5_1_1) (= logic_test.LogicalOperator4_1_2 (not (and (and logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2))) (= logic_test.Out5_19_2 logic_test.LogicalOperator4_1_2) (= logic_test.LogicalOperator4_1_1 (not (and (and logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1))) (= logic_test.Out5_19_1 logic_test.LogicalOperator4_1_1) (= logic_test.LogicalOperator3_1_4 ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4)) (= logic_test.Out4_18_4 logic_test.LogicalOperator3_1_4) (= logic_test.LogicalOperator3_1_3 ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3)) (= logic_test.Out4_18_3 logic_test.LogicalOperator3_1_3) (= logic_test.LogicalOperator3_1_2 ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2)) (= logic_test.Out4_18_2 logic_test.LogicalOperator3_1_2) (= logic_test.LogicalOperator3_1_1 ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1)) (= logic_test.Out4_18_1 logic_test.LogicalOperator3_1_1) (= logic_test.LogicalOperator2_1_2 (or (or logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2)) (= logic_test.Out3_17_2 logic_test.LogicalOperator2_1_2) (= logic_test.LogicalOperator2_1_1 (or (or logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1)) (= logic_test.Out3_17_1 logic_test.LogicalOperator2_1_1) (= logic_test.LogicalOperator1_1_2 (and (and logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2)) (= logic_test.Out2_16_2 logic_test.LogicalOperator1_1_2) (= logic_test.LogicalOperator1_1_1 (and (and logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1)) (= logic_test.Out2_16_1 logic_test.LogicalOperator1_1_1) (= logic_test.LogicalOperator20_1_4 (not ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4))) (= logic_test.Out21_21_4 logic_test.LogicalOperator20_1_4) (= logic_test.LogicalOperator20_1_3 (not ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3))) (= logic_test.Out21_21_3 logic_test.LogicalOperator20_1_3) (= logic_test.LogicalOperator20_1_2 (not ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2))) (= logic_test.Out21_21_2 logic_test.LogicalOperator20_1_2) (= logic_test.LogicalOperator20_1_1 (not ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1))) (= logic_test.Out21_21_1 logic_test.LogicalOperator20_1_1) (= logic_test.LogicalOperator19_1_6 ((not (= logic_test.In26_1_6 0)) xor (not (= logic_test.In27_1_6 0)))) (= logic_test.Out20_15_6 logic_test.LogicalOperator19_1_6) (= logic_test.LogicalOperator19_1_5 ((not (= logic_test.In26_1_5 0)) xor (not (= logic_test.In27_1_5 0)))) (= logic_test.Out20_15_5 logic_test.LogicalOperator19_1_5) (= logic_test.LogicalOperator19_1_4 ((not (= logic_test.In26_1_4 0)) xor (not (= logic_test.In27_1_4 0)))) (= logic_test.Out20_15_4 logic_test.LogicalOperator19_1_4) (= logic_test.LogicalOperator19_1_3 ((not (= logic_test.In26_1_3 0)) xor (not (= logic_test.In27_1_3 0)))) (= logic_test.Out20_15_3 logic_test.LogicalOperator19_1_3) (= logic_test.LogicalOperator19_1_2 ((not (= logic_test.In26_1_2 0)) xor (not (= logic_test.In27_1_2 0)))) (= logic_test.Out20_15_2 logic_test.LogicalOperator19_1_2) (= logic_test.LogicalOperator19_1_1 ((not (= logic_test.In26_1_1 0)) xor (not (= logic_test.In27_1_1 0)))) (= logic_test.Out20_15_1 logic_test.LogicalOperator19_1_1) (= logic_test.LogicalOperator_1_1 (not logic_test.In1_1_1)) (= logic_test.Out1_1_1 logic_test.LogicalOperator_1_1) (= logic_test.LogicalOperator18_1_2 ((not (= logic_test.In24_1_2 0.)) xor (not (= logic_test.In25_1_2 0.)))) (= logic_test.Out19_14_2 logic_test.LogicalOperator18_1_2) (= logic_test.LogicalOperator18_1_1 ((not (= logic_test.In24_1_1 0.)) xor (not (= logic_test.In25_1_1 0.)))) (= logic_test.Out19_14_1 logic_test.LogicalOperator18_1_1) (= logic_test.LogicalOperator17_1_6 (not (or (not (= logic_test.In22_1_6 0)) (not (= logic_test.In23_1_6 0))))) (= logic_test.Out18_13_6 logic_test.LogicalOperator17_1_6) (= logic_test.LogicalOperator17_1_5 (not (or (not (= logic_test.In22_1_5 0)) (not (= logic_test.In23_1_5 0))))) (= logic_test.Out18_13_5 logic_test.LogicalOperator17_1_5) (= logic_test.LogicalOperator17_1_4 (not (or (not (= logic_test.In22_1_4 0)) (not (= logic_test.In23_1_4 0))))) (= logic_test.Out18_13_4 logic_test.LogicalOperator17_1_4) (= logic_test.LogicalOperator17_1_3 (not (or (not (= logic_test.In22_1_3 0)) (not (= logic_test.In23_1_3 0))))) (= logic_test.Out18_13_3 logic_test.LogicalOperator17_1_3) (= logic_test.LogicalOperator17_1_2 (not (or (not (= logic_test.In22_1_2 0)) (not (= logic_test.In23_1_2 0))))) (= logic_test.Out18_13_2 logic_test.LogicalOperator17_1_2) (= logic_test.LogicalOperator17_1_1 (not (or (not (= logic_test.In22_1_1 0)) (not (= logic_test.In23_1_1 0))))) (= logic_test.Out18_13_1 logic_test.LogicalOperator17_1_1) (= logic_test.LogicalOperator16_1_2 (not (or (not (= logic_test.In20_1_2 0.)) (not (= logic_test.In21_1_2 0.))))) (= logic_test.Out17_12_2 logic_test.LogicalOperator16_1_2) (= logic_test.LogicalOperator16_1_1 (not (or (not (= logic_test.In20_1_1 0.)) (not (= logic_test.In21_1_1 0.))))) (= logic_test.Out17_12_1 logic_test.LogicalOperator16_1_1) (= logic_test.LogicalOperator15_1_6 (not (and (not (= logic_test.In18_1_6 0)) (not (= logic_test.In19_1_6 0))))) (= logic_test.Out16_11_6 logic_test.LogicalOperator15_1_6) (= logic_test.LogicalOperator15_1_5 (not (and (not (= logic_test.In18_1_5 0)) (not (= logic_test.In19_1_5 0))))) (= logic_test.Out16_11_5 logic_test.LogicalOperator15_1_5) (= logic_test.LogicalOperator15_1_4 (not (and (not (= logic_test.In18_1_4 0)) (not (= logic_test.In19_1_4 0))))) (= logic_test.Out16_11_4 logic_test.LogicalOperator15_1_4) (= logic_test.LogicalOperator15_1_3 (not (and (not (= logic_test.In18_1_3 0)) (not (= logic_test.In19_1_3 0))))) (= logic_test.Out16_11_3 logic_test.LogicalOperator15_1_3) (= logic_test.LogicalOperator15_1_2 (not (and (not (= logic_test.In18_1_2 0)) (not (= logic_test.In19_1_2 0))))) (= logic_test.Out16_11_2 logic_test.LogicalOperator15_1_2) (= logic_test.LogicalOperator15_1_1 (not (and (not (= logic_test.In18_1_1 0)) (not (= logic_test.In19_1_1 0))))) (= logic_test.Out16_11_1 logic_test.LogicalOperator15_1_1) (= logic_test.LogicalOperator14_1_2 (not (and (not (= logic_test.In16_1_2 0.)) (not (= logic_test.In17_1_2 0.))))) (= logic_test.Out15_10_2 logic_test.LogicalOperator14_1_2) (= logic_test.LogicalOperator14_1_1 (not (and (not (= logic_test.In16_1_1 0.)) (not (= logic_test.In17_1_1 0.))))) (= logic_test.Out15_10_1 logic_test.LogicalOperator14_1_1) (= logic_test.LogicalOperator13_1_6 (or (not (= logic_test.In14_1_6 0)) (not (= logic_test.In15_1_6 0)))) (= logic_test.Out14_9_6 logic_test.LogicalOperator13_1_6) (= logic_test.LogicalOperator13_1_5 (or (not (= logic_test.In14_1_5 0)) (not (= logic_test.In15_1_5 0)))) (= logic_test.Out14_9_5 logic_test.LogicalOperator13_1_5) (= logic_test.LogicalOperator13_1_4 (or (not (= logic_test.In14_1_4 0)) (not (= logic_test.In15_1_4 0)))) (= logic_test.Out14_9_4 logic_test.LogicalOperator13_1_4) (= logic_test.LogicalOperator13_1_3 (or (not (= logic_test.In14_1_3 0)) (not (= logic_test.In15_1_3 0)))) (= logic_test.Out14_9_3 logic_test.LogicalOperator13_1_3) (= logic_test.LogicalOperator13_1_2 (or (not (= logic_test.In14_1_2 0)) (not (= logic_test.In15_1_2 0)))) (= logic_test.Out14_9_2 logic_test.LogicalOperator13_1_2) (= logic_test.LogicalOperator13_1_1 (or (not (= logic_test.In14_1_1 0)) (not (= logic_test.In15_1_1 0)))) (= logic_test.Out14_9_1 logic_test.LogicalOperator13_1_1) (= logic_test.LogicalOperator12_1_2 (or (not (= logic_test.In12_1_2 0.)) (not (= logic_test.In13_1_2 0.)))) (= logic_test.Out13_8_2 logic_test.LogicalOperator12_1_2) (= logic_test.LogicalOperator12_1_1 (or (not (= logic_test.In12_1_1 0.)) (not (= logic_test.In13_1_1 0.)))) (= logic_test.Out13_8_1 logic_test.LogicalOperator12_1_1) (= logic_test.LogicalOperator11_1_6 (and (not (= logic_test.In10_1_6 0)) (not (= logic_test.In11_1_6 0)))) (= logic_test.Out12_7_6 logic_test.LogicalOperator11_1_6) (= logic_test.LogicalOperator11_1_5 (and (not (= logic_test.In10_1_5 0)) (not (= logic_test.In11_1_5 0)))) (= logic_test.Out12_7_5 logic_test.LogicalOperator11_1_5) (= logic_test.LogicalOperator11_1_4 (and (not (= logic_test.In10_1_4 0)) (not (= logic_test.In11_1_4 0)))) (= logic_test.Out12_7_4 logic_test.LogicalOperator11_1_4) (= logic_test.LogicalOperator11_1_3 (and (not (= logic_test.In10_1_3 0)) (not (= logic_test.In11_1_3 0)))) (= logic_test.Out12_7_3 logic_test.LogicalOperator11_1_3) (= logic_test.LogicalOperator11_1_2 (and (not (= logic_test.In10_1_2 0)) (not (= logic_test.In11_1_2 0)))) (= logic_test.Out12_7_2 logic_test.LogicalOperator11_1_2) (= logic_test.LogicalOperator11_1_1 (and (not (= logic_test.In10_1_1 0)) (not (= logic_test.In11_1_1 0)))) (= logic_test.Out12_7_1 logic_test.LogicalOperator11_1_1) (= logic_test.LogicalOperator10_1_2 (and (not (= logic_test.In8_1_2 0.)) (not (= logic_test.In9_1_2 0.)))) (= logic_test.Out11_6_2 logic_test.LogicalOperator10_1_2) (= logic_test.LogicalOperator10_1_1 (and (not (= logic_test.In8_1_1 0.)) (not (= logic_test.In9_1_1 0.)))) (= logic_test.Out11_6_1 logic_test.LogicalOperator10_1_1) (= logic_test.LogicalOperator9_1_6 (not (not (= logic_test.In7_1_6 0)))) (= logic_test.Out10_5_6 logic_test.LogicalOperator9_1_6) (= logic_test.LogicalOperator9_1_5 (not (not (= logic_test.In7_1_5 0)))) (= logic_test.Out10_5_5 logic_test.LogicalOperator9_1_5) (= logic_test.LogicalOperator9_1_4 (not (not (= logic_test.In7_1_4 0)))) (= logic_test.Out10_5_4 logic_test.LogicalOperator9_1_4) (= logic_test.LogicalOperator9_1_3 (not (not (= logic_test.In7_1_3 0)))) (= logic_test.Out10_5_3 logic_test.LogicalOperator9_1_3) (= logic_test.LogicalOperator9_1_2 (not (not (= logic_test.In7_1_2 0)))) (= logic_test.Out10_5_2 logic_test.LogicalOperator9_1_2) (= logic_test.LogicalOperator9_1_1 (not (not (= logic_test.In7_1_1 0)))) (= logic_test.Out10_5_1 logic_test.LogicalOperator9_1_1)
   )
-  (logic_test_reset logic_test.ni_0._arrow._first_c
-                    logic_test.ni_0._arrow._first_m)
+  (logic_test_init logic_test.In1_1_1 logic_test.In4_1_1 logic_test.In5_1_1 logic_test.In6_1_1 logic_test.In6_1_2 logic_test.In7_1_1 logic_test.In7_1_2 logic_test.In7_1_3 logic_test.In7_1_4 logic_test.In7_1_5 logic_test.In7_1_6 logic_test.In8_1_1 logic_test.In8_1_2 logic_test.In9_1_1 logic_test.In9_1_2 logic_test.In10_1_1 logic_test.In10_1_2 logic_test.In10_1_3 logic_test.In10_1_4 logic_test.In10_1_5 logic_test.In10_1_6 logic_test.In11_1_1 logic_test.In11_1_2 logic_test.In11_1_3 logic_test.In11_1_4 logic_test.In11_1_5 logic_test.In11_1_6 logic_test.In12_1_1 logic_test.In12_1_2 logic_test.In13_1_1 logic_test.In13_1_2 logic_test.In14_1_1 logic_test.In14_1_2 logic_test.In14_1_3 logic_test.In14_1_4 logic_test.In14_1_5 logic_test.In14_1_6 logic_test.In15_1_1 logic_test.In15_1_2 logic_test.In15_1_3 logic_test.In15_1_4 logic_test.In15_1_5 logic_test.In15_1_6 logic_test.In16_1_1 logic_test.In16_1_2 logic_test.In17_1_1 logic_test.In17_1_2 logic_test.In18_1_1 logic_test.In18_1_2 logic_test.In18_1_3 logic_test.In18_1_4 logic_test.In18_1_5 logic_test.In18_1_6 logic_test.In19_1_1 logic_test.In19_1_2 logic_test.In19_1_3 logic_test.In19_1_4 logic_test.In19_1_5 logic_test.In19_1_6 logic_test.In20_1_1 logic_test.In20_1_2 logic_test.In21_1_1 logic_test.In21_1_2 logic_test.In22_1_1 logic_test.In22_1_2 logic_test.In22_1_3 logic_test.In22_1_4 logic_test.In22_1_5 logic_test.In22_1_6 logic_test.In23_1_1 logic_test.In23_1_2 logic_test.In23_1_3 logic_test.In23_1_4 logic_test.In23_1_5 logic_test.In23_1_6 logic_test.In24_1_1 logic_test.In24_1_2 logic_test.In25_1_1 logic_test.In25_1_2 logic_test.In26_1_1 logic_test.In26_1_2 logic_test.In26_1_3 logic_test.In26_1_4 logic_test.In26_1_5 logic_test.In26_1_6 logic_test.In27_1_1 logic_test.In27_1_2 logic_test.In27_1_3 logic_test.In27_1_4 logic_test.In27_1_5 logic_test.In27_1_6 logic_test.In2_1_1 logic_test.In2_1_2 logic_test.In3_1_1 logic_test.In3_1_2 logic_test.In3_1_3 logic_test.In3_1_4 logic_test.Out1_1_1 logic_test.Out7_2_1 logic_test.Out8_3_1 logic_test.Out9_4_1 logic_test.Out9_4_2 logic_test.Out10_5_1 logic_test.Out10_5_2 logic_test.Out10_5_3 logic_test.Out10_5_4 logic_test.Out10_5_5 logic_test.Out10_5_6 logic_test.Out11_6_1 logic_test.Out11_6_2 logic_test.Out12_7_1 logic_test.Out12_7_2 logic_test.Out12_7_3 logic_test.Out12_7_4 logic_test.Out12_7_5 logic_test.Out12_7_6 logic_test.Out13_8_1 logic_test.Out13_8_2 logic_test.Out14_9_1 logic_test.Out14_9_2 logic_test.Out14_9_3 logic_test.Out14_9_4 logic_test.Out14_9_5 logic_test.Out14_9_6 logic_test.Out15_10_1 logic_test.Out15_10_2 logic_test.Out16_11_1 logic_test.Out16_11_2 logic_test.Out16_11_3 logic_test.Out16_11_4 logic_test.Out16_11_5 logic_test.Out16_11_6 logic_test.Out17_12_1 logic_test.Out17_12_2 logic_test.Out18_13_1 logic_test.Out18_13_2 logic_test.Out18_13_3 logic_test.Out18_13_4 logic_test.Out18_13_5 logic_test.Out18_13_6 logic_test.Out19_14_1 logic_test.Out19_14_2 logic_test.Out20_15_1 logic_test.Out20_15_2 logic_test.Out20_15_3 logic_test.Out20_15_4 logic_test.Out20_15_5 logic_test.Out20_15_6 logic_test.Out2_16_1 logic_test.Out2_16_2 logic_test.Out3_17_1 logic_test.Out3_17_2 logic_test.Out4_18_1 logic_test.Out4_18_2 logic_test.Out4_18_3 logic_test.Out4_18_4 logic_test.Out5_19_1 logic_test.Out5_19_2 logic_test.Out6_20_1 logic_test.Out6_20_2 logic_test.Out6_20_3 logic_test.Out6_20_4 logic_test.Out21_21_1 logic_test.Out21_21_2 logic_test.Out21_21_3 logic_test.Out21_21_4)
 ))
 
 (rule (=> 
-  (and (= logic_test.ni_0._arrow._first_m logic_test.ni_0._arrow._first_c)
-       (and (= logic_test.__logic_test_1 (ite logic_test.ni_0._arrow._first_m true false))
-            (= logic_test.ni_0._arrow._first_x false))
-       (and (or (not (= logic_test.__logic_test_1 true))
-               (= logic_test.i_virtual_local 0.))
-            (or (not (= logic_test.__logic_test_1 false))
-               (= logic_test.i_virtual_local 1.))
-       )
-       (and (or (not (= (= logic_test.In19_1_3 0) true))
-               (= logic_test.__logic_test_99 false))
-            (or (not (= (= logic_test.In19_1_3 0) false))
-               (= logic_test.__logic_test_99 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_4 0) true))
-               (= logic_test.__logic_test_97 false))
-            (or (not (= (= logic_test.In18_1_4 0) false))
-               (= logic_test.__logic_test_97 true))
-       )
-       (and (or (not (= (= logic_test.In19_1_4 0) true))
-               (= logic_test.__logic_test_95 false))
-            (or (not (= (= logic_test.In19_1_4 0) false))
-               (= logic_test.__logic_test_95 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_5 0) true))
-               (= logic_test.__logic_test_93 false))
-            (or (not (= (= logic_test.In18_1_5 0) false))
-               (= logic_test.__logic_test_93 true))
-       )
-       (and (or (not (= (= logic_test.In19_1_5 0) true))
-               (= logic_test.__logic_test_91 false))
-            (or (not (= (= logic_test.In19_1_5 0) false))
-               (= logic_test.__logic_test_91 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_3 0) true))
-               (= logic_test.__logic_test_9 false))
-            (or (not (= (= logic_test.In7_1_3 0) false))
-               (= logic_test.__logic_test_9 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_6 0) true))
-               (= logic_test.__logic_test_89 false))
-            (or (not (= (= logic_test.In18_1_6 0) false))
-               (= logic_test.__logic_test_89 true))
-       )
-       (and (or (not (= (= logic_test.In19_1_6 0) true))
-               (= logic_test.__logic_test_87 false))
-            (or (not (= (= logic_test.In19_1_6 0) false))
-               (= logic_test.__logic_test_87 true))
-       )
-       (and (or (not (= (= logic_test.In20_1_1 0.) true))
-               (= logic_test.__logic_test_85 false))
-            (or (not (= (= logic_test.In20_1_1 0.) false))
-               (= logic_test.__logic_test_85 true))
-       )
-       (and (or (not (= (= logic_test.In21_1_1 0.) true))
-               (= logic_test.__logic_test_83 false))
-            (or (not (= (= logic_test.In21_1_1 0.) false))
-               (= logic_test.__logic_test_83 true))
-       )
-       (and (or (not (= (= logic_test.In20_1_2 0.) true))
-               (= logic_test.__logic_test_81 false))
-            (or (not (= (= logic_test.In20_1_2 0.) false))
-               (= logic_test.__logic_test_81 true))
-       )
-       (and (or (not (= (= logic_test.In21_1_2 0.) true))
-               (= logic_test.__logic_test_79 false))
-            (or (not (= (= logic_test.In21_1_2 0.) false))
-               (= logic_test.__logic_test_79 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_1 0) true))
-               (= logic_test.__logic_test_77 false))
-            (or (not (= (= logic_test.In22_1_1 0) false))
-               (= logic_test.__logic_test_77 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_1 0) true))
-               (= logic_test.__logic_test_75 false))
-            (or (not (= (= logic_test.In23_1_1 0) false))
-               (= logic_test.__logic_test_75 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_2 0) true))
-               (= logic_test.__logic_test_73 false))
-            (or (not (= (= logic_test.In22_1_2 0) false))
-               (= logic_test.__logic_test_73 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_2 0) true))
-               (= logic_test.__logic_test_71 false))
-            (or (not (= (= logic_test.In23_1_2 0) false))
-               (= logic_test.__logic_test_71 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_4 0) true))
-               (= logic_test.__logic_test_7 false))
-            (or (not (= (= logic_test.In7_1_4 0) false))
-               (= logic_test.__logic_test_7 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_3 0) true))
-               (= logic_test.__logic_test_69 false))
-            (or (not (= (= logic_test.In22_1_3 0) false))
-               (= logic_test.__logic_test_69 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_3 0) true))
-               (= logic_test.__logic_test_67 false))
-            (or (not (= (= logic_test.In23_1_3 0) false))
-               (= logic_test.__logic_test_67 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_4 0) true))
-               (= logic_test.__logic_test_65 false))
-            (or (not (= (= logic_test.In22_1_4 0) false))
-               (= logic_test.__logic_test_65 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_4 0) true))
-               (= logic_test.__logic_test_63 false))
-            (or (not (= (= logic_test.In23_1_4 0) false))
-               (= logic_test.__logic_test_63 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_5 0) true))
-               (= logic_test.__logic_test_61 false))
-            (or (not (= (= logic_test.In22_1_5 0) false))
-               (= logic_test.__logic_test_61 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_5 0) true))
-               (= logic_test.__logic_test_59 false))
-            (or (not (= (= logic_test.In23_1_5 0) false))
-               (= logic_test.__logic_test_59 true))
-       )
-       (and (or (not (= (= logic_test.In22_1_6 0) true))
-               (= logic_test.__logic_test_57 false))
-            (or (not (= (= logic_test.In22_1_6 0) false))
-               (= logic_test.__logic_test_57 true))
-       )
-       (and (or (not (= (= logic_test.In23_1_6 0) true))
-               (= logic_test.__logic_test_55 false))
-            (or (not (= (= logic_test.In23_1_6 0) false))
-               (= logic_test.__logic_test_55 true))
-       )
-       (and (or (not (= (= logic_test.In24_1_1 0.) true))
-               (= logic_test.__logic_test_53 false))
-            (or (not (= (= logic_test.In24_1_1 0.) false))
-               (= logic_test.__logic_test_53 true))
-       )
-       (and (or (not (= (= logic_test.In25_1_1 0.) true))
-               (= logic_test.__logic_test_51 false))
-            (or (not (= (= logic_test.In25_1_1 0.) false))
-               (= logic_test.__logic_test_51 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_5 0) true))
-               (= logic_test.__logic_test_5 false))
-            (or (not (= (= logic_test.In7_1_5 0) false))
-               (= logic_test.__logic_test_5 true))
-       )
-       (and (or (not (= (= logic_test.In24_1_2 0.) true))
-               (= logic_test.__logic_test_49 false))
-            (or (not (= (= logic_test.In24_1_2 0.) false))
-               (= logic_test.__logic_test_49 true))
-       )
-       (and (or (not (= (= logic_test.In25_1_2 0.) true))
-               (= logic_test.__logic_test_47 false))
-            (or (not (= (= logic_test.In25_1_2 0.) false))
-               (= logic_test.__logic_test_47 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_1 0) true))
-               (= logic_test.__logic_test_45 false))
-            (or (not (= (= logic_test.In26_1_1 0) false))
-               (= logic_test.__logic_test_45 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_1 0) true))
-               (= logic_test.__logic_test_43 false))
-            (or (not (= (= logic_test.In27_1_1 0) false))
-               (= logic_test.__logic_test_43 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_2 0) true))
-               (= logic_test.__logic_test_41 false))
-            (or (not (= (= logic_test.In26_1_2 0) false))
-               (= logic_test.__logic_test_41 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_2 0) true))
-               (= logic_test.__logic_test_39 false))
-            (or (not (= (= logic_test.In27_1_2 0) false))
-               (= logic_test.__logic_test_39 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_3 0) true))
-               (= logic_test.__logic_test_37 false))
-            (or (not (= (= logic_test.In26_1_3 0) false))
-               (= logic_test.__logic_test_37 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_3 0) true))
-               (= logic_test.__logic_test_35 false))
-            (or (not (= (= logic_test.In27_1_3 0) false))
-               (= logic_test.__logic_test_35 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_4 0) true))
-               (= logic_test.__logic_test_33 false))
-            (or (not (= (= logic_test.In26_1_4 0) false))
-               (= logic_test.__logic_test_33 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_4 0) true))
-               (= logic_test.__logic_test_31 false))
-            (or (not (= (= logic_test.In27_1_4 0) false))
-               (= logic_test.__logic_test_31 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_6 0) true))
-               (= logic_test.__logic_test_3 false))
-            (or (not (= (= logic_test.In7_1_6 0) false))
-               (= logic_test.__logic_test_3 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_5 0) true))
-               (= logic_test.__logic_test_29 false))
-            (or (not (= (= logic_test.In26_1_5 0) false))
-               (= logic_test.__logic_test_29 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_5 0) true))
-               (= logic_test.__logic_test_27 false))
-            (or (not (= (= logic_test.In27_1_5 0) false))
-               (= logic_test.__logic_test_27 true))
-       )
-       (and (or (not (= (= logic_test.In26_1_6 0) true))
-               (= logic_test.__logic_test_25 false))
-            (or (not (= (= logic_test.In26_1_6 0) false))
-               (= logic_test.__logic_test_25 true))
-       )
-       (and (or (not (= (= logic_test.In27_1_6 0) true))
-               (= logic_test.__logic_test_23 false))
-            (or (not (= (= logic_test.In27_1_6 0) false))
-               (= logic_test.__logic_test_23 true))
-       )
-       (and (or (not (= (= logic_test.In4_1_1 0.) true))
-               (= logic_test.__logic_test_21 false))
-            (or (not (= (= logic_test.In4_1_1 0.) false))
-               (= logic_test.__logic_test_21 true))
-       )
-       (and (or (not (= (= logic_test.In5_1_1 0) true))
-               (= logic_test.__logic_test_19 false))
-            (or (not (= (= logic_test.In5_1_1 0) false))
-               (= logic_test.__logic_test_19 true))
-       )
-       (and (or (not (= (= logic_test.In8_1_1 0.) true))
-               (= logic_test.__logic_test_181 false))
-            (or (not (= (= logic_test.In8_1_1 0.) false))
-               (= logic_test.__logic_test_181 true))
-       )
-       (and (or (not (= (= logic_test.In9_1_1 0.) true))
-               (= logic_test.__logic_test_179 false))
-            (or (not (= (= logic_test.In9_1_1 0.) false))
-               (= logic_test.__logic_test_179 true))
-       )
-       (and (or (not (= (= logic_test.In8_1_2 0.) true))
-               (= logic_test.__logic_test_177 false))
-            (or (not (= (= logic_test.In8_1_2 0.) false))
-               (= logic_test.__logic_test_177 true))
-       )
-       (and (or (not (= (= logic_test.In9_1_2 0.) true))
-               (= logic_test.__logic_test_175 false))
-            (or (not (= (= logic_test.In9_1_2 0.) false))
-               (= logic_test.__logic_test_175 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_1 0) true))
-               (= logic_test.__logic_test_173 false))
-            (or (not (= (= logic_test.In10_1_1 0) false))
-               (= logic_test.__logic_test_173 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_1 0) true))
-               (= logic_test.__logic_test_171 false))
-            (or (not (= (= logic_test.In11_1_1 0) false))
-               (= logic_test.__logic_test_171 true))
-       )
-       (and (or (not (= (= logic_test.In6_1_1 0.) true))
-               (= logic_test.__logic_test_17 false))
-            (or (not (= (= logic_test.In6_1_1 0.) false))
-               (= logic_test.__logic_test_17 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_2 0) true))
-               (= logic_test.__logic_test_169 false))
-            (or (not (= (= logic_test.In10_1_2 0) false))
-               (= logic_test.__logic_test_169 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_2 0) true))
-               (= logic_test.__logic_test_167 false))
-            (or (not (= (= logic_test.In11_1_2 0) false))
-               (= logic_test.__logic_test_167 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_3 0) true))
-               (= logic_test.__logic_test_165 false))
-            (or (not (= (= logic_test.In10_1_3 0) false))
-               (= logic_test.__logic_test_165 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_3 0) true))
-               (= logic_test.__logic_test_163 false))
-            (or (not (= (= logic_test.In11_1_3 0) false))
-               (= logic_test.__logic_test_163 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_4 0) true))
-               (= logic_test.__logic_test_161 false))
-            (or (not (= (= logic_test.In10_1_4 0) false))
-               (= logic_test.__logic_test_161 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_4 0) true))
-               (= logic_test.__logic_test_159 false))
-            (or (not (= (= logic_test.In11_1_4 0) false))
-               (= logic_test.__logic_test_159 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_5 0) true))
-               (= logic_test.__logic_test_157 false))
-            (or (not (= (= logic_test.In10_1_5 0) false))
-               (= logic_test.__logic_test_157 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_5 0) true))
-               (= logic_test.__logic_test_155 false))
-            (or (not (= (= logic_test.In11_1_5 0) false))
-               (= logic_test.__logic_test_155 true))
-       )
-       (and (or (not (= (= logic_test.In10_1_6 0) true))
-               (= logic_test.__logic_test_153 false))
-            (or (not (= (= logic_test.In10_1_6 0) false))
-               (= logic_test.__logic_test_153 true))
-       )
-       (and (or (not (= (= logic_test.In11_1_6 0) true))
-               (= logic_test.__logic_test_151 false))
-            (or (not (= (= logic_test.In11_1_6 0) false))
-               (= logic_test.__logic_test_151 true))
-       )
-       (and (or (not (= (= logic_test.In6_1_2 0.) true))
-               (= logic_test.__logic_test_15 false))
-            (or (not (= (= logic_test.In6_1_2 0.) false))
-               (= logic_test.__logic_test_15 true))
-       )
-       (and (or (not (= (= logic_test.In12_1_1 0.) true))
-               (= logic_test.__logic_test_149 false))
-            (or (not (= (= logic_test.In12_1_1 0.) false))
-               (= logic_test.__logic_test_149 true))
-       )
-       (and (or (not (= (= logic_test.In13_1_1 0.) true))
-               (= logic_test.__logic_test_147 false))
-            (or (not (= (= logic_test.In13_1_1 0.) false))
-               (= logic_test.__logic_test_147 true))
-       )
-       (and (or (not (= (= logic_test.In12_1_2 0.) true))
-               (= logic_test.__logic_test_145 false))
-            (or (not (= (= logic_test.In12_1_2 0.) false))
-               (= logic_test.__logic_test_145 true))
-       )
-       (and (or (not (= (= logic_test.In13_1_2 0.) true))
-               (= logic_test.__logic_test_143 false))
-            (or (not (= (= logic_test.In13_1_2 0.) false))
-               (= logic_test.__logic_test_143 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_1 0) true))
-               (= logic_test.__logic_test_141 false))
-            (or (not (= (= logic_test.In14_1_1 0) false))
-               (= logic_test.__logic_test_141 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_1 0) true))
-               (= logic_test.__logic_test_139 false))
-            (or (not (= (= logic_test.In15_1_1 0) false))
-               (= logic_test.__logic_test_139 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_2 0) true))
-               (= logic_test.__logic_test_137 false))
-            (or (not (= (= logic_test.In14_1_2 0) false))
-               (= logic_test.__logic_test_137 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_2 0) true))
-               (= logic_test.__logic_test_135 false))
-            (or (not (= (= logic_test.In15_1_2 0) false))
-               (= logic_test.__logic_test_135 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_3 0) true))
-               (= logic_test.__logic_test_133 false))
-            (or (not (= (= logic_test.In14_1_3 0) false))
-               (= logic_test.__logic_test_133 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_3 0) true))
-               (= logic_test.__logic_test_131 false))
-            (or (not (= (= logic_test.In15_1_3 0) false))
-               (= logic_test.__logic_test_131 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_1 0) true))
-               (= logic_test.__logic_test_13 false))
-            (or (not (= (= logic_test.In7_1_1 0) false))
-               (= logic_test.__logic_test_13 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_4 0) true))
-               (= logic_test.__logic_test_129 false))
-            (or (not (= (= logic_test.In14_1_4 0) false))
-               (= logic_test.__logic_test_129 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_4 0) true))
-               (= logic_test.__logic_test_127 false))
-            (or (not (= (= logic_test.In15_1_4 0) false))
-               (= logic_test.__logic_test_127 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_5 0) true))
-               (= logic_test.__logic_test_125 false))
-            (or (not (= (= logic_test.In14_1_5 0) false))
-               (= logic_test.__logic_test_125 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_5 0) true))
-               (= logic_test.__logic_test_123 false))
-            (or (not (= (= logic_test.In15_1_5 0) false))
-               (= logic_test.__logic_test_123 true))
-       )
-       (and (or (not (= (= logic_test.In14_1_6 0) true))
-               (= logic_test.__logic_test_121 false))
-            (or (not (= (= logic_test.In14_1_6 0) false))
-               (= logic_test.__logic_test_121 true))
-       )
-       (and (or (not (= (= logic_test.In15_1_6 0) true))
-               (= logic_test.__logic_test_119 false))
-            (or (not (= (= logic_test.In15_1_6 0) false))
-               (= logic_test.__logic_test_119 true))
-       )
-       (and (or (not (= (= logic_test.In16_1_1 0.) true))
-               (= logic_test.__logic_test_117 false))
-            (or (not (= (= logic_test.In16_1_1 0.) false))
-               (= logic_test.__logic_test_117 true))
-       )
-       (and (or (not (= (= logic_test.In17_1_1 0.) true))
-               (= logic_test.__logic_test_115 false))
-            (or (not (= (= logic_test.In17_1_1 0.) false))
-               (= logic_test.__logic_test_115 true))
-       )
-       (and (or (not (= (= logic_test.In16_1_2 0.) true))
-               (= logic_test.__logic_test_113 false))
-            (or (not (= (= logic_test.In16_1_2 0.) false))
-               (= logic_test.__logic_test_113 true))
-       )
-       (and (or (not (= (= logic_test.In17_1_2 0.) true))
-               (= logic_test.__logic_test_111 false))
-            (or (not (= (= logic_test.In17_1_2 0.) false))
-               (= logic_test.__logic_test_111 true))
-       )
-       (and (or (not (= (= logic_test.In7_1_2 0) true))
-               (= logic_test.__logic_test_11 false))
-            (or (not (= (= logic_test.In7_1_2 0) false))
-               (= logic_test.__logic_test_11 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_1 0) true))
-               (= logic_test.__logic_test_109 false))
-            (or (not (= (= logic_test.In18_1_1 0) false))
-               (= logic_test.__logic_test_109 true))
-       )
-       (and (or (not (= (= logic_test.In19_1_1 0) true))
-               (= logic_test.__logic_test_107 false))
-            (or (not (= (= logic_test.In19_1_1 0) false))
-               (= logic_test.__logic_test_107 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_2 0) true))
-               (= logic_test.__logic_test_105 false))
-            (or (not (= (= logic_test.In18_1_2 0) false))
-               (= logic_test.__logic_test_105 true))
-       )
-       (and (or (not (= (= logic_test.In19_1_2 0) true))
-               (= logic_test.__logic_test_103 false))
-            (or (not (= (= logic_test.In19_1_2 0) false))
-               (= logic_test.__logic_test_103 true))
-       )
-       (and (or (not (= (= logic_test.In18_1_3 0) true))
-               (= logic_test.__logic_test_101 false))
-            (or (not (= (= logic_test.In18_1_3 0) false))
-               (= logic_test.__logic_test_101 true))
-       )
-       (= logic_test.Out9_4_2 (not logic_test.__logic_test_15))
-       (= logic_test.Out9_4_1 (not logic_test.__logic_test_17))
-       (= logic_test.Out8_3_1 (not logic_test.__logic_test_19))
-       (= logic_test.Out7_2_1 (not logic_test.__logic_test_21))
-       (= logic_test.Out6_20_4 (not (or logic_test.In3_1_4 (not (or logic_test.In3_1_4 logic_test.In3_1_4)))))
-       (= logic_test.Out6_20_3 (not (or logic_test.In3_1_3 (not (or logic_test.In3_1_3 logic_test.In3_1_3)))))
-       (= logic_test.Out6_20_2 (not (or logic_test.In3_1_2 (not (or logic_test.In3_1_2 logic_test.In3_1_2)))))
-       (= logic_test.Out6_20_1 (not (or logic_test.In3_1_1 (not (or logic_test.In3_1_1 logic_test.In3_1_1)))))
-       (= logic_test.Out5_19_2 (not (and logic_test.In2_1_2 (not (and logic_test.In2_1_2 logic_test.In2_1_2)))))
-       (= logic_test.Out5_19_1 (not (and logic_test.In2_1_1 (not (and logic_test.In2_1_1 logic_test.In2_1_1)))))
-       (= logic_test.Out4_18_4 ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4))
-       (= logic_test.Out4_18_3 ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3))
-       (= logic_test.Out4_18_2 ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2))
-       (= logic_test.Out4_18_1 ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1))
-       (= logic_test.Out3_17_2 (or (or logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2))
-       (= logic_test.Out3_17_1 (or (or logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1))
-       (= logic_test.Out2_16_2 (and (and logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2))
-       (= logic_test.Out2_16_1 (and (and logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1))
-       (= logic_test.Out21_21_4 (not ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4)))
-       (= logic_test.Out21_21_3 (not ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3)))
-       (= logic_test.Out21_21_2 (not ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2)))
-       (= logic_test.Out21_21_1 (not ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1)))
-       (= logic_test.Out20_15_6 (logic_test.__logic_test_25 xor logic_test.__logic_test_23))
-       (= logic_test.Out20_15_5 (logic_test.__logic_test_29 xor logic_test.__logic_test_27))
-       (= logic_test.Out20_15_4 (logic_test.__logic_test_33 xor logic_test.__logic_test_31))
-       (= logic_test.Out20_15_3 (logic_test.__logic_test_37 xor logic_test.__logic_test_35))
-       (= logic_test.Out20_15_2 (logic_test.__logic_test_41 xor logic_test.__logic_test_39))
-       (= logic_test.Out20_15_1 (logic_test.__logic_test_45 xor logic_test.__logic_test_43))
-       (= logic_test.Out1_1_1 (not logic_test.In1_1_1))
-       (= logic_test.Out19_14_2 (logic_test.__logic_test_49 xor logic_test.__logic_test_47))
-       (= logic_test.Out19_14_1 (logic_test.__logic_test_53 xor logic_test.__logic_test_51))
-       (= logic_test.Out18_13_6 (not (or logic_test.__logic_test_57 logic_test.__logic_test_55)))
-       (= logic_test.Out18_13_5 (not (or logic_test.__logic_test_61 logic_test.__logic_test_59)))
-       (= logic_test.Out18_13_4 (not (or logic_test.__logic_test_65 logic_test.__logic_test_63)))
-       (= logic_test.Out18_13_3 (not (or logic_test.__logic_test_69 logic_test.__logic_test_67)))
-       (= logic_test.Out18_13_2 (not (or logic_test.__logic_test_73 logic_test.__logic_test_71)))
-       (= logic_test.Out18_13_1 (not (or logic_test.__logic_test_77 logic_test.__logic_test_75)))
-       (= logic_test.Out17_12_2 (not (or logic_test.__logic_test_81 logic_test.__logic_test_79)))
-       (= logic_test.Out17_12_1 (not (or logic_test.__logic_test_85 logic_test.__logic_test_83)))
-       (= logic_test.Out16_11_6 (not (and logic_test.__logic_test_89 logic_test.__logic_test_87)))
-       (= logic_test.Out16_11_5 (not (and logic_test.__logic_test_93 logic_test.__logic_test_91)))
-       (= logic_test.Out16_11_4 (not (and logic_test.__logic_test_97 logic_test.__logic_test_95)))
-       (= logic_test.Out16_11_3 (not (and logic_test.__logic_test_101 logic_test.__logic_test_99)))
-       (= logic_test.Out16_11_2 (not (and logic_test.__logic_test_105 logic_test.__logic_test_103)))
-       (= logic_test.Out16_11_1 (not (and logic_test.__logic_test_109 logic_test.__logic_test_107)))
-       (= logic_test.Out15_10_2 (not (and logic_test.__logic_test_113 logic_test.__logic_test_111)))
-       (= logic_test.Out15_10_1 (not (and logic_test.__logic_test_117 logic_test.__logic_test_115)))
-       (= logic_test.Out14_9_6 (or logic_test.__logic_test_121 logic_test.__logic_test_119))
-       (= logic_test.Out14_9_5 (or logic_test.__logic_test_125 logic_test.__logic_test_123))
-       (= logic_test.Out14_9_4 (or logic_test.__logic_test_129 logic_test.__logic_test_127))
-       (= logic_test.Out14_9_3 (or logic_test.__logic_test_133 logic_test.__logic_test_131))
-       (= logic_test.Out14_9_2 (or logic_test.__logic_test_137 logic_test.__logic_test_135))
-       (= logic_test.Out14_9_1 (or logic_test.__logic_test_141 logic_test.__logic_test_139))
-       (= logic_test.Out13_8_2 (or logic_test.__logic_test_145 logic_test.__logic_test_143))
-       (= logic_test.Out13_8_1 (or logic_test.__logic_test_149 logic_test.__logic_test_147))
-       (= logic_test.Out12_7_6 (and logic_test.__logic_test_153 logic_test.__logic_test_151))
-       (= logic_test.Out12_7_5 (and logic_test.__logic_test_157 logic_test.__logic_test_155))
-       (= logic_test.Out12_7_4 (and logic_test.__logic_test_161 logic_test.__logic_test_159))
-       (= logic_test.Out12_7_3 (and logic_test.__logic_test_165 logic_test.__logic_test_163))
-       (= logic_test.Out12_7_2 (and logic_test.__logic_test_169 logic_test.__logic_test_167))
-       (= logic_test.Out12_7_1 (and logic_test.__logic_test_173 logic_test.__logic_test_171))
-       (= logic_test.Out11_6_2 (and logic_test.__logic_test_177 logic_test.__logic_test_175))
-       (= logic_test.Out11_6_1 (and logic_test.__logic_test_181 logic_test.__logic_test_179))
-       (= logic_test.Out10_5_6 (not logic_test.__logic_test_3))
-       (= logic_test.Out10_5_5 (not logic_test.__logic_test_5))
-       (= logic_test.Out10_5_4 (not logic_test.__logic_test_7))
-       (= logic_test.Out10_5_3 (not logic_test.__logic_test_9))
-       (= logic_test.Out10_5_2 (not logic_test.__logic_test_11))
-       (= logic_test.Out10_5_1 (not logic_test.__logic_test_13))
-       )
-  (logic_test_step logic_test.In1_1_1
-                   logic_test.In4_1_1
-                   logic_test.In5_1_1
-                   logic_test.In6_1_1
-                   logic_test.In6_1_2
-                   logic_test.In7_1_1
-                   logic_test.In7_1_2
-                   logic_test.In7_1_3
-                   logic_test.In7_1_4
-                   logic_test.In7_1_5
-                   logic_test.In7_1_6
-                   logic_test.In8_1_1
-                   logic_test.In8_1_2
-                   logic_test.In9_1_1
-                   logic_test.In9_1_2
-                   logic_test.In10_1_1
-                   logic_test.In10_1_2
-                   logic_test.In10_1_3
-                   logic_test.In10_1_4
-                   logic_test.In10_1_5
-                   logic_test.In10_1_6
-                   logic_test.In11_1_1
-                   logic_test.In11_1_2
-                   logic_test.In11_1_3
-                   logic_test.In11_1_4
-                   logic_test.In11_1_5
-                   logic_test.In11_1_6
-                   logic_test.In12_1_1
-                   logic_test.In12_1_2
-                   logic_test.In13_1_1
-                   logic_test.In13_1_2
-                   logic_test.In14_1_1
-                   logic_test.In14_1_2
-                   logic_test.In14_1_3
-                   logic_test.In14_1_4
-                   logic_test.In14_1_5
-                   logic_test.In14_1_6
-                   logic_test.In15_1_1
-                   logic_test.In15_1_2
-                   logic_test.In15_1_3
-                   logic_test.In15_1_4
-                   logic_test.In15_1_5
-                   logic_test.In15_1_6
-                   logic_test.In16_1_1
-                   logic_test.In16_1_2
-                   logic_test.In17_1_1
-                   logic_test.In17_1_2
-                   logic_test.In18_1_1
-                   logic_test.In18_1_2
-                   logic_test.In18_1_3
-                   logic_test.In18_1_4
-                   logic_test.In18_1_5
-                   logic_test.In18_1_6
-                   logic_test.In19_1_1
-                   logic_test.In19_1_2
-                   logic_test.In19_1_3
-                   logic_test.In19_1_4
-                   logic_test.In19_1_5
-                   logic_test.In19_1_6
-                   logic_test.In20_1_1
-                   logic_test.In20_1_2
-                   logic_test.In21_1_1
-                   logic_test.In21_1_2
-                   logic_test.In22_1_1
-                   logic_test.In22_1_2
-                   logic_test.In22_1_3
-                   logic_test.In22_1_4
-                   logic_test.In22_1_5
-                   logic_test.In22_1_6
-                   logic_test.In23_1_1
-                   logic_test.In23_1_2
-                   logic_test.In23_1_3
-                   logic_test.In23_1_4
-                   logic_test.In23_1_5
-                   logic_test.In23_1_6
-                   logic_test.In24_1_1
-                   logic_test.In24_1_2
-                   logic_test.In25_1_1
-                   logic_test.In25_1_2
-                   logic_test.In26_1_1
-                   logic_test.In26_1_2
-                   logic_test.In26_1_3
-                   logic_test.In26_1_4
-                   logic_test.In26_1_5
-                   logic_test.In26_1_6
-                   logic_test.In27_1_1
-                   logic_test.In27_1_2
-                   logic_test.In27_1_3
-                   logic_test.In27_1_4
-                   logic_test.In27_1_5
-                   logic_test.In27_1_6
-                   logic_test.In2_1_1
-                   logic_test.In2_1_2
-                   logic_test.In3_1_1
-                   logic_test.In3_1_2
-                   logic_test.In3_1_3
-                   logic_test.In3_1_4
-                   logic_test.Out1_1_1
-                   logic_test.Out7_2_1
-                   logic_test.Out8_3_1
-                   logic_test.Out9_4_1
-                   logic_test.Out9_4_2
-                   logic_test.Out10_5_1
-                   logic_test.Out10_5_2
-                   logic_test.Out10_5_3
-                   logic_test.Out10_5_4
-                   logic_test.Out10_5_5
-                   logic_test.Out10_5_6
-                   logic_test.Out11_6_1
-                   logic_test.Out11_6_2
-                   logic_test.Out12_7_1
-                   logic_test.Out12_7_2
-                   logic_test.Out12_7_3
-                   logic_test.Out12_7_4
-                   logic_test.Out12_7_5
-                   logic_test.Out12_7_6
-                   logic_test.Out13_8_1
-                   logic_test.Out13_8_2
-                   logic_test.Out14_9_1
-                   logic_test.Out14_9_2
-                   logic_test.Out14_9_3
-                   logic_test.Out14_9_4
-                   logic_test.Out14_9_5
-                   logic_test.Out14_9_6
-                   logic_test.Out15_10_1
-                   logic_test.Out15_10_2
-                   logic_test.Out16_11_1
-                   logic_test.Out16_11_2
-                   logic_test.Out16_11_3
-                   logic_test.Out16_11_4
-                   logic_test.Out16_11_5
-                   logic_test.Out16_11_6
-                   logic_test.Out17_12_1
-                   logic_test.Out17_12_2
-                   logic_test.Out18_13_1
-                   logic_test.Out18_13_2
-                   logic_test.Out18_13_3
-                   logic_test.Out18_13_4
-                   logic_test.Out18_13_5
-                   logic_test.Out18_13_6
-                   logic_test.Out19_14_1
-                   logic_test.Out19_14_2
-                   logic_test.Out20_15_1
-                   logic_test.Out20_15_2
-                   logic_test.Out20_15_3
-                   logic_test.Out20_15_4
-                   logic_test.Out20_15_5
-                   logic_test.Out20_15_6
-                   logic_test.Out2_16_1
-                   logic_test.Out2_16_2
-                   logic_test.Out3_17_1
-                   logic_test.Out3_17_2
-                   logic_test.Out4_18_1
-                   logic_test.Out4_18_2
-                   logic_test.Out4_18_3
-                   logic_test.Out4_18_4
-                   logic_test.Out5_19_1
-                   logic_test.Out5_19_2
-                   logic_test.Out6_20_1
-                   logic_test.Out6_20_2
-                   logic_test.Out6_20_3
-                   logic_test.Out6_20_4
-                   logic_test.Out21_21_1
-                   logic_test.Out21_21_2
-                   logic_test.Out21_21_3
-                   logic_test.Out21_21_4
-                   logic_test.ni_0._arrow._first_c
-                   logic_test.ni_0._arrow._first_x)
+  (and (= logic_test.__logic_test_1 false) (= logic_test.i_virtual_local (
+       ite logic_test.__logic_test_1 0. 1.)) (= logic_test.LogicalOperator8_1_2 (not (not (= logic_test.In6_1_2 0.)))) (= logic_test.Out9_4_2 logic_test.LogicalOperator8_1_2) (= logic_test.LogicalOperator8_1_1 (not (not (= logic_test.In6_1_1 0.)))) (= logic_test.Out9_4_1 logic_test.LogicalOperator8_1_1) (= logic_test.LogicalOperator7_1_1 (not (not (= logic_test.In5_1_1 0)))) (= logic_test.Out8_3_1 logic_test.LogicalOperator7_1_1) (= logic_test.LogicalOperator6_1_1 (not (not (= logic_test.In4_1_1 0.)))) (= logic_test.Out7_2_1 logic_test.LogicalOperator6_1_1) (= logic_test.LogicalOperator5_1_4 (not (or (or logic_test.In3_1_4 logic_test.In3_1_4) logic_test.In3_1_4))) (= logic_test.Out6_20_4 logic_test.LogicalOperator5_1_4) (= logic_test.LogicalOperator5_1_3 (not (or (or logic_test.In3_1_3 logic_test.In3_1_3) logic_test.In3_1_3))) (= logic_test.Out6_20_3 logic_test.LogicalOperator5_1_3) (= logic_test.LogicalOperator5_1_2 (not (or (or logic_test.In3_1_2 logic_test.In3_1_2) logic_test.In3_1_2))) (= logic_test.Out6_20_2 logic_test.LogicalOperator5_1_2) (= logic_test.LogicalOperator5_1_1 (not (or (or logic_test.In3_1_1 logic_test.In3_1_1) logic_test.In3_1_1))) (= logic_test.Out6_20_1 logic_test.LogicalOperator5_1_1) (= logic_test.LogicalOperator4_1_2 (not (and (and logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2))) (= logic_test.Out5_19_2 logic_test.LogicalOperator4_1_2) (= logic_test.LogicalOperator4_1_1 (not (and (and logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1))) (= logic_test.Out5_19_1 logic_test.LogicalOperator4_1_1) (= logic_test.LogicalOperator3_1_4 ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4)) (= logic_test.Out4_18_4 logic_test.LogicalOperator3_1_4) (= logic_test.LogicalOperator3_1_3 ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3)) (= logic_test.Out4_18_3 logic_test.LogicalOperator3_1_3) (= logic_test.LogicalOperator3_1_2 ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2)) (= logic_test.Out4_18_2 logic_test.LogicalOperator3_1_2) (= logic_test.LogicalOperator3_1_1 ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1)) (= logic_test.Out4_18_1 logic_test.LogicalOperator3_1_1) (= logic_test.LogicalOperator2_1_2 (or (or logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2)) (= logic_test.Out3_17_2 logic_test.LogicalOperator2_1_2) (= logic_test.LogicalOperator2_1_1 (or (or logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1)) (= logic_test.Out3_17_1 logic_test.LogicalOperator2_1_1) (= logic_test.LogicalOperator1_1_2 (and (and logic_test.In2_1_2 logic_test.In2_1_2) logic_test.In2_1_2)) (= logic_test.Out2_16_2 logic_test.LogicalOperator1_1_2) (= logic_test.LogicalOperator1_1_1 (and (and logic_test.In2_1_1 logic_test.In2_1_1) logic_test.In2_1_1)) (= logic_test.Out2_16_1 logic_test.LogicalOperator1_1_1) (= logic_test.LogicalOperator20_1_4 (not ((logic_test.In3_1_4 xor logic_test.In3_1_4) xor logic_test.In3_1_4))) (= logic_test.Out21_21_4 logic_test.LogicalOperator20_1_4) (= logic_test.LogicalOperator20_1_3 (not ((logic_test.In3_1_3 xor logic_test.In3_1_3) xor logic_test.In3_1_3))) (= logic_test.Out21_21_3 logic_test.LogicalOperator20_1_3) (= logic_test.LogicalOperator20_1_2 (not ((logic_test.In3_1_2 xor logic_test.In3_1_2) xor logic_test.In3_1_2))) (= logic_test.Out21_21_2 logic_test.LogicalOperator20_1_2) (= logic_test.LogicalOperator20_1_1 (not ((logic_test.In3_1_1 xor logic_test.In3_1_1) xor logic_test.In3_1_1))) (= logic_test.Out21_21_1 logic_test.LogicalOperator20_1_1) (= logic_test.LogicalOperator19_1_6 ((not (= logic_test.In26_1_6 0)) xor (not (= logic_test.In27_1_6 0)))) (= logic_test.Out20_15_6 logic_test.LogicalOperator19_1_6) (= logic_test.LogicalOperator19_1_5 ((not (= logic_test.In26_1_5 0)) xor (not (= logic_test.In27_1_5 0)))) (= logic_test.Out20_15_5 logic_test.LogicalOperator19_1_5) (= logic_test.LogicalOperator19_1_4 ((not (= logic_test.In26_1_4 0)) xor (not (= logic_test.In27_1_4 0)))) (= logic_test.Out20_15_4 logic_test.LogicalOperator19_1_4) (= logic_test.LogicalOperator19_1_3 ((not (= logic_test.In26_1_3 0)) xor (not (= logic_test.In27_1_3 0)))) (= logic_test.Out20_15_3 logic_test.LogicalOperator19_1_3) (= logic_test.LogicalOperator19_1_2 ((not (= logic_test.In26_1_2 0)) xor (not (= logic_test.In27_1_2 0)))) (= logic_test.Out20_15_2 logic_test.LogicalOperator19_1_2) (= logic_test.LogicalOperator19_1_1 ((not (= logic_test.In26_1_1 0)) xor (not (= logic_test.In27_1_1 0)))) (= logic_test.Out20_15_1 logic_test.LogicalOperator19_1_1) (= logic_test.LogicalOperator_1_1 (not logic_test.In1_1_1)) (= logic_test.Out1_1_1 logic_test.LogicalOperator_1_1) (= logic_test.LogicalOperator18_1_2 ((not (= logic_test.In24_1_2 0.)) xor (not (= logic_test.In25_1_2 0.)))) (= logic_test.Out19_14_2 logic_test.LogicalOperator18_1_2) (= logic_test.LogicalOperator18_1_1 ((not (= logic_test.In24_1_1 0.)) xor (not (= logic_test.In25_1_1 0.)))) (= logic_test.Out19_14_1 logic_test.LogicalOperator18_1_1) (= logic_test.LogicalOperator17_1_6 (not (or (not (= logic_test.In22_1_6 0)) (not (= logic_test.In23_1_6 0))))) (= logic_test.Out18_13_6 logic_test.LogicalOperator17_1_6) (= logic_test.LogicalOperator17_1_5 (not (or (not (= logic_test.In22_1_5 0)) (not (= logic_test.In23_1_5 0))))) (= logic_test.Out18_13_5 logic_test.LogicalOperator17_1_5) (= logic_test.LogicalOperator17_1_4 (not (or (not (= logic_test.In22_1_4 0)) (not (= logic_test.In23_1_4 0))))) (= logic_test.Out18_13_4 logic_test.LogicalOperator17_1_4) (= logic_test.LogicalOperator17_1_3 (not (or (not (= logic_test.In22_1_3 0)) (not (= logic_test.In23_1_3 0))))) (= logic_test.Out18_13_3 logic_test.LogicalOperator17_1_3) (= logic_test.LogicalOperator17_1_2 (not (or (not (= logic_test.In22_1_2 0)) (not (= logic_test.In23_1_2 0))))) (= logic_test.Out18_13_2 logic_test.LogicalOperator17_1_2) (= logic_test.LogicalOperator17_1_1 (not (or (not (= logic_test.In22_1_1 0)) (not (= logic_test.In23_1_1 0))))) (= logic_test.Out18_13_1 logic_test.LogicalOperator17_1_1) (= logic_test.LogicalOperator16_1_2 (not (or (not (= logic_test.In20_1_2 0.)) (not (= logic_test.In21_1_2 0.))))) (= logic_test.Out17_12_2 logic_test.LogicalOperator16_1_2) (= logic_test.LogicalOperator16_1_1 (not (or (not (= logic_test.In20_1_1 0.)) (not (= logic_test.In21_1_1 0.))))) (= logic_test.Out17_12_1 logic_test.LogicalOperator16_1_1) (= logic_test.LogicalOperator15_1_6 (not (and (not (= logic_test.In18_1_6 0)) (not (= logic_test.In19_1_6 0))))) (= logic_test.Out16_11_6 logic_test.LogicalOperator15_1_6) (= logic_test.LogicalOperator15_1_5 (not (and (not (= logic_test.In18_1_5 0)) (not (= logic_test.In19_1_5 0))))) (= logic_test.Out16_11_5 logic_test.LogicalOperator15_1_5) (= logic_test.LogicalOperator15_1_4 (not (and (not (= logic_test.In18_1_4 0)) (not (= logic_test.In19_1_4 0))))) (= logic_test.Out16_11_4 logic_test.LogicalOperator15_1_4) (= logic_test.LogicalOperator15_1_3 (not (and (not (= logic_test.In18_1_3 0)) (not (= logic_test.In19_1_3 0))))) (= logic_test.Out16_11_3 logic_test.LogicalOperator15_1_3) (= logic_test.LogicalOperator15_1_2 (not (and (not (= logic_test.In18_1_2 0)) (not (= logic_test.In19_1_2 0))))) (= logic_test.Out16_11_2 logic_test.LogicalOperator15_1_2) (= logic_test.LogicalOperator15_1_1 (not (and (not (= logic_test.In18_1_1 0)) (not (= logic_test.In19_1_1 0))))) (= logic_test.Out16_11_1 logic_test.LogicalOperator15_1_1) (= logic_test.LogicalOperator14_1_2 (not (and (not (= logic_test.In16_1_2 0.)) (not (= logic_test.In17_1_2 0.))))) (= logic_test.Out15_10_2 logic_test.LogicalOperator14_1_2) (= logic_test.LogicalOperator14_1_1 (not (and (not (= logic_test.In16_1_1 0.)) (not (= logic_test.In17_1_1 0.))))) (= logic_test.Out15_10_1 logic_test.LogicalOperator14_1_1) (= logic_test.LogicalOperator13_1_6 (or (not (= logic_test.In14_1_6 0)) (not (= logic_test.In15_1_6 0)))) (= logic_test.Out14_9_6 logic_test.LogicalOperator13_1_6) (= logic_test.LogicalOperator13_1_5 (or (not (= logic_test.In14_1_5 0)) (not (= logic_test.In15_1_5 0)))) (= logic_test.Out14_9_5 logic_test.LogicalOperator13_1_5) (= logic_test.LogicalOperator13_1_4 (or (not (= logic_test.In14_1_4 0)) (not (= logic_test.In15_1_4 0)))) (= logic_test.Out14_9_4 logic_test.LogicalOperator13_1_4) (= logic_test.LogicalOperator13_1_3 (or (not (= logic_test.In14_1_3 0)) (not (= logic_test.In15_1_3 0)))) (= logic_test.Out14_9_3 logic_test.LogicalOperator13_1_3) (= logic_test.LogicalOperator13_1_2 (or (not (= logic_test.In14_1_2 0)) (not (= logic_test.In15_1_2 0)))) (= logic_test.Out14_9_2 logic_test.LogicalOperator13_1_2) (= logic_test.LogicalOperator13_1_1 (or (not (= logic_test.In14_1_1 0)) (not (= logic_test.In15_1_1 0)))) (= logic_test.Out14_9_1 logic_test.LogicalOperator13_1_1) (= logic_test.LogicalOperator12_1_2 (or (not (= logic_test.In12_1_2 0.)) (not (= logic_test.In13_1_2 0.)))) (= logic_test.Out13_8_2 logic_test.LogicalOperator12_1_2) (= logic_test.LogicalOperator12_1_1 (or (not (= logic_test.In12_1_1 0.)) (not (= logic_test.In13_1_1 0.)))) (= logic_test.Out13_8_1 logic_test.LogicalOperator12_1_1) (= logic_test.LogicalOperator11_1_6 (and (not (= logic_test.In10_1_6 0)) (not (= logic_test.In11_1_6 0)))) (= logic_test.Out12_7_6 logic_test.LogicalOperator11_1_6) (= logic_test.LogicalOperator11_1_5 (and (not (= logic_test.In10_1_5 0)) (not (= logic_test.In11_1_5 0)))) (= logic_test.Out12_7_5 logic_test.LogicalOperator11_1_5) (= logic_test.LogicalOperator11_1_4 (and (not (= logic_test.In10_1_4 0)) (not (= logic_test.In11_1_4 0)))) (= logic_test.Out12_7_4 logic_test.LogicalOperator11_1_4) (= logic_test.LogicalOperator11_1_3 (and (not (= logic_test.In10_1_3 0)) (not (= logic_test.In11_1_3 0)))) (= logic_test.Out12_7_3 logic_test.LogicalOperator11_1_3) (= logic_test.LogicalOperator11_1_2 (and (not (= logic_test.In10_1_2 0)) (not (= logic_test.In11_1_2 0)))) (= logic_test.Out12_7_2 logic_test.LogicalOperator11_1_2) (= logic_test.LogicalOperator11_1_1 (and (not (= logic_test.In10_1_1 0)) (not (= logic_test.In11_1_1 0)))) (= logic_test.Out12_7_1 logic_test.LogicalOperator11_1_1) (= logic_test.LogicalOperator10_1_2 (and (not (= logic_test.In8_1_2 0.)) (not (= logic_test.In9_1_2 0.)))) (= logic_test.Out11_6_2 logic_test.LogicalOperator10_1_2) (= logic_test.LogicalOperator10_1_1 (and (not (= logic_test.In8_1_1 0.)) (not (= logic_test.In9_1_1 0.)))) (= logic_test.Out11_6_1 logic_test.LogicalOperator10_1_1) (= logic_test.LogicalOperator9_1_6 (not (not (= logic_test.In7_1_6 0)))) (= logic_test.Out10_5_6 logic_test.LogicalOperator9_1_6) (= logic_test.LogicalOperator9_1_5 (not (not (= logic_test.In7_1_5 0)))) (= logic_test.Out10_5_5 logic_test.LogicalOperator9_1_5) (= logic_test.LogicalOperator9_1_4 (not (not (= logic_test.In7_1_4 0)))) (= logic_test.Out10_5_4 logic_test.LogicalOperator9_1_4) (= logic_test.LogicalOperator9_1_3 (not (not (= logic_test.In7_1_3 0)))) (= logic_test.Out10_5_3 logic_test.LogicalOperator9_1_3) (= logic_test.LogicalOperator9_1_2 (not (not (= logic_test.In7_1_2 0)))) (= logic_test.Out10_5_2 logic_test.LogicalOperator9_1_2) (= logic_test.LogicalOperator9_1_1 (not (not (= logic_test.In7_1_1 0)))) (= logic_test.Out10_5_1 logic_test.LogicalOperator9_1_1)
+  )
+  (logic_test_step logic_test.In1_1_1 logic_test.In4_1_1 logic_test.In5_1_1 logic_test.In6_1_1 logic_test.In6_1_2 logic_test.In7_1_1 logic_test.In7_1_2 logic_test.In7_1_3 logic_test.In7_1_4 logic_test.In7_1_5 logic_test.In7_1_6 logic_test.In8_1_1 logic_test.In8_1_2 logic_test.In9_1_1 logic_test.In9_1_2 logic_test.In10_1_1 logic_test.In10_1_2 logic_test.In10_1_3 logic_test.In10_1_4 logic_test.In10_1_5 logic_test.In10_1_6 logic_test.In11_1_1 logic_test.In11_1_2 logic_test.In11_1_3 logic_test.In11_1_4 logic_test.In11_1_5 logic_test.In11_1_6 logic_test.In12_1_1 logic_test.In12_1_2 logic_test.In13_1_1 logic_test.In13_1_2 logic_test.In14_1_1 logic_test.In14_1_2 logic_test.In14_1_3 logic_test.In14_1_4 logic_test.In14_1_5 logic_test.In14_1_6 logic_test.In15_1_1 logic_test.In15_1_2 logic_test.In15_1_3 logic_test.In15_1_4 logic_test.In15_1_5 logic_test.In15_1_6 logic_test.In16_1_1 logic_test.In16_1_2 logic_test.In17_1_1 logic_test.In17_1_2 logic_test.In18_1_1 logic_test.In18_1_2 logic_test.In18_1_3 logic_test.In18_1_4 logic_test.In18_1_5 logic_test.In18_1_6 logic_test.In19_1_1 logic_test.In19_1_2 logic_test.In19_1_3 logic_test.In19_1_4 logic_test.In19_1_5 logic_test.In19_1_6 logic_test.In20_1_1 logic_test.In20_1_2 logic_test.In21_1_1 logic_test.In21_1_2 logic_test.In22_1_1 logic_test.In22_1_2 logic_test.In22_1_3 logic_test.In22_1_4 logic_test.In22_1_5 logic_test.In22_1_6 logic_test.In23_1_1 logic_test.In23_1_2 logic_test.In23_1_3 logic_test.In23_1_4 logic_test.In23_1_5 logic_test.In23_1_6 logic_test.In24_1_1 logic_test.In24_1_2 logic_test.In25_1_1 logic_test.In25_1_2 logic_test.In26_1_1 logic_test.In26_1_2 logic_test.In26_1_3 logic_test.In26_1_4 logic_test.In26_1_5 logic_test.In26_1_6 logic_test.In27_1_1 logic_test.In27_1_2 logic_test.In27_1_3 logic_test.In27_1_4 logic_test.In27_1_5 logic_test.In27_1_6 logic_test.In2_1_1 logic_test.In2_1_2 logic_test.In3_1_1 logic_test.In3_1_2 logic_test.In3_1_3 logic_test.In3_1_4 logic_test.Out1_1_1 logic_test.Out7_2_1 logic_test.Out8_3_1 logic_test.Out9_4_1 logic_test.Out9_4_2 logic_test.Out10_5_1 logic_test.Out10_5_2 logic_test.Out10_5_3 logic_test.Out10_5_4 logic_test.Out10_5_5 logic_test.Out10_5_6 logic_test.Out11_6_1 logic_test.Out11_6_2 logic_test.Out12_7_1 logic_test.Out12_7_2 logic_test.Out12_7_3 logic_test.Out12_7_4 logic_test.Out12_7_5 logic_test.Out12_7_6 logic_test.Out13_8_1 logic_test.Out13_8_2 logic_test.Out14_9_1 logic_test.Out14_9_2 logic_test.Out14_9_3 logic_test.Out14_9_4 logic_test.Out14_9_5 logic_test.Out14_9_6 logic_test.Out15_10_1 logic_test.Out15_10_2 logic_test.Out16_11_1 logic_test.Out16_11_2 logic_test.Out16_11_3 logic_test.Out16_11_4 logic_test.Out16_11_5 logic_test.Out16_11_6 logic_test.Out17_12_1 logic_test.Out17_12_2 logic_test.Out18_13_1 logic_test.Out18_13_2 logic_test.Out18_13_3 logic_test.Out18_13_4 logic_test.Out18_13_5 logic_test.Out18_13_6 logic_test.Out19_14_1 logic_test.Out19_14_2 logic_test.Out20_15_1 logic_test.Out20_15_2 logic_test.Out20_15_3 logic_test.Out20_15_4 logic_test.Out20_15_5 logic_test.Out20_15_6 logic_test.Out2_16_1 logic_test.Out2_16_2 logic_test.Out3_17_1 logic_test.Out3_17_2 logic_test.Out4_18_1 logic_test.Out4_18_2 logic_test.Out4_18_3 logic_test.Out4_18_4 logic_test.Out5_19_1 logic_test.Out5_19_2 logic_test.Out6_20_1 logic_test.Out6_20_2 logic_test.Out6_20_3 logic_test.Out6_20_4 logic_test.Out21_21_1 logic_test.Out21_21_2 logic_test.Out21_21_3 logic_test.Out21_21_4)
 ))
 

@@ -2,7 +2,7 @@
 
 
 -- System nodes
-node sum_collapse_int_test (In9_1_1 : int; In10_1_1 : int; In11_1_1 : int; In11_1_2 : int; In11_1_3 : int; In12_1_1 : int; In12_1_2 : int; In12_1_3 : int; In13_1_1 : int; In13_1_2 : int; In13_1_3 : int; In13_1_4 : int; In13_1_5 : int; In13_1_6 : int; In14_1_1 : int; In14_1_2 : int; In14_1_3 : int; In14_1_4 : int; In14_1_5 : int; In14_1_6 : int; In15_1_1 : int; In15_1_2 : int; In15_1_3 : int; In15_1_4 : int; In15_1_5 : int; In15_1_6 : int; In16_1_1 : int; In16_1_2 : int; In16_1_3 : int; In16_1_4 : int; In16_1_5 : int; In16_1_6 : int)
+node sum_collapse_int_test (In9_1_1 : int; In10_1_1 : int; In11_1_1 : int; In11_1_2 : int; In11_1_3 : int; In12_1_1 : int; In12_1_2 : int; In12_1_3 : int; In13_1_1 : int; In13_1_2 : int; In13_1_3 : int; In13_1_4 : int; In13_1_5 : int; In13_1_6 : int; In14_1_1 : int; In14_1_2 : int; In14_1_3 : int; In14_1_4 : int; In14_1_5 : int; In14_1_6 : int; In15_1_1 : int; In15_1_2 : int; In15_1_3 : int; In15_1_4 : int; In15_1_5 : int; In15_1_6 : int; In16_1_1 : int; In16_1_2 : int; In16_1_3 : int; In16_1_4 : int; In16_1_5 : int; In16_1_6 : int; )
 returns (Out9_1_1 : int;
 	Out10_2_1 : int;
 	Out11_3_1 : int;

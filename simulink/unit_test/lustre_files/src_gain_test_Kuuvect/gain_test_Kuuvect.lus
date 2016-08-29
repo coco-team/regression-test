@@ -2,7 +2,7 @@
 
 #open <conv>
 -- System nodes
-node gain_test_Kuuvect (In1_1_1 : real; In2_1_1 : int; In3_1_1 : bool; In4_1_1 : real; In4_1_2 : real; In5_1_1 : int; In5_1_2 : int; In6_1_1 : bool; In6_1_2 : bool; In7_1_1 : real; In7_1_2 : real; In8_1_1 : int; In8_1_2 : int; In9_1_1 : bool; In9_1_2 : bool)
+node gain_test_Kuuvect (In1_1_1 : real; In2_1_1 : int; In3_1_1 : bool; In4_1_1 : real; In4_1_2 : real; In5_1_1 : int; In5_1_2 : int; In6_1_1 : bool; In6_1_2 : bool; In7_1_1 : real; In7_1_2 : real; In8_1_1 : int; In8_1_2 : int; In9_1_1 : bool; In9_1_2 : bool; )
 returns (Out1_1_1 : real;
 	Out2_2_1 : real;
 	Out3_3_1 : real;
@@ -24,18 +24,18 @@ var
 	Gain8_1_1 : real; Gain8_1_2 : real;
 	i_virtual_local : real;
 let 
-	Gain_1_1 = 1.0000000000 * In1_1_1;
-	Gain1_1_1 = 1.0000000000 * (int_to_real(In2_1_1));
-	Gain2_1_1 = 1.0000000000 * (if In3_1_1 then 1.0 else 0.0);
-	Gain3_1_1 = 2.0000000000 * In4_1_1 + 5.0000000000 * In4_1_2;
-	Gain4_1_1 = 2.0000000000 * (int_to_real(In5_1_1)) + 5.0000000000 * (int_to_real(In5_1_2));
-	Gain5_1_1 = 2.0000000000 * (if In6_1_1 then 1.0 else 0.0) + 5.0000000000 * (if In6_1_2 then 1.0 else 0.0);
-	Gain6_1_1 = 2.0000000000 * In7_1_1 + 5.0000000000 * In7_1_2;
-	Gain6_1_2 = 6.0000000000 * In7_1_1 + 8.0000000000 * In7_1_2;
-	Gain7_1_1 = 2.0000000000 * (int_to_real(In8_1_1)) + 5.0000000000 * (int_to_real(In8_1_2));
-	Gain7_1_2 = 6.0000000000 * (int_to_real(In8_1_1)) + 8.0000000000 * (int_to_real(In8_1_2));
-	Gain8_1_1 = 2.0000000000 * (if In9_1_1 then 1.0 else 0.0) + 5.0000000000 * (if In9_1_2 then 1.0 else 0.0);
-	Gain8_1_2 = 6.0000000000 * (if In9_1_1 then 1.0 else 0.0) + 8.0000000000 * (if In9_1_2 then 1.0 else 0.0);
+	Gain_1_1 = 1.00000000 * In1_1_1;
+	Gain1_1_1 = 1.00000000 * (int_to_real(In2_1_1));
+	Gain2_1_1 = 1.00000000 * (if In3_1_1 then 1.0 else 0.0);
+	Gain3_1_1 = 2.00000000 * In4_1_1 + 5.00000000 * In4_1_2;
+	Gain4_1_1 = 2.00000000 * (int_to_real(In5_1_1)) + 5.00000000 * (int_to_real(In5_1_2));
+	Gain5_1_1 = 2.00000000 * (if In6_1_1 then 1.0 else 0.0) + 5.00000000 * (if In6_1_2 then 1.0 else 0.0);
+	Gain6_1_1 = 2.00000000 * In7_1_1 + 5.00000000 * In7_1_2;
+	Gain6_1_2 = 6.00000000 * In7_1_1 + 8.00000000 * In7_1_2;
+	Gain7_1_1 = 2.00000000 * (int_to_real(In8_1_1)) + 5.00000000 * (int_to_real(In8_1_2));
+	Gain7_1_2 = 6.00000000 * (int_to_real(In8_1_1)) + 8.00000000 * (int_to_real(In8_1_2));
+	Gain8_1_1 = 2.00000000 * (if In9_1_1 then 1.0 else 0.0) + 5.00000000 * (if In9_1_2 then 1.0 else 0.0);
+	Gain8_1_2 = 6.00000000 * (if In9_1_1 then 1.0 else 0.0) + 8.00000000 * (if In9_1_2 then 1.0 else 0.0);
 	Out1_1_1 = Gain_1_1;
 	Out2_2_1 = Gain1_1_1;
 	Out3_3_1 = Gain2_1_1;

@@ -2,7 +2,7 @@
 
 
 -- System nodes
-node math_int_test (In5_1_1 : int)
+node math_int_test (In5_1_1 : int; )
 returns (Out5_1_1 : int); 
 var
 	MathFunction4_1_1 : int;

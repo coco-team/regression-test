@@ -10,14 +10,14 @@ var
 	Constant6_1_1 : real; Constant6_1_2 : real; Constant6_1_3 : real; Constant6_1_4 : real; Constant6_1_5 : real; Constant6_1_6 : real;
 	i_virtual_local : real;
 let 
-	Constant1_1_1 = 1.0000000000;
-	Constant1_1_2 = 2.0000000000;
-	Constant6_1_1 = 1.0000000000;
-	Constant6_1_2 = 2.0000000000;
-	Constant6_1_3 = 3.0000000000;
-	Constant6_1_4 = 4.0000000000;
-	Constant6_1_5 = 5.0000000000;
-	Constant6_1_6 = 6.0000000000;
+	Constant1_1_1 = 1.00000000;
+	Constant1_1_2 = 2.00000000;
+	Constant6_1_1 = 1.00000000;
+	Constant6_1_2 = 2.00000000;
+	Constant6_1_3 = 3.00000000;
+	Constant6_1_4 = 4.00000000;
+	Constant6_1_5 = 5.00000000;
+	Constant6_1_6 = 6.00000000;
 	Out7_1_1 = Constant6_1_1;
 	Out7_1_2 = Constant6_1_2;
 	Out7_1_3 = Constant6_1_3;

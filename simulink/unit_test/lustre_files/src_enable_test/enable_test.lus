@@ -2,7 +2,7 @@
 
 #open <conv>
 -- System nodes
-node enable_test_EnabledandTriggeredSubsystem1 (In1_1_1 : real; enable_test_EnabledandTriggeredSubsystem1_Enable_1_1: bool)
+node enable_test_EnabledandTriggeredSubsystem1 (In1_1_1 : real; enable_test_EnabledandTriggeredSubsystem1_Enable_1_1: bool; )
 returns (Out1_1_1 : bool); 
 var
 	Enable_1_1 : bool;
@@ -14,18 +14,18 @@ let
 	Enable_1_1 = enable_test_EnabledandTriggeredSubsystem1_Enable_1_1;
 	Trigger_1_1 = -1.0;
 	Add_1_1 = Trigger_1_1 + In1_1_1;
-	CompareToZero_1_1 = Add_1_1 <= 0.0000000000;
+	CompareToZero_1_1 = Add_1_1 <= 0.00000000;
 	LogicalOperator_1_1 = CompareToZero_1_1 and Enable_1_1;
 	Out1_1_1 = LogicalOperator_1_1;
 tel
 
-node enable_test_EnabledandTriggeredSubsystem (In1_1_1 : real)
+node enable_test_EnabledandTriggeredSubsystem (In1_1_1 : real; )
 returns (Out1_1_1 : real); 
 let 
 	Out1_1_1 = In1_1_1;
 tel
 
-node enable_test_EnabledSubsystem4 (In1_1_1 : real; enable_test_EnabledSubsystem4_Enable_1_1: real; enable_test_EnabledSubsystem4_enable_reset: bool)
+node enable_test_EnabledSubsystem4 (In1_1_1 : real; enable_test_EnabledSubsystem4_Enable_1_1: real; enable_test_EnabledSubsystem4_enable_reset: bool; )
 returns (Out1_1_1 : real;
 	Out2_2_1 : real;
 	Out3_3_1 : real;
@@ -42,19 +42,19 @@ var
 let 
 	Enable_1_1 = enable_test_EnabledSubsystem4_Enable_1_1;
 	Add_1_1 = Enable_1_1 + In1_1_1;
-	DiscreteTimeIntegrator_1_1 = if enable_test_EnabledSubsystem4_enable_reset then 0.0000000000 else 0.0000000000 -> (1.0000000000 * 1.0000000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator_1_1;
+	DiscreteTimeIntegrator_1_1 = if enable_test_EnabledSubsystem4_enable_reset then 0.00000000 else 0.00000000 -> (1.00000000 * 1.00000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator_1_1;
 	DiscreteTimeIntegrator1_Reset_Trigger1_1 = false -> (pre(Enable_1_1) > 0.0 and Enable_1_1 <= 0.0);
-	DiscreteTimeIntegrator1_1_1 = if enable_test_EnabledSubsystem4_enable_reset then 0.0000000000 else 0.0000000000 -> if DiscreteTimeIntegrator1_Reset_Trigger1_1 then 0.0000000000 else (1.0000000000 * 1.0000000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator1_1_1;
-	DiscreteTimeIntegrator2_1_1 = if enable_test_EnabledSubsystem4_enable_reset then In1_1_1 else In1_1_1 -> (1.0000000000 * 1.0000000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator2_1_1;
+	DiscreteTimeIntegrator1_1_1 = if enable_test_EnabledSubsystem4_enable_reset then 0.00000000 else 0.00000000 -> if DiscreteTimeIntegrator1_Reset_Trigger1_1 then 0.00000000 else (1.00000000 * 1.00000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator1_1_1;
+	DiscreteTimeIntegrator2_1_1 = if enable_test_EnabledSubsystem4_enable_reset then In1_1_1 else In1_1_1 -> (1.00000000 * 1.00000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator2_1_1;
 	DiscreteTimeIntegrator3_Reset_Trigger1_1 = false -> Enable_1_1>0.0 or (not((pre(Enable_1_1) > 0.0 and Enable_1_1 <= 0.0) or (pre(Enable_1_1) <= 0.0 and Enable_1_1 > 0.0)));
-	DiscreteTimeIntegrator3_1_1 = if enable_test_EnabledSubsystem4_enable_reset then In1_1_1 else In1_1_1 -> if DiscreteTimeIntegrator3_Reset_Trigger1_1 then In1_1_1 else (1.0000000000 * 1.0000000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator3_1_1;
+	DiscreteTimeIntegrator3_1_1 = if enable_test_EnabledSubsystem4_enable_reset then In1_1_1 else In1_1_1 -> if DiscreteTimeIntegrator3_Reset_Trigger1_1 then In1_1_1 else (1.00000000 * 1.00000000)*(pre Add_1_1) + pre DiscreteTimeIntegrator3_1_1;
 	Out1_1_1 = DiscreteTimeIntegrator_1_1;
 	Out2_2_1 = DiscreteTimeIntegrator1_1_1;
 	Out3_3_1 = DiscreteTimeIntegrator2_1_1;
 	Out4_4_1 = DiscreteTimeIntegrator3_1_1;
 tel
 
-node enable_test_EnabledSubsystem3 (In1_1_1 : real; enable_test_EnabledSubsystem3_Enable_1_1: real)
+node enable_test_EnabledSubsystem3 (In1_1_1 : real; enable_test_EnabledSubsystem3_Enable_1_1: real; )
 returns (Out1_1_1 : real); 
 var
 	Enable_1_1 : real;
@@ -65,7 +65,7 @@ let
 	Out1_1_1 = Add_1_1;
 tel
 
-node enable_test_EnabledSubsystem2 (In1_1_1 : real; enable_test_EnabledSubsystem2_Enable_1_1: int; enable_test_EnabledSubsystem2_Enable_1_2: int; enable_test_EnabledSubsystem2_Enable_1_3: int; enable_test_EnabledSubsystem2_enable_reset: bool)
+node enable_test_EnabledSubsystem2 (In1_1_1 : real; enable_test_EnabledSubsystem2_Enable_1_1: int; enable_test_EnabledSubsystem2_Enable_1_2: int; enable_test_EnabledSubsystem2_Enable_1_3: int; enable_test_EnabledSubsystem2_enable_reset: bool; )
 returns (Out1_1_1 : real; Out1_1_2 : real; Out1_1_3 : real); 
 var
 	Enable_1_1 : int; Enable_1_2 : int; Enable_1_3 : int;
@@ -78,15 +78,15 @@ let
 	Add_1_1 = (int_to_real(Enable_1_1)) + In1_1_1;
 	Add_1_2 = (int_to_real(Enable_1_2)) + In1_1_1;
 	Add_1_3 = (int_to_real(Enable_1_3)) + In1_1_1;
-	Memory_1_1 = if enable_test_EnabledSubsystem2_enable_reset then 0.0000000000 else 0.0000000000 -> pre Add_1_1;
-	Memory_1_2 = if enable_test_EnabledSubsystem2_enable_reset then 0.0000000000 else 0.0000000000 -> pre Add_1_2;
-	Memory_1_3 = if enable_test_EnabledSubsystem2_enable_reset then 0.0000000000 else 0.0000000000 -> pre Add_1_3;
+	Memory_1_1 = if enable_test_EnabledSubsystem2_enable_reset then 0.00000000 else 0.00000000 -> pre Add_1_1;
+	Memory_1_2 = if enable_test_EnabledSubsystem2_enable_reset then 0.00000000 else 0.00000000 -> pre Add_1_2;
+	Memory_1_3 = if enable_test_EnabledSubsystem2_enable_reset then 0.00000000 else 0.00000000 -> pre Add_1_3;
 	Out1_1_1 = Memory_1_1;
 	Out1_1_2 = Memory_1_2;
 	Out1_1_3 = Memory_1_3;
 tel
 
-node enable_test_EnabledSubsystem1 (In1_1_1 : real; enable_test_EnabledSubsystem1_Enable_1_1: bool; enable_test_EnabledSubsystem1_enable_reset: bool)
+node enable_test_EnabledSubsystem1 (In1_1_1 : real; enable_test_EnabledSubsystem1_Enable_1_1: bool; enable_test_EnabledSubsystem1_enable_reset: bool; )
 returns (Out1_1_1 : real); 
 var
 	Enable_1_1 : bool;
@@ -95,17 +95,17 @@ var
 let 
 	Enable_1_1 = enable_test_EnabledSubsystem1_Enable_1_1;
 	Add_1_1 = (if Enable_1_1 then 1.0 else 0.0) + In1_1_1;
-	UnitDelay_1_1 = if enable_test_EnabledSubsystem1_enable_reset then 0.0000000000 else 0.0000000000 -> pre Add_1_1;
+	UnitDelay_1_1 = if enable_test_EnabledSubsystem1_enable_reset then 0.00000000 else 0.00000000 -> pre Add_1_1;
 	Out1_1_1 = UnitDelay_1_1;
 tel
 
-node enable_test_EnabledSubsystem (In1_1_1 : real)
+node enable_test_EnabledSubsystem (In1_1_1 : real; )
 returns (Out1_1_1 : real); 
 let 
 	Out1_1_1 = In1_1_1;
 tel
 
-node enable_test (In1_1_1 : real; In2_1_1 : bool; In3_1_1 : int; In3_1_2 : int; In3_1_3 : int; In4_1_1 : real; In5_1_1 : real; In6_1_1 : real)
+node enable_test (In1_1_1 : real; In2_1_1 : bool; In3_1_1 : int; In3_1_2 : int; In3_1_3 : int; In4_1_1 : real; In5_1_1 : real; In6_1_1 : real; )
 returns (Out3_1_1 : real;
 	Out1_2_1 : real;
 	Out2_3_1 : real;
@@ -132,12 +132,12 @@ var
 	EnabledandTriggeredSubsystem1In2_1_1_cond_str_trigger: bool;
 let 
 	EnabledSubsystem_1_1 = if (In2_1_1) then enable_test_EnabledSubsystem(In1_1_1) else pre EnabledSubsystem_1_1;
-	EnabledSubsystem1_reset_cond = (In2_1_1) and not pre ((In2_1_1));
+	EnabledSubsystem1_reset_cond = (In2_1_1) and not pre (In2_1_1);
 	EnabledSubsystem1_1_1 = if (In2_1_1) then enable_test_EnabledSubsystem1(In1_1_1, In2_1_1, EnabledSubsystem1_reset_cond) else pre EnabledSubsystem1_1_1;
-	EnabledSubsystem2_reset_cond = (In3_1_1 > 0 or In3_1_2 > 0 or In3_1_3 > 0) and not pre ((In3_1_1 > 0 or In3_1_2 > 0 or In3_1_3 > 0));
+	EnabledSubsystem2_reset_cond = (In3_1_1 > 0 or In3_1_2 > 0 or In3_1_3 > 0) and not pre (In3_1_1 > 0 or In3_1_2 > 0 or In3_1_3 > 0);
 	(EnabledSubsystem2_1_1, EnabledSubsystem2_1_2, EnabledSubsystem2_1_3) = if (In3_1_1 > 0 or In3_1_2 > 0 or In3_1_3 > 0) then enable_test_EnabledSubsystem2(In1_1_1, In3_1_1, In3_1_2, In3_1_3, EnabledSubsystem2_reset_cond) else (pre EnabledSubsystem2_1_1, pre EnabledSubsystem2_1_2, pre EnabledSubsystem2_1_3);
 	EnabledSubsystem3_1_1 = if (In4_1_1 > 0.0) then enable_test_EnabledSubsystem3(In1_1_1, In4_1_1) else pre EnabledSubsystem3_1_1;
-	EnabledSubsystem4_reset_cond = (In6_1_1 > 0.0) and not pre ((In6_1_1 > 0.0));
+	EnabledSubsystem4_reset_cond = (In6_1_1 > 0.0) and not pre (In6_1_1 > 0.0);
 	(EnabledSubsystem4_1_1, EnabledSubsystem4_2_1, EnabledSubsystem4_3_1, EnabledSubsystem4_4_1) = if (In6_1_1 > 0.0) then enable_test_EnabledSubsystem4(In1_1_1, In6_1_1, EnabledSubsystem4_reset_cond) else (pre EnabledSubsystem4_1_1, pre EnabledSubsystem4_2_1, pre EnabledSubsystem4_3_1, pre EnabledSubsystem4_4_1);
 	EnabledandTriggeredSubsystemIn2_1_1_cond_str_trigger = false -> (not(pre In2_1_1) and In2_1_1);
 	EnabledandTriggeredSubsystem_1_1 = if (EnabledandTriggeredSubsystemIn2_1_1_cond_str_trigger and In2_1_1) then enable_test_EnabledandTriggeredSubsystem(In1_1_1) else pre EnabledandTriggeredSubsystem_1_1;

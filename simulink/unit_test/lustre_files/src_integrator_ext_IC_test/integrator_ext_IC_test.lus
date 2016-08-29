@@ -13,7 +13,7 @@ var
 	i_virtual_local : real;
 let 
 	Integrator11_1_1 = In21_1_1 -> (1 * 1)*(pre In18_1_1) + pre Integrator11_1_1;
-	Integrator3_1_1 = In7_1_1 -> (1.0000000000 * 1.0000000000)*(pre In4_1_1) + pre Integrator3_1_1;
+	Integrator3_1_1 = In7_1_1 -> (1.00000000 * 1.00000000)*(pre In4_1_1) + pre Integrator3_1_1;
 	Integrator7_1_1 = In14_1_1 -> (1 * 1)*(pre In11_1_1) + pre Integrator7_1_1;
 	Out4_1_1 = Integrator3_1_1;
 	Out8_2_1 = Integrator7_1_1;

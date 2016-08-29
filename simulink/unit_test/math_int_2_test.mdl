@@ -43,7 +43,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.17"
+    ComputedModelVersion    "1.18"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -104,9 +104,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "hamza"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Aug 27 00:50:14 2016"
-  RTWModifiedTimeStamp	  394159811
-  ModelVersionFormat	  "1.%<AutoIncrement:17>"
+  LastModifiedDate	  "Mon Aug 29 01:35:07 2016"
+  RTWModifiedTimeStamp	  394335299
+  ModelVersionFormat	  "1.%<AutoIncrement:18>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -916,7 +916,7 @@ Model {
       ZOrder		      -2
       Port		      "2"
       IconDisplay	      "Port number"
-      OutDataTypeStr	      "int8"
+      OutDataTypeStr	      "uint8"
     }
     Block {
       BlockType		      Inport
