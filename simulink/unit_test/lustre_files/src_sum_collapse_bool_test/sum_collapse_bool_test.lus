@@ -2,7 +2,7 @@
 
 
 -- System nodes
-node sum_collapse_bool_test (In17_1_1 : bool; In18_1_1 : bool; In19_1_1 : bool; In19_1_2 : bool; In19_1_3 : bool; In20_1_1 : bool; In20_1_2 : bool; In20_1_3 : bool; In21_1_1 : bool; In21_1_2 : bool; In21_1_3 : bool; In21_1_4 : bool; In21_1_5 : bool; In21_1_6 : bool; In22_1_1 : bool; In22_1_2 : bool; In22_1_3 : bool; In22_1_4 : bool; In22_1_5 : bool; In22_1_6 : bool; In23_1_1 : bool; In23_1_2 : bool; In23_1_3 : bool; In23_1_4 : bool; In23_1_5 : bool; In23_1_6 : bool; In24_1_1 : bool; In24_1_2 : bool; In24_1_3 : bool; In24_1_4 : bool; In24_1_5 : bool; In24_1_6 : bool)
+node sum_collapse_bool_test (In17_1_1 : int; In18_1_1 : int; In19_1_1 : int; In19_1_2 : int; In19_1_3 : int; In20_1_1 : int; In20_1_2 : int; In20_1_3 : int; In21_1_1 : int; In21_1_2 : int; In21_1_3 : int; In21_1_4 : int; In21_1_5 : int; In21_1_6 : int; In22_1_1 : int; In22_1_2 : int; In22_1_3 : int; In22_1_4 : int; In22_1_5 : int; In22_1_6 : int; In23_1_1 : int; In23_1_2 : int; In23_1_3 : int; In23_1_4 : int; In23_1_5 : int; In23_1_6 : int; In24_1_1 : int; In24_1_2 : int; In24_1_3 : int; In24_1_4 : int; In24_1_5 : int; In24_1_6 : int; )
 returns (Out17_1_1 : int;
 	Out18_2_1 : int;
 	Out19_3_1 : int;
@@ -22,20 +22,20 @@ var
 	Sum23_1_1 : int; Sum23_1_2 : int;
 	i_virtual_local : real;
 let 
-	Sum14_1_1 = (if In21_1_1 then 1 else 0) + (if In21_1_4 then 1 else 0);
-	Sum14_1_2 = (if In21_1_2 then 1 else 0) + (if In21_1_5 then 1 else 0);
-	Sum14_1_3 = (if In21_1_3 then 1 else 0) + (if In21_1_6 then 1 else 0);
-	Sum15_1_1 =  - (if In22_1_1 then 1 else 0) - (if In22_1_4 then 1 else 0);
-	Sum15_1_2 =  - (if In22_1_2 then 1 else 0) - (if In22_1_5 then 1 else 0);
-	Sum15_1_3 =  - (if In22_1_3 then 1 else 0) - (if In22_1_6 then 1 else 0);
-	Sum16_1_1 = (if In17_1_1 then 1 else 0);
-	Sum17_1_1 =  - (if In18_1_1 then 1 else 0);
-	Sum20_1_1 = (if In19_1_1 then 1 else 0) + (if In19_1_2 then 1 else 0) + (if In19_1_3 then 1 else 0);
-	Sum21_1_1 =  - (if In20_1_1 then 1 else 0) - (if In20_1_2 then 1 else 0) - (if In20_1_3 then 1 else 0);
-	Sum22_1_1 = (if In23_1_1 then 1 else 0) + (if In23_1_2 then 1 else 0) + (if In23_1_3 then 1 else 0);
-	Sum22_1_2 = (if In23_1_4 then 1 else 0) + (if In23_1_5 then 1 else 0) + (if In23_1_6 then 1 else 0);
-	Sum23_1_1 =  - (if In24_1_1 then 1 else 0) - (if In24_1_2 then 1 else 0) - (if In24_1_3 then 1 else 0);
-	Sum23_1_2 =  - (if In24_1_4 then 1 else 0) - (if In24_1_5 then 1 else 0) - (if In24_1_6 then 1 else 0);
+	Sum14_1_1 = In21_1_1 + In21_1_4;
+	Sum14_1_2 = In21_1_2 + In21_1_5;
+	Sum14_1_3 = In21_1_3 + In21_1_6;
+	Sum15_1_1 =  - In22_1_1 - In22_1_4;
+	Sum15_1_2 =  - In22_1_2 - In22_1_5;
+	Sum15_1_3 =  - In22_1_3 - In22_1_6;
+	Sum16_1_1 = In17_1_1;
+	Sum17_1_1 =  - In18_1_1;
+	Sum20_1_1 = In19_1_1 + In19_1_2 + In19_1_3;
+	Sum21_1_1 =  - In20_1_1 - In20_1_2 - In20_1_3;
+	Sum22_1_1 = In23_1_1 + In23_1_2 + In23_1_3;
+	Sum22_1_2 = In23_1_4 + In23_1_5 + In23_1_6;
+	Sum23_1_1 =  - In24_1_1 - In24_1_2 - In24_1_3;
+	Sum23_1_2 =  - In24_1_4 - In24_1_5 - In24_1_6;
 	Out17_1_1 = Sum16_1_1;
 	Out18_2_1 = Sum17_1_1;
 	Out19_3_1 = Sum20_1_1;
