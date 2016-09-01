@@ -1,0 +1,7 @@
+node current_test(In1 : bool; In2 : real)
+returns (Out : real;);
+var local : real;
+let
+   local = In2 when In1;
+   Out = current(local);
+tel
