@@ -29,21 +29,33 @@ for k=1:count
     validation_time = zeros(n,1);
     lustrec_horn_time = zeros(n,1);
     nb_actions = zeros(n,1);
-    Query_time = zeros(n,1);
+    nb_properties_nodes=-1*ones(n,1);
+    nb_properties_safe=-1*ones(n,1);
+    nb_properties_unsafe=-1*ones(n,1);
+    nb_properties_timeout=-1*ones(n,1);
+    time_safe=-1*ones(n,1);
+    time_unsafe=-1*ones(n,1);
     for i=1:n
         model_full_path = fullfile(tool_path, char(models_name{i}));
         try
         [valid_i, sf2lus_time_i, validation_compute, nb_actions_i, lus_file_path, Query_time_i]=validate_model(char(model_full_path),cocoSim_path,show_models,L);
         catch ME
-            warning('%s\n',ME.message);
             L.error('validate_model',getReport(ME,'extended'));
-            continue;
+            error('%s\n',ME.message);
+%             continue;
         end
         valid(i) = valid_i;
         sf2lus_time(i) = sf2lus_time_i;
         validation_time(i) = validation_compute;
         nb_actions(i) = nb_actions_i;
-        Query_time(i) = Query_time_i;
+        if isstruct(Query_time_i)
+            nb_properties_nodes(i) = Query_time_i.nb_properties_nodes;
+            nb_properties_safe(i) = Query_time_i.nb_properties_safe;
+            nb_properties_unsafe(i) = Query_time_i.nb_properties_unsafe;
+            nb_properties_timeout(i) = Query_time_i.nb_properties_timeout;
+            time_safe(i) = Query_time_i.time_safe;
+            time_unsafe(i) = Query_time_i.time_unsafe;
+        end
         %this if you don't need to regenerate lustre code
 %         [model_path, file_name, ~] = fileparts(model_full_path);
 %         output_dir = fullfile(model_path, strcat('lustre_files/src_', file_name));
@@ -70,12 +82,15 @@ for k=1:count
             end
             cd(OldPwd);
         end
+        %close_system(char(models_name{i}),0);
 
 
     end
-
-
-    result = table(models_name', lus_file_nb_bytes, valid, nb_actions, sf2lus_time, validation_time,lustrec_horn_time, Query_time);
+    result = table(models_name', lus_file_nb_bytes, valid, nb_actions, sf2lus_time, validation_time,lustrec_horn_time,...
+                    nb_properties_nodes, nb_properties_safe, nb_properties_unsafe, nb_properties_timeout,...
+                    time_safe,time_unsafe,...
+                    'VariableNames', {'models_name','lus_file_nb_bytes','valid','nb_actions','sf2lus_time','validation_time','lustrec_horn_time',...
+                    'nb_properties_nodes','nb_properties_safe','nb_properties_unsafe', 'nb_properties_timeout','time_safe','time_unsafe'});
     % if you want to order the result by a column
     result = sortrows(result,4);
     %if you want to debug the invalid examples
@@ -99,6 +114,6 @@ for k=1:count
 end
 % plot statistics
 
-% save result2 result
+save result result
 rmpath(tool_path);
 end

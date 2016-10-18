@@ -157,7 +157,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.499"
+    ComputedModelVersion    "1.509"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -182,7 +182,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [65.0, 24.0, 1855.0, 1056.0]
+      Location		      [65.0, 24.0, 1535.0, 876.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -206,9 +206,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1626.0, 911.0]
-	ZoomFactor		[0.8]
-	Offset			[107.11031779646873, -10.559703312814236]
+	Extents			[1306.0, 731.0]
+	ZoomFactor		[0.79999999999999993]
+	Offset			[564.91666666666777, -116.89099669456556]
       }
     }
   }
@@ -216,11 +216,11 @@ Model {
   Creator		  "mwwhalen"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "hamza"
+  LastModifiedBy	  "bourbouh"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Jul 22 23:27:30 2016"
-  RTWModifiedTimeStamp	  391130703
-  ModelVersionFormat	  "1.%<AutoIncrement:499>"
+  LastModifiedDate	  "Mon Oct 17 22:56:27 2016"
+  RTWModifiedTimeStamp	  398626141
+  ModelVersionFormat	  "1.%<AutoIncrement:509>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1056,12 +1056,28 @@ Model {
       IsWebBlock	      off
     }
     Block {
+      BlockType		      Sum
+      IconShape		      "rectangular"
+      Inputs		      "++"
+      CollapseMode	      "All dimensions"
+      CollapseDim	      "1"
+      InputSameDT	      on
+      AccumDataTypeStr	      "Inherit: Inherit via internal rule"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Same as first input"
+      LockScale		      off
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	on
+      SampleTime	      "-1"
+    }
+    Block {
       BlockType		      Terminator
     }
   }
   System {
     Name		    "DockingApproachExample_Ext"
-    Location		    [65, 24, 1920, 1080]
+    Location		    [65, 24, 1600, 900]
     Open		    on
     ModelBrowserVisibility  on
     ModelBrowserWidth	    212
@@ -1075,7 +1091,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "80"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "132"
+    SIDHighWatermark	    "263"
     Block {
       BlockType		      Inport
       Name		      "GroundTrack_OrbitalPosition"
@@ -1767,7 +1783,8 @@ Model {
       Ports		      [15, 1]
       Position		      [1225, 20, 1375, 90]
       ZOrder		      5
-      ForegroundColor	      "red"
+      ForegroundColor	      "gray"
+      BackgroundColor	      "gray"
       TreatAsAtomicUnit	      on
       RequestExecContextInheritance off
       Variant		      off
@@ -1779,8 +1796,8 @@ Model {
 	Description		"Set an observer for the system.\nThe annotation type parameter sets the type of observer:\n- requires :"
 	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
 	"e of properties"
-	Display			"color('red')\ntext(0.5, 0.5, ['CoCoSpec: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center')"
-	";\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TO BE VERIFIED}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
 	IconUnits		"normalized"
 	Array {
 	  Type			  "Simulink.MaskParameter"
@@ -1821,7 +1838,7 @@ Model {
       }
       System {
 	Name			"prop1"
-	Location		[65, 24, 1920, 1080]
+	Location		[65, 24, 1600, 900]
 	Open			off
 	ModelBrowserVisibility	on
 	ModelBrowserWidth	200
@@ -2233,6 +2250,54 @@ Model {
 	  DstBlock		  "prop1"
 	  DstPort		  1
 	}
+	Annotation {
+	  SID			  "166"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Liberation Sans'; font-size:10px; font-weight:400; font-style:normal;\">\n<p s"
+	  "tyle=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\""
+	  "><span style=\" font-size:12px; font-weight:600;\">-- REQUIREMENT</span></p>\n<p style=\" margin-top:0px; margin-bo"
+	  "ttom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; "
+	  "font-weight:600;\">-- - The previous mode or an error recovery mode shall be invoked if the</span></p>\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:12px; font-weight:600;\">--   time spent within a mode exceeds that of its specified allowable<"
+	  "/span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; t"
+	  "ext-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">--   limit.</span></p>\n<p style=\"-qt-paragrap"
+	  "h-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent"
+	  ":0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px"
+	  "; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- COM"
+	  "MENT</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent"
+	  ":0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- This requirement will have to be enumer"
+	  "ated for each major phase.</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right"
+	  ":0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- We will provide a"
+	  "n example for the LatchCapture mode sicne it is the most interesting</span></p>\n<p style=\" margin-top:0px; margin"
+	  "-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12p"
+	  "x; font-weight:600;\">-- and also the one that will give us the most interestign counterexample if it fails.</span>"
+	  "</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-in"
+	  "dent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- We state teh requiremetn as tow properties</span><"
+	  "/p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-ind"
+	  "ent:0px;\"><span style=\" font-size:12px; font-weight:600;\">--    1. If we complete LatchCapture, we will do so wi"
+	  "thin the time limit.</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+	  "-qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">--    2. If we time out in"
+	  " LatchCapture, we will go to the previous mode </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-l"
+	  "eft:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\""
+	  ">--            (there is no error recovery mode in the model we were given).</span></p>\n<p style=\"-qt-paragraph-t"
+	  "ype:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0p"
+	  "x; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; m"
+	  "argin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- 1</spa"
+	  "n></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
+	  "indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">   INVARSPEC ((LatchCaptureComplete = 1) -&gt; </sp"
+	  "an></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text"
+	  "-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">              (LatchCapture_timer &lt; LatchCaptur"
+	  "e_timer_upper_limit))</span></p></body></html>"
+	  Position		  [412, 178, 913, 418]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	}
       }
     }
     Block {
@@ -2250,7 +2315,8 @@ Model {
       Ports		      [15, 1]
       Position		      [1415, 1020, 1565, 1090]
       ZOrder		      7
-      ForegroundColor	      "red"
+      ForegroundColor	      "gray"
+      BackgroundColor	      "gray"
       TreatAsAtomicUnit	      on
       RequestExecContextInheritance off
       Variant		      off
@@ -2262,8 +2328,8 @@ Model {
 	Description		"Set an observer for the system.\nThe annotation type parameter sets the type of observer:\n- requires :"
 	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
 	"e of properties"
-	Display			"color('red')\ntext(0.5, 0.5, ['CoCoSpec: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center')"
-	";\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TO BE VERIFIED}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
 	IconUnits		"normalized"
 	Array {
 	  Type			  "Simulink.MaskParameter"
@@ -2304,7 +2370,7 @@ Model {
       }
       System {
 	Name			"prop2"
-	Location		[65, 24, 1920, 1080]
+	Location		[65, 24, 1600, 900]
 	Open			off
 	ModelBrowserVisibility	on
 	ModelBrowserWidth	200
@@ -2713,6 +2779,39 @@ Model {
 	  DstBlock		  "prop2"
 	  DstPort		  1
 	}
+	Annotation {
+	  SID			  "167"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Liberation Sans'; font-size:10px; font-weight:400; font-style:normal;\">\n<p s"
+	  "tyle=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\""
+	  "><span style=\" font-size:12px; font-weight:600;\">-- 2</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; "
+	  "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weigh"
+	  "t:600;\">-- Introduce a temporary variable to keep track of the previosu value of the timer</span></p>\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:12px; font-weight:600;\">-- This is so we can use INVARSPEC for the property (no use  of X need"
+	  "ed)</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:"
+	  "0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">   VAR </span></p>\n<p style=\" margin-top:"
+	  "0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" fo"
+	  "nt-size:12px; font-weight:600;\">      prevTimer : 0..9 ;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px"
+	  "; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-wei"
+	  "ght:600;\">   ASSIGN</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; "
+	  "-qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">      init(prevTimer) := 0"
+	  ";</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0;"
+	  " text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">      next(prevTimer) := LatchCapture_timer;<"
+	  "/span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0"
+	  "px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" margin-top:0px;"
+	  " margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-s"
+	  "ize:12px; font-weight:600;\">   INVARSPEC ((prevTimer  = LatchCapture_timer_upper_limit) -&gt; DockingApproach = 1)"
+	  "</span></p></body></html>"
+	  Position		  [495, 413, 995, 555]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	}
       }
     }
     Block {
@@ -2721,6 +2820,1355 @@ Model {
       SID		      "129"
       Position		      [1610, 1045, 1630, 1065]
       ZOrder		      8
+      ForegroundColor	      "red"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "prop3"
+      SID		      "168"
+      Ports		      [14, 1]
+      Position		      [1610, 18, 1760, 87]
+      ZOrder		      11
+      ForegroundColor	      "gray"
+      BackgroundColor	      "gray"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		26
+	$ClassName		"Simulink.Mask"
+	Type			"Observer"
+	Description		"Set an observer for the system.\nThe annotation type parameter sets the type of observer:\n- requires :"
+	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
+	"e of properties"
+	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    27
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      4
+	      Cell		      "ensures"
+	      Cell		      "requires"
+	      Cell		      "assert"
+	      Cell		      "observer"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "AnnotationType"
+	    Prompt		    "Type of annotation (pre/post...)"
+	    Value		    "ensures"
+	    Callback		    "paramStr = get_param(gcb, 'MaskValues');\nif strcmp(paramStr{1}(1),'o')\nset_param(gcb,'MaskVisibi"
+	    "lities',{'on';'on'});\nparamStr{2} = 'ellipsoid';\nset_param(gcb,'MaskValues',paramStr);\nelse\nset_param(gcb,'Ma"
+	    "skVisibilities',{'on';'off'});\nend\nclear paramStr;\n"
+	  }
+	  Object {
+	    $ObjectID		    28
+	    Type		    "edit"
+	    Name		    "ObserverType"
+	    Prompt		    "Observer type"
+	    Value		    "[]"
+	    Evaluate		    "off"
+	    Visible		    "off"
+	    Callback		    "paramStr = get_param(gcb, 'MaskValues');\nif strcmp(paramStr{1}(1),'o')\nset_param(gcb,'MaskVisibi"
+	    "lities',{'on';'on'});\nparamStr{2} = 'ellipsoid';\nset_param(gcb,'MaskValues',paramStr);\nelse\nset_param(gcb,'Ma"
+	    "skVisibilities',{'on';'off'});\nend\nclear paramStr;\n"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+      System {
+	Name			"prop3"
+	Location		[65, 24, 1600, 900]
+	Open			off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_OrbitalPosition"
+	  SID			  "169"
+	  Position		  [400, 657, 430, 673]
+	  ZOrder		  1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_OrbitalVelocity"
+	  SID			  "171"
+	  Position		  [400, 622, 430, 638]
+	  ZOrder		  3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "dockVisibility_status"
+	  SID			  "173"
+	  Position		  [400, 582, 430, 598]
+	  ZOrder		  5
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "opticsAvailability_status"
+	  SID			  "175"
+	  Position		  [400, 732, 430, 748]
+	  ZOrder		  7
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "sunlight_status"
+	  SID			  "177"
+	  Position		  [400, 772, 430, 788]
+	  ZOrder		  9
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GPS_satelliteVisibility_status"
+	  SID			  "179"
+	  Position		  [400, 512, 430, 528]
+	  ZOrder		  11
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GPS_receiverAvailability_status"
+	  SID			  "181"
+	  Position		  [400, 542, 430, 558]
+	  ZOrder		  13
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StarPlanetTracker_planetVisibility"
+	  SID			  "183"
+	  Position		  [400, 897, 430, 913]
+	  ZOrder		  15
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StarPlanetTracker_starVisibility"
+	  SID			  "185"
+	  Position		  [400, 472, 430, 488]
+	  ZOrder		  17
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "InertialNavigation_time"
+	  SID			  "187"
+	  Position		  [400, 812, 430, 828]
+	  ZOrder		  19
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_Time"
+	  SID			  "189"
+	  Position		  [400, 692, 430, 708]
+	  ZOrder		  21
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "RealTimeClock_time"
+	  SID			  "191"
+	  Position		  [400, 852, 430, 868]
+	  ZOrder		  23
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StageTransition"
+	  SID			  "193"
+	  Position		  [365, 247, 395, 263]
+	  ZOrder		  25
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CaptureApproachComplete"
+	  SID			  "195"
+	  Position		  [365, 307, 395, 323]
+	  ZOrder		  27
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Sum
+	  Name			  "Add"
+	  SID			  "200"
+	  Ports			  [12, 1]
+	  Position		  [620, 467, 730, 923]
+	  ZOrder		  30
+	  Inputs		  "++++++++++++"
+	  InputSameDT		  off
+	  AccumDataTypeStr	  "int8"
+	  OutDataTypeStr	  "int8"
+	  SaturateOnIntegerOverflow off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "AnyTwoSensorsFailed"
+	  SID			  "201"
+	  Ports			  [1, 1]
+	  Position		  [835, 680, 865, 710]
+	  ZOrder		  31
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "<"
+	  const			  "2"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant"
+	  SID			  "202"
+	  Ports			  [1, 1]
+	  Position		  [650, 300, 680, 330]
+	  ZOrder		  32
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "~="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "Logical\nOperator"
+	  SID			  "203"
+	  Ports			  [2, 1]
+	  Position		  [1040, 497, 1070, 528]
+	  ZOrder		  33
+	  Operator		  "OR"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "StageTransition_term"
+	  SID			  "194"
+	  Position		  [455, 245, 475, 265]
+	  ZOrder		  26
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "prop3"
+	  SID			  "197"
+	  Position		  [1280, 507, 1310, 523]
+	  ZOrder		  29
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "GroundTrack_OrbitalPosition"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, 10]
+	  DstBlock		  "Add"
+	  DstPort		  6
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "GroundTrack_OrbitalVelocity"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, 5]
+	  DstBlock		  "Add"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "dockVisibility_status"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, 5]
+	  DstBlock		  "Add"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  26
+	  SrcBlock		  "opticsAvailability_status"
+	  SrcPort		  1
+	  Points		  [107, 0; 0, 15]
+	  DstBlock		  "Add"
+	  DstPort		  8
+	}
+	Line {
+	  ZOrder		  27
+	  SrcBlock		  "sunlight_status"
+	  SrcPort		  1
+	  Points		  [98, 0; 0, 15]
+	  DstBlock		  "Add"
+	  DstPort		  9
+	}
+	Line {
+	  ZOrder		  20
+	  SrcBlock		  "GPS_satelliteVisibility_status"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, -5]
+	  DstBlock		  "Add"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "GPS_receiverAvailability_status"
+	  SrcPort		  1
+	  Points		  [85, 0; 0, 5]
+	  DstBlock		  "Add"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  15
+	  SrcBlock		  "StarPlanetTracker_planetVisibility"
+	  SrcPort		  1
+	  Points		  [90, 0; 0, 10]
+	  DstBlock		  "Add"
+	  DstPort		  12
+	}
+	Line {
+	  ZOrder		  19
+	  SrcBlock		  "StarPlanetTracker_starVisibility"
+	  SrcPort		  1
+	  Points		  [154, 0; 0, -5]
+	  DstBlock		  "Add"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  28
+	  SrcBlock		  "InertialNavigation_time"
+	  SrcPort		  1
+	  Points		  [106, 0; 0, 15]
+	  DstBlock		  "Add"
+	  DstPort		  10
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "GroundTrack_Time"
+	  SrcPort		  1
+	  Points		  [102, 0; 0, 15]
+	  DstBlock		  "Add"
+	  DstPort		  7
+	}
+	Line {
+	  ZOrder		  16
+	  SrcBlock		  "RealTimeClock_time"
+	  SrcPort		  1
+	  Points		  [104, 0; 0, 15]
+	  DstBlock		  "Add"
+	  DstPort		  11
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "StageTransition"
+	  SrcPort		  1
+	  DstBlock		  "StageTransition_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  30
+	  SrcBlock		  "CaptureApproachComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  29
+	  SrcBlock		  "Add"
+	  SrcPort		  1
+	  DstBlock		  "AnyTwoSensorsFailed"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  31
+	  SrcBlock		  "Compare\nTo Constant"
+	  SrcPort		  1
+	  Points		  [175, 0; 0, 190]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  32
+	  SrcBlock		  "AnyTwoSensorsFailed"
+	  SrcPort		  1
+	  Points		  [82, 0; 0, -175]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "Logical\nOperator"
+	  SrcPort		  1
+	  DstBlock		  "prop3"
+	  DstPort		  1
+	}
+	Annotation {
+	  SID			  "199"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Liberation Sans'; font-size:10px; font-weight:400; font-style:normal;\">\n<p s"
+	  "tyle=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-in"
+	  "dent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right"
+	  ":0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- REQUIREMENT</span"
+	  "></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-i"
+	  "ndent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- - Good orbital position, velocity, and attitude d"
+	  "etermination shall</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -q"
+	  "t-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">--   require two or more goo"
+	  "d sensor values.</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0p"
+	  "x; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\""
+	  " margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span"
+	  " style=\" font-size:12px; font-weight:600;\">-- COMMENT</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; "
+	  "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weigh"
+	  "t:600;\">-- </span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; m"
+	  "argin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" ma"
+	  "rgin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span st"
+	  "yle=\" font-size:12px; font-weight:600;\">   INVARSPEC ((CaptureApproachComplete = 1) -&gt; !AnyTwoSensorsFailed)</"
+	  "span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0p"
+	  "x; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" margin-top:0px; "
+	  "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-si"
+	  "ze:12px; font-weight:600;\">	</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; m"
+	  "argin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p"
+	  ">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inden"
+	  "t:0px;\"><span style=\" font-size:12px; font-weight:600;\">   AnyTwoSensorsFailed := 2 &lt;= (StarPlanetTracker_sta"
+	  "rVisibility +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-blo"
+	  "ck-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">                                G"
+	  "PS_satelliteVisibility_status +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+	  "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">               "
+	  "                 GPS_receiverAvailability_status +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margi"
+	  "n-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600"
+	  ";\">                                dockVisibility_status +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0"
+	  "px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-w"
+	  "eight:600;\">                                GroundTrack_OrbitalVelocity +</span></p>\n<p style=\" margin-top:0px; "
+	  "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-si"
+	  "ze:12px; font-weight:600;\">                                GroundTrack_OrbitalPosition +</span></p>\n<p style=\" m"
+	  "argin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span s"
+	  "tyle=\" font-size:12px; font-weight:600;\">                                GroundTrack_Time +</span></p>\n<p style="
+	  "\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><sp"
+	  "an style=\" font-size:12px; font-weight:600;\">                                opticsAvailability_status +</span></"
+	  "p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-inde"
+	  "nt:0px;\"><span style=\" font-size:12px; font-weight:600;\">                                sunlight_status +</span"
+	  "></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-i"
+	  "ndent:0px;\"><span style=\" font-size:12px; font-weight:600;\">                                InertialNavigation_t"
+	  "ime +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-inden"
+	  "t:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">                                RealTimeC"
+	  "lock_time +</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block"
+	  "-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">                                Sta"
+	  "rPlanetTracker_planetVisibility );</span></p></body></html>"
+	  Position		  [986, 49, 1411, 385]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	}
+      }
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "prop3_term"
+      SID		      "198"
+      Position		      [1800, 20, 1820, 40]
+      ZOrder		      12
+      ForegroundColor	      "red"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "prop4"
+      SID		      "204"
+      Ports		      [20, 1]
+      Position		      [1800, 20, 1950, 115]
+      ZOrder		      13
+      ForegroundColor	      "gray"
+      BackgroundColor	      "gray"
+      TreatAsAtomicUnit	      on
+      RequestExecContextInheritance off
+      Variant		      off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		29
+	$ClassName		"Simulink.Mask"
+	Type			"Observer"
+	Description		"Set an observer for the system.\nThe annotation type parameter sets the type of observer:\n- requires :"
+	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
+	"e of properties"
+	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	IconUnits		"normalized"
+	Array {
+	  Type			  "Simulink.MaskParameter"
+	  Dimension		  2
+	  Object {
+	    $ObjectID		    30
+	    Type		    "popup"
+	    Array {
+	      Type		      "Cell"
+	      Dimension		      4
+	      Cell		      "ensures"
+	      Cell		      "requires"
+	      Cell		      "assert"
+	      Cell		      "observer"
+	      PropName		      "TypeOptions"
+	    }
+	    Name		    "AnnotationType"
+	    Prompt		    "Type of annotation (pre/post...)"
+	    Value		    "ensures"
+	    Callback		    "paramStr = get_param(gcb, 'MaskValues');\nif strcmp(paramStr{1}(1),'o')\nset_param(gcb,'MaskVisibi"
+	    "lities',{'on';'on'});\nparamStr{2} = 'ellipsoid';\nset_param(gcb,'MaskValues',paramStr);\nelse\nset_param(gcb,'Ma"
+	    "skVisibilities',{'on';'off'});\nend\nclear paramStr;\n"
+	  }
+	  Object {
+	    $ObjectID		    31
+	    Type		    "edit"
+	    Name		    "ObserverType"
+	    Prompt		    "Observer type"
+	    Value		    "[]"
+	    Evaluate		    "off"
+	    Visible		    "off"
+	    Callback		    "paramStr = get_param(gcb, 'MaskValues');\nif strcmp(paramStr{1}(1),'o')\nset_param(gcb,'MaskVisibi"
+	    "lities',{'on';'on'});\nparamStr{2} = 'ellipsoid';\nset_param(gcb,'MaskValues',paramStr);\nelse\nset_param(gcb,'Ma"
+	    "skVisibilities',{'on';'off'});\nend\nclear paramStr;\n"
+	  }
+	  PropName		  "Parameters"
+	}
+      }
+      System {
+	Name			"prop4"
+	Location		[65, 24, 1600, 900]
+	Open			off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_OrbitalPosition"
+	  SID			  "205"
+	  Position		  [90, 92, 120, 108]
+	  ZOrder		  1
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_OrbitalVelocity"
+	  SID			  "207"
+	  Position		  [90, 152, 120, 168]
+	  ZOrder		  3
+	  Port			  "2"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "dockVisibility_status"
+	  SID			  "209"
+	  Position		  [90, 212, 120, 228]
+	  ZOrder		  5
+	  Port			  "3"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "opticsAvailability_status"
+	  SID			  "211"
+	  Position		  [90, 272, 120, 288]
+	  ZOrder		  7
+	  Port			  "4"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "sunlight_status"
+	  SID			  "213"
+	  Position		  [90, 332, 120, 348]
+	  ZOrder		  9
+	  Port			  "5"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GPS_satelliteVisibility_status"
+	  SID			  "215"
+	  Position		  [90, 392, 120, 408]
+	  ZOrder		  11
+	  Port			  "6"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GPS_receiverAvailability_status"
+	  SID			  "217"
+	  Position		  [90, 452, 120, 468]
+	  ZOrder		  13
+	  Port			  "7"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StarPlanetTracker_planetVisibility"
+	  SID			  "219"
+	  Position		  [90, 512, 120, 528]
+	  ZOrder		  15
+	  Port			  "8"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StarPlanetTracker_starVisibility"
+	  SID			  "221"
+	  Position		  [90, 572, 120, 588]
+	  ZOrder		  17
+	  Port			  "9"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "InertialNavigation_time"
+	  SID			  "223"
+	  Position		  [90, 632, 120, 648]
+	  ZOrder		  19
+	  Port			  "10"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "GroundTrack_Time"
+	  SID			  "225"
+	  Position		  [90, 692, 120, 708]
+	  ZOrder		  21
+	  Port			  "11"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "RealTimeClock_time"
+	  SID			  "227"
+	  Position		  [90, 752, 120, 768]
+	  ZOrder		  23
+	  Port			  "12"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "StageTransition"
+	  SID			  "229"
+	  Position		  [90, 812, 120, 828]
+	  ZOrder		  25
+	  Port			  "13"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "CaptureApproachComplete"
+	  SID			  "231"
+	  Position		  [395, 472, 425, 488]
+	  ZOrder		  27
+	  Port			  "14"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "DockingApproachComplete"
+	  SID			  "233"
+	  Position		  [395, 537, 425, 553]
+	  ZOrder		  29
+	  Port			  "15"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "AttemptingToDock"
+	  SID			  "235"
+	  Position		  [395, 382, 425, 398]
+	  ZOrder		  31
+	  Port			  "16"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "LatchCaptureComplete"
+	  SID			  "237"
+	  Position		  [395, 927, 425, 943]
+	  ZOrder		  33
+	  Port			  "17"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "ApproachOrbitComplete"
+	  SID			  "239"
+	  Position		  [395, 607, 425, 623]
+	  ZOrder		  35
+	  Port			  "18"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "FarApproachComplete"
+	  SID			  "241"
+	  Position		  [395, 667, 425, 683]
+	  ZOrder		  37
+	  Port			  "19"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Inport
+	  Name			  "ProximityOperationsComplete"
+	  SID			  "243"
+	  Position		  [395, 732, 425, 748]
+	  ZOrder		  39
+	  Port			  "20"
+	  IconDisplay		  "Port number"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant"
+	  SID			  "248"
+	  Ports			  [1, 1]
+	  Position		  [570, 375, 600, 405]
+	  ZOrder		  42
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant1"
+	  SID			  "250"
+	  Ports			  [1, 1]
+	  Position		  [570, 465, 600, 495]
+	  ZOrder		  44
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant2"
+	  SID			  "252"
+	  Ports			  [1, 1]
+	  Position		  [570, 530, 600, 560]
+	  ZOrder		  46
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant3"
+	  SID			  "262"
+	  Ports			  [1, 1]
+	  Position		  [570, 920, 600, 950]
+	  ZOrder		  56
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant4"
+	  SID			  "254"
+	  Ports			  [1, 1]
+	  Position		  [570, 600, 600, 630]
+	  ZOrder		  48
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant5"
+	  SID			  "255"
+	  Ports			  [1, 1]
+	  Position		  [570, 660, 600, 690]
+	  ZOrder		  49
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Compare\nTo Constant6"
+	  SID			  "256"
+	  Ports			  [1, 1]
+	  Position		  [570, 725, 600, 755]
+	  ZOrder		  50
+	  LibraryVersion	  "1.386"
+	  SourceBlock		  "simulink/Logic and Bit\nOperations/Compare\nTo Constant"
+	  SourceType		  "Compare To Constant"
+	  ContentPreviewEnabled	  off
+	  relop			  "=="
+	  const			  "1"
+	  OutDataTypeStr	  "boolean"
+	  ZeroCross		  on
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "GPS_receiverAvailability_status_term"
+	  SID			  "218"
+	  Position		  [160, 450, 180, 470]
+	  ZOrder		  14
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "GPS_satelliteVisibility_status_term"
+	  SID			  "216"
+	  Position		  [160, 390, 180, 410]
+	  ZOrder		  12
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "GroundTrack_OrbitalPosition_term"
+	  SID			  "206"
+	  Position		  [160, 90, 180, 110]
+	  ZOrder		  2
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "GroundTrack_OrbitalVelocity_term"
+	  SID			  "208"
+	  Position		  [160, 150, 180, 170]
+	  ZOrder		  4
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "GroundTrack_Time_term"
+	  SID			  "226"
+	  Position		  [160, 690, 180, 710]
+	  ZOrder		  22
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "InertialNavigation_time_term"
+	  SID			  "224"
+	  Position		  [160, 630, 180, 650]
+	  ZOrder		  20
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "Logical\nOperator"
+	  SID			  "249"
+	  Ports			  [5, 1]
+	  Position		  [725, 444, 780, 756]
+	  ZOrder		  43
+	  Inputs		  "5"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "RealTimeClock_time_term"
+	  SID			  "228"
+	  Position		  [160, 750, 180, 770]
+	  ZOrder		  24
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "StageTransition_term"
+	  SID			  "230"
+	  Position		  [160, 810, 180, 830]
+	  ZOrder		  26
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "StarPlanetTracker_planetVisibility_term"
+	  SID			  "220"
+	  Position		  [160, 510, 180, 530]
+	  ZOrder		  16
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "StarPlanetTracker_starVisibility_term"
+	  SID			  "222"
+	  Position		  [160, 570, 180, 590]
+	  ZOrder		  18
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "dockVisibility_status_term"
+	  SID			  "210"
+	  Position		  [160, 210, 180, 230]
+	  ZOrder		  6
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "not"
+	  SID			  "259"
+	  Ports			  [1, 1]
+	  Position		  [775, 798, 835, 872]
+	  ZOrder		  53
+	  Operator		  "NOT"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "opticsAvailability_status_term"
+	  SID			  "212"
+	  Position		  [160, 270, 180, 290]
+	  ZOrder		  8
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "prop"
+	  SID			  "263"
+	  Ports			  [2, 1]
+	  Position		  [1060, 561, 1130, 719]
+	  ZOrder		  57
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "prop1"
+	  SID			  "258"
+	  Ports			  [2, 1]
+	  Position		  [895, 351, 965, 509]
+	  ZOrder		  52
+	  Operator		  "OR"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "prop2"
+	  SID			  "260"
+	  Ports			  [3, 1]
+	  Position		  [895, 806, 965, 964]
+	  ZOrder		  54
+	  Operator		  "OR"
+	  Inputs		  "3"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Logic
+	  Name			  "prop5"
+	  SID			  "261"
+	  Ports			  [1, 1]
+	  Position		  [690, 373, 725, 407]
+	  ZOrder		  55
+	  Operator		  "NOT"
+	  AllPortsSameDT	  off
+	  OutDataTypeStr	  "boolean"
+	}
+	Block {
+	  BlockType		  Terminator
+	  Name			  "sunlight_status_term"
+	  SID			  "214"
+	  Position		  [160, 330, 180, 350]
+	  ZOrder		  10
+	}
+	Block {
+	  BlockType		  Outport
+	  Name			  "prop4"
+	  SID			  "245"
+	  Position		  [1200, 632, 1230, 648]
+	  ZOrder		  41
+	  IconDisplay		  "Port number"
+	}
+	Line {
+	  ZOrder		  1
+	  SrcBlock		  "GroundTrack_OrbitalPosition"
+	  SrcPort		  1
+	  DstBlock		  "GroundTrack_OrbitalPosition_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  2
+	  SrcBlock		  "GroundTrack_OrbitalVelocity"
+	  SrcPort		  1
+	  DstBlock		  "GroundTrack_OrbitalVelocity_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  3
+	  SrcBlock		  "dockVisibility_status"
+	  SrcPort		  1
+	  DstBlock		  "dockVisibility_status_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  4
+	  SrcBlock		  "opticsAvailability_status"
+	  SrcPort		  1
+	  DstBlock		  "opticsAvailability_status_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  5
+	  SrcBlock		  "sunlight_status"
+	  SrcPort		  1
+	  DstBlock		  "sunlight_status_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  6
+	  SrcBlock		  "GPS_satelliteVisibility_status"
+	  SrcPort		  1
+	  DstBlock		  "GPS_satelliteVisibility_status_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  7
+	  SrcBlock		  "GPS_receiverAvailability_status"
+	  SrcPort		  1
+	  DstBlock		  "GPS_receiverAvailability_status_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  8
+	  SrcBlock		  "StarPlanetTracker_planetVisibility"
+	  SrcPort		  1
+	  DstBlock		  "StarPlanetTracker_planetVisibility_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  9
+	  SrcBlock		  "StarPlanetTracker_starVisibility"
+	  SrcPort		  1
+	  DstBlock		  "StarPlanetTracker_starVisibility_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  10
+	  SrcBlock		  "InertialNavigation_time"
+	  SrcPort		  1
+	  DstBlock		  "InertialNavigation_time_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  11
+	  SrcBlock		  "GroundTrack_Time"
+	  SrcPort		  1
+	  DstBlock		  "GroundTrack_Time_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  12
+	  SrcBlock		  "RealTimeClock_time"
+	  SrcPort		  1
+	  DstBlock		  "RealTimeClock_time_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  13
+	  SrcBlock		  "StageTransition"
+	  SrcPort		  1
+	  DstBlock		  "StageTransition_term"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  21
+	  SrcBlock		  "AttemptingToDock"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  22
+	  SrcBlock		  "CaptureApproachComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  23
+	  SrcBlock		  "ProximityOperationsComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant6"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  24
+	  SrcBlock		  "FarApproachComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant5"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  25
+	  SrcBlock		  "ApproachOrbitComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant4"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  45
+	  SrcBlock		  "LatchCaptureComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant3"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  27
+	  SrcBlock		  "DockingApproachComplete"
+	  SrcPort		  1
+	  DstBlock		  "Compare\nTo Constant2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  29
+	  SrcBlock		  "Compare\nTo Constant6"
+	  SrcPort		  1
+	  Points		  [63, 0; 0, -20]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  5
+	}
+	Line {
+	  ZOrder		  30
+	  SrcBlock		  "Compare\nTo Constant1"
+	  SrcPort		  1
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  31
+	  SrcBlock		  "Compare\nTo Constant2"
+	  SrcPort		  1
+	  Points		  [58, 0; 0, -5]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  32
+	  SrcBlock		  "Compare\nTo Constant4"
+	  SrcPort		  1
+	  Points		  [58, 0; 0, -15]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  33
+	  SrcBlock		  "Compare\nTo Constant5"
+	  SrcPort		  1
+	  Points		  [58, 0; 0, -15]
+	  DstBlock		  "Logical\nOperator"
+	  DstPort		  4
+	}
+	Line {
+	  ZOrder		  34
+	  SrcBlock		  "Compare\nTo Constant"
+	  SrcPort		  1
+	  Points		  [46, 0]
+	  Branch {
+	    ZOrder		    43
+	    Points		    [0, 495]
+	    DstBlock		    "prop2"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    42
+	    DstBlock		    "prop5"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  35
+	  SrcBlock		  "Logical\nOperator"
+	  SrcPort		  1
+	  Points		  [48, 0]
+	  Branch {
+	    ZOrder		    39
+	    Points		    [0, -130]
+	    DstBlock		    "prop1"
+	    DstPort		    2
+	  }
+	  Branch {
+	    ZOrder		    38
+	    Points		    [0, 189; -107, 0; 0, 46]
+	    DstBlock		    "not"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  ZOrder		  46
+	  SrcBlock		  "prop1"
+	  SrcPort		  1
+	  Points		  [75, 0]
+	  DstBlock		  "prop"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  40
+	  SrcBlock		  "not"
+	  SrcPort		  1
+	  DstBlock		  "prop2"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  41
+	  SrcBlock		  "prop5"
+	  SrcPort		  1
+	  DstBlock		  "prop1"
+	  DstPort		  1
+	}
+	Line {
+	  ZOrder		  44
+	  SrcBlock		  "Compare\nTo Constant3"
+	  SrcPort		  1
+	  DstBlock		  "prop2"
+	  DstPort		  3
+	}
+	Line {
+	  ZOrder		  47
+	  SrcBlock		  "prop2"
+	  SrcPort		  1
+	  Points		  [43, 0; 0, -205]
+	  DstBlock		  "prop"
+	  DstPort		  2
+	}
+	Line {
+	  ZOrder		  48
+	  SrcBlock		  "prop"
+	  SrcPort		  1
+	  DstBlock		  "prop4"
+	  DstPort		  1
+	}
+	Annotation {
+	  SID			  "247"
+	  Name			  "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html"
+	  "><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\n</styl"
+	  "e></head><body style=\" font-family:'Liberation Sans'; font-size:10px; font-weight:400; font-style:normal;\">\n<p s"
+	  "tyle=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\""
+	  "><span style=\" font-size:12px; font-weight:600;\">-- REQUIREMENT</span></p>\n<p style=\" margin-top:0px; margin-bo"
+	  "ttom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; "
+	  "font-weight:600;\">-- - Docking shall require the target to be in sight, proximity,</span></p>\n<p style=\" margin-"
+	  "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\""
+	  " font-size:12px; font-weight:600;\">--   correctly oriented, and ready to dock.</span></p>\n<p style=\"-qt-paragrap"
+	  "h-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent"
+	  ":0px; font-size:12px; font-weight:600;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px"
+	  "; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- COM"
+	  "MENT</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent"
+	  ":0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- This we can do by stating the requireme"
+	  "tn as follows:</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-bl"
+	  "ock-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- A docking attempt will not co"
+	  "mmence until we have passed all the </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; ma"
+	  "rgin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">-- checks "
+	  "for IsInSameOrbit, IsInSight, InProximity, Oriented, and ReadyToDock.</span></p>\n<p style=\" margin-top:0px; margi"
+	  "n-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12"
+	  "px; font-weight:600;\">-- We can do this with two properties:</span></p>\n<p style=\" margin-top:0px; margin-bottom"
+	  ":0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font"
+	  "-weight:600;\">--    1. If we are attemptign to dock, we have passed all the tests</span></p>\n<p style=\" margin-t"
+	  "op:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\""
+	  " font-size:12px; font-weight:600;\">--    2. If we have passed all the tests, we will attempt to dock, or we will h"
+	  "ave suceeded docking</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-lef"
+	  "t:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-weight:600;\"><br /></p>\n<p sty"
+	  "le=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">"
+	  "<span style=\" font-size:12px; font-weight:600;\">-- 1</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; m"
+	  "argin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight"
+	  ":600;\">   INVARSPEC((AttemptingToDock = 1) -&gt; </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margi"
+	  "n-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600"
+	  ";\">                  (  ApproachOrbitComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; m"
+	  "argin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight"
+	  ":600;\">                     ProximityOperationsComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bot"
+	  "tom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; f"
+	  "ont-weight:600;\">                     FarApproachComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-b"
+	  "ottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px;"
+	  " font-weight:600;\">                     CaptureApproachComplete= 1 &amp;</span></p>\n<p style=\" margin-top:0px; m"
+	  "argin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-siz"
+	  "e:12px; font-weight:600;\">                     DockingApproachComplete= 1 ))</span></p>\n<p style=\" margin-top:0p"
+	  "x; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font"
+	  "-size:12px; font-weight:600;\">-- 2</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; mar"
+	  "gin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">   INVARSPE"
+	  "C ( ( ( ApproachOrbitComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; m"
+	  "argin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\">         "
+	  "          ProximityOperationsComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-lef"
+	  "t:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\"> "
+	  "                  FarApproachComplete=1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-lef"
+	  "t:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600;\"> "
+	  "                  CaptureApproachComplete= 1 &amp;</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margi"
+	  "n-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:600"
+	  ";\">                   DockingApproachComplete= 1 ) -&gt;  (AttemptingToDock = 1) )</span></p>\n<p style=\" margin-"
+	  "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\""
+	  " font-size:12px; font-weight:600;\">               |</span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; mar"
+	  "gin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12px; font-weight:6"
+	  "00;\">               (LatchCaptureComplete = 1) )</span></p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; "
+	  "margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12px; font-wei"
+	  "ght:600;\"><br /></p></body></html>"
+	  Position		  [501, -37, 1046, 357]
+	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
+	  HorizontalAlignment	  "left"
+	  VerticalAlignment	  "top"
+	  Interpreter		  "rich"
+	}
+      }
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "prop4_term"
+      SID		      "246"
+      Position		      [1990, 20, 2010, 40]
+      ZOrder		      14
       ForegroundColor	      "red"
     }
     Block {
@@ -2856,6 +4304,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			2
       }
+      Branch {
+	ZOrder			264
+	Points			[205, 0; 0, -125; 1065, 0; 0, 15]
+	DstBlock		"prop3"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			280
+	Points			[205, 0; 0, -125; 1255, 0; 0, 15]
+	DstBlock		"prop4"
+	DstPort			2
+      }
     }
     Line {
       ZOrder		      86
@@ -2881,6 +4341,18 @@ Model {
       Branch {
 	ZOrder			87
 	DstBlock		"prop1"
+	DstPort			3
+      }
+      Branch {
+	ZOrder			265
+	Points			[205, 0; 0, -185; 1065, 0; 0, 20]
+	DstBlock		"prop3"
+	DstPort			3
+      }
+      Branch {
+	ZOrder			281
+	Points			[205, 0; 0, -185; 1255, 0; 0, 20]
+	DstBlock		"prop4"
 	DstPort			3
       }
     }
@@ -2910,6 +4382,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			4
       }
+      Branch {
+	ZOrder			266
+	Points			[210, 0; 0, -245; 1065, 0; 0, 25]
+	DstBlock		"prop3"
+	DstPort			4
+      }
+      Branch {
+	ZOrder			282
+	Points			[210, 0; 0, -245; 1255, 0; 0, 25]
+	DstBlock		"prop4"
+	DstPort			4
+      }
     }
     Line {
       ZOrder		      90
@@ -2935,6 +4419,18 @@ Model {
       Branch {
 	ZOrder			91
 	DstBlock		"prop1"
+	DstPort			5
+      }
+      Branch {
+	ZOrder			267
+	Points			[210, 0; 0, -305; 1065, 0; 0, 30]
+	DstBlock		"prop3"
+	DstPort			5
+      }
+      Branch {
+	ZOrder			283
+	Points			[210, 0; 0, -305; 1255, 0; 0, 30]
+	DstBlock		"prop4"
 	DstPort			5
       }
     }
@@ -2964,6 +4460,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			6
       }
+      Branch {
+	ZOrder			268
+	Points			[210, 0; 0, -365; 1065, 0; 0, 35]
+	DstBlock		"prop3"
+	DstPort			6
+      }
+      Branch {
+	ZOrder			284
+	Points			[210, 0; 0, -365; 1255, 0; 0, 35]
+	DstBlock		"prop4"
+	DstPort			6
+      }
     }
     Line {
       ZOrder		      96
@@ -2989,6 +4497,18 @@ Model {
       Branch {
 	ZOrder			97
 	DstBlock		"prop1"
+	DstPort			8
+      }
+      Branch {
+	ZOrder			270
+	Points			[210, 0; 0, -485; 1065, 0; 0, 45]
+	DstBlock		"prop3"
+	DstPort			8
+      }
+      Branch {
+	ZOrder			286
+	Points			[210, 0; 0, -485; 1255, 0; 0, 45]
+	DstBlock		"prop4"
 	DstPort			8
       }
     }
@@ -3018,6 +4538,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			9
       }
+      Branch {
+	ZOrder			271
+	Points			[210, 0; 0, -545; 1065, 0; 0, 50]
+	DstBlock		"prop3"
+	DstPort			9
+      }
+      Branch {
+	ZOrder			287
+	Points			[210, 0; 0, -545; 1255, 0; 0, 50]
+	DstBlock		"prop4"
+	DstPort			9
+      }
     }
     Line {
       ZOrder		      100
@@ -3043,6 +4575,18 @@ Model {
       Branch {
 	ZOrder			101
 	DstBlock		"prop1"
+	DstPort			10
+      }
+      Branch {
+	ZOrder			272
+	Points			[210, 0; 0, -605; 1065, 0; 0, 55]
+	DstBlock		"prop3"
+	DstPort			10
+      }
+      Branch {
+	ZOrder			288
+	Points			[210, 0; 0, -605; 1255, 0; 0, 55]
+	DstBlock		"prop4"
 	DstPort			10
       }
     }
@@ -3072,6 +4616,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			11
       }
+      Branch {
+	ZOrder			273
+	Points			[205, 0; 0, -665; 1065, 0; 0, 60]
+	DstBlock		"prop3"
+	DstPort			11
+      }
+      Branch {
+	ZOrder			289
+	Points			[205, 0; 0, -665; 1255, 0; 0, 60]
+	DstBlock		"prop4"
+	DstPort			11
+      }
     }
     Line {
       ZOrder		      104
@@ -3099,6 +4655,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			12
       }
+      Branch {
+	ZOrder			274
+	Points			[215, 0; 0, -725; 1065, 0; 0, 65]
+	DstBlock		"prop3"
+	DstPort			12
+      }
+      Branch {
+	ZOrder			290
+	Points			[215, 0; 0, -725; 1255, 0; 0, 65]
+	DstBlock		"prop4"
+	DstPort			12
+      }
     }
     Line {
       ZOrder		      82
@@ -3119,6 +4687,18 @@ Model {
 	ZOrder			140
 	Points			[0, -69; -197, 0; 0, 1014]
 	DstBlock		"prop2"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			263
+	Points			[205, 0; 0, -55]
+	DstBlock		"prop3"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			279
+	Points			[205, 0; 0, -55]
+	DstBlock		"prop4"
 	DstPort			1
       }
     }
@@ -3148,6 +4728,18 @@ Model {
 	DstBlock		"prop1"
 	DstPort			13
       }
+      Branch {
+	ZOrder			275
+	Points			[215, 0; 0, -785; 1065, 0; 0, 70]
+	DstBlock		"prop3"
+	DstPort			13
+      }
+      Branch {
+	ZOrder			291
+	Points			[215, 0; 0, -785; 1255, 0; 0, 70]
+	DstBlock		"prop4"
+	DstPort			13
+      }
     }
     Line {
       ZOrder		      94
@@ -3175,30 +4767,78 @@ Model {
 	DstBlock		"prop1"
 	DstPort			7
       }
+      Branch {
+	ZOrder			269
+	Points			[210, 0; 0, -425; 1065, 0; 0, 40]
+	DstBlock		"prop3"
+	DstPort			7
+      }
+      Branch {
+	ZOrder			285
+	Points			[210, 0; 0, -425; 1255, 0; 0, 40]
+	DstBlock		"prop4"
+	DstPort			7
+      }
     }
     Line {
-      ZOrder		      14
+      ZOrder		      293
       SrcBlock		      "Chart"
       SrcPort		      2
-      Points		      [0, -5]
-      DstBlock		      "DockingApproachComplete"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			14
+	Points			[0, -5]
+	DstBlock		"DockingApproachComplete"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			294
+	Points			[75, 0; 0, -50; 695, 0]
+	DstBlock		"prop4"
+	DstPort			15
+      }
     }
     Line {
-      ZOrder		      15
+      ZOrder		      276
       SrcBlock		      "Chart"
       SrcPort		      1
-      Points		      [0, -15]
-      DstBlock		      "CaptureApproachComplete"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			15
+	Points			[0, -15]
+	DstBlock		"CaptureApproachComplete"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			277
+	Points			[190, 0; 0, 20; 390, 0]
+	DstBlock		"prop3"
+	DstPort			14
+      }
+      Branch {
+	ZOrder			292
+	Points			[190, 0; 0, 20; 580, 0]
+	DstBlock		"prop4"
+	DstPort			14
+      }
     }
     Line {
-      ZOrder		      16
+      ZOrder		      295
       SrcBlock		      "Chart"
       SrcPort		      3
-      Points		      [0, 5]
-      DstBlock		      "AttemptingToDock"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			16
+	Points			[0, 5]
+	DstBlock		"AttemptingToDock"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			296
+	Points			[75, 0; 0, -120; 695, 0]
+	DstBlock		"prop4"
+	DstPort			16
+      }
     }
     Line {
       ZOrder		      108
@@ -3215,6 +4855,12 @@ Model {
 	ZOrder			109
 	DstBlock		"prop1"
 	DstPort			14
+      }
+      Branch {
+	ZOrder			297
+	Points			[385, 0; 0, -190]
+	DstBlock		"prop4"
+	DstPort			17
       }
     }
     Line {
@@ -3236,28 +4882,58 @@ Model {
       }
     }
     Line {
-      ZOrder		      19
+      ZOrder		      298
       SrcBlock		      "Chart"
       SrcPort		      6
-      Points		      [0, 35]
-      DstBlock		      "ApproachOrbitComplete"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			19
+	Points			[0, 35]
+	DstBlock		"ApproachOrbitComplete"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			299
+	Points			[385, 0; 0, -325]
+	DstBlock		"prop4"
+	DstPort			18
+      }
     }
     Line {
-      ZOrder		      20
+      ZOrder		      300
       SrcBlock		      "Chart"
       SrcPort		      7
-      Points		      [0, 45]
-      DstBlock		      "FarApproachComplete"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			20
+	Points			[0, 45]
+	DstBlock		"FarApproachComplete"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			301
+	Points			[385, 0; 0, -390]
+	DstBlock		"prop4"
+	DstPort			19
+      }
     }
     Line {
-      ZOrder		      21
+      ZOrder		      302
       SrcBlock		      "Chart"
       SrcPort		      8
-      Points		      [0, 55]
-      DstBlock		      "ProximityOperationsComplete"
-      DstPort		      1
+      Points		      [0, 0]
+      Branch {
+	ZOrder			21
+	Points			[0, 55]
+	DstBlock		"ProximityOperationsComplete"
+	DstPort			1
+      }
+      Branch {
+	ZOrder			303
+	Points			[385, 0; 0, -455]
+	DstBlock		"prop4"
+	DstPort			20
+      }
     }
     Line {
       ZOrder		      22
@@ -3316,6 +4992,22 @@ Model {
       SrcBlock		      "prop2"
       SrcPort		      1
       DstBlock		      "prop2_term"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      278
+      SrcBlock		      "prop3"
+      SrcPort		      1
+      Points		      [10, 0; 0, -25]
+      DstBlock		      "prop3_term"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      304
+      SrcBlock		      "prop4"
+      SrcPort		      1
+      Points		      [10, 0; 0, -40]
+      DstBlock		      "prop4_term"
       DstPort		      1
     }
   }
