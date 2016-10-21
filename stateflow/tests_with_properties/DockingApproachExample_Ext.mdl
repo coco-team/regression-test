@@ -157,7 +157,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.509"
+    ComputedModelVersion    "1.510"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -208,7 +208,7 @@ Model {
 	LoadSaveID		"0"
 	Extents			[1306.0, 731.0]
 	ZoomFactor		[0.79999999999999993]
-	Offset			[564.91666666666777, -116.89099669456556]
+	Offset			[564.91666666666777, 573.1090033054345]
       }
     }
   }
@@ -218,9 +218,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "bourbouh"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Oct 17 22:56:27 2016"
-  RTWModifiedTimeStamp	  398626141
-  ModelVersionFormat	  "1.%<AutoIncrement:509>"
+  LastModifiedDate	  "Thu Oct 20 00:03:43 2016"
+  RTWModifiedTimeStamp	  398820786
+  ModelVersionFormat	  "1.%<AutoIncrement:510>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -905,6 +905,7 @@ Model {
     AutoInsertRateTranBlk   [0]
   }
   ExplicitPartitioning	  off
+  WSMdlFileData		  "DataTag0"
   BlockDefaults {
     ForegroundColor	    "black"
     BackgroundColor	    "white"
@@ -1783,8 +1784,8 @@ Model {
       Ports		      [15, 1]
       Position		      [1225, 20, 1375, 90]
       ZOrder		      5
-      ForegroundColor	      "gray"
-      BackgroundColor	      "gray"
+      ForegroundColor	      "green"
+      BackgroundColor	      "green"
       TreatAsAtomicUnit	      on
       RequestExecContextInheritance off
       Variant		      off
@@ -1797,7 +1798,7 @@ Model {
 	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
 	"e of properties"
 	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
-	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}SAFE}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
 	IconUnits		"normalized"
 	Array {
 	  Type			  "Simulink.MaskParameter"
@@ -2297,6 +2298,7 @@ Model {
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
 	  Interpreter		  "rich"
+	  ZOrder		  -1
 	}
       }
     }
@@ -2315,8 +2317,8 @@ Model {
       Ports		      [15, 1]
       Position		      [1415, 1020, 1565, 1090]
       ZOrder		      7
-      ForegroundColor	      "gray"
-      BackgroundColor	      "gray"
+      ForegroundColor	      "green"
+      BackgroundColor	      "green"
       TreatAsAtomicUnit	      on
       RequestExecContextInheritance off
       Variant		      off
@@ -2329,7 +2331,7 @@ Model {
 	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
 	"e of properties"
 	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
-	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}SAFE}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
 	IconUnits		"normalized"
 	Array {
 	  Type			  "Simulink.MaskParameter"
@@ -2811,6 +2813,7 @@ Model {
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
 	  Interpreter		  "rich"
+	  ZOrder		  -1
 	}
       }
     }
@@ -2829,8 +2832,8 @@ Model {
       Ports		      [14, 1]
       Position		      [1610, 18, 1760, 87]
       ZOrder		      11
-      ForegroundColor	      "gray"
-      BackgroundColor	      "gray"
+      ForegroundColor	      "green"
+      BackgroundColor	      "green"
       TreatAsAtomicUnit	      on
       RequestExecContextInheritance off
       Variant		      off
@@ -2843,7 +2846,7 @@ Model {
 	" pre-condition\n- ensures : post-condition\n- assert : an assertion\n- observer : the observer computes a special typ"
 	"e of properties"
 	Display			"color('black')\ntext(0.5, 0.5, ['Property: ''' get_param(gcb,'name') ''''], 'horizontalAlignment', 'center"
-	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}TIMEOUT}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
+	"');\ntext(0.99, 0.03, '{\\bf\\fontsize{12}SAFE}', 'hor', 'right', 'ver', 'bottom', 'texmode', 'on');"
 	IconUnits		"normalized"
 	Array {
 	  Type			  "Simulink.MaskParameter"
@@ -3292,6 +3295,7 @@ Model {
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
 	  Interpreter		  "rich"
+	  ZOrder		  -1
 	}
       }
     }
@@ -4160,6 +4164,7 @@ Model {
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
 	  Interpreter		  "rich"
+	  ZOrder		  -1
 	}
       }
     }
@@ -4287,10 +4292,30 @@ Model {
 	ZOrder			161
 	Points			[101, 0]
 	Branch {
-	  ZOrder		  27
-	  Points		  [109, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  2
+	  ZOrder		  440
+	  Points		  [104, 0]
+	  Branch {
+	    ZOrder		    441
+	    Points		    [0, -125; 1065, 0]
+	    Branch {
+	      ZOrder		      264
+	      Points		      [0, 15]
+	      DstBlock		      "prop3"
+	      DstPort		      2
+	    }
+	    Branch {
+	      ZOrder		      280
+	      Points		      [190, 0; 0, 15]
+	      DstBlock		      "prop4"
+	      DstPort		      2
+	    }
+	  }
+	  Branch {
+	    ZOrder		    27
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    2
+	  }
 	}
 	Branch {
 	  ZOrder		  141
@@ -4304,18 +4329,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			2
       }
-      Branch {
-	ZOrder			264
-	Points			[205, 0; 0, -125; 1065, 0; 0, 15]
-	DstBlock		"prop3"
-	DstPort			2
-      }
-      Branch {
-	ZOrder			280
-	Points			[205, 0; 0, -125; 1255, 0; 0, 15]
-	DstBlock		"prop4"
-	DstPort			2
-      }
     }
     Line {
       ZOrder		      86
@@ -4326,10 +4339,30 @@ Model {
 	ZOrder			168
 	Points			[82, 0]
 	Branch {
-	  ZOrder		  29
-	  Points		  [128, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  3
+	  ZOrder		  437
+	  Points		  [123, 0]
+	  Branch {
+	    ZOrder		    438
+	    Points		    [0, -185; 1065, 0]
+	    Branch {
+	      ZOrder		      265
+	      Points		      [0, 20]
+	      DstBlock		      "prop3"
+	      DstPort		      3
+	    }
+	    Branch {
+	      ZOrder		      281
+	      Points		      [190, 0; 0, 20]
+	      DstBlock		      "prop4"
+	      DstPort		      3
+	    }
+	  }
+	  Branch {
+	    ZOrder		    29
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    3
+	  }
 	}
 	Branch {
 	  ZOrder		  142
@@ -4343,18 +4376,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			3
       }
-      Branch {
-	ZOrder			265
-	Points			[205, 0; 0, -185; 1065, 0; 0, 20]
-	DstBlock		"prop3"
-	DstPort			3
-      }
-      Branch {
-	ZOrder			281
-	Points			[205, 0; 0, -185; 1255, 0; 0, 20]
-	DstBlock		"prop4"
-	DstPort			3
-      }
     }
     Line {
       ZOrder		      88
@@ -4365,10 +4386,30 @@ Model {
 	ZOrder			164
 	Points			[167, 0]
 	Branch {
-	  ZOrder		  31
-	  Points		  [48, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  4
+	  ZOrder		  434
+	  Points		  [43, 0]
+	  Branch {
+	    ZOrder		    435
+	    Points		    [0, -245; 1065, 0]
+	    Branch {
+	      ZOrder		      266
+	      Points		      [0, 25]
+	      DstBlock		      "prop3"
+	      DstPort		      4
+	    }
+	    Branch {
+	      ZOrder		      282
+	      Points		      [190, 0; 0, 25]
+	      DstBlock		      "prop4"
+	      DstPort		      4
+	    }
+	  }
+	  Branch {
+	    ZOrder		    31
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    4
+	  }
 	}
 	Branch {
 	  ZOrder		  143
@@ -4382,18 +4423,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			4
       }
-      Branch {
-	ZOrder			266
-	Points			[210, 0; 0, -245; 1065, 0; 0, 25]
-	DstBlock		"prop3"
-	DstPort			4
-      }
-      Branch {
-	ZOrder			282
-	Points			[210, 0; 0, -245; 1255, 0; 0, 25]
-	DstBlock		"prop4"
-	DstPort			4
-      }
     }
     Line {
       ZOrder		      90
@@ -4404,10 +4433,30 @@ Model {
 	ZOrder			163
 	Points			[75, 0]
 	Branch {
-	  ZOrder		  33
-	  Points		  [140, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  5
+	  ZOrder		  431
+	  Points		  [135, 0]
+	  Branch {
+	    ZOrder		    432
+	    Points		    [0, -305; 1065, 0]
+	    Branch {
+	      ZOrder		      267
+	      Points		      [0, 30]
+	      DstBlock		      "prop3"
+	      DstPort		      5
+	    }
+	    Branch {
+	      ZOrder		      283
+	      Points		      [190, 0; 0, 30]
+	      DstBlock		      "prop4"
+	      DstPort		      5
+	    }
+	  }
+	  Branch {
+	    ZOrder		    33
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    5
+	  }
 	}
 	Branch {
 	  ZOrder		  144
@@ -4421,18 +4470,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			5
       }
-      Branch {
-	ZOrder			267
-	Points			[210, 0; 0, -305; 1065, 0; 0, 30]
-	DstBlock		"prop3"
-	DstPort			5
-      }
-      Branch {
-	ZOrder			283
-	Points			[210, 0; 0, -305; 1255, 0; 0, 30]
-	DstBlock		"prop4"
-	DstPort			5
-      }
     }
     Line {
       ZOrder		      92
@@ -4443,10 +4480,30 @@ Model {
 	ZOrder			158
 	Points			[81, 0]
 	Branch {
-	  ZOrder		  35
-	  Points		  [134, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  6
+	  ZOrder		  428
+	  Points		  [129, 0]
+	  Branch {
+	    ZOrder		    429
+	    Points		    [0, -365; 1065, 0]
+	    Branch {
+	      ZOrder		      268
+	      Points		      [0, 35]
+	      DstBlock		      "prop3"
+	      DstPort		      6
+	    }
+	    Branch {
+	      ZOrder		      284
+	      Points		      [190, 0; 0, 35]
+	      DstBlock		      "prop4"
+	      DstPort		      6
+	    }
+	  }
+	  Branch {
+	    ZOrder		    35
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    6
+	  }
 	}
 	Branch {
 	  ZOrder		  145
@@ -4460,18 +4517,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			6
       }
-      Branch {
-	ZOrder			268
-	Points			[210, 0; 0, -365; 1065, 0; 0, 35]
-	DstBlock		"prop3"
-	DstPort			6
-      }
-      Branch {
-	ZOrder			284
-	Points			[210, 0; 0, -365; 1255, 0; 0, 35]
-	DstBlock		"prop4"
-	DstPort			6
-      }
     }
     Line {
       ZOrder		      96
@@ -4482,10 +4527,30 @@ Model {
 	ZOrder			167
 	Points			[93, 0]
 	Branch {
-	  ZOrder		  39
-	  Points		  [122, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  8
+	  ZOrder		  425
+	  Points		  [117, 0]
+	  Branch {
+	    ZOrder		    426
+	    Points		    [0, -485; 1065, 0]
+	    Branch {
+	      ZOrder		      270
+	      Points		      [0, 45]
+	      DstBlock		      "prop3"
+	      DstPort		      8
+	    }
+	    Branch {
+	      ZOrder		      286
+	      Points		      [190, 0; 0, 45]
+	      DstBlock		      "prop4"
+	      DstPort		      8
+	    }
+	  }
+	  Branch {
+	    ZOrder		    39
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    8
+	  }
 	}
 	Branch {
 	  ZOrder		  147
@@ -4499,18 +4564,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			8
       }
-      Branch {
-	ZOrder			270
-	Points			[210, 0; 0, -485; 1065, 0; 0, 45]
-	DstBlock		"prop3"
-	DstPort			8
-      }
-      Branch {
-	ZOrder			286
-	Points			[210, 0; 0, -485; 1255, 0; 0, 45]
-	DstBlock		"prop4"
-	DstPort			8
-      }
     }
     Line {
       ZOrder		      98
@@ -4521,10 +4574,30 @@ Model {
 	ZOrder			159
 	Points			[57, 0]
 	Branch {
-	  ZOrder		  41
-	  Points		  [158, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  9
+	  ZOrder		  422
+	  Points		  [153, 0]
+	  Branch {
+	    ZOrder		    423
+	    Points		    [0, -545; 1065, 0]
+	    Branch {
+	      ZOrder		      271
+	      Points		      [0, 50]
+	      DstBlock		      "prop3"
+	      DstPort		      9
+	    }
+	    Branch {
+	      ZOrder		      287
+	      Points		      [190, 0; 0, 50]
+	      DstBlock		      "prop4"
+	      DstPort		      9
+	    }
+	  }
+	  Branch {
+	    ZOrder		    41
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    9
+	  }
 	}
 	Branch {
 	  ZOrder		  148
@@ -4538,18 +4611,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			9
       }
-      Branch {
-	ZOrder			271
-	Points			[210, 0; 0, -545; 1065, 0; 0, 50]
-	DstBlock		"prop3"
-	DstPort			9
-      }
-      Branch {
-	ZOrder			287
-	Points			[210, 0; 0, -545; 1255, 0; 0, 50]
-	DstBlock		"prop4"
-	DstPort			9
-      }
     }
     Line {
       ZOrder		      100
@@ -4560,10 +4621,30 @@ Model {
 	ZOrder			160
 	Points			[37, 0]
 	Branch {
-	  ZOrder		  43
-	  Points		  [178, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  10
+	  ZOrder		  419
+	  Points		  [173, 0]
+	  Branch {
+	    ZOrder		    420
+	    Points		    [0, -605; 1065, 0]
+	    Branch {
+	      ZOrder		      272
+	      Points		      [0, 55]
+	      DstBlock		      "prop3"
+	      DstPort		      10
+	    }
+	    Branch {
+	      ZOrder		      288
+	      Points		      [190, 0; 0, 55]
+	      DstBlock		      "prop4"
+	      DstPort		      10
+	    }
+	  }
+	  Branch {
+	    ZOrder		    43
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    10
+	  }
 	}
 	Branch {
 	  ZOrder		  149
@@ -4577,18 +4658,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			10
       }
-      Branch {
-	ZOrder			272
-	Points			[210, 0; 0, -605; 1065, 0; 0, 55]
-	DstBlock		"prop3"
-	DstPort			10
-      }
-      Branch {
-	ZOrder			288
-	Points			[210, 0; 0, -605; 1255, 0; 0, 55]
-	DstBlock		"prop4"
-	DstPort			10
-      }
     }
     Line {
       ZOrder		      102
@@ -4599,10 +4668,30 @@ Model {
 	ZOrder			162
 	Points			[41, 0]
 	Branch {
-	  ZOrder		  45
-	  Points		  [169, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  11
+	  ZOrder		  416
+	  Points		  [164, 0]
+	  Branch {
+	    ZOrder		    417
+	    Points		    [0, -665; 1065, 0]
+	    Branch {
+	      ZOrder		      273
+	      Points		      [0, 60]
+	      DstBlock		      "prop3"
+	      DstPort		      11
+	    }
+	    Branch {
+	      ZOrder		      289
+	      Points		      [190, 0; 0, 60]
+	      DstBlock		      "prop4"
+	      DstPort		      11
+	    }
+	  }
+	  Branch {
+	    ZOrder		    45
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    11
+	  }
 	}
 	Branch {
 	  ZOrder		  150
@@ -4616,18 +4705,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			11
       }
-      Branch {
-	ZOrder			273
-	Points			[205, 0; 0, -665; 1065, 0; 0, 60]
-	DstBlock		"prop3"
-	DstPort			11
-      }
-      Branch {
-	ZOrder			289
-	Points			[205, 0; 0, -665; 1255, 0; 0, 60]
-	DstBlock		"prop4"
-	DstPort			11
-      }
     }
     Line {
       ZOrder		      104
@@ -4638,10 +4715,30 @@ Model {
 	ZOrder			157
 	Points			[73, 0]
 	Branch {
-	  ZOrder		  47
-	  Points		  [147, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  12
+	  ZOrder		  413
+	  Points		  [142, 0]
+	  Branch {
+	    ZOrder		    414
+	    Points		    [0, -725; 1065, 0]
+	    Branch {
+	      ZOrder		      274
+	      Points		      [0, 65]
+	      DstBlock		      "prop3"
+	      DstPort		      12
+	    }
+	    Branch {
+	      ZOrder		      290
+	      Points		      [190, 0; 0, 65]
+	      DstBlock		      "prop4"
+	      DstPort		      12
+	    }
+	  }
+	  Branch {
+	    ZOrder		    47
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    12
+	  }
 	}
 	Branch {
 	  ZOrder		  151
@@ -4655,18 +4752,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			12
       }
-      Branch {
-	ZOrder			274
-	Points			[215, 0; 0, -725; 1065, 0; 0, 65]
-	DstBlock		"prop3"
-	DstPort			12
-      }
-      Branch {
-	ZOrder			290
-	Points			[215, 0; 0, -725; 1255, 0; 0, 65]
-	DstBlock		"prop4"
-	DstPort			12
-      }
     }
     Line {
       ZOrder		      82
@@ -4674,9 +4759,27 @@ Model {
       SrcPort		      1
       Points		      [0, 0]
       Branch {
-	ZOrder			25
-	DstBlock		"Chart"
-	DstPort			1
+	ZOrder			410
+	Points			[205, 0]
+	Branch {
+	  ZOrder		  411
+	  Points		  [0, -55; 1070, 0]
+	  Branch {
+	    ZOrder		    263
+	    DstBlock		    "prop3"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    279
+	    DstBlock		    "prop4"
+	    DstPort		    1
+	  }
+	}
+	Branch {
+	  ZOrder		  25
+	  DstBlock		  "Chart"
+	  DstPort		  1
+	}
       }
       Branch {
 	ZOrder			83
@@ -4689,18 +4792,6 @@ Model {
 	DstBlock		"prop2"
 	DstPort			1
       }
-      Branch {
-	ZOrder			263
-	Points			[205, 0; 0, -55]
-	DstBlock		"prop3"
-	DstPort			1
-      }
-      Branch {
-	ZOrder			279
-	Points			[205, 0; 0, -55]
-	DstBlock		"prop4"
-	DstPort			1
-      }
     }
     Line {
       ZOrder		      106
@@ -4711,10 +4802,30 @@ Model {
 	ZOrder			165
 	Points			[123, 0]
 	Branch {
-	  ZOrder		  49
-	  Points		  [97, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  13
+	  ZOrder		  407
+	  Points		  [92, 0]
+	  Branch {
+	    ZOrder		    408
+	    Points		    [0, -785; 1065, 0]
+	    Branch {
+	      ZOrder		      275
+	      Points		      [0, 70]
+	      DstBlock		      "prop3"
+	      DstPort		      13
+	    }
+	    Branch {
+	      ZOrder		      291
+	      Points		      [190, 0; 0, 70]
+	      DstBlock		      "prop4"
+	      DstPort		      13
+	    }
+	  }
+	  Branch {
+	    ZOrder		    49
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    13
+	  }
 	}
 	Branch {
 	  ZOrder		  152
@@ -4728,18 +4839,6 @@ Model {
 	DstBlock		"prop1"
 	DstPort			13
       }
-      Branch {
-	ZOrder			275
-	Points			[215, 0; 0, -785; 1065, 0; 0, 70]
-	DstBlock		"prop3"
-	DstPort			13
-      }
-      Branch {
-	ZOrder			291
-	Points			[215, 0; 0, -785; 1255, 0; 0, 70]
-	DstBlock		"prop4"
-	DstPort			13
-      }
     }
     Line {
       ZOrder		      94
@@ -4750,10 +4849,30 @@ Model {
 	ZOrder			166
 	Points			[63, 0]
 	Branch {
-	  ZOrder		  37
-	  Points		  [152, 0]
-	  DstBlock		  "Chart"
-	  DstPort		  7
+	  ZOrder		  404
+	  Points		  [147, 0]
+	  Branch {
+	    ZOrder		    405
+	    Points		    [0, -425; 1065, 0]
+	    Branch {
+	      ZOrder		      269
+	      Points		      [0, 40]
+	      DstBlock		      "prop3"
+	      DstPort		      7
+	    }
+	    Branch {
+	      ZOrder		      285
+	      Points		      [190, 0; 0, 40]
+	      DstBlock		      "prop4"
+	      DstPort		      7
+	    }
+	  }
+	  Branch {
+	    ZOrder		    37
+	    Points		    [5, 0]
+	    DstBlock		    "Chart"
+	    DstPort		    7
+	  }
 	}
 	Branch {
 	  ZOrder		  146
@@ -4765,18 +4884,6 @@ Model {
       Branch {
 	ZOrder			95
 	DstBlock		"prop1"
-	DstPort			7
-      }
-      Branch {
-	ZOrder			269
-	Points			[210, 0; 0, -425; 1065, 0; 0, 40]
-	DstBlock		"prop3"
-	DstPort			7
-      }
-      Branch {
-	ZOrder			285
-	Points			[210, 0; 0, -425; 1255, 0; 0, 40]
-	DstBlock		"prop4"
 	DstPort			7
       }
     }
@@ -4804,22 +4911,25 @@ Model {
       SrcPort		      1
       Points		      [0, 0]
       Branch {
+	ZOrder			401
+	Points			[190, 0; 0, 20; 390, 0]
+	Branch {
+	  ZOrder		  277
+	  DstBlock		  "prop3"
+	  DstPort		  14
+	}
+	Branch {
+	  ZOrder		  292
+	  Points		  [190, 0]
+	  DstBlock		  "prop4"
+	  DstPort		  14
+	}
+      }
+      Branch {
 	ZOrder			15
 	Points			[0, -15]
 	DstBlock		"CaptureApproachComplete"
 	DstPort			1
-      }
-      Branch {
-	ZOrder			277
-	Points			[190, 0; 0, 20; 390, 0]
-	DstBlock		"prop3"
-	DstPort			14
-      }
-      Branch {
-	ZOrder			292
-	Points			[190, 0; 0, 20; 580, 0]
-	DstBlock		"prop4"
-	DstPort			14
       }
     }
     Line {
@@ -5010,6 +5120,74 @@ Model {
       DstBlock		      "prop4_term"
       DstPort		      1
     }
+  }
+}
+MatData {
+  NumRecords		  1
+  DataRecord {
+    Tag			    DataTag0
+    Data		    "  %)30     .    0!0   8    (     @         %    \"     $    !     0         %  0 !@    $    ,    3F%M90"
+    "  5F%L=64       X   !     !@    @    $          4    (     0    P    !         !     ,    :6YP=71?<W1R=6-T      X "
+    "  \"H$P  !@    @    \"          4    (     0    $    !          4 !  (     0   !    !T:6UE     '-I9VYA;', #@   %@#"
+    "   &    \"     8         !0    @   !E     0    $         \"0   \"@#                     / _         $         (0  "
+    "      !!         %$         80        !Q         ($         B0        \"1         )D         H0        \"I        "
+    " +$         N0        #!         ,4         R0        #-         -$         U0        #9         -T         X0    "
+    "    #E         .D         [0        #Q         /4         ^0        #]         0$       (! 0        $%       \" 04"
+    "        !\"0       @$)         0T       (!#0        $1       \" 1$        !%0       @$5         1D       (!&0     "
+    "   $=       \" 1T        !(0       @$A         24       (!)0        $I       \" 2D        !+0       @$M         3$"
+    "       (!,0        $U       \" 34        !.0       @$Y         3T       (!/0        %!       ! 4$       (!00      "
+    " P%!         44       $!10       @%%       # 44        !20       0%)       \" 4D       ,!20        %-       ! 4T  "
+    "     (!30       P%-         5$       $!40       @%1       # 5$        !50       0%5       \" 54       ,!50        "
+    "%9       ! 5D       (!60       P%9         5T       $!70       @%=       # 5T        !80       0%A       \" 6$    "
+    "   ,!80        %E #@   /@/   &    \"     (         !0    @    !    #0    $         !0 $  L    !    (0   &YA;64    "
+    "     =F%L=65S      !D:6UE;G-I;VYS           .    4     8    (    !          %    \"     $    ;     0         0    "
+    "&P   $=R;W5N9%1R86-K7T]R8FET86Q0;W-I=&EO;@      #@   )@    &    \"     @         !0    @   !E     0    $          "
+    "0   &4   !26PU<0 H<-V!A$&)@,5$/*UQ08$($55Y$3$LH0A)'!!P%\"E-&(& $+\"=-4!,Q+4%'3!Q$0A$,,F C.Q=,&C-&6F W#@\\:51I2&5TC"
+    "%!H^,\"14.S=<'4Q,)SD(!C9.7@TY+P(B$0    X    X    !@    @    &          4    (     0    $    !          D    (     "
+    "       \\#\\.    4     8    (    !          %    \"     $    ;     0         0    &P   $=R;W5N9%1R86-K7T]R8FET86Q6"
+    "96QO8VET>0      #@   )@    &    \"     @         !0    @   !E     0    $          0   &4   !0(#41/1M\"14LN\"1=<$%,"
+    "V9 @M\"V$!3E)7\"2@:42Q<$QL/#E<Z-P]6/R0T*0@8#1,8*@5;7S(Q(ELE#$\\G&2D*#E]@.@88)%,\"!1%!2D$N-QY+$T43)3]/\"5U.,2PM'S,T"
+    "4E!!)@    X    X    !@    @    &          4    (     0    $    !          D    (            \\#\\.    2     8    ("
+    "    !          %    \"     $    5     0         0    %0   &1O8VM6:7-I8FEL:71Y7W-T871U<P    X   \"8    !@    @    ("
+    "          4    (    90    $    !          $   !E    4C8D7E@X/SL5'S 85107$A<L(%TL$UMB+ P:*3P;/4@7#!X@*S,)&U$#74HQ.A"
+    "@N83<U&#$_1\"@E8P197% *&R)$#DD+0C).2%M:(D84!$LS,%L]/E91.A,860,Q$6)(,S &104    .    .     8    (    !@         %   "
+    " \"     $    !     0         )    \"            / _#@   %     &    \"     0         !0    @    !    &0    $       "
+    "  $    !D   !O<'1I8W-!=F%I;&%B:6QI='E?<W1A='5S          X   \"8    !@    @    ) @        4    (    90    $    !   "
+    "       (   !E     0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! "
+    "0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$    .    .     8    (    !@         %    \"     $    !     0         )    \""
+    "            / _#@   $     &    \"     0         !0    @    !    #P    $         $     \\   !S=6YL:6=H=%]S=&%T=7, #"
+    "@   )@    &    \"     D\"        !0    @   !E     0    $          @   &4    ! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! "
+    "0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0    X    X    !@ "
+    "   @    &          4    (     0    $    !          D    (            \\#\\.    4     8    (    !          %    \" "
+    "    $    >     0         0    '@   $=04U]S871E;&QI=&56:7-I8FEL:71Y7W-T871U<P  #@   )@    &    \"     @         !0 "
+    "   @   !E     0    $          0   &4    ,7D$P0#=!-TDU9!8+\"P<I+25-/TY>8A0.1@HU-E<Q*$1+-2,/.QL%3!DM121**$5'+0(B*QP4"
+    "4RM9*$TH44PF%E!?(40L5$T15V,T63L0%\"E+4T\\@-@D,#D0R$S(/!E8Y748[4@    X    X    !@    @    &          4    (     0  "
+    "  $    !          D    (            \\#\\.    4     8    (    !          %    \"     $    ?     0         0    'P "
+    "  $=04U]R96-E:79E<D%V86EL86)I;&ET>5]S=&%T=7, #@   )@    &    \"     D\"        !0    @   !E     0    $          @ "
+    "  &4    ! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! "
+    "0$! 0$! 0$! 0$! 0$! 0$! 0$! 0    X    X    !@    @    &          4    (     0    $    !          D    (           "
+    " \\#\\.    6     8    (    !          %    \"     $    B     0         0    (@   %-T87)0;&%N9714<F%C:V5R7W!L86YE=%"
+    "9I<VEB:6QI='D        .    F     8    (    \"          %    \"    &4    !     0         !    90   \"):#&,V1V0=*B]-4"
+    "@L2) 8U(A(56T0O7 M+2CD3/!X.%EH(&08M EH4\"A\\N\"V0B'@<>!3--0 D)3ELV\"U,B'DL\"!4,]-4E'3QU&.\"@'3R(]2PL--S%:4$H&\" E0"
+    "7T4.20P,02%\"    #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #P/PX   !0   "
+    " !@    @    $          4    (     0   \"     !         !     @    4W1A<E!L86YE=%1R86-K97)?<W1A<E9I<VEB:6QI='D.    "
+    "F     8    (    \"          %    \"    &4    !     0         !    90   $L[2QA*8E<))25%/$\\E%0E.%2<X%T$Q$$\\+'A@V\""
+    "BD+#$\\>/6$L1DPL0@M>$QM0,4TH' 1$*RX]!B!.1@T.\"@$K0DDV\"T -#@H/$10@(!8:6D<X$Q8(7$<X(!$_8Q(:* A%*6,I    #@   #@    &"
+    "    \"     8         !0    @    !     0    $         \"0    @           #P/PX   !(    !@    @    $          4    ("
+    "     0   !<    !         !     7    26YE<G1I86Q.879I9V%T:6]N7W1I;64 #@   )@    &    \"     D\"        !0    @   !E"
+    "     0    $          @   &4    ! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0"
+    "$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0$! 0    X    X    !@    @    &          4    (     0    $    !    "
+    "      D    (            \\#\\.    0     8    (    !          %    \"     $    0     0         0    $    $=R;W5N9%1"
+    "R86-K7U1I;64.    F     8    (    \"          %    \"    &4    !     0         !    90   !-))E5*.A)@&UT7)@E!$P5)(T,"
+    "G/P-<44M2)SXZ-AP9+A=18P,V\"5%C!UX\"14\\V65H_#A83!0L^7B0J8U]$8TTB0QD>134J/4P[.#LT\"4AD)&(C62XJ%@T?24]& 55=3@4F1TD7 "
+    "   #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #P/PX   !(    !@    @    $ "
+    "         4    (     0   !(    !         !     2    4F5A;%1I;65#;&]C:U]T:6UE        #@   )@    &    \"     @       "
+    "  !0    @   !E     0    $          0   &4    ;1# _&!)335X+$PHQ%%H*!3A.(!(B%C1;/PLH!C,L9%(Q6@XH75Q(/B->#4I!5\"A+5\""
+    "$X8C<B/B5,*C)&8B%42F $)$,=&$@_/$,%(RX92%8=2@Y4#CLE43,Q6\"0M805B$T,[1     X    X    !@    @    &          4    (   "
+    "  0    $    !          D    (            \\#\\.    0     8    (    !          %    \"     $    /     0         0  "
+    "  #P   %-T86=E5')A;G-I=&EO;@ .    F     8    (    \"          %    \"    &4    !     0         !    90   \"4_4@()8"
+    "D(8*0T;&B(0(PU9\"EXH!2-*4#=%6@8?!11)25@[\"%U1'3=C2%0L,#D;2S-!'PXP)4]/0PX#.!]>8QU16CQ97S=).@,M034F7E-5)CQ87D,50@@I0"
+    "UY2,4PJ8F-7)RX9    #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #P/P"
   }
 }
 #Finite State Machines
