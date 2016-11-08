@@ -1,15 +1,19 @@
 <?xml version="1.0"?>
 <Traces xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <Node name="math_functions">
-     <input name="math_functions.ctrl3_1_1" type="Real">ctrl3_1_1</input> 
-      <output name="math_functions.Out1_1_1" type="Real">Out1_1_1</output> 
-      <localInit name="" type=""></localInit> 
-      <localStep name="" type=""></localStep> 
-    </Node>
-    <Node name="math_functions_safety">
-     <input name="math_functions_safety.ctrl3_1_1" type="Real">ctrl3_1_1</input> 
-      <output name="math_functions_safety.safety_1_1" type="Bool">safety_1_1</output> 
-      <localInit name="" type=""></localInit> 
-      <localStep name="" type=""></localStep> 
-    </Node>
+
+     <Node name="math_functions">
+       <input name="math_functions.ctrl3_1_1" type="Real">ctrl3_1_1</input>
+       <output name="math_functions.Out1_1_1" type="Real">Out1_1_1</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     <Node name="math_functions_safety">
+       <input name="math_functions_safety.ctrl3_1_1" type="Real">ctrl3_1_1</input>
+       <output name="math_functions_safety.safety_1_1" type="Bool">safety_1_1</output>
+       <localInit name="" type=""></localInit>
+       <localStep name="" type=""></localStep>
+       
+     </Node>
+     
 </Traces>
