@@ -1,15 +1,12 @@
-(error "line 16 column 71: unknown function/constant sqrt")
-(error "line 26 column 71: unknown function/constant sqrt")
-Process Process-1:
-Traceback (most recent call last):
-  File "/usr/lib/python2.7/multiprocessing/process.py", line 258, in _bootstrap
-    self.run()
-  File "/usr/lib/python2.7/multiprocessing/process.py", line 114, in run
-    self._target(*self._args, **self._kwargs)
-  File "/home/hamza/Documents/coco_team/zustre/build/run/bin/zustre", line 76, in main
-    zus.encodeAndSolve()
-  File "/home/hamza/Documents/coco_team/zustre/build/run/lib/zustrepy/src/zustre.py", line 179, in encodeAndSolve
-    q = self.fp.parse_file (hornFormulas)
-  File "src/api/python/z3.py", line 6444, in parse_file
-  File "src/api/python/z3core.py", line 4734, in Z3_fixedpoint_from_file
-Z3Exception: parser error
+<?xml version="1.0"?>
+   <Results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+     <Property name="math_functions_safety">
+      <Date>2016-12-29 11:06</Date>
+      <Lustre2Horn unit="sec">0.00</Lustre2Horn>
+      <Parse unit="sec">0.00</Parse>
+      <Query unit="sec">0.01</Query>
+      <Answer>SAFE</Answer>
+      <contractFile>/Users/Teme/Documents/GitHub/regression-test/simulink/to_be_supported/lustre_files/src_math_functions/math_functions.lus.coco</contractFile>
+     </Property>
+   </Results>
+

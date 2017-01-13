@@ -13,16 +13,21 @@ if ~exist('tool_path', 'var')
      tool_path =    fullfile(cocoSim_path,'test/StateFlow/');
 end
 addpath(tool_path);
+disp(['BENCHMARKS: ', tool_path]);
 addpath(fullfile(cocoSim_path,'src/utils/'));
 logFileName = fullfile(tool_path,'logfile.txt');
-system(['rm ', logFileName]);
+try
+   system(['rm ', logFileName]);
+catch ME
+    disp('No logfiles');
+    
+end
 L = log4m.getLogger(logFileName);
 mdl_models = dir(fullfile(tool_path,'*.mdl'));
 models_name = {mdl_models.name};
-
 n = numel(models_name);
-for k=1:count
-    
+
+for k=1:count    
     lus_file_nb_bytes = zeros(n,1);
     valid = zeros(n,1);
     sf2lus_time = zeros(n,1);

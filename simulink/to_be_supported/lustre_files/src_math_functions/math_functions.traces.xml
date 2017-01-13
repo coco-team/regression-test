@@ -8,9 +8,9 @@
        <localStep name="" type=""></localStep>
        
      </Node>
-     <Node name="math_functions_safety">
-       <input name="math_functions_safety.ctrl3_1_1" type="Real">ctrl3_1_1</input>
-       <output name="math_functions_safety.safety_1_1" type="Bool">safety_1_1</output>
+     <Node name="math_functions_Property">
+       <input name="math_functions_Property.ctrl1_1_1" type="Real">ctrl1_1_1</input>
+       <output name="math_functions_Property.safety_1_1" type="Bool">safety_1_1</output>
        <localInit name="" type=""></localInit>
        <localStep name="" type=""></localStep>
        
