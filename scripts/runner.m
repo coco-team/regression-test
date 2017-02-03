@@ -23,8 +23,9 @@ end
 if ~exist('cocoSim_path', 'var')
     cocoSim_path = pwd;
 end
+config;
 
-[this_tool, ~, ~] = fileparts(mfilename('fullpath'));
+% [this_tool, ~, ~] = fileparts(mfilename('fullpath'));
 
 regression_path = fullfile(source);
 
@@ -67,7 +68,7 @@ for k=1:count
 %         [valid_i, sf2lus_time_i, validation_compute, nb_actions_i, lus_file_path, Query_time_i]=
 %         validate_model(char(model_full_path),cocoSim_path,show_models,L);
 %      
-        [valid_i, validation_compute, lustrec_failed, ...
+        [valid_i, validation_compute_i, lustrec_failed, ...
           lustrec_binary_failed, sim_failed, lus_file_path...
           sf2lus_time_i, nb_actions_i, Query_time_i] = validate_model(model_full_path, cocoSim_path, show_models);
         catch ME
@@ -75,7 +76,7 @@ for k=1:count
         end
         valid(i) = valid_i;
         sf2lus_time(i) = sf2lus_time_i;
-        validation_time(i) = validation_compute;
+        validation_time(i) = validation_compute_i;
         nb_actions(i) = nb_actions_i;
 %         if isstruct(Query_time_i)
 %             nb_properties_nodes(i) = Query_time_i.nb_properties_nodes;
@@ -98,12 +99,12 @@ for k=1:count
             [lus_file_dir, ~, ~] = fileparts(lus_file_path);
             cd(lus_file_dir);
             tstart = tic;
-            [status, message] =system(['lustrec -horn ', lus_file_path]);
+            [status, message] =system([LUSTREC, ' -horn ', lus_file_path]);
 %             [status, message] =system(['kind2 ', lus_file_path])
             if status
                 lustrec_horn_time(i) = -1;
                 message = [lus_file_path, '\n', message];
-                L.error('lustrec -horn',message);
+                L.error([LUSTREC, ' -horn '],message);
             else
                 lustrec_horn_time(i) = toc(tstart);
             end
@@ -127,7 +128,12 @@ for k=1:count
         try
             not_valid_models_dir = fullfile(regression_path, 'not_valid_models');
             mkdir(not_valid_models_dir);
+            t = datetime('now','Format','dd-MM-yyyy''@''HHmmss');
+            filename = fullfile(destination, ['regression_result_not_valid_models' char(t) '.csv']);
+            fileID = fopen(filename,'w');
+            formatSpec = '%s\n';
             for i=not_valid_inexes'
+                fprintf(fileID,formatSpec,models_name{i});
                 src =  fullfile(regression_path, char(models_name{i}));
                 dst = fullfile(not_valid_models_dir, char(models_name{i}));
                 command = sprintf('!mv %s %s',src, dst);
