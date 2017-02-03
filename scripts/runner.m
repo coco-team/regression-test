@@ -69,7 +69,7 @@ for k=1:count
 %      
         [valid_i, validation_compute, lustrec_failed, ...
           lustrec_binary_failed, sim_failed, lus_file_path...
-          sf2lus_time_i, nb_actions_i] = validate_model(model_full_path, cocoSim_path, show_models);
+          sf2lus_time_i, nb_actions_i, Query_time_i] = validate_model(model_full_path, cocoSim_path, show_models);
         catch ME
             L.error('validate_model',getReport(ME,'extended'));
         end

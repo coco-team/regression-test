@@ -5,10 +5,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Edit those values
-stateflow_benchs = '/Users/Teme/Documents/GitHub/regression-test/stateflow/regression_tests';
-simulink_benchs = '/Users/Teme/Documents/GitHub/regression-test/simulink/unit_test';
-cocosim_path = '/Users/Teme/Documents/GitHub/cocoSim';
-destination = '/Users/Teme/Documents/GitHub/cocoSim/sanity';
+file_path = fileparts(mfilename('fullpath'));
+regression_test_path = fileparts(file_path);
+stateflow_benchs = fullfile(regression_test_path,'stateflow/regression_tests');
+simulink_benchs = fullfile(regression_test_path,'simulink/unit_test');
+
+cocosim_parent_path = fileparts(regression_test_path);
+cocosim_path = fullfile(cocosim_parent_path,'cocoSim');
+destination = fullfile(cocosim_parent_path,'cocoSim/sanity');
 
 % Check Simulink
 runner(simulink_benchs, cocosim_path, destination);
