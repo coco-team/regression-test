@@ -1,0 +1,14 @@
+2017-02-03 08:17:01,460 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_ext_IC_reset_test/integrator_ext_IC_reset_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:02,394 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_ext_IC_test/integrator_ext_IC_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:03,862 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_ext_reset_matrix_test/integrator_ext_reset_matrix_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:05,079 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_ext_reset_test/integrator_ext_reset_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:06,366 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_ext_reset_vector_test/integrator_ext_reset_vector_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:07,926 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_matrix_test/integrator_matrix_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+
+2017-02-03 08:17:08,783 ERROR /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec -horn  - /home/bourbouh/Documents/coco-team/regression-test/simulink/unit_test/open_problem/lustre_files/src_integrator_test/integrator_test.lus\n/bin/bash: /home/bourbouh/Documents/coco-team/cocoSim/tools/verifiers/linux/bin/lustrec-I: Aucun fichier ou dossier de ce type
+

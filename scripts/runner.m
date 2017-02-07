@@ -99,7 +99,7 @@ for k=1:count
             [lus_file_dir, ~, ~] = fileparts(lus_file_path);
             cd(lus_file_dir);
             tstart = tic;
-            [status, message] =system([LUSTREC, ' -horn ', lus_file_path]);
+            [status, message] =system([LUSTREC, ' -I ',LUCTREC_INCLUDE_DIR,  ' -horn ', lus_file_path]);
 %             [status, message] =system(['kind2 ', lus_file_path])
             if status
                 lustrec_horn_time(i) = -1;
