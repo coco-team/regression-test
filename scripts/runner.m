@@ -129,15 +129,15 @@ for k=1:count
             not_valid_models_dir = fullfile(regression_path, 'not_valid_models');
             mkdir(not_valid_models_dir);
             t = datetime('now','Format','dd-MM-yyyy''@''HHmmss');
-            filename = fullfile(destination, ['regression_result_not_valid_models' char(t) '.csv']);
+            filename = fullfile(destination, ['not_valid_models_' char(t) '.csv']);
             fileID = fopen(filename,'w');
             formatSpec = '%s\n';
             for i=not_valid_inexes'
                 fprintf(fileID,formatSpec,models_name{i});
-                src =  fullfile(regression_path, char(models_name{i}));
-                dst = fullfile(not_valid_models_dir, char(models_name{i}));
-                command = sprintf('!mv %s %s',src, dst);
-                [status, mv_out] = system(command);
+%                 src =  fullfile(regression_path, char(models_name{i}));
+%                 dst = fullfile(not_valid_models_dir, char(models_name{i}));
+%                 command = sprintf('!mv %s %s',src, dst);
+%                 system(command);
             end
         catch ME
             warning('%s\n',ME.message);
