@@ -6,19 +6,19 @@ Model {
   GraphicalInterface {
     NumRootInports	    3
     Inport {
-      Name		      "In1"
+      Name		      "S"
       BusObject		      ""
       OutputFunctionCall      "off"
       UnitExpr		      "inherit"
     }
     Inport {
-      Name		      "In2"
+      Name		      "R"
       BusObject		      ""
       OutputFunctionCall      "off"
       UnitExpr		      "inherit"
     }
     Inport {
-      Name		      "In3"
+      Name		      "T"
       BusObject		      ""
       OutputFunctionCall      "off"
       UnitExpr		      "inherit"
@@ -31,7 +31,7 @@ Model {
       UnitExpr		      "inherit"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.9"
+    ComputedModelVersion    "1.13"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -56,7 +56,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [49.0, 45.0, 661.0, 549.0]
+      Location		      [49.0, 45.0, 808.0, 669.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -78,11 +78,11 @@ Model {
 	$ObjectID		5
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"StateflowChart"
-	LoadSaveID		"2"
-	Extents			[611.0, 381.0]
-	ZoomFactor		[1.4847809948032664]
-	Offset			[-6.9139999999999873, -0.31000000000000227]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[754.0, 476.0]
+	ZoomFactor		[1.0]
+	Offset			[0.0, -91.0]
       }
     }
   }
@@ -92,9 +92,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "bourbouh"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Jul 16 23:45:05 2016"
-  RTWModifiedTimeStamp	  390613503
-  ModelVersionFormat	  "1.%<AutoIncrement:9>"
+  LastModifiedDate	  "Fri Feb 10 23:51:47 2017"
+  RTWModifiedTimeStamp	  408671506
+  ModelVersionFormat	  "1.%<AutoIncrement:13>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -212,8 +212,8 @@ Model {
 	  SolverMode		  "Auto"
 	  EnableConcurrentExecution off
 	  ConcurrentTasks	  off
-	  Solver		  "ode45"
-	  SolverName		  "ode45"
+	  Solver		  "FixedStepAuto"
+	  SolverName		  "FixedStepAuto"
 	  SolverJacobianMethodControl "auto"
 	  ShapePreserveControl	  "DisableAll"
 	  ZeroCrossControl	  "UseLocalSettings"
@@ -749,7 +749,7 @@ Model {
       }
       Name		      "Configuration"
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition     [ 305, 115, 1295, 785 ] 
+      ConfigPrmDlgPosition     [ 446, 218, 1376, 778 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -943,8 +943,8 @@ Model {
   }
   System {
     Name		    "Hierarchy1"
-    Location		    [49, 45, 710, 594]
-    Open		    off
+    Location		    [49, 45, 857, 714]
+    Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -960,7 +960,7 @@ Model {
     SIDHighWatermark	    "7"
     Block {
       BlockType		      Inport
-      Name		      "In1"
+      Name		      "S"
       SID		      "4"
       Position		      [80, -77, 110, -63]
       ZOrder		      4
@@ -968,7 +968,7 @@ Model {
     }
     Block {
       BlockType		      Inport
-      Name		      "In2"
+      Name		      "R"
       SID		      "6"
       Position		      [55, 13, 85, 27]
       ZOrder		      6
@@ -977,7 +977,7 @@ Model {
     }
     Block {
       BlockType		      Inport
-      Name		      "In3"
+      Name		      "T"
       SID		      "7"
       Position		      [105, 58, 135, 72]
       ZOrder		      7
@@ -1008,8 +1008,8 @@ Model {
       Variant		      off
       System {
 	Name			"Hierarchy1"
-	Location		[49, 45, 710, 594]
-	Open			on
+	Location		[49, 45, 857, 714]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1154,7 +1154,7 @@ Model {
     }
     Line {
       ZOrder		      7
-      SrcBlock		      "In1"
+      SrcBlock		      "S"
       SrcPort		      1
       Points		      [18, 0; 0, 80]
       DstBlock		      "Mux"
@@ -1162,14 +1162,14 @@ Model {
     }
     Line {
       ZOrder		      8
-      SrcBlock		      "In2"
+      SrcBlock		      "R"
       SrcPort		      1
       DstBlock		      "Mux"
       DstPort		      2
     }
     Line {
       ZOrder		      9
-      SrcBlock		      "In3"
+      SrcBlock		      "T"
       SrcPort		      1
       DstBlock		      "Mux"
       DstPort		      3
@@ -1194,16 +1194,13 @@ Stateflow {
     id			    2
     name		    "Hierarchy1"
     windowPosition	    [49 18 696 711]
-    viewLimits		    [-6.914 404.595 -0.31 256.293]
+    viewLimits		    [-6.914 415.371 -0.31 315.562]
     zoomFactor		    0.898
     screen		    [1 1 1600 900 1.319444444444444]
     treeNode		    [0 9 0 0]
     firstTransition	    23
     viewObj		    2
-    visible		    1
     machine		    1
-    subviewS {
-    }
     ssIdHighWaterMark	    22
     decomposition	    CLUSTER_CHART
     firstEvent		    20

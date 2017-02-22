@@ -20,20 +20,29 @@ destination = fullfile(cocosim_parent_path,'cocoSim/sanity');
 addpath(cocosim_src)
 
 previous_tests = dir(fullfile(destination,'regression_result_*.csv'));
-previous_tests = [previous_tests, dir(fullfile(destination,'not_valid_models_*.csv'))];
-previous_tests_name = {previous_tests.name};
-for test=previous_tests_name
-    full_name = fullfile(destination,test{1});
-    cmd = sprintf('rm %s', full_name);
-    system(cmd);
+if ~isempty(previous_tests)
+    previous_tests_name = {previous_tests.name};
+    for test=previous_tests_name
+        full_name = fullfile(destination,test{1});
+        cmd = sprintf('rm %s', full_name);
+        system(cmd);
+    end
 end
-
+previous_tests =  dir(fullfile(destination,'not_valid_models_*.csv'));
+if ~isempty(previous_tests)
+    previous_tests_name = {previous_tests.name};
+    for test=previous_tests_name
+        full_name = fullfile(destination,test{1});
+        cmd = sprintf('rm %s', full_name);
+        system(cmd);
+    end
+end
 
 % Check Simulink
 runner(simulink_benchs, cocosim_path, destination);
-
+delete(fullfile(simulink_benchs,'*_PP.*'));
 % Check Stateflow
 runner(stateflow_benchs, cocosim_path, destination);
-
+delete(fullfile(stateflow_benchs,'*_PP.*'));
 
 % runner(test_folder, cocosim_path, destination);

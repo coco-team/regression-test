@@ -5,9 +5,9 @@ step_size.DataType = 'double';
 
 dt = 0.01;
 
-Primary_Side = Simulink.Parameter;
-Primary_Side.Value = 0;
-Primary_Side.DataType = 'boolean';
+% Primary_Side = Simulink.Parameter;
+Primary_Side = 0;
+% Primary_Side.DataType = 'boolean';
 
 MANUAL = Simulink.Parameter;
 MANUAL.Value = 1;

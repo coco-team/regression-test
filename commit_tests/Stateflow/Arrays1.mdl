@@ -56,7 +56,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [49.0, 18.0, 777.0, 629.0]
+      Location		      [39.0, -14.0, 797.0, 677.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -71,18 +71,18 @@ Model {
 	$PropName		"ExplorerBarInfo"
 	$ObjectID		4
 	$ClassName		"Simulink.ExplorerBarInfo"
-	Visible			[1]
+	Visible			[0]
       }
       Object {
 	$PropName		"EditorsInfo"
 	$ObjectID		5
 	$ClassName		"Simulink.EditorInfo"
 	IsActive		[1]
-	ViewObjType		"StateflowChart"
-	LoadSaveID		"1"
-	Extents			[727.0, 461.0]
-	ZoomFactor		[1.25]
-	Offset			[-119.68476666666666, -76.231666666666655]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[743.0, 514.0]
+	ZoomFactor		[1.0]
+	Offset			[0.0, 0.0]
       }
     }
   }
@@ -92,7 +92,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "bourbouh"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Jul 16 23:49:05 2016"
+  LastModifiedDate	  "Wed Feb 15 21:43:55 2017"
   RTWModifiedTimeStamp	  390613744
   ModelVersionFormat	  "1.%<AutoIncrement:15>"
   ConfigurationManager	  "none"
@@ -940,8 +940,8 @@ Model {
   }
   System {
     Name		    "Arrays1"
-    Location		    [49, 18, 826, 647]
-    Open		    off
+    Location		    [39, -14, 836, 663]
+    Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -978,8 +978,8 @@ Model {
       Variant		      off
       System {
 	Name			"Arrays1"
-	Location		[49, 18, 826, 647]
-	Open			on
+	Location		[39, -14, 836, 663]
+	Open			off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1192,7 +1192,7 @@ Stateflow {
     id			    2
     name		    "Arrays1"
     windowPosition	    [18.75 -28.25 502 647]
-    viewLimits		    [-119.685 474.715 -76.232 366.168]
+    viewLimits		    [-119.685 474.715 -76.232 386.968]
     zoomFactor		    1.067
     screen		    [1 1 1600 900 1.333333333333333]
     treeNode		    [0 3 0 0]
