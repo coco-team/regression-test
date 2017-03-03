@@ -72,7 +72,11 @@ for k=1:count
           lustrec_binary_failed, sim_failed, lus_file_path...
           sf2lus_time_i, nb_actions_i, Query_time_i] = validate_model(model_full_path, cocoSim_path, show_models);
         catch ME
-            L.error('validate_model',getReport(ME,'extended'));
+%             L.error('validate_model',getReport(ME,'extended'));
+            valid_i = 0;
+            sf2lus_time_i = -1;
+            validation_compute_i = -1;
+            nb_actions_i = -1;
         end
         valid(i) = valid_i;
         sf2lus_time(i) = sf2lus_time_i;
@@ -92,7 +96,7 @@ for k=1:count
 %         lus_file_path = fullfile(output_dir, strcat(file_name, '.lus'));
         
         
-        if ~strcmp(lus_file_path,'')
+        if valid(i) && ~strcmp(lus_file_path,'')
             d = dir(lus_file_path);
             lus_file_nb_bytes(i) = d.bytes;
             OldPwd = pwd;

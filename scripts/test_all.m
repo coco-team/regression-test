@@ -42,7 +42,7 @@ end
 runner(simulink_benchs, cocosim_path, destination);
 delete(fullfile(simulink_benchs,'*_PP.*'));
 % Check Stateflow
-runner(stateflow_benchs, cocosim_path, destination);
-delete(fullfile(stateflow_benchs,'*_PP.*'));
+% runner(stateflow_benchs, cocosim_path, destination);
+% delete(fullfile(stateflow_benchs,'*_PP.*'));
 
 % runner(test_folder, cocosim_path, destination);
