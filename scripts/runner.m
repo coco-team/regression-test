@@ -46,7 +46,7 @@ end
 L = log4m.getLogger(logFileName);
 mdl_models = dir(fullfile(regression_path,'*.mdl'));
 slx_models = dir(fullfile(regression_path,'*.slx'));
-models_name = {mdl_models.name};
+models_name = {mdl_models.name, slx_models.name};
 n = numel(models_name);
 
 for k=1:count    
@@ -63,6 +63,7 @@ for k=1:count
     time_safe=-1*ones(n,1);
     time_unsafe=-1*ones(n,1);
     for i=1:n
+        clc
         model_full_path = fullfile(regression_path, char(models_name{i}));
         try
 %         [valid_i, sf2lus_time_i, validation_compute, nb_actions_i, lus_file_path, Query_time_i]=
@@ -138,10 +139,9 @@ for k=1:count
             formatSpec = '%s\n';
             for i=not_valid_inexes'
                 fprintf(fileID,formatSpec,models_name{i});
-%                 src =  fullfile(regression_path, char(models_name{i}));
-%                 dst = fullfile(not_valid_models_dir, char(models_name{i}));
-%                 command = sprintf('!mv %s %s',src, dst);
-%                 system(command);
+                src =  fullfile(regression_path, char(models_name{i}));
+                dst = fullfile(not_valid_models_dir, char(models_name{i}));
+                copyfile(src, dst);
             end
         catch ME
             warning('%s\n',ME.message);

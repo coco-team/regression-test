@@ -4,12 +4,14 @@
 % Copyright (C) 2014-2016  Carnegie Mellon University
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Edit those values
+%% Edit those values
 file_path = fileparts(mfilename('fullpath'));
 regression_test_path = fileparts(file_path);
 stateflow_benchs = fullfile(regression_test_path,'commit_tests/Stateflow');
-simulink_benchs = fullfile(regression_test_path,'commit_tests/Simulink');
-% test_folder = fullfile(regression_test_path,'commit_tests/draft');
+simulink_benchs1 = fullfile(regression_test_path,'commit_tests/Simulink/groupe1');
+simulink_benchs2 = fullfile(regression_test_path,'commit_tests/Simulink/groupe2');
+simulink_benchs3 = fullfile(regression_test_path,'commit_tests/Simulink/groupe3');
+%% test_folder = fullfile(regression_test_path,'commit_tests/draft');
 
 
 cocosim_parent_path = fileparts(regression_test_path);
@@ -38,9 +40,13 @@ if ~isempty(previous_tests)
     end
 end
 
-% Check Simulink
-runner(simulink_benchs, cocosim_path, destination);
-delete(fullfile(simulink_benchs,'*_PP.*'));
+%% Check Simulink
+runner(simulink_benchs1, cocosim_path, destination);
+delete(fullfile(simulink_benchs1,'*_PP.*'));
+runner(simulink_benchs2, cocosim_path, destination);
+delete(fullfile(simulink_benchs2,'*_PP.*'));
+runner(simulink_benchs3, cocosim_path, destination);
+delete(fullfile(simulink_benchs3,'*_PP.*'));
 % Check Stateflow
 % runner(stateflow_benchs, cocosim_path, destination);
 % delete(fullfile(stateflow_benchs,'*_PP.*'));
