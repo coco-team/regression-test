@@ -1,0 +1,27 @@
+-- file generated on    :		Wed Dec 08 12:30:42 MET 2004
+-- using the compiler   :		Simulink to Lustre  May2004 -- integration of sf charts
+-- report bugs at       :		Christos.Sofronis@imag.fr or s2l@imag.fr
+
+
+
+/************* All the nodes of the Simulink Model *************/
+node discrete_filter (In1:real)
+returns (Out1:real);
+var Discrete_Filter:real;
+    Discrete_Filter_in:real;
+let
+	Discrete_Filter = TransFnc_1(Discrete_Filter_in);
+	Discrete_Filter_in = In1 ;
+	Out1 = Discrete_Filter ;
+tel
+
+
+/******************** The Transfer Functions ********************/
+node TransFnc_1(E:real) returns(S:real);
+var Em_1, Sm_1 :real;
+let
+	S = 1.5*E +2.0*Em_1 -0.25*Sm_1 ;
+	Em_1 = 0.0->pre(E) ;
+	Sm_1 = 0.0->pre(S) ;
+tel
+

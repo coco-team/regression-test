@@ -1,0 +1,16 @@
+#!/bin/sh
+# $Id: display_graph.sh,v 1.1 2004/10/13 14:18:36 scaife Exp $
+
+if [ -z "$SS2LUSHOME" ]; then
+    printf "You must define SS2LUSHOME to be the directory\n\
+where you installed Stateflow2Lustre\n"
+    exit 1
+fi
+if [ ! -r $SS2LUSHOME/bin/display_graph.bc ]; then
+    printf "The Ocaml bytecode file display_graph.bc could not be found in:\n\
+$SS2LUSHOME/bin\n"
+    exit 1
+fi
+
+ocamlrun $SS2LUSHOME/bin/display_graph.bc "$@"
+

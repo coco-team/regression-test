@@ -1,0 +1,26 @@
+After modifying .cshrc :
+
+rateau% source .cshrc
+CFLAGS: Undefined variable.
+CFLAGS: Undefined variable.
+
+After commenting some lines :
+
+rateau% source .cshrc
+INFOPATH: Undefined variable.
+
+After commenting some lines :
+
+rateau% source .cshrc
+
+rateau% cd $SS2LUSHOME/examples
+
+rateau% s2l s2l/discrete_filter.mdl -o s2l/discrete_filter.lus
+Simulink to Lustre  May2004 -- integration of sf charts
+The SampleTime of the entire model is: 1.0 0.0 
+
+rateau% sf2lus sf2lus/Stopwatch2.mdl -o sf2lus/Stopwatch2.lus
+Fatal error: the file /home/caspi/RISE/DISTRIBUTION/ss2lus0.01b/bin/sf2lus.bc is not a bytecode executable file
+
+rateau% ss2lus ss2lus/SetReset_r13.mdl -mp
+Fatal error: the file /home/caspi/RISE/DISTRIBUTION/ss2lus0.01b/bin/sf2lus.bc is not a bytecode executable file

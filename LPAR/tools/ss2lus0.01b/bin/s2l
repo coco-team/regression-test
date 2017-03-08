@@ -1,0 +1,16 @@
+#!/bin/sh
+# $Id: s2l.sh,v 1.1 2004/10/13 14:18:36 scaife Exp $
+
+if [ -z "$SS2LUSHOME" ]; then
+    printf "You must define SS2LUSHOME to be the directory\n\
+where you installed Simulink2Lustre\n"
+    exit 1
+fi
+if [ ! -r $SS2LUSHOME/classes/s2l.jar ]; then
+    printf "The jar file s2l.jar could not be found in:\n\
+$SS2LUSHOME/classes\n"
+    exit 1
+fi
+
+java -cp $SS2LUSHOME/classes/s2l.jar sofronis.s2l.s2l "$@"
+

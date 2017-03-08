@@ -1,0 +1,53 @@
+#!/bin/sh -e
+# $Id: ss2lus.sh,v 1.2 2004/10/26 11:53:10 scaife Exp $
+
+if [ $# -le 0 ]; then
+  cat <<EOF
+Simulink/Stateflow to Lustre (c) VERIMAG 2004
+
+  Convert Simulink/Stateflow model files to Lustre.
+
+Syntax:
+
+  ss2lus file.mdl <s2l options>
+
+  Output is to file.lus.
+
+Environment:
+  SS2LUSHOME  where to find binaries
+  S2LOPTS     options to pass to s2l
+  SF2LUSOPTS  options to pass to sf2lus
+
+See also:
+  s2l    Simulink to Lustre
+  sf2lus Stateflow to Lustre
+
+Bug reports and enquiries to: "Paul Caspi" <Paul.Caspi@imag.fr>
+EOF
+  exit 0
+fi
+
+if [ -z "$SS2LUSHOME" ]; then
+  printf "You must define SS2LUSHOME to be the directory\n\
+where you installed Simulink/Stateflow2Lustre\n"
+  exit 1
+fi
+
+dir=`dirname $1`
+prefix=`basename $1 .mdl`
+shift
+mdl_file=$dir/$prefix.mdl
+if [ ! -r $mdl_file ]; then
+  echo "File $mdl_file does not exist."
+  exit 1
+fi 
+lus_file=$dir/$prefix.lus
+sf_file=$dir/${prefix}_sf.lus
+
+$SS2LUSHOME/bin/sf2lus $SF2LUSOPTS $mdl_file -create_missing -r13 -no_constants -o $sf_file
+$SS2LUSHOME/bin/s2l $S2LOPTS $mdl_file -o $lus_file --pollux --sf-lustre-file $sf_file "$@"
+
+echo "\n\n/************************  STATEFLOW  *************************/" >> $lus_file
+cat $sf_file >> $lus_file
+rm $sf_file
+

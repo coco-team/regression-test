@@ -1,0 +1,194 @@
+-- file generated on    :		Tue Mar 07 23:12:17 PST 2017
+-- using the compiler   :		Simulink to Lustre  Mai2004 -- integration of sf charts
+-- report bugs at       :		Christos.Sofronis@imag.fr or s2l@imag.fr
+
+
+
+/********************** Type Declarations **********************/
+type type_rr = {real, real} ;
+
+/************* All the nodes of the Simulink Model *************/
+node SetReset_r13 (Set:real; Reset:real)
+returns (Out1:real);
+var Mux:type_rr;
+    sf_SetReset_x:real;
+    sf_SetReset_input_events:type_rr;
+let
+	Mux = [Set, Reset] ;
+	Out1 = sf_SetReset_x ;
+			--     node calls    --
+	(sf_SetReset_x) = sf_SetReset (sf_SetReset_input_events);
+	sf_SetReset_input_events = Mux ;
+	
+tel
+
+
+/******************* The Stateflow node calls *******************/
+node sf_SetReset (input_events:type_rr)
+returns (x:real);
+var sf_trigger:bool;
+    trig_0_real:real;
+    trig_0:bool;
+    trig_1_real:real;
+    trig_1:bool;
+    x_int:int;
+let
+	[trig_0_real, trig_1_real] = input_events ;
+	trig_0 = rising_real (trig_0_real);
+	trig_1 = rising_real (trig_1_real);
+	sf_trigger = trig_0 or trig_1 ;
+	(x_int) = if sf_trigger
+		then current sf_2((trig_0, trig_1) when sf_trigger)
+		else (0) -> pre (x_int);
+	
+	x = real(x_int) ;
+	
+tel
+
+
+/**************************** Edges ****************************/
+node rising_real (in :real)
+returns (out :bool);
+var in_:real ;
+let
+	in_ = in ;
+	out = false -> (in_ > 0.0)  and  ((pre in_) <= 0.0);
+tel
+
+
+/************************  STATEFLOW  *************************/
+ -- $Id$
+-- model_file: ss2lus/SetReset_r13.mdl
+-- model_name: SetReset_r13
+-- command line: /home/bourbouh/Documents/coco-team/regression-test/LPAR/tools/ss2lus0.01b/bin/sf2lus.bc ss2lus/SetReset_r13.mdl -create_missing -r13 -no_constants -o ss2lus/SetReset_r13_sf.lus 
+
+type event = bool;
+const set = true; clr = false;
+
+
+-- link id=6 name=Reset{x=0} On -> Off
+node evs6_(Reset: event) returns(evs6: bool);
+let
+  evs6 = Reset;
+tel
+
+-- link id=6 name=Reset{x=0} On -> Off
+-- x=0
+node ca6(x: int) returns(xo: int);
+let
+  xo = 0;
+tel
+
+-- link id=5 name=Set{x=1} Off -> On
+node evs5_(Set: event) returns(evs5: bool);
+let
+  evs5 = Set;
+tel
+
+-- link id=5 name=Set{x=1} Off -> On
+-- x=1
+node ca5(x: int) returns(xo: int);
+let
+  xo = 1;
+tel
+
+-- link id=7 name= p12 -> Off
+node lv7_(ok22, lv7: bool) returns(ok22o, lv7o: bool);
+var cv7, end, end_1: bool;
+let
+  end_1 = false;
+  ok22o, cv7, end = if (not (end_1 or ok22)) then (true, true, true) else (ok22, false, end_1);
+  lv7o = if (cv7 and end) then (true) else (lv7);
+tel
+
+-- link id=6 name=Reset{x=0} On -> Off
+node lv6_(Reset: event; x: int; ok22, lv6: bool) returns(ok22o, lv6o: bool; xo: int);
+var cv6, end, end_1: bool;
+let
+  end_1 = false;
+  ok22o, cv6, end =
+    if ((not (end_1 or ok22)) and evs6_(Reset)) then (true, true, true)
+    else (ok22, false, end_1);
+  xo = if cv6 then ca6(x) else (x);
+  lv6o = if (cv6 and end) then (true) else (lv6);
+tel
+
+-- link id=5 name=Set{x=1} Off -> On
+node lv5_(Set: event; x: int; ok22, lv5: bool) returns(ok22o, lv5o: bool; xo: int);
+var cv5, end, end_1: bool;
+let
+  end_1 = false;
+  ok22o, cv5, end =
+    if ((not (end_1 or ok22)) and evs5_(Set)) then (true, true, true) else (ok22, false, end_1);
+  xo = if cv5 then ca5(x) else (x);
+  lv5o = if (cv5 and end) then (true) else (lv5);
+tel
+
+-- node id=12 name=_point
+node iniu12lv(ok22, trm, ini: bool) returns(ok22o, lv7: bool);
+let
+  ok22o, lv7 = lv7_(ok22, false);
+tel
+
+-- node id=3 name=Off
+node su3lv(Set: event; x: int; ok22, s3, trm, ini: bool) returns(ok22o, lv5: bool; xo: int);
+let
+  ok22o, lv5, xo = lv5_(Set, x, ok22, false);
+tel
+
+-- node id=3 name=Off
+node su3ex(ok22, lv5, s3, trm, ini: bool) returns(s3o: bool);
+let
+  s3o = if ((ok22 and lv5) or trm) then (false) else (s3);
+tel
+
+-- node id=3 name=Off
+node su3en(ok22, lv6, lv7, s3, trm, ini: bool) returns(s3o: bool);
+let
+  s3o =
+    if ((not trm) and ((not s3) and ((ok22 and lv7) or (ok22 and lv6)))) then (true) else (s3);
+tel
+
+-- node id=4 name=On
+node su4lv(Reset: event; x: int; ok22, s4, trm, ini: bool) returns(ok22o, lv6: bool; xo: int);
+let
+  ok22o, lv6, xo = lv6_(Reset, x, ok22, false);
+tel
+
+-- node id=4 name=On
+node su4ex(ok22, lv6, s4, trm, ini: bool) returns(s4o: bool);
+let
+  s4o = if ((ok22 and lv6) or trm) then (false) else (s4);
+tel
+
+-- node id=4 name=On
+node su4en(ok22, lv5, s4, trm, ini: bool) returns(s4o: bool);
+let
+  s4o = if ((not trm) and ((not s4) and (ok22 and lv5))) then (true) else (s4);
+tel
+
+-- graph id=11 name=22,GCTOP
+node sf_2(Set, Reset: event) returns(x: int);
+var ini, lv5, lv5_1, lv6, lv6_1, lv7, lv7_1, ok22, ok22_1, ok22_2, ok22_3, s3, s3_1, s3_2, s3t, 
+    s4, s4_1, s4_2, s4t, trm: bool; x_1, x_2: int;
+let
+  s4_1 = false -> pre s4;
+  s3_1 = false -> pre s3;
+  x_1 = 0 -> pre x;
+  ok22_1 = (false);
+  ini = true -> false;
+  trm = false;
+  lv6_1, lv5_1, lv7_1 = (false, false, false);
+  ok22_2, lv6, x_2 =
+    if s4_1 then su4lv(Reset, x_1, ok22_1, s4_1, trm, ini) else (ok22_1, lv6_1, x_1);
+  ok22_3, lv5, x =
+    if s3_1 then su3lv(Set, x_2, ok22_2, s3_1, trm, ini) else (ok22_2, lv5_1, x_2);
+  ok22, lv7 =
+    if (ini and (not (s4_1 or s3_1))) then iniu12lv(ok22_3, trm, ini) else (ok22_3, lv7_1);
+  s4_2 = if s4_1 then su4ex(ok22, lv6, s4_1, trm, ini) else (s4_1);
+  s3_2 = if s3_1 then su3ex(ok22, lv5, s3_1, trm, ini) else (s3_1);
+  s4t = su4en(ok22, lv5, s4_2, trm, ini);
+  s3t = su3en(ok22, lv6, lv7, s3_2, trm, ini);
+  s4 = s4t;
+  s3 = s3t;
+tel
