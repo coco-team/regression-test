@@ -1,0 +1,12 @@
+to Run the validation script
+
+result= compare_tools()
+
+
+This script use binaries in tools folder, be sure you have all dependancies
+For example ss2lus works only with ocaml 3.08
+
+Every tool has its own README :)
+
+Don't forget to install CocoSim toolbox :
+https://github.com/coco-team/cocoSim/releases
