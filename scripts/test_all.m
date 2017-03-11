@@ -41,13 +41,14 @@ if ~isempty(previous_tests)
 end
 
 %% Check Simulink
-runner(simulink_benchs1, cocosim_path, destination);
-delete(fullfile(simulink_benchs1,'*_PP.*'));
-runner(simulink_benchs2, cocosim_path, destination);
-delete(fullfile(simulink_benchs2,'*_PP.*'));
-runner(simulink_benchs3, cocosim_path, destination);
-delete(fullfile(simulink_benchs3,'*_PP.*'));
+% runner(simulink_benchs1, cocosim_path, destination);
+% delete(fullfile(simulink_benchs1,'*_PP.*'));
+% runner(simulink_benchs2, cocosim_path, destination);
+% delete(fullfile(simulink_benchs2,'*_PP.*'));
+% runner(simulink_benchs3, cocosim_path, destination);
+% delete(fullfile(simulink_benchs3,'*_PP.*'));
 %% Check Stateflow
 runner(stateflow_benchs, cocosim_path, destination);
 delete(fullfile(stateflow_benchs,'*_PP.*'));
 
+bdclose('all')
